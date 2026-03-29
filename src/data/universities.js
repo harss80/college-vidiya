@@ -689,32 +689,6 @@ export const universities = [
     "url": "https://collegevidya.com/"
   },
   {
-    "id": "manipal",
-    "name": "Manipal University",
-    "logo": "https://ui-avatars.com/api/?name=MU&background=ea580c&color=fff&size=150",
-    "location": "Jaipur",
-    "type": "Private",
-    "level": [
-      "UG",
-      "PG"
-    ],
-    "budget": 110000,
-    "specializations": [
-      "MBA in Marketing",
-      "B.Tech in CSE",
-      "BBA",
-      "MBA in HR",
-      "B.Com Hons"
-    ],
-    "accreditation": "UGC, NAAC A+, WES",
-    "fees": "₹55,000 / Sem",
-    "placement": "Average Package 9.5 LPA | Highest 32 LPA",
-    "eligibility": "50% Aggregate",
-    "ranking": "QS World Ranked",
-    "exams": "MET / CAT",
-    "url": "https://collegevidya.com/"
-  },
-  {
     "id": "nmims",
     "name": "NMIMS University (Narsee Monjee)",
     "logo": "https://ui-avatars.com/api/?name=NM&background=ea580c&color=fff&size=150",
