@@ -147,7 +147,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://uttaranchaluniversityonline.com/"
   },
   {
     "id": "muj-online",
@@ -464,7 +465,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "nmims-wx",
@@ -501,7 +503,8 @@ export const universities = [
       "payment": "Registration = ₹1500 + Initial ₹20,000 | Loans: Propelled, Avanse",
       "examination": "70:30 (30% Continuous Assessment, 70% Proctored) | Passing 40%",
       "leadLocking": "Auto Lock on LSQ (LSQ = NMIMS)"
-    }
+    },
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "sikkim-manipal",
@@ -682,7 +685,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "manipal",
@@ -707,7 +711,8 @@ export const universities = [
     "placement": "Average Package 9.5 LPA | Highest 32 LPA",
     "eligibility": "50% Aggregate",
     "ranking": "QS World Ranked",
-    "exams": "MET / CAT"
+    "exams": "MET / CAT",
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "nmims",
@@ -899,7 +904,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "dypatil",
@@ -1092,7 +1098,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "opjindal",
@@ -1169,7 +1176,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "amity",
@@ -1499,7 +1507,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://amityonline.com/"
   },
   {
     "id": "alliance",
@@ -1622,7 +1631,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://allianceonline.edu.in/"
   },
   {
     "id": "christ",
@@ -1647,7 +1657,8 @@ export const universities = [
     "placement": "Average Package 9 LPA | Highest 28 LPA",
     "eligibility": "50% in Class 12 / Grad",
     "ranking": "NIRF #60",
-    "exams": "CUET / MAT"
+    "exams": "CUET / MAT",
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "shoolini",
@@ -1673,7 +1684,8 @@ export const universities = [
     "placement": "Average Package 5 LPA | Highest 18 LPA",
     "eligibility": "60% Aggregate",
     "ranking": "THE Ranked",
-    "exams": "CAT / MAT"
+    "exams": "CAT / MAT",
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "chandigarh",
@@ -2023,7 +2035,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://www.onlinecu.in/"
   },
   {
     "id": "lpu",
@@ -2294,7 +2307,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "jain",
@@ -2578,7 +2592,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://onlinejain.com/"
   },
   {
     "id": "vgu",
@@ -2603,7 +2618,8 @@ export const universities = [
     "placement": "Average Package 5 LPA | Highest 15 LPA",
     "eligibility": "50% in Class 12 / Grad",
     "ranking": "Rajasthan Top Private",
-    "exams": "VGUCET"
+    "exams": "VGUCET",
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "jiit",
@@ -2684,7 +2700,8 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://collegevidya.com/"
   },
   {
     "id": "parul",
@@ -2965,6 +2982,7 @@ export const universities = [
           ]
         }
       ]
-    }
+    },
+    "url": "https://paruluniversity.online/"
   }
 ];

@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, MapPin, BookOpen, Filter, GraduationCap, Banknote, ShieldCheck, ChevronRight, CheckCircle2, SlidersHorizontal, ArrowRight, Download, TrendingUp, PhoneCall, AlertCircle, X, CheckCircle, Info } from 'lucide-react';
+import { Search, MapPin, BookOpen, Filter, GraduationCap, Banknote, ShieldCheck, ChevronRight, CheckCircle2, SlidersHorizontal, ArrowRight, Download, TrendingUp, PhoneCall, AlertCircle, X, CheckCircle, Info, Globe } from 'lucide-react';
 import { universities } from '../data/universities';
 import { useNavigate } from 'react-router-dom';
 
@@ -272,10 +272,15 @@ const MockCalls = () => {
                               </div>
 
                               {/* Bottom CTAs */}
-                              <div className="p-5 mt-6 border-t border-slate-100 grid grid-cols-[auto_1fr] gap-3 bg-slate-50/80">
+                              <div className="p-5 mt-6 border-t border-slate-100 grid grid-cols-[auto_auto_1fr] gap-3 bg-slate-50/80">
                                   <button title="View Syllabus" onClick={(e) => e.stopPropagation()} className="w-14 h-14 flex items-center justify-center bg-white border border-slate-200 rounded-xl text-[#0056d2] hover:bg-slate-50 hover:border-blue-300 transition-all shadow-sm group/btn">
                                       <BookOpen size={22} className="group-hover/btn:scale-110 transition-transform" />
                                   </button>
+                                  {uni.url && (
+                                     <button title="Official Website" onClick={(e) => { e.stopPropagation(); window.open(uni.url, '_blank'); }} className="w-14 h-14 flex items-center justify-center bg-white border border-slate-200 rounded-xl text-slate-500 hover:text-emerald-600 hover:bg-emerald-50 hover:border-emerald-300 transition-all shadow-sm group/globe">
+                                         <Globe size={22} className="group-hover/globe:scale-110 transition-transform" />
+                                     </button>
+                                  )}
                                   <button onClick={(e) => e.stopPropagation()} className="h-14 bg-[#ff6b00] hover:bg-[#e65c00] text-white font-black text-[16px] tracking-wide rounded-xl flex items-center justify-center gap-2 shadow-[0_6px_20px_rgba(255,107,0,0.25)] hover:shadow-[0_8px_25px_rgba(255,107,0,0.35)] hover:-translate-y-1 transition-all group/pitch">
                                       Pitch this Uni <ChevronRight size={20} className="group-hover/pitch:translate-x-1.5 transition-transform" />
                                   </button>

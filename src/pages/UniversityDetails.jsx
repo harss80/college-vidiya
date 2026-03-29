@@ -38,6 +38,11 @@ const UniversityDetails = () => {
                   Return to Directory
                </button>
                <div className="ml-auto flex items-center gap-4">
+                  {uni.url && (
+                     <button onClick={() => window.open(uni.url, '_blank')} className="text-xs bg-[#0056d2] hover:bg-[#0047ad] text-white px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 shadow-sm transition-all shadow-[#0056d2]/20">
+                        <Navigation size={14} /> Official Website
+                     </button>
+                  )}
                   <span className="text-xs bg-emerald-50 text-emerald-600 border border-emerald-100 px-3 py-1.5 rounded-full font-bold flex items-center gap-1.5 hidden sm:flex">
                      <AlertCircle size={14} /> System Online
                   </span>
