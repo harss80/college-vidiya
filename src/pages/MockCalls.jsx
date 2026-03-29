@@ -26,7 +26,17 @@ const MockCalls = () => {
       if (specSearch.trim()) {
         const stopWords = ['in', 'and', 'with', 'for', 'of', '&', 'a', 'the', '-'];
         const queryWords = specSearch.toLowerCase().split(/\s+/).filter(w => w && !stopWords.includes(w));
-        const uniText = `${uni.name} ${uni.location} ${uni.type} ${uni.specializations.join(' ')} ${uni.ranking} ${uni.exams}`.toLowerCase();
+        
+        let deepSpecs = [];
+        if (uni.extendedDetails?.programs) {
+            uni.extendedDetails.programs.forEach(prog => {
+                if (prog.specializations) {
+                    prog.specializations.forEach(s => deepSpecs.push(`${prog.name} in ${s.name}`));
+                }
+            });
+        }
+
+        const uniText = `${uni.name} ${uni.location} ${uni.type} ${uni.specializations.join(' ')} ${deepSpecs.join(' ')} ${uni.ranking} ${uni.exams}`.toLowerCase();
         
         // Every typed word must exist somewhere in the university profile
         const hasAllKeywords = queryWords.every(w => uniText.includes(w));
@@ -34,16 +44,28 @@ const MockCalls = () => {
       }
       return true;
     }).map(uni => {
-       // Highlight specific matched specializations
+       // Map to UI specific objects
+       let deepSpecs = [];
+       if (uni.extendedDetails?.programs) {
+           uni.extendedDetails.programs.forEach(prog => {
+               if (prog.specializations) {
+                   prog.specializations.forEach(s => deepSpecs.push(`${prog.name} in ${s.name}`));
+               }
+           });
+       }
+       
+       const allAvailableTags = [...new Set([...uni.specializations, ...deepSpecs])];
        const stopWords = ['in', 'and', 'with', 'for', 'of', '&', 'a', 'the', '-'];
        const queryWords = specSearch.trim().toLowerCase().split(/\s+/).filter(w => w && !stopWords.includes(w));
+       
        let matchedSpecs = [];
        if (queryWords.length > 0) {
-         matchedSpecs = uni.specializations.filter(spec => 
-             queryWords.some(w => w.length >= 2 && spec.toLowerCase().includes(w))
+         matchedSpecs = allAvailableTags.filter(spec => 
+             queryWords.every(w => w.length >= 2 && spec.toLowerCase().includes(w)) || 
+             queryWords.some(w => w.length >= 4 && spec.toLowerCase().includes(w))
          );
        }
-       return { ...uni, matchedSpecs };
+       return { ...uni, matchedSpecs, displayTags: allAvailableTags };
     });
   }, [specSearch, levelFilter, budgetFilter]);
 
@@ -233,7 +255,7 @@ const MockCalls = () => {
                                     <div className="flex flex-wrap gap-2">
                                        {(() => {
                                           const matched = uni.matchedSpecs || [];
-                                          const others = uni.specializations.filter(s => !matched.includes(s));
+                                          const others = (uni.displayTags || uni.specializations).filter(s => !matched.includes(s));
                                           const displaySpecs = [...matched, ...others];
                                           return displaySpecs.slice(0, 4).map((spec, i) => {
                                              const isMatch = matched.includes(spec);
