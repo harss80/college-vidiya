@@ -2606,31 +2606,6 @@ export const universities = [
     "exams": "VGUCET"
   },
   {
-    "id": "uttaranchal",
-    "name": "Uttaranchal University",
-    "logo": "https://ui-avatars.com/api/?name=UU&background=004ecc&color=fff&size=150",
-    "location": "Dehradun",
-    "type": "Private",
-    "level": [
-      "UG",
-      "PG"
-    ],
-    "budget": 90000,
-    "specializations": [
-      "MBA in HR",
-      "BA LLB",
-      "B.Sc Agriculture",
-      "MBA in Marketing",
-      "B.Pharm"
-    ],
-    "accreditation": "UGC, NAAC A+ Grade",
-    "fees": "₹45,000 / Sem",
-    "placement": "Average Package 6 LPA | Highest 22 LPA",
-    "eligibility": "50% Aggregate",
-    "ranking": "NIRF Top 200",
-    "exams": "UUEE / CAT"
-  },
-  {
     "id": "jiit",
     "name": "Jaypee Institute of Information Technology (JIIT), Noida",
     "logo": "https://ui-avatars.com/api/?name=JIIT&background=ea580c&color=fff&size=150",
