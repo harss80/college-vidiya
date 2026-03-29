@@ -71,18 +71,18 @@ const UniversityDetails = () => {
                   </div>
 
                   {/* Right: Sharp Data Widgets but with subtle rounding */}
-                  <div className="flex flex-wrap gap-4 shrink-0">
-                      <div className="bg-white/5 border border-white/10 p-5 rounded-xl w-[160px] backdrop-blur-sm">
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 shrink-0 w-full xl:w-auto mt-6 xl:mt-0">
+                      <div className="bg-white/5 border border-white/10 p-4 md:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center min-w-[130px]">
                          <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 block">Est. Tuition Band</span>
-                         <span className="text-2xl font-black text-emerald-400 block tracking-tight">{uni.fees.split('-')[0] || uni.fees}</span>
+                         <span className="text-xl md:text-2xl font-black text-emerald-400 block tracking-tight leading-tight">{uni.fees.split('-')[0] || uni.fees}</span>
                       </div>
-                      <div className="bg-white/5 border border-white/10 p-5 rounded-xl w-[190px] backdrop-blur-sm">
+                      <div className="bg-white/5 border border-white/10 p-4 md:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center min-w-[130px]">
                          <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 block">Max Placement Pkg</span>
-                         <span className="text-2xl font-black text-white block truncate tracking-tight">{uni.placement.split('|')[1]?.trim() || uni.placement}</span>
+                         <span className="text-xl md:text-2xl font-black text-white block truncate tracking-tight leading-tight">{uni.placement.split('|')[1]?.trim() || uni.placement}</span>
                       </div>
-                      <div className="bg-[#0047ad]/20 border border-[#0047ad]/40 p-5 rounded-xl w-[150px] backdrop-blur-sm">
+                      <div className="bg-[#0047ad]/20 border border-[#0047ad]/40 p-4 md:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center min-w-[130px] col-span-2 md:col-span-1">
                          <span className="text-[10px] text-[#8cb4ff] font-bold uppercase tracking-widest mb-1 block">Global Rank</span>
-                         <span className="text-2xl font-black text-white block tracking-tight">{uni.ranking}</span>
+                         <span className="text-xl md:text-2xl font-black text-white block tracking-tight leading-tight">{uni.ranking}</span>
                       </div>
                   </div>
                </div>
