@@ -53,36 +53,36 @@ const UniversityDetails = () => {
            <div className="bg-[#0b132b] text-white overflow-hidden relative">
                <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#0047ad]/20 rounded-full blur-[120px] pointer-events-none -mt-64 -mr-64"></div>
                
-               <div className="max-w-[1400px] mx-auto px-4 lg:px-6 lg:px-12 pt-10 pb-12 lg:pt-16 lg:pb-20 flex flex-col xl:flex-row gap-6 lg:gap-10 justify-between xl:items-end relative z-10 border-b-4 border-[#ff6b00]">
+               <div className="max-w-[1400px] mx-auto px-4 lg:px-6 lg:px-12 pt-10 pb-12 lg:pt-16 lg:pb-20 flex flex-wrap gap-6 lg:gap-10 justify-between items-start xl:items-end relative z-10 border-b-4 border-[#ff6b00]">
                   
-                  {/* Left: Titles with normal casing */}
-                  <div className="flex-1">
+                  {/* Left: Titles with normal casing. Flex-1 allows taking space up to a point, then wrapping. */}
+                  <div className="flex-[1_1_500px] max-w-full">
                       <div className="flex flex-wrap items-center gap-3 mb-5">
                          <span className="bg-white/10 text-emerald-400 text-xs font-black px-3 py-1.5 rounded flex items-center gap-1.5 uppercase tracking-widest"><ShieldCheck size={14}/> Data Verified</span>
                          <span className="bg-[#0047ad] text-white text-xs font-black px-3 py-1.5 rounded uppercase tracking-widest">{uni.type}</span>
                          <span className="text-slate-300 text-xs font-bold uppercase tracking-widest flex items-center gap-1"><MapPin size={14}/> {uni.location}</span>
                       </div>
-                      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight mb-5">{uni.name}</h1>
-                      <div className="flex items-center gap-3 text-slate-300 text-sm font-bold uppercase tracking-widest">
+                      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight mb-5 break-words sm:break-normal">{uni.name}</h1>
+                      <div className="flex flex-wrap items-center gap-3 text-slate-300 text-[11px] sm:text-sm font-bold uppercase tracking-widest">
                          {uni.accreditation.split(',').map((acc, idx) => (
-                             <span key={idx} className="bg-white/5 px-3 py-1.5 rounded border border-white/10">{acc.trim()}</span>
+                             <span key={idx} className="bg-white/5 px-2.5 sm:px-3 py-1.5 rounded border border-white/10 whitespace-nowrap">{acc.trim()}</span>
                          ))}
                       </div>
                   </div>
 
-                  {/* Right: Sharp Data Widgets but with subtle rounding */}
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 shrink-0 w-full xl:w-auto mt-6 xl:mt-0">
-                      <div className="bg-white/5 border border-white/10 p-4 md:p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center min-w-[130px]">
+                  {/* Right: Sharp Data Widgets - Now fully fluid, wrapping smoothly. */}
+                  <div className="flex flex-wrap gap-3 md:gap-4 flex-[1_1_auto] w-full xl:w-auto xl:max-w-2xl mt-2 xl:mt-0 justify-start xl:justify-end">
+                      <div className="bg-white/5 border border-white/10 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[180px] max-w-full">
                          <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 block">Est. Tuition Band</span>
-                         <span className="text-xl md:text-2xl font-black text-emerald-400 block tracking-tight leading-tight">{uni.fees.split('-')[0] || uni.fees}</span>
+                         <span className="text-lg sm:text-xl md:text-2xl font-black text-emerald-400 block tracking-tight leading-tight break-words">{uni.fees.split('-')[0] || uni.fees}</span>
                       </div>
-                      <div className="bg-white/5 border border-white/10 p-4 md:p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center min-w-[130px]">
+                      <div className="bg-white/5 border border-white/10 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[180px] max-w-full">
                          <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 block">Max Placement Pkg</span>
-                         <span className="text-xl md:text-2xl font-black text-white block truncate tracking-tight leading-tight">{uni.placement.split('|')[1]?.trim() || uni.placement}</span>
+                         <span className="text-lg sm:text-xl md:text-2xl font-black text-white block tracking-tight leading-tight break-words">{uni.placement.split('|')[1]?.trim() || uni.placement}</span>
                       </div>
-                      <div className="bg-[#0047ad]/20 border border-[#0047ad]/40 p-4 md:p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center min-w-[130px] col-span-2 md:col-span-1">
+                      <div className="bg-[#0047ad]/20 border border-[#0047ad]/40 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[180px] max-w-full">
                          <span className="text-[10px] text-[#8cb4ff] font-bold uppercase tracking-widest mb-1 block">Global Rank</span>
-                         <span className="text-xl md:text-2xl font-black text-white block tracking-tight leading-tight">{uni.ranking}</span>
+                         <span className="text-lg sm:text-xl md:text-2xl font-black text-white block tracking-tight leading-tight break-words">{uni.ranking}</span>
                       </div>
                   </div>
                </div>
