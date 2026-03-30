@@ -21,49 +21,59 @@ const MockCalls = () => {
         if (budgetFilter === '₹1L - ₹2L' && (bdg < 100000 || bdg > 200000)) return false;
         if (budgetFilter === '> ₹2L' && bdg <= 200000) return false;
       }
-      
-      // Omni-Search Logic (Multi-word)
+      // Advanced Contextual Search Logic
       if (specSearch.trim()) {
         const stopWords = ['in', 'and', 'with', 'for', 'of', '&', 'a', 'the', '-'];
         const queryWords = specSearch.toLowerCase().split(/\s+/).filter(w => w && !stopWords.includes(w));
         
-        let deepSpecs = [];
+        let hasValidProgramMatch = false;
+        const uniBaseText = `${uni.name} ${uni.location} ${uni.type} ${uni.ranking} ${uni.accreditation}`.toLowerCase();
+
         if (uni.extendedDetails?.programs) {
-            uni.extendedDetails.programs.forEach(prog => {
-                if (prog.specializations) {
-                    prog.specializations.forEach(s => deepSpecs.push(`${prog.name} in ${s.name}`));
-                }
+            const validPrograms = uni.extendedDetails.programs.filter(prog => levelFilter === 'All' || prog.group === levelFilter);
+            
+            if (validPrograms.length === 0 && queryWords.length > 0) return false;
+            
+            hasValidProgramMatch = validPrograms.some(prog => {
+                const progText = `${prog.name} ${prog.name.replace(/\./g, '')} ${prog.group} ${prog.specializations ? prog.specializations.map(s => s.name).join(' ') : ''}`.toLowerCase();
+                // Every query word must natively exist in general info OR this exact specific program context
+                return queryWords.every(w => uniBaseText.includes(w) || progText.includes(w));
             });
+        } else {
+            const tagsText = uni.specializations.join(' ').toLowerCase();
+            hasValidProgramMatch = queryWords.every(w => uniBaseText.includes(w) || tagsText.includes(w));
         }
 
-        const uniText = `${uni.name} ${uni.location} ${uni.type} ${uni.specializations.join(' ')} ${deepSpecs.join(' ')} ${uni.ranking} ${uni.exams}`.toLowerCase();
-        
-        // Every typed word must exist somewhere in the university profile
-        const hasAllKeywords = queryWords.every(w => uniText.includes(w));
-        if (!hasAllKeywords && queryWords.length > 0) return false;
+        if (!hasValidProgramMatch) return false;
       }
       return true;
     }).map(uni => {
-       // Map to UI specific objects
-       let deepSpecs = [];
+       // Advanced UI Highlights
+       let allAvailableTags = [];
        if (uni.extendedDetails?.programs) {
-           uni.extendedDetails.programs.forEach(prog => {
+           const validPrograms = uni.extendedDetails.programs.filter(prog => levelFilter === 'All' || prog.group === levelFilter);
+           validPrograms.forEach(prog => {
                if (prog.specializations) {
-                   prog.specializations.forEach(s => deepSpecs.push(`${prog.name} in ${s.name}`));
+                   prog.specializations.forEach(s => allAvailableTags.push(`${prog.name} in ${s.name}`));
                }
            });
+       } else {
+           allAvailableTags = [...uni.specializations];
        }
        
-       const allAvailableTags = [...new Set([...uni.specializations, ...deepSpecs])];
        const stopWords = ['in', 'and', 'with', 'for', 'of', '&', 'a', 'the', '-'];
        const queryWords = specSearch.trim().toLowerCase().split(/\s+/).filter(w => w && !stopWords.includes(w));
        
        let matchedSpecs = [];
        if (queryWords.length > 0) {
-         matchedSpecs = allAvailableTags.filter(spec => 
-             queryWords.every(w => w.length >= 2 && spec.toLowerCase().includes(w)) || 
-             queryWords.some(w => w.length >= 4 && spec.toLowerCase().includes(w))
-         );
+         const uniBaseText = `${uni.name} ${uni.location} ${uni.type} ${uni.ranking}`.toLowerCase();
+         const specRequiredWords = queryWords.filter(w => !uniBaseText.includes(w));
+         
+         if (specRequiredWords.length > 0) {
+             matchedSpecs = allAvailableTags.filter(spec => 
+                 specRequiredWords.every(w => spec.toLowerCase().includes(w))
+             );
+         }
        }
        return { ...uni, matchedSpecs, displayTags: allAvailableTags };
     });
