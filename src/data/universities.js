@@ -50,7 +50,13 @@ export const universities = [
               "eligibility": "10+2 Pass candidates from a recognised board are eligible to enroll.",
               "about": "The Bachelor of Computer Applications (BCA) at Uttaranchal University is a UGC-Entitled online degree. The intensive curriculum is carefully crafted in consultation with industry experts to hone your technical skills in the rapidly changing world of computers.",
               "careerScope": "The Indian IT industry is seeing explosive growth with over 4.5+ Lakh jobs actively being added to reach $227 billion revenue (NASSCOM). A BCA serves as the core foundational launchpad for high-paying roles in algorithm design and data management.",
-              "jobRoles": ["Software Developer", "Web Programmer", "Systems Analyst", "Database Administrator", "Junior Cloud Engineer"],
+              "jobRoles": [
+                "Software Developer",
+                "Web Programmer",
+                "Systems Analyst",
+                "Database Administrator",
+                "Junior Cloud Engineer"
+              ],
               "usps": [
                 "1-on-1 Personalized Mentorship assigning a dedicated mentor per student",
                 "Prodigious faculty teaching a world-class intensive curriculum",
@@ -70,7 +76,12 @@ export const universities = [
           "specializations": [
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "details": "Financial management and modern accounting practices.",
               "price": "₹1,02,000 (Total) / ₹17,000 (Sem)",
               "duration": "36 Months (8-10 hrs/week)",
@@ -88,7 +99,12 @@ export const universities = [
             },
             {
               "name": "HR",
-              "jobRoles": ["HR Director", "Talent Acquisition Lead", "Compensation & Benefits Manager", "Employee Relations Specialist"],
+              "jobRoles": [
+                "HR Director",
+                "Talent Acquisition Lead",
+                "Compensation & Benefits Manager",
+                "Employee Relations Specialist"
+              ],
               "details": "Human resource strategies and organizational behavior.",
               "price": "₹1,02,000 (Total) / ₹17,000 (Sem)",
               "duration": "36 Months (8-10 hrs/week)",
@@ -106,7 +122,12 @@ export const universities = [
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "details": "Digital outreach, consumer behavior, and brand management.",
               "price": "₹1,02,000 (Total) / ₹17,000 (Sem)",
               "duration": "36 Months (8-10 hrs/week)",
@@ -138,7 +159,13 @@ export const universities = [
               "eligibility": "10+2 Pass candidates from a recognised board are eligible to enroll.",
               "about": "The Bachelor of Arts (BA) at Uttaranchal University is a UGC-Entitled online degree. This 100% Live Interactive program is designed with an eye on holistic development with an international outlook, crafted in consultation with industry experts.",
               "careerScope": "Arts and administration occupations are growing steadily. A BA provides a rigorous foundation in liberal arts, paving the way for roles in communication, civil services, administration, and modern human resources.",
-              "jobRoles": ["Public Relations Specialist", "Content Strategist", "Operations Administrator", "Civil Services Aspirant", "HR Executive"],
+              "jobRoles": [
+                "Public Relations Specialist",
+                "Content Strategist",
+                "Operations Administrator",
+                "Civil Services Aspirant",
+                "HR Executive"
+              ],
               "usps": [
                 "1-on-1 Personalized Mentorship assigning a dedicated mentor per student",
                 "Prodigious faculty teaching a world-class intensive curriculum",
@@ -158,7 +185,12 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹98,000 (Total) / ₹24,500 (Sem)",
               "details": "Strategic marketing and global brand positioning.",
               "duration": "24 Months (8-10 hrs/week)",
@@ -223,7 +255,12 @@ export const universities = [
               "eligibility": "Graduates (min 50% / 45% for reserved) from a recognized university.",
               "about": "The Master of Business Administration (MBA) at Uttaranchal University is a UGC-Entitled online degree. The Digital Marketing specialization features a world-class curriculum crafted by industry experts, focusing on modern growth tactics, 1-on-1 personalized mentorship, and live interactive classes.",
               "careerScope": "Management occupations are growing 8x faster than traditional roles. Post-MBA careers include specialized digital scaling, marketing performance leadership, and growth operations, with 4.5+ Lakh jobs actively booming in the IT management sector.",
-              "jobRoles": ["Performance Marketing Director", "Head of Digital Strategy", "E-commerce Growth Lead", "SEO/SEM Strategy Manager"],
+              "jobRoles": [
+                "Performance Marketing Director",
+                "Head of Digital Strategy",
+                "E-commerce Growth Lead",
+                "SEO/SEM Strategy Manager"
+              ],
               "usps": [
                 "1-on-1 Personalized Mentorship assigning a dedicated mentor per student",
                 "Prodigious faculty teaching a world-class intensive curriculum",
@@ -276,7 +313,12 @@ export const universities = [
             },
             {
               "name": "HR",
-              "jobRoles": ["HR Director", "Talent Acquisition Lead", "Compensation & Benefits Manager", "Employee Relations Specialist"],
+              "jobRoles": [
+                "HR Director",
+                "Talent Acquisition Lead",
+                "Compensation & Benefits Manager",
+                "Employee Relations Specialist"
+              ],
               "price": "₹98,000 (Total) / ₹24,500 (Sem)",
               "details": "Talent acquisition and workforce analytics.",
               "duration": "24 Months (8-10 hrs/week)",
@@ -335,19 +377,34 @@ export const universities = [
             },
             {
               "name": "Business Analytics",
-              "jobRoles": ["Data Science Manager", "Strategy Consultant", "Business Intelligence Lead", "Operations Analyst"],
+              "jobRoles": [
+                "Data Science Manager",
+                "Strategy Consultant",
+                "Business Intelligence Lead",
+                "Operations Analyst"
+              ],
               "price": "As per plan",
               "details": "Quantitative modeling and business intelligence."
             },
             {
               "name": "FM",
-              "jobRoles": ["Financial Controller", "Portfolio Analyst", "Wealth Management Director", "Credit Risk Analyst"],
+              "jobRoles": [
+                "Financial Controller",
+                "Portfolio Analyst",
+                "Wealth Management Director",
+                "Credit Risk Analyst"
+              ],
               "price": "As per plan",
               "details": "Financial markets, risk modeling, and corporate finance."
             },
             {
               "name": "International Business",
-              "jobRoles": ["Global Supply Chain Manager", "International Trade Specialist", "Export Manager", "Global Operations Director"],
+              "jobRoles": [
+                "Global Supply Chain Manager",
+                "International Trade Specialist",
+                "Export Manager",
+                "Global Operations Director"
+              ],
               "price": "₹98,000 (Total) / ₹24,500 (Sem)",
               "details": "Cross-border trade, logistics, and international policies.",
               "duration": "24 Months (8-10 hrs/week)",
@@ -406,7 +463,12 @@ export const universities = [
             },
             {
               "name": "IT",
-              "jobRoles": ["IT Project Manager", "Chief Information Officer (CIO)", "Systems Director", "Technology Consultant"],
+              "jobRoles": [
+                "IT Project Manager",
+                "Chief Information Officer (CIO)",
+                "Systems Director",
+                "Technology Consultant"
+              ],
               "price": "As per plan",
               "details": "IT strategy and enterprise architecture management."
             },
@@ -417,7 +479,12 @@ export const universities = [
             },
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "details": "Expertise in Finance principles and management.",
               "price": "₹98,000 (Total) / ₹24,500 (Sem)",
               "duration": "24 Months (8-10 hrs/week)",
@@ -785,13 +852,23 @@ export const universities = [
           "specializations": [
             {
               "name": "HR",
-              "jobRoles": ["HR Director", "Talent Acquisition Lead", "Compensation & Benefits Manager", "Employee Relations Specialist"],
+              "jobRoles": [
+                "HR Director",
+                "Talent Acquisition Lead",
+                "Compensation & Benefits Manager",
+                "Employee Relations Specialist"
+              ],
               "price": "₹1,35,000",
               "details": "Focus on talent tech and modern recruitment practices."
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹1,35,000",
               "details": "Digital advertising, consumer behavior, and brand management."
             },
@@ -887,7 +964,12 @@ export const universities = [
             },
             {
               "name": "Business Analytics",
-              "jobRoles": ["Data Science Manager", "Strategy Consultant", "Business Intelligence Lead", "Operations Analyst"],
+              "jobRoles": [
+                "Data Science Manager",
+                "Strategy Consultant",
+                "Business Intelligence Lead",
+                "Operations Analyst"
+              ],
               "price": "₹99,000",
               "details": "Quantitative methods for process optimization."
             },
@@ -956,79 +1038,140 @@ export const universities = [
           "specializations": [
             {
               "name": "Finance",
-              "jobRoles": ["Financial Analyst", "Investment Manager", "Corporate Treasurer", "Finance Manager"],
+              "jobRoles": [
+                "Financial Analyst",
+                "Investment Manager",
+                "Corporate Treasurer",
+                "Finance Manager"
+              ],
               "price": "₹1,75,000",
               "details": "Focuses on essential financial skills including taxation, treasury management, international finance, and internal audit."
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Marketing Manager", "Brand Manager", "Sales Manager", "Market Research Analyst"],
+              "jobRoles": [
+                "Marketing Manager",
+                "Brand Manager",
+                "Sales Manager",
+                "Market Research Analyst"
+              ],
               "price": "₹1,75,000",
               "details": "Covers consumer behavior, services marketing, advertising, sales distribution, and international marketing."
             },
             {
               "name": "Human Resource Management",
-              "jobRoles": ["HR Manager", "Talent Acquisition Specialist", "Training Manager", "Compensation Specialist"],
+              "jobRoles": [
+                "HR Manager",
+                "Talent Acquisition Specialist",
+                "Training Manager",
+                "Compensation Specialist"
+              ],
               "price": "₹1,75,000",
               "details": "Designed for the evolving HR landscape; covers employee relations, compensation, performance, and change management."
             },
             {
               "name": "Analytics & Data Science",
-              "jobRoles": ["Data Analyst", "BI Manager", "Analytics Manager", "Data Scientist"],
+              "jobRoles": [
+                "Data Analyst",
+                "BI Manager",
+                "Analytics Manager",
+                "Data Scientist"
+              ],
               "price": "₹1,75,000",
               "details": "Equips learners with skills in data analysis, machine learning, programming, and business intelligence."
             },
             {
               "name": "Project Management",
-              "jobRoles": ["Project Manager", "Program Manager", "Operations Manager", "Project Lead"],
+              "jobRoles": [
+                "Project Manager",
+                "Program Manager",
+                "Operations Manager",
+                "Project Lead"
+              ],
               "price": "₹1,75,000",
               "details": "Focuses on project planning, scheduling, finance & budgeting, risk management, and contracts."
             },
             {
               "name": "Operations Management",
-              "jobRoles": ["Operations Manager", "Plant Manager", "Quality Assurance Manager", "Process Consultant"],
+              "jobRoles": [
+                "Operations Manager",
+                "Plant Manager",
+                "Quality Assurance Manager",
+                "Process Consultant"
+              ],
               "price": "₹1,75,000",
               "details": "Covers production and operations management, strategic policy, and managerial economics."
             },
             {
               "name": "International Business",
-              "jobRoles": ["Export-Import Manager", "International Marketing Manager", "Foreign Trade Analyst"],
+              "jobRoles": [
+                "Export-Import Manager",
+                "International Marketing Manager",
+                "Foreign Trade Analyst"
+              ],
               "price": "₹1,75,000",
               "details": "Focuses on global industry-relevant skills, international trade, and diverse global job opportunities."
             },
             {
               "name": "Supply Chain Management",
-              "jobRoles": ["Supply Chain Analyst", "Logistics Manager", "Purchasing Manager", "SCM Consultant"],
+              "jobRoles": [
+                "Supply Chain Analyst",
+                "Logistics Manager",
+                "Purchasing Manager",
+                "SCM Consultant"
+              ],
               "price": "₹1,75,000",
               "details": "Focuses on logistics, procurement, warehouse management, and supply chain optimization."
             },
             {
               "name": "BFSI",
-              "jobRoles": ["Bank Manager", "Relationship Manager", "Insurance Advisor", "Financial Planner"],
+              "jobRoles": [
+                "Bank Manager",
+                "Relationship Manager",
+                "Insurance Advisor",
+                "Financial Planner"
+              ],
               "price": "₹1,75,000",
               "details": "Specialized in Banking, Financial Services, and Insurance operations and management."
             },
             {
               "name": "IT & FinTech",
-              "jobRoles": ["Fintech Product Manager", "IT Systems Analyst", "Tech Business Analyst"],
+              "jobRoles": [
+                "Fintech Product Manager",
+                "IT Systems Analyst",
+                "Tech Business Analyst"
+              ],
               "price": "₹1,75,000",
               "details": "Integrates IT with financial tech, covering blockchain, cryptocurrency, and cybersecurity in finance."
             },
             {
               "name": "Information System Management",
-              "jobRoles": ["IT Manager", "MIS Manager", "Systems Analyst", "IT Projects Lead"],
+              "jobRoles": [
+                "IT Manager",
+                "MIS Manager",
+                "Systems Analyst",
+                "IT Projects Lead"
+              ],
               "price": "₹1,75,000",
               "details": "Focuses on the management of organizational IT infrastructure and information systems."
             },
             {
               "name": "Retail Management",
-              "jobRoles": ["Store Manager", "Retail Operations Manager", "Merchandising Manager"],
+              "jobRoles": [
+                "Store Manager",
+                "Retail Operations Manager",
+                "Merchandising Manager"
+              ],
               "price": "₹1,75,000",
               "details": "Covers retail operations, store management, merchandising, and consumer retail behavior."
             },
             {
               "name": "Digital Marketing",
-              "jobRoles": ["Digital Marketing Manager", "SEO Specialist", "Social Media Manager"],
+              "jobRoles": [
+                "Digital Marketing Manager",
+                "SEO Specialist",
+                "Social Media Manager"
+              ],
               "price": "₹1,75,000",
               "details": "Specialized in digital strategy, including SEO, SEM, social media, and digital analytics."
             }
@@ -1054,31 +1197,56 @@ export const universities = [
           "specializations": [
             {
               "name": "AI & Data Science",
-              "jobRoles": ["Data Scientist", "AI Research and Development", "Predictive Analytics Specialist", "Data Engineer"],
+              "jobRoles": [
+                "Data Scientist",
+                "AI Research and Development",
+                "Predictive Analytics Specialist",
+                "Data Engineer"
+              ],
               "price": "₹1,58,000",
               "details": "Combines core computer applications with categorical data analysis, cryptography, and data-backed models."
             },
             {
               "name": "Cloud Computing",
-              "jobRoles": ["Cloud Architect", "Cloud Developer", "Cloud Security Engineer", "Google Cloud Specialist"],
+              "jobRoles": [
+                "Cloud Architect",
+                "Cloud Developer",
+                "Cloud Security Engineer",
+                "Google Cloud Specialist"
+              ],
               "price": "₹1,58,000",
               "details": "Master key cloud computing platforms, Google Cloud architectures, and scalable infrastructure."
             },
             {
               "name": "Cybersecurity",
-              "jobRoles": ["Cybersecurity Analyst", "Ethical Hacker", "Network Security Engineer", "Security Consultant"],
+              "jobRoles": [
+                "Cybersecurity Analyst",
+                "Ethical Hacker",
+                "Network Security Engineer",
+                "Security Consultant"
+              ],
               "price": "₹1,58,000",
               "details": "Focuses on ethical hacking, cryptography, network security, and cyber laws."
             },
             {
               "name": "AI & ML",
-              "jobRoles": ["AI Developer", "Machine Learning Engineer", "Research Scientist", "Intelligent Systems Architect"],
+              "jobRoles": [
+                "AI Developer",
+                "Machine Learning Engineer",
+                "Research Scientist",
+                "Intelligent Systems Architect"
+              ],
               "price": "₹1,58,000",
               "details": "Develop advanced machine learning algorithms, deep learning models, and intelligent systems."
             },
             {
               "name": "Comprehensive Emerging Technologies",
-              "jobRoles": ["Technology Leader", "IoT Architect", "Blockchain Developer", "Big Data Analyst"],
+              "jobRoles": [
+                "Technology Leader",
+                "IoT Architect",
+                "Blockchain Developer",
+                "Big Data Analyst"
+              ],
               "price": "₹1,58,000",
               "details": "Provides broad expertise across IoT, Blockchain, Big Data Analytics, and Business Intelligence."
             }
@@ -1135,25 +1303,41 @@ export const universities = [
           "specializations": [
             {
               "name": "Mathematics (General)",
-              "jobRoles": ["Statistician", "Operations Research Analyst", "Academician"],
+              "jobRoles": [
+                "Statistician",
+                "Operations Research Analyst",
+                "Academician"
+              ],
               "price": "₹80,000",
               "details": "Core focus on pure mathematics, deep differential equations, and theoretical modeling."
             },
             {
               "name": "Data Science",
-              "jobRoles": ["Data Scientist", "Predictive Modeler", "Data Analyst"],
+              "jobRoles": [
+                "Data Scientist",
+                "Predictive Modeler",
+                "Data Analyst"
+              ],
               "price": "₹80,000",
               "details": "Applies rigorous statistical learning and optimization techniques to massive datasets."
             },
             {
               "name": "Computational Science",
-              "jobRoles": ["Computational Scientist", "Quantitative Analyst", "Research Scientist"],
+              "jobRoles": [
+                "Computational Scientist",
+                "Quantitative Analyst",
+                "Research Scientist"
+              ],
               "price": "₹80,000",
               "details": "Focuses on numerical methods, algorithmic computations, and quantitative problem-solving."
             },
             {
               "name": "Econometrics",
-              "jobRoles": ["Econometrician", "Financial Engineer", "Cryptographer"],
+              "jobRoles": [
+                "Econometrician",
+                "Financial Engineer",
+                "Cryptographer"
+              ],
               "price": "₹80,000",
               "details": "Blends economic theory with high-level mathematics to forecast market trends and perform statistical modeling."
             }
@@ -1169,9 +1353,19 @@ export const universities = [
     "logo": "https://ui-avatars.com/api/?name=SMU&background=f97316&color=fff&size=150",
     "location": "Sikkim",
     "type": "State Private",
-    "level": ["UG", "PG"],
+    "level": [
+      "UG",
+      "PG"
+    ],
     "budget": 75000,
-    "specializations": ["BA", "BCOM", "MBA", "MCA", "MCOM", "MA"],
+    "specializations": [
+      "BA",
+      "BCOM",
+      "MBA",
+      "MCA",
+      "MCOM",
+      "MA"
+    ],
     "accreditation": "NAAC A+, UGC-Entitled",
     "fees": "Semester / Annual Options",
     "placement": "Dedicated Placement Assistance & Career Guidance",
@@ -1212,7 +1406,12 @@ export const universities = [
           "specializations": [
             {
               "name": "General (English, Sociology, Political Science)",
-              "jobRoles": ["Public Administrator", "Content Manager", "Social Worker", "PR Specialist"],
+              "jobRoles": [
+                "Public Administrator",
+                "Content Manager",
+                "Social Worker",
+                "PR Specialist"
+              ],
               "price": "₹75,000",
               "details": "Core integrated curriculum focusing on social sciences and linguistics."
             }
@@ -1238,7 +1437,12 @@ export const universities = [
           "specializations": [
             {
               "name": "General",
-              "jobRoles": ["Accountant", "Auditor", "Financial Analyst", "Tax Consultant"],
+              "jobRoles": [
+                "Accountant",
+                "Auditor",
+                "Financial Analyst",
+                "Tax Consultant"
+              ],
               "price": "₹75,000",
               "details": "Core commerce domains spanning Corporate Accounting, HRM, Taxation, and Auditing."
             }
@@ -1264,7 +1468,12 @@ export const universities = [
           "specializations": [
             {
               "name": "Dual Specialization",
-              "jobRoles": ["Marketing Manager", "Financial Analyst", "HR Business Partner", "Operations Head"],
+              "jobRoles": [
+                "Marketing Manager",
+                "Financial Analyst",
+                "HR Business Partner",
+                "Operations Head"
+              ],
               "price": "₹1,10,000",
               "details": "Pick any two major domains: Marketing, Finance, HR, IT systems, Operations, or Healthcare Management."
             }
@@ -1290,7 +1499,12 @@ export const universities = [
           "specializations": [
             {
               "name": "General",
-              "jobRoles": ["Software Developer", "IT Consultant", "Database Administrator", "Full Stack Engineer"],
+              "jobRoles": [
+                "Software Developer",
+                "IT Consultant",
+                "Database Administrator",
+                "Full Stack Engineer"
+              ],
               "price": "₹98,000",
               "details": "Full stack architecture, DB administration, and modern programming pipelines."
             }
@@ -1316,7 +1530,12 @@ export const universities = [
           "specializations": [
             {
               "name": "General",
-              "jobRoles": ["Financial Analyst", "Investment Banker", "Auditor", "Chief Accountant"],
+              "jobRoles": [
+                "Financial Analyst",
+                "Investment Banker",
+                "Auditor",
+                "Chief Accountant"
+              ],
               "price": "₹75,000",
               "details": "Core focus on strategic security analysis, accounting, and portfolio management."
             }
@@ -1342,7 +1561,12 @@ export const universities = [
           "specializations": [
             {
               "name": "Sociology",
-              "jobRoles": ["Social Worker", "Policy Analyst", "NGO Research Lead", "Community Liaison Officer"],
+              "jobRoles": [
+                "Social Worker",
+                "Policy Analyst",
+                "NGO Research Lead",
+                "Community Liaison Officer"
+              ],
               "price": "₹75,000",
               "details": "Focus on globalization, gender dynamics, sociology of Indian society, and structural human ecosystems."
             }
@@ -1438,19 +1662,34 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹1,31,000",
               "details": "Brand management, customer insights, and digital outreach."
             },
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "price": "₹1,31,000",
               "details": "Financial principles, corporate accounting, and taxation."
             },
             {
               "name": "Business Analytics",
-              "jobRoles": ["Data Science Manager", "Strategy Consultant", "Business Intelligence Lead", "Operations Analyst"],
+              "jobRoles": [
+                "Data Science Manager",
+                "Strategy Consultant",
+                "Business Intelligence Lead",
+                "Operations Analyst"
+              ],
               "price": "₹1,31,000",
               "details": "Basic analytical models, big data handling, and metric-driven strategy."
             }
@@ -1487,13 +1726,23 @@ export const universities = [
             },
             {
               "name": "HR",
-              "jobRoles": ["HR Director", "Talent Acquisition Lead", "Compensation & Benefits Manager", "Employee Relations Specialist"],
+              "jobRoles": [
+                "HR Director",
+                "Talent Acquisition Lead",
+                "Compensation & Benefits Manager",
+                "Employee Relations Specialist"
+              ],
               "price": "₹1,96,000",
               "details": "Talent acquisition, workforce dynamics, and organizational behavior."
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹1,96,000",
               "details": "Global brand positioning, marketing analytics, and consumer psychology."
             },
@@ -1517,7 +1766,12 @@ export const universities = [
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹1,96,000",
               "details": "Advanced CMO-level marketing strategies and omnichannel deployment."
             },
@@ -1551,13 +1805,23 @@ export const universities = [
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹1,00,000",
               "details": "Core sales and marketing outreach concepts."
             },
             {
               "name": "HR",
-              "jobRoles": ["HR Director", "Talent Acquisition Lead", "Compensation & Benefits Manager", "Employee Relations Specialist"],
+              "jobRoles": [
+                "HR Director",
+                "Talent Acquisition Lead",
+                "Compensation & Benefits Manager",
+                "Employee Relations Specialist"
+              ],
               "price": "₹1,00,000",
               "details": "Basic HR administrative practices."
             },
@@ -1761,7 +2025,12 @@ export const universities = [
           "specializations": [
             {
               "name": "Business Analytics",
-              "jobRoles": ["Data Science Manager", "Strategy Consultant", "Business Intelligence Lead", "Operations Analyst"],
+              "jobRoles": [
+                "Data Science Manager",
+                "Strategy Consultant",
+                "Business Intelligence Lead",
+                "Operations Analyst"
+              ],
               "price": "₹1,99,000",
               "details": "Metric-driven organizational strategies and intelligence."
             },
@@ -1989,13 +2258,23 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹90,000",
               "details": "Corporate marketing setups and advanced brand positioning."
             },
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "price": "₹90,000",
               "details": "Wealth management, banking tech, and financial operations."
             },
@@ -2024,13 +2303,23 @@ export const universities = [
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹1,75,000",
               "details": "Advanced corporate sales architecture and brand leadership."
             },
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "price": "₹1,75,000",
               "details": "High-level portfolio setups and corporate wealth models."
             },
@@ -2052,127 +2341,279 @@ export const universities = [
   },
   {
     "id": "chandigarh",
-    "name": "Chandigarh University (CU)",
+    "name": "Chandigarh University (Online CU)",
     "logo": "https://ui-avatars.com/api/?name=CU&background=ea580c&color=fff&size=150",
     "location": "Mohali, Punjab",
-    "type": "State Private University",
+    "type": "Private University (UGC-Entitled, NAAC A+)",
     "level": [
       "UG",
       "PG"
     ],
-    "budget": 90000,
+    "budget": 131250,
     "specializations": [
-      "BBA",
-      "BCA",
-      "BA",
       "MBA",
+      "BBA",
       "MCA",
+      "BCA",
       "MA",
+      "BA",
       "M.Sc"
     ],
-    "accreditation": "NAAC A+, NIRF Rank 19th, NBA, WES",
-    "fees": "Semester, Annual & Full course Fee",
-    "placement": "Soft Skill & Aptitude coaching | Industry Mentors | Resume Building",
-    "eligibility": "50% in 10+2 / Grad",
-    "ranking": "NIRF 19th | #1 Private Uni by QS Asia 2023",
-    "exams": "Merit Based",
+    "accreditation": "UGC Entitled, NAAC A+, WES, NIRF 19th",
+    "fees": "Semester, Annual & EMI Options Available",
+    "placement": "300+ Hiring Partners | Corporate Exposure | Soft Skill coaching",
+    "eligibility": "Bachelor's degree / 10+2 depending on course",
+    "ranking": "NIRF 19th | India's Top 2% University",
+    "exams": "No Entrance Exam (Merit Based)",
     "extendedDetails": {
       "usps": [
-        "Legacy from 2012, Ranked No 1 among all Private Univs (QS Asia 2023)",
-        "Harvard Business Publishing Education & KPMG collaborations",
-        "Includes 10 Harvard Certification modules with a validity of 1 Year",
-        "Proprietary CU verse (LMS) setup for enhanced experience",
-        "Online student path to participate in physical university campus events",
-        "Holds a LIMCA book of record for highest number of placement companies arriving",
-        "Solid interview opportunities guaranteed up to a period of 6 Months",
-        "Scholarships: Early Bird (25%), JAI JAWAN (10%), BBA Analytics (13%), MBA Analytics (10%)"
+        "Dual Specialization MBA & BBA with heavy discounts (18% - 25% Early Bird).",
+        "Triple Industry Credentials: PMI, PwC, and Harvard Business Publishing.",
+        "PwC co-creates/teaches 'Financial Reporting' & 'Financial Management'.",
+        "GenAI Mastery Certificate in Managerial Excellence for BBA.",
+        "UGC-Entitled degree equivalent to on-campus degrees.",
+        "No Cost EMI Options Available. Block your seat with ₹10,000."
       ],
-      "payment": "Registration: ₹1000 | Block: ₹10,000 | Loans: Gray quest (No cost EMI purely on full fee)",
-      "examination": "70:30 (30% Continuous Assessment, 70% Proctored Exam) | Passing Criteria = 40%",
-      "leadLocking": "Auto Lock on LSQ | LSQ = CU",
+      "payment": "Seat Booking: ₹10,000 | Zero Cost EMI available. <br/><b>MBA Single Cert</b>: ₹41,250/Sem (25% Disc). <br/><b>MBA 3-Cert Bundle</b>: ₹45,100/Sem (18% Disc). <br/><b>BBA Single Cert</b>: ₹21,875/Sem (25% Disc). <br/><b>BBA 2-Cert Bundle</b>: ₹23,334/Sem (20% Disc).",
+      "examination": "100% Online Delivery | On Demand Examination",
+      "leadLocking": "Direct University Portal LSQ",
       "programs": [
         {
-          "group": "UG",
-          "name": "BBA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
+          "group": "PG",
+          "name": "MBA",
+          "duration": "24 Months (4 Semesters)",
+          "priceRange": "₹1,65,000 - ₹1,80,400 Total",
           "specializations": [
             {
-              "name": "Entrepreneurship",
-              "price": "₹1,35,000",
-              "details": "Startup scaling, VC funding models, and business architectures."
-            },
-            {
               "name": "Human Resource Management",
-              "price": "₹1,35,000",
-              "details": "Workforce pipelines, corporate structuring, and HR operations."
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Human Resource Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
-              "price": "₹1,35,000",
-              "details": "Advanced corporate branding, sales scaling, and marketing."
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Marketing. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
               "name": "International Business",
-              "jobRoles": ["Global Supply Chain Manager", "International Trade Specialist", "Export Manager", "Global Operations Director"],
-              "price": "₹1,35,000",
-              "details": "Global trade laws, vendor compliance, and international shipping."
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in International Business. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
-              "name": "Family Business",
-              "price": "₹1,35,000",
-              "details": "Structures and succession planning for massive family conglomerates."
+              "name": "Entrepreneurship",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Entrepreneurship. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
-              "name": "Digital Marketing",
-              "price": "₹1,35,000",
-              "details": "Aggressive SEO/SEM models and digital conversion architecture."
+              "name": "Finance",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Finance. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
-              "name": "Fin-Tech",
-              "price": "₹1,35,000",
-              "details": "Banking modernization, decentralized ledger systems, and payment models."
+              "name": "Information Technology",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Information Technology. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
-              "name": "Retail and E-Commerce",
-              "price": "₹1,35,000",
-              "details": "Dropshipping economics and massive retail scale deployments."
+              "name": "Logistics and Supply Chain Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Logistics and Supply Chain Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
-              "name": "Artificial Intelligence",
-              "price": "₹1,35,000",
-              "details": "Implementing AI structures into core corporate administration."
+              "name": "Retail Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Retail Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
-              "name": "HealthCare Management",
-              "price": "₹1,35,000",
-              "details": "Heavy hospital administration and clinical operations."
+              "name": "Operation Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Operation Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
-              "name": "Logistics and Supply Chain",
-              "price": "₹1,35,000",
-              "details": "Global sourcing networks and supply chain optimization."
+              "name": "Banking and Insurance",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Banking and Insurance. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
-              "name": "Foreign Exchange Management",
-              "price": "₹1,35,000",
-              "details": "Advanced Forex structures, fiat bridging, and international macroeconomics."
-            },
-            {
-              "name": "Travel & Tourism",
-              "price": "₹1,35,000",
-              "details": "Tourism operations and wide-scale hospitality frameworks."
+              "name": "Hospital Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Hospital Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
             },
             {
               "name": "Event Management",
-              "price": "₹1,35,000",
-              "details": "Scaling massive corporate and entertainment event ecosystems."
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Event Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "Media Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Media Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "Travel and Tourism",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Travel and Tourism. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "Airlines & Airport Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Airlines & Airport Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "Digital Marketing",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Digital Marketing. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "Data Science & Artificial Intelligence",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Data Science & Artificial Intelligence. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "International Relations",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in International Relations. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "FinTech",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in FinTech. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "General Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in General Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "Business Analytics",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Business Analytics. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "Disaster Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Disaster Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            },
+            {
+              "name": "Brand Management",
+              "price": "₹41,250",
+              "details": "Dual Specialization MBA in Brand Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BBA",
+          "duration": "36 Months (6 Semesters)",
+          "priceRange": "₹1,31,250 - ₹1,40,000 Total",
+          "specializations": [
+            {
+              "name": "Entrepreneurship",
+              "price": "₹21,875",
+              "details": "Specialization in Entrepreneurship via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Human Resource Management",
+              "price": "₹21,875",
+              "details": "Specialization in Human Resource Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Marketing",
+              "price": "₹21,875",
+              "details": "Specialization in Marketing via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "International Business",
+              "price": "₹21,875",
+              "details": "Specialization in International Business via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Family Business",
+              "price": "₹21,875",
+              "details": "Specialization in Family Business via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Digital Marketing",
+              "price": "₹21,875",
+              "details": "Specialization in Digital Marketing via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Fin-Tech",
+              "price": "₹21,875",
+              "details": "Specialization in Fin-Tech via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Retail and E-Commerce",
+              "price": "₹21,875",
+              "details": "Specialization in Retail and E-Commerce via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Artificial Intelligence",
+              "price": "₹21,875",
+              "details": "Specialization in Artificial Intelligence via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "HealthCare Management",
+              "price": "₹21,875",
+              "details": "Specialization in HealthCare Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Logistics and Supply Chain Management",
+              "price": "₹21,875",
+              "details": "Specialization in Logistics and Supply Chain Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Foreign Exchange Management",
+              "price": "₹21,875",
+              "details": "Specialization in Foreign Exchange Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Travel & Tourism Management",
+              "price": "₹21,875",
+              "details": "Specialization in Travel & Tourism Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            },
+            {
+              "name": "Event Management",
+              "price": "₹21,875",
+              "details": "Specialization in Event Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
             },
             {
               "name": "Banking and Finance",
-              "price": "₹1,35,000",
-              "details": "Core quantitative banking operations and credit ecosystems."
+              "price": "₹21,875",
+              "details": "Specialization in Banking and Finance via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "MCA",
+          "duration": "24 Months (4 Semesters)",
+          "priceRange": "Check Plan",
+          "specializations": [
+            {
+              "name": "General/Core",
+              "price": "Check Plan",
+              "details": "Core MCA"
+            },
+            {
+              "name": "Artificial Intelligence & Machine Learning",
+              "price": "Check Plan",
+              "details": "MCA specialization"
+            },
+            {
+              "name": "Full Stack Development",
+              "price": "Check Plan",
+              "details": "MCA specialization"
+            },
+            {
+              "name": "Cloud Computing",
+              "price": "Check Plan",
+              "details": "MCA specialization"
+            },
+            {
+              "name": "Data Analytics",
+              "price": "Check Plan",
+              "details": "MCA specialization"
             }
           ]
         },
@@ -2184,8 +2625,8 @@ export const universities = [
           "specializations": [
             {
               "name": "General",
-              "price": "₹1,35,000",
-              "details": "Application lifecycles and standard software engineering models."
+              "price": "Check Plan",
+              "details": "Standard BCA Curriculum"
             }
           ]
         },
@@ -2196,169 +2637,9 @@ export const universities = [
           "priceRange": "Check Plan",
           "specializations": [
             {
-              "name": "JMC",
-              "price": "₹1,35,000",
-              "details": "Broadcasting, media logic, and structural journalism."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MBA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Human Resource Management",
-              "price": "₹1,60,000",
-              "details": "Heavy HR structures and algorithmic talent acquisition models."
-            },
-            {
-              "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
-              "price": "₹1,60,000",
-              "details": "CMO level leadership, omnichannel architectures, and branding."
-            },
-            {
-              "name": "International Business",
-              "jobRoles": ["Global Supply Chain Manager", "International Trade Specialist", "Export Manager", "Global Operations Director"],
-              "price": "₹1,60,000",
-              "details": "Executive level international expansion and import/export logic."
-            },
-            {
-              "name": "Entrepreneurship",
-              "price": "₹1,60,000",
-              "details": "Disruptive innovation mapping and startup leadership."
-            },
-            {
-              "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
-              "price": "₹1,60,000",
-              "details": "Heavy quantitative models and corporate level asset structuring."
-            },
-            {
-              "name": "Information Technology",
-              "price": "₹1,60,000",
-              "details": "Deploying sophisticated internal corporate tech systems."
-            },
-            {
-              "name": "Logistics and Supply Chain",
-              "price": "₹1,60,000",
-              "details": "High-level vendor integrations and compliance control."
-            },
-            {
-              "name": "Retail Management",
-              "price": "₹1,60,000",
-              "details": "High volume brick and mortar management and retail scaling."
-            },
-            {
-              "name": "Operation Management",
-              "price": "₹1,60,000",
-              "details": "Six sigma logic and internal process leaning frameworks."
-            },
-            {
-              "name": "Banking and Insurance",
-              "price": "₹1,60,000",
-              "details": "Enterprise risk modeling and advanced underwriting logic."
-            },
-            {
-              "name": "Hospital Management",
-              "price": "₹1,60,000",
-              "details": "Clinical leadership and health-center compliance mappings."
-            },
-            {
-              "name": "Event Management",
-              "price": "₹1,60,000",
-              "details": "Handling complex capital event expenditures and executions."
-            },
-            {
-              "name": "Media Management",
-              "price": "₹1,60,000",
-              "details": "Corporate level multimedia networks and content strategies."
-            },
-            {
-              "name": "Travel and Tourism",
-              "price": "₹1,60,000",
-              "details": "Managing massive travel agencies and international tourism scale."
-            },
-            {
-              "name": "Airlines & Airport Management",
-              "price": "₹1,60,000",
-              "details": "Strict control of aviation operations and airport logic."
-            },
-            {
-              "name": "Digital Marketing",
-              "price": "₹1,60,000",
-              "details": "High level ROI metric tracking and digital deployment budgets."
-            },
-            {
-              "name": "Data Science & AI",
-              "price": "₹1,60,000",
-              "details": "Machine learning integration into executive decision funnels."
-            },
-            {
-              "name": "International Relations",
-              "price": "₹1,60,000",
-              "details": "State-level diplomacy and global political economies."
-            },
-            {
-              "name": "FinTech",
-              "price": "₹1,60,000",
-              "details": "Disruptive e-payment ecosystems and blockchain financial integration."
-            },
-            {
-              "name": "General Management",
-              "price": "₹1,60,000",
-              "details": "Executive level sweeping management logic."
-            },
-            {
-              "name": "Business Analytics",
-              "jobRoles": ["Data Science Manager", "Strategy Consultant", "Business Intelligence Lead", "Operations Analyst"],
-              "price": "₹1,60,000",
-              "details": "Predictive organizational analytics and performance optimization."
-            },
-            {
-              "name": "Disaster Management",
-              "price": "₹1,60,000",
-              "details": "Crisis modeling, global hazard mapping, and intervention strategies."
-            },
-            {
-              "name": "Brand Management",
-              "price": "₹1,60,000",
-              "details": "Deep consumer psychology modeling and brand deployment."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MCA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "AI & ML",
-              "price": "₹1,60,000",
-              "details": "Deep model logic, generative logic, and artificial neural structuring."
-            },
-            {
-              "name": "FSD (Full Stack Development)",
-              "price": "₹1,60,000",
-              "details": "Complete front to back MERN/MEAN stack engineering models."
-            },
-            {
-              "name": "Data Science",
-              "price": "₹1,60,000",
-              "details": "Handling and predicting trends with massive global datasets."
-            },
-            {
-              "name": "General",
-              "price": "₹1,60,000",
-              "details": "Sophisticated overarching software engineering architectures."
-            },
-            {
-              "name": "Cloud Computing",
-              "price": "₹1,60,000",
-              "details": "Handling AWS/Azure architectures and serverless scaling logic."
+              "name": "Journalism & Mass Communication (JMC)",
+              "price": "Check Plan",
+              "details": "Media and Broadcast Specialization"
             }
           ]
         },
@@ -2369,19 +2650,19 @@ export const universities = [
           "priceRange": "Check Plan",
           "specializations": [
             {
+              "name": "Journalism & Mass Communication (JMC)",
+              "price": "Check Plan",
+              "details": "Higher level media logic"
+            },
+            {
               "name": "English",
-              "price": "₹1,60,000",
-              "details": "Intensive linguistic analysis and deep literary integrations."
+              "price": "Check Plan",
+              "details": "Linguistic Analysis"
             },
             {
               "name": "Economics",
-              "price": "₹1,60,000",
-              "details": "High level corporate economic models, econometrics, and policies."
-            },
-            {
-              "name": "JMC",
-              "price": "₹1,60,000",
-              "details": "Complex mass communication methodologies and public relations structures."
+              "price": "Check Plan",
+              "details": "Advanced economic frameworks"
             }
           ]
         },
@@ -2393,259 +2674,232 @@ export const universities = [
           "specializations": [
             {
               "name": "Data Science",
-              "price": "₹1,60,000",
-              "details": "Raw mathematical models mapping predictive data paradigms."
+              "price": "Check Plan",
+              "details": "Heavy datasets and analysis models"
             },
             {
               "name": "Mathematics",
-              "price": "₹1,60,000",
-              "details": "High end mathematical theorem structuring and complex logic arrays."
+              "price": "Check Plan",
+              "details": "Advanced pure mathematics"
             }
           ]
         }
       ]
-    },
-    "url": "https://www.onlinecu.in/"
+    }
   },
   {
     "id": "jain",
-    "name": "Jain Online University",
-    "logo": "https://ui-avatars.com/api/?name=JU&background=ea580c&color=fff&size=150",
-    "location": "Bangalore",
+    "name": "JAIN (Deemed-to-be University) Online",
+    "logo": "https://ui-avatars.com/api/?name=JAIN&background=ea580c&color=fff&size=150",
+    "location": "Bangalore, Karnataka",
     "type": "Deemed to be University",
     "level": [
       "UG",
       "PG"
     ],
-    "budget": 130000,
+    "budget": 165000,
     "specializations": [
-      "BBA",
-      "B.Com",
-      "BCA",
       "MBA",
       "MCA",
+      "BBA",
+      "BCA",
+      "B.Com",
       "M.Com",
       "MA"
     ],
-    "accreditation": "NAAC A++, NIRF Rank 62, KSURF 5-star, WES, ACCA",
-    "fees": "Semester, Annual & Full course fee options",
-    "placement": "Career Planning | Resume Building | Mock Interview | Job Search Support",
-    "eligibility": "12th / Grad as per course",
-    "ranking": "NIRF 62 | KSURF 5-star",
+    "accreditation": "NAAC A++, NIRF Rank 62, UGC-Entitled, AICTE Approved, KSURF 5-star",
+    "fees": "Semester / Annual / EMI Options",
+    "placement": "360° Placement Assistance | 20,000+ LinkedIn Learning Courses",
+    "eligibility": "10+2 / Graduation as per course",
+    "ranking": "NAAC A++ | NIRF 62",
     "exams": "Merit Based",
+    "url": "https://onlinejain.com/",
     "extendedDetails": {
       "usps": [
-        "Established in 1990 (Legacy)",
-        "Access to 20,000+ Additional certification courses on LinkedIn Learning",
-        "Two-way LIVE online audio-video interactive lectures",
-        "Experiential learning setup: MOOCs, programming exercises, dissertations",
-        "Credit Protocol: UG Program = 120 Credits | PG Program = 90 Credits",
-        "Connect to Careers powered by Foundit (Integrated e-hire portal for jobs/interviews)",
-        "Global Collaborations: AICPA, ACCA, CMA, and IOA (Institute of Analytics)"
+        "NAAC A++ Accredited, ensuring the absolute highest tier of academic rigor and mobility",
+        "UGC-Entitled & AICTE Approved, validating national & global corporate employability",
+        "Free access to over 20,000+ LinkedIn Learning certification courses tied to curriculums",
+        "Global Collaborations with AICPA, ACCA, CMA, and IoA explicitly integrating international metrics",
+        "Connect to Careers powered by Foundit (Integrated virtual e-hire portal for job tracking)"
       ],
-      "payment": "Registration: ₹2500 | Exam Fee: ₹3000 | Loans: Avanse (PG 16m / UG 24m) [Req: Salary 20k+, Age 21+]",
-      "examination": "70:30 Pattern | 30% Assessment, 70% Proctored Exam | Pass Criteria = 40%",
+      "payment": "Registration/Application: ₹ 2,500 | Exam Fee: ₹ 3,000 per year | Low/No-Cost EMI Options natively available with Propelld, Liquiloans, and Avanse.",
+      "examination": "70:30 Pattern | 30% Continuous Assessment, 70% Proctored Online Exam | Pass: 40%",
       "leadLocking": "Auto Lock on LSQ | LSQ Opportunity = JU",
       "programs": [
         {
-          "group": "UG",
-          "name": "BBA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
-              "price": "₹1,65,000",
-              "details": "Core commerce, accounting integrations, and financial tracking."
-            },
-            {
-              "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
-              "price": "₹1,65,000",
-              "details": "Brand deployment, marketing strategy, and consumer logic."
-            },
-            {
-              "name": "HR",
-              "jobRoles": ["HR Director", "Talent Acquisition Lead", "Compensation & Benefits Manager", "Employee Relations Specialist"],
-              "price": "₹1,65,000",
-              "details": "Organizational behavior and talent recruitment funnels."
-            }
-          ]
-        },
-        {
-          "group": "UG",
-          "name": "B.Com",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Accounting & Finance",
-              "price": "₹1,65,000",
-              "details": "Standard auditing, taxation, and basic corporate finance."
-            },
-            {
-              "name": "International Fin & Accounting",
-              "price": "₹1,65,000",
-              "details": "Global accounting practices targeting ACCA/CMA models."
-            }
-          ]
-        },
-        {
-          "group": "UG",
-          "name": "BCA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Computer Science and IT",
-              "price": "₹1,65,000",
-              "details": "Software lifecycles, full stack logic, and basic IT deployment."
-            },
-            {
-              "name": "Data Science and Analytics",
-              "price": "₹1,65,000",
-              "details": "Big data logic, python pipelines, and basic machine learning."
-            },
-            {
-              "name": "Cyber Security",
-              "price": "₹1,65,000",
-              "details": "Pen testing, network defense, and cryptography basics."
-            },
-            {
-              "name": "Artificial Intelligence",
-              "price": "₹1,65,000",
-              "details": "Introductory neural networks and algorithmic model structuring."
-            },
-            {
-              "name": "Cloud Computing",
-              "price": "₹1,65,000",
-              "details": "AWS, Azure frameworks, and serverless hosting models."
-            }
-          ]
-        },
-        {
           "group": "PG",
           "name": "MBA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
+          "duration": "24 Months (2 Years)",
+          "priceRange": "₹ 1,96,000",
+          "eligibility": "Bachelor's Degree (min 3 years) with a minimum of 50% marks (45% for reserved categories) from a Recognized University.",
+          "about": "A premium, fully-accredited Master of Business Administration explicitly designed for executives. The program aggressively integrates modern management pipelines, business analytics, and elite talent acceleration logic.",
+          "careerScope": "Target high-end executive funnels mapping to consulting, C-suite fast tracking, and cross-border digital transformations.",
+          "paymentDetails": "<b>🔥 NAAC A++ Ranked MBA!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,96,000</b><br/>• <b>Semester Fee:</b> <b>₹ 49,000</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Flexible low-cost EMIs available natively reducing friction for students.</i>",
+          "certifications": "Integrated with 20k+ LinkedIn Learning modules for rapid upskilling.",
+          "usps": [
+            "NAAC A++ ranked and globally recognized",
+            "16 distinct specializations including Analytics & AI",
+            "Real-world business case simulations mimicking Fortune 500 challenges",
+            "Massive networking via JAIN's established Pan-India base"
+          ],
           "specializations": [
             {
-              "name": "HR",
-              "jobRoles": ["HR Director", "Talent Acquisition Lead", "Compensation & Benefits Manager", "Employee Relations Specialist"],
-              "price": "₹1,96,000",
-              "details": "Advanced corporate talent optimization models."
+              "name": "Human Resource Management",
+              "jobRoles": [
+                "HR Director",
+                "Talent Acquisition Head",
+                "L&D Head"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Workforce analytics, strategic recruitment, and massive talent retention structures."
             },
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
-              "price": "₹1,96,000",
-              "details": "Master level banking, wealth planning, and fiat structures."
+              "jobRoles": [
+                "Chief Financial Officer",
+                "Investment Analyst",
+                "Corporate Treasurer"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Corporate finance mapping, asset tracking, and deep investment mechanics."
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
-              "price": "₹1,96,000",
-              "details": "Omnichannel growth hacking and enterprise marketing setups."
+              "jobRoles": [
+                "Chief Marketing Officer",
+                "Digital Growth Head",
+                "Brand Owner"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Omni-channel brand deployment and extreme digital marketing leverage."
             },
             {
-              "name": "General Mngt",
-              "price": "₹1,96,000",
-              "details": "Broad spectrum management and operational leadership."
+              "name": "General Management",
+              "jobRoles": [
+                "Business Unit Head",
+                "Operations VP",
+                "Consultant"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Broad spectrum, high-level structural oversight and leadership training."
             },
             {
-              "name": "System & OM",
-              "price": "₹1,96,000",
-              "details": "Enterprise IT resource structures and mass operational pipelines."
+              "name": "Systems and Operations Management",
+              "jobRoles": [
+                "Operations Director",
+                "IT Strategy Head",
+                "Logistics VP"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Enterprise capacity planning and tech-first operational mapping."
             },
             {
               "name": "Finance & Marketing",
-              "price": "₹1,96,000",
-              "details": "Dual focus on capital flow and brand deployment."
+              "price": "₹ 1,96,000",
+              "details": "Dual force integration tracking capital expenditure against marketing ROI."
             },
             {
               "name": "HR & Finance",
-              "price": "₹1,96,000",
-              "details": "Cross discipline mapping workforce ROI directly to financials."
+              "price": "₹ 1,96,000",
+              "details": "Metrics linking direct employee value metrics with financial outcomes."
             },
             {
               "name": "Marketing & HR",
-              "price": "₹1,96,000",
-              "details": "Balancing internal corporate culture with external brand appeal."
+              "price": "₹ 1,96,000",
+              "details": "Synergy of corporate brand building internally (staff) and externally (clients)."
             },
             {
-              "name": "IT",
-              "jobRoles": ["IT Project Manager", "Chief Information Officer (CIO)", "Systems Director", "Technology Consultant"],
-              "price": "₹1,96,000",
-              "details": "Architecting large scale tech deployments across business units."
+              "name": "Information Technology Management",
+              "jobRoles": [
+                "CIO",
+                "IT Systems Director",
+                "Tech Architect"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Massive scale enterprise software ecosystem management."
             },
             {
-              "name": "Project Mgmt.",
-              "price": "₹1,96,000",
-              "details": "Advanced agile methodologies for complex scale delivery."
+              "name": "Project Management",
+              "price": "₹ 1,96,000",
+              "details": "Agile/Scrum master pipelines, critical path algorithms, and delivery."
             },
             {
-              "name": "Retail management & Quick Commerce",
-              "price": "₹1,96,000",
-              "details": "Modern ultra-fast fulfillment logistics and storefront math."
-            },
-            {
-              "name": "Supply chain, Production & operation management",
-              "price": "₹1,96,000",
-              "details": "Logistics control and global vendor/factory coordination."
-            },
-            {
-              "name": "International Finance",
-              "price": "₹1,96,000",
-              "details": "Cross-border hedge, forex logic, and inter-state liquidity models."
+              "name": "Logistics & Supply Chain",
+              "price": "₹ 1,96,000",
+              "details": "Global vendor mapping, warehouse logic, and distribution networks."
             },
             {
               "name": "Business Intelligence & Analytics",
-              "price": "₹1,96,000",
-              "details": "PowerBI, Tableau, and high altitude predictive stats."
-            },
-            {
-              "name": "Marketing & Business Analytics",
-              "price": "₹1,96,000",
-              "details": "Using math to directly dictate and predict marketing success."
-            },
-            {
-              "name": "Finance & Business Analytics",
-              "price": "₹1,96,000",
-              "details": "Quantitative finance modeling and algorithmic trading hints."
+              "price": "₹ 1,96,000",
+              "details": "Deep machine learning deployments mapped directly to predictive business modeling."
             }
           ]
         },
         {
           "group": "PG",
           "name": "MCA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
+          "duration": "24 Months (2 Years)",
+          "priceRange": "₹ 1,96,000",
+          "eligibility": "BCA/B.Sc/B.Com/B.A with Mathematics at 10+2 or Graduation + min 50% aggregate.",
+          "about": "A rigorous, tech-first Master of Computer Applications program heavily focusing on high-level enterprise computing, big data parsing, and cyber defense protocols.",
+          "careerScope": "Straightforward integration into tech unicorns, software houses, and heavy enterprise infrastructure teams natively.",
+          "paymentDetails": "<b>🔥 Code-First PG Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,96,000</b><br/>• <b>Semester Fee:</b> <b>₹ 49,000</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Flexible monthly EMI solutions actively provided.</i>",
+          "certifications": "Embedded massive LinkedIn Learning technical pathways.",
+          "usps": [
+            "AICTE Approved Master's Tier IT degree",
+            "Cutting edge tracks like NLP, LLM Development & DevOps",
+            "Real-server simulation projects standard across specializations"
+          ],
           "specializations": [
             {
               "name": "Computer Science & IT",
-              "price": "₹1,96,000",
-              "details": "High level coding architecture and enterprise computing."
+              "jobRoles": [
+                "Full Stack Developer",
+                "Software Engineer",
+                "Systems Architect"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Advanced enterprise architecture, algorithms, and deep java/python stacks."
             },
             {
               "name": "Data Analytics",
-              "price": "₹1,96,000",
-              "details": "Massive scale data parsing, warehousing, and extraction."
+              "jobRoles": [
+                "Data Engineer",
+                "Analytics Lead",
+                "Business Intelligence Manager"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "ETL pipelines, machine learning logic, and big data warehousing models."
             },
             {
               "name": "Cyber Security",
-              "price": "₹1,96,000",
-              "details": "Enterprise tier threat hunting and red-team/blue-team models."
+              "jobRoles": [
+                "Security Operations Head",
+                "Ethical Hacker",
+                "Threat Hunter"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Offensive and defensive network hacking architectures and encryption."
             },
             {
-              "name": "Devops",
-              "price": "₹1,96,000",
-              "details": "Advanced CI/CD deployment pipelines, Kubernetes, and Docker."
+              "name": "DevOps",
+              "jobRoles": [
+                "Site Reliability Engineer",
+                "DevOps Manager",
+                "Cloud Ops"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "CI/CD serverless pipelines, micro-services mapping, and Docker/K8s automation."
             },
             {
               "name": "NLP & LLM Development",
-              "price": "₹1,96,000",
-              "details": "Building Language Models, predictive text generation, and deep AI."
+              "jobRoles": [
+                "AI Engineer",
+                "Machine Learning Researcher",
+                "Prompt Engineer Specialist"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Extensive logic building training generative AI, transformer models, and semantic processing."
             }
           ]
         },
@@ -2653,51 +2907,230 @@ export const universities = [
           "group": "PG",
           "name": "M.Com",
           "duration": "24 Months",
-          "priceRange": "Check Plan",
+          "priceRange": "₹ 1,96,000",
+          "eligibility": "B.Com/BBA or equivalent with a minimum of 50% marks from a recognized university.",
+          "about": "Advanced master-tier commercial theory explicitly mapping domestic CA pipelines, sophisticated accounting strategies, and corporate legal structures.",
+          "careerScope": "Ideal for students tracking heavily into accounting firms or seeking CFO corporate ladders.",
+          "paymentDetails": "<b>🔥 Specialized Commerce Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,96,000</b><br/>• <b>Semester Fee:</b> <b>₹ 49,000</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Accessible EMI networks.</i>",
+          "certifications": "Alignments with global accounting institutions available.",
+          "usps": [
+            "Direct international finance specializations natively",
+            "Heavy focus on global compliance frameworks"
+          ],
           "specializations": [
             {
               "name": "Accounting & Finance",
-              "price": "₹1,96,000",
-              "details": "Master tier domestic corporate taxation and regulation."
+              "jobRoles": [
+                "Financial Analyst",
+                "Senior Accountant",
+                "Auditing Manager"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Massive focus on modern accounting platforms and taxation limits."
             },
             {
               "name": "International Finance",
-              "price": "₹1,96,000",
-              "details": "Aligning accounting with heavy international standards (AICPA/ACCA)."
+              "jobRoles": [
+                "Global Controller",
+                "Forex Analyst",
+                "Trade Specialist"
+              ],
+              "price": "₹ 1,96,000",
+              "details": "Studying strictly international liquidity, hedging strategies, and cross-border trades."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BBA",
+          "duration": "36 Months (3 Years)",
+          "priceRange": "₹ 1,65,000",
+          "eligibility": "Pass in 10+2 in any stream from a recognized board (CBSE, ISC, State Boards).",
+          "about": "A massive, industry-focused Bachelor's of Business Administration providing rigorous baseline foundations in retail, operations, and modern marketing.",
+          "careerScope": "Positions graduates seamlessly into entry/mid corporate ladders, start-up growth teams, and operations logistics across borders.",
+          "paymentDetails": "<b>🔥 Highly Demand UG Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,65,000</b><br/>• <b>Semester Fee:</b> <b>₹ 27,500</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Smooth ₹ 5000/mo EMI options available on demand.</i>",
+          "certifications": "Integrated baseline corporate certificates mapped via LinkedIn Learning.",
+          "usps": [
+            "Ranked actively among India's top BBA pathways",
+            "Highly affordable entry point into top-tier brand",
+            "100% placement search support dynamically post-graduation"
+          ],
+          "specializations": [
+            {
+              "name": "Finance",
+              "jobRoles": [
+                "Financial Analyst Jr.",
+                "Banking Executive",
+                "Tax Consultant"
+              ],
+              "price": "₹ 1,65,000",
+              "details": "Entry corporate finance architectures and compliance studies."
+            },
+            {
+              "name": "Marketing",
+              "jobRoles": [
+                "Marketing Assoc.",
+                "Sales Exec.",
+                "Brand Executive"
+              ],
+              "price": "₹ 1,65,000",
+              "details": "Digital tracking natively, base SEO math, and consumer persuasion models."
+            },
+            {
+              "name": "Human Resource Management",
+              "jobRoles": [
+                "HR Executive",
+                "Recruitment Consultant",
+                "Payroll Ops"
+              ],
+              "price": "₹ 1,65,000",
+              "details": "Hiring cycles and generalized corporate legal labor compliance."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BCA",
+          "duration": "36 Months (3 Years)",
+          "priceRange": "₹ 1,65,000",
+          "eligibility": "Pass in 10+2 from a recognized board.",
+          "about": "A rigorous technical foundation providing deep IT scripting, server logic limits, and robust mathematical computing methodologies.",
+          "careerScope": "Provides an immediate runway into software testing, front-end design, database administration, and support engineering explicitly.",
+          "paymentDetails": "<b>🔥 Foundational IT Base Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,65,000</b><br/>• <b>Semester Fee:</b> <b>₹ 27,500</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Low barrier cost distribution available actively.</i>",
+          "certifications": "LinkedIn technical tracks embedded.",
+          "usps": [
+            "Vast highly advanced specializations mapping Data Science and AI at exactly UG Level",
+            "Top 60 NIRF University brand value automatically inherited"
+          ],
+          "specializations": [
+            {
+              "name": "Computer Science and IT",
+              "jobRoles": [
+                "Junior Dev",
+                "Tech Support Engineer",
+                "Quality Assurance Analyst"
+              ],
+              "price": "₹ 1,65,000",
+              "details": "General software engineering paths natively prioritizing Java, Python, and C++."
+            },
+            {
+              "name": "Data Science and Analytics",
+              "jobRoles": [
+                "Data Analyst Jr.",
+                "Business Analyst",
+                "Database Admin"
+              ],
+              "price": "₹ 1,65,000",
+              "details": "Data pipelines, Tableau integrations, and database maintenance logic."
+            },
+            {
+              "name": "Cyber Security",
+              "jobRoles": [
+                "SOC Analyst Jr.",
+                "Network Admin",
+                "Security Tech"
+              ],
+              "price": "₹ 1,65,000",
+              "details": "Network firewalls explicitly tracking packet loss and malicious routing."
+            },
+            {
+              "name": "Artificial Intelligence",
+              "jobRoles": [
+                "AI Research Assoc.",
+                "Data Trainee",
+                "Algorithm Analyst Jr."
+              ],
+              "price": "₹ 1,65,000",
+              "details": "Basic mapping of deep learning architectures and data-fed training loops."
+            },
+            {
+              "name": "Cloud Computing",
+              "jobRoles": [
+                "Cloud Ops Jr.",
+                "Server Coordinator",
+                "Sysadmin"
+              ],
+              "price": "₹ 1,65,000",
+              "details": "AWS & Azure configuration scripts, virtualization basics, and backup mapping."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "B.Com",
+          "duration": "36 Months (3 Years)",
+          "priceRange": "₹ 1,65,000",
+          "eligibility": "Pass in 10+2 from a recognized board.",
+          "about": "A cornerstone commerce degree extensively focusing on commercial laws, economic strategy, and massive-scale auditing preparations.",
+          "careerScope": "Ideal pathway explicitly tailored for CA/CS grounding, auditing firms, and junior accounting execution roles.",
+          "paymentDetails": "<b>🔥 Top UG Commerce Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,65,000</b><br/>• <b>Semester Fee:</b> <b>₹ 27,500</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i>",
+          "certifications": "Pathways naturally supporting concurrent ACCA/CMA study.",
+          "usps": [
+            "Massively popular UG program directly linked with high corporate placement",
+            "Syllabus updated dynamically mapping current compliance laws"
+          ],
+          "specializations": [
+            {
+              "name": "Accounting & Finance",
+              "jobRoles": [
+                "Accountant",
+                "Audit Assistant",
+                "Operations Analyst Jr."
+              ],
+              "price": "₹ 1,65,000",
+              "details": "Standard auditing pathways explicitly covering GST and corporate taxation."
+            },
+            {
+              "name": "International Finance & Accounting",
+              "jobRoles": [
+                "Global Acct. Exec.",
+                "Trade Assistant",
+                "Compliance Checker Jr."
+              ],
+              "price": "₹ 1,65,000",
+              "details": "Tracking frameworks heavily utilizing broad-market international accounting models."
             }
           ]
         },
         {
           "group": "PG",
           "name": "MA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
+          "duration": "24 Months (2 Years)",
+          "priceRange": "₹ 1,40,000",
+          "eligibility": "Graduation from a recognized university.",
+          "about": "Master of Arts providing intense humanities tracking, political study logic, and literature reviews.",
+          "careerScope": "Tracks perfectly natively into educational architectures, corporate communications, and research.",
+          "paymentDetails": "<b>🔥 Highly Accessible PG Arts Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,40,000</b><br/>• <b>Semester Fee:</b> <b>₹ 35,000</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i>",
+          "certifications": "N/A",
+          "usps": [
+            "UGC-Entitled ensuring full govt exam eligibility",
+            "Low stress, highly academic syllabus architecture"
+          ],
           "specializations": [
             {
-              "name": "Jainology in Comparative Religion and Philosophy",
-              "price": "₹1,96,000",
-              "details": "Deep philosophical research and comparative theological analysis."
-            },
-            {
               "name": "English",
-              "price": "₹1,96,000",
-              "details": "High level literary criticism, linguistics, and publishing methodologies."
-            },
-            {
-              "name": "Economics",
-              "price": "₹1,96,000",
-              "details": "Macro and micro economic theory testing algorithms and historical tracing."
+              "jobRoles": [
+                "Content Strategist",
+                "Lecturer",
+                "Corporate Editor"
+              ],
+              "price": "₹ 1,40,000",
+              "details": "Syntax studies, deep classic literature analysis, and linguistic logic networks."
             },
             {
               "name": "Public Policy",
-              "price": "₹1,96,000",
-              "details": "Government structural analysis, lobbying logistics, and civic policy logic."
+              "jobRoles": [
+                "Policy Analyst",
+                "Research Exec",
+                "Consultant"
+              ],
+              "price": "₹ 1,40,000",
+              "details": "Global civics, macro-economics, and governance tracking models."
             }
           ]
         }
       ]
-    },
-    "url": "https://onlinejain.com/"
+    }
   },
   {
     "id": "jiit",
@@ -2767,7 +3200,12 @@ export const universities = [
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "₹1,75,000",
               "details": "High-level brand strategy, market penetration, and sales."
             },
@@ -2849,13 +3287,23 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "Check Plan",
               "details": "Market penetration strategies and digital funnels. (Free Certs: ChatGPT, Email/Mobile Marketing, GST, Excel)"
             },
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "price": "Check Plan",
               "details": "Corporate finance modeling, markets context. (Optional Diploma in Fin Services)."
             },
@@ -2897,7 +3345,12 @@ export const universities = [
             },
             {
               "name": "Business Analytics",
-              "jobRoles": ["Data Science Manager", "Strategy Consultant", "Business Intelligence Lead", "Operations Analyst"],
+              "jobRoles": [
+                "Data Science Manager",
+                "Strategy Consultant",
+                "Business Intelligence Lead",
+                "Operations Analyst"
+              ],
               "price": "Check Plan",
               "details": "High-density data management and SQL-backed business insights."
             },
@@ -2918,7 +3371,12 @@ export const universities = [
             },
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "price": "Check Plan",
               "details": "Corporate funding pipelines, advanced budgeting."
             },
@@ -2954,7 +3412,12 @@ export const universities = [
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "Check Plan",
               "details": "Product marketing and multi-channel branding."
             },
@@ -3192,13 +3655,23 @@ export const universities = [
           "specializations": [
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "price": "Check Plan",
               "details": "Financial management, accounting, and investments."
             },
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "Check Plan",
               "details": "Market research, digital strategies, and consumer behaviors."
             },
@@ -3219,13 +3692,23 @@ export const universities = [
             },
             {
               "name": "Business Analytics",
-              "jobRoles": ["Data Science Manager", "Strategy Consultant", "Business Intelligence Lead", "Operations Analyst"],
+              "jobRoles": [
+                "Data Science Manager",
+                "Strategy Consultant",
+                "Business Intelligence Lead",
+                "Operations Analyst"
+              ],
               "price": "Check Plan",
               "details": "Metrics, KPI tracking, and operational efficiency."
             },
             {
               "name": "International Business",
-              "jobRoles": ["Global Supply Chain Manager", "International Trade Specialist", "Export Manager", "Global Operations Director"],
+              "jobRoles": [
+                "Global Supply Chain Manager",
+                "International Trade Specialist",
+                "Export Manager",
+                "Global Operations Director"
+              ],
               "price": "Check Plan",
               "details": "Global trade and cross-border management."
             },
@@ -3351,249 +3834,6 @@ export const universities = [
       ]
     },
     "url": "https://www.lpuonline.com/"
-  },
-  {
-    "id": "vgu-online",
-    "name": "Vivekanand Global University (VGU Online)",
-    "logo": "https://ui-avatars.com/api/?name=VGU&background=ea580c&color=fff&size=150",
-    "location": "Rajasthan Jaipur",
-    "type": "State Private University",
-    "level": [
-      "UG",
-      "PG"
-    ],
-    "budget": 130000,
-    "specializations": [
-      "BBA",
-      "BA",
-      "BCA",
-      "MA",
-      "MBA",
-      "MCA",
-      "M.sc"
-    ],
-    "accreditation": "NAAC A+, NIRF 101 Above, UGC, DEB, AICTE, AIU, BCI",
-    "fees": "Semester, Annual & Full course fee",
-    "placement": "Industry Mentor | Virtual Placement Drives | AI Powered Profile Builder | Placement Assistance and 500+ Hiring Partners",
-    "eligibility": "12th / Graduation as per course",
-    "ranking": "NIRF 101 Above",
-    "exams": "Merit Based",
-    "extendedDetails": {
-      "usps": [
-        "Established in 2012 (Legacy)",
-        "Personalized learning",
-        "Real world Projects",
-        "Startup Support",
-        "Industry Certifications",
-        "Corporate Internships",
-        "Gain industry-recognized certifications from EXIN Netherlands, AWS and Redhat, enhancing your skills."
-      ],
-      "payment": "Application = ₹1000 | Examination fees = ₹1500/semester | Loans: Fibe, greyquest, Propelled, finz (No cost EMI 24 months). 2.5% Processing Fees. No Advance EMI. Annual & Full = 12 Months Tenure",
-      "examination": "70:30 (30% Continuous Assessment, 70% Proctored Exam) | Passing: 40%",
-      "leadLocking": "Auto Lock on LSQ | LSQ = VGU",
-      "programs": [
-        {
-          "group": "UG",
-          "name": "BBA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "General",
-              "price": "Check Plan",
-              "details": "Core business management and administration."
-            },
-            {
-              "name": "Digital Marketing",
-              "price": "Check Plan",
-              "details": "Social media marketing and search optimization."
-            },
-            {
-              "name": "Retail Management",
-              "price": "Check Plan",
-              "details": "Store operations, consumer behavior and retail strategy."
-            },
-            {
-              "name": "Fintech",
-              "price": "Check Plan",
-              "details": "Financial technology, blockchain basics and digital payments."
-            }
-          ]
-        },
-        {
-          "group": "UG",
-          "name": "BA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Economics",
-              "price": "Check Plan",
-              "details": "Macro, micro economics and public finance."
-            },
-            {
-              "name": "History",
-              "price": "Check Plan",
-              "details": "Global history, ancient civilizations and modern changes."
-            },
-            {
-              "name": "English",
-              "price": "Check Plan",
-              "details": "Literature, linguistics and creative writing."
-            },
-            {
-              "name": "Computer Applications",
-              "price": "Check Plan",
-              "details": "Basics of IT, software tools and programming."
-            },
-            {
-              "name": "Public Policy & Development",
-              "price": "Check Plan",
-              "details": "Governance, public administration and social development."
-            },
-            {
-              "name": "International Relation",
-              "price": "Check Plan",
-              "details": "Global politics, diplomacy and international institutions."
-            },
-            {
-              "name": "Political Science",
-              "price": "Check Plan",
-              "details": "Political theories, constitutions and statecraft."
-            }
-          ]
-        },
-        {
-          "group": "UG",
-          "name": "BCA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "AI",
-              "price": "Check Plan",
-              "details": "Artificial intelligence principles and programming."
-            },
-            {
-              "name": "Data Science",
-              "price": "Check Plan",
-              "details": "Data analysis, statistics and visualization."
-            },
-            {
-              "name": "Cloud Technology & Information Security",
-              "price": "Check Plan",
-              "details": "Cloud architecture, deployment and cyber defense."
-            },
-            {
-              "name": "Block Chain Technology",
-              "price": "Check Plan",
-              "details": "Distributed ledgers, smart contracts and crypto tech."
-            },
-            {
-              "name": "UX",
-              "price": "Check Plan",
-              "details": "User experience design, wireframing and prototyping."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "English",
-              "price": "Check Plan",
-              "details": "Advanced literature critique and linguistics."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MBA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Human Resources",
-              "price": "Check Plan",
-              "details": "Talent acquisition, retention and labor laws."
-            },
-            {
-              "name": "Information Technology",
-              "price": "Check Plan",
-              "details": "IT management, enterprise systems and digital transformation."
-            },
-            {
-              "name": "Healthcare Management",
-              "price": "Check Plan",
-              "details": "Hospital administration, clinical operations and health policy."
-            },
-            {
-              "name": "International Business",
-              "jobRoles": ["Global Supply Chain Manager", "International Trade Specialist", "Export Manager", "Global Operations Director"],
-              "price": "Check Plan",
-              "details": "Global trade, supply chain and cross-border management."
-            },
-            {
-              "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
-              "price": "Check Plan",
-              "details": "Market research, brand management and consumer behavior."
-            },
-            {
-              "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
-              "price": "Check Plan",
-              "details": "Corporate finance, investment analysis and risk management."
-            },
-            {
-              "name": "Agri Business",
-              "price": "Check Plan",
-              "details": "Agricultural economics, supply chain and rural marketing."
-            },
-            {
-              "name": "Operation Management",
-              "price": "Check Plan",
-              "details": "Production, logistics, supply chain and quality control."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MCA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "AI",
-              "price": "Check Plan",
-              "details": "Advanced AI models, neural networks and machine learning."
-            },
-            {
-              "name": "Cloud Security & Information Technology",
-              "price": "Check Plan",
-              "details": "Secure cloud deployment, IAM and threat mitigation."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "M.sc",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Mathematics",
-              "price": "Check Plan",
-              "details": "Advanced algebraic concepts, calculus and applied mathematics."
-            }
-          ]
-        }
-      ]
-    },
-    "url": "https://onlinevgu.com/"
   },
   {
     "id": "christ-online",
@@ -3763,19 +4003,34 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing",
-              "jobRoles": ["Brand Manager", "Chief Marketing Officer (CMO)", "Digital Marketing Director", "Market Research Analyst"],
+              "jobRoles": [
+                "Brand Manager",
+                "Chief Marketing Officer (CMO)",
+                "Digital Marketing Director",
+                "Market Research Analyst"
+              ],
               "price": "Check Plan",
               "details": "Brand tracking and market behaviors."
             },
             {
               "name": "Finance",
-              "jobRoles": ["Chief Financial Officer (CFO)", "Investment Banker", "Financial Risk Manager", "Corporate Treasurer"],
+              "jobRoles": [
+                "Chief Financial Officer (CFO)",
+                "Investment Banker",
+                "Financial Risk Manager",
+                "Corporate Treasurer"
+              ],
               "price": "Check Plan",
               "details": "Risk and investment management."
             },
             {
               "name": "HR",
-              "jobRoles": ["HR Director", "Talent Acquisition Lead", "Compensation & Benefits Manager", "Employee Relations Specialist"],
+              "jobRoles": [
+                "HR Director",
+                "Talent Acquisition Lead",
+                "Compensation & Benefits Manager",
+                "Employee Relations Specialist"
+              ],
               "price": "Check Plan",
               "details": "Talent acquisition and workforce dynamics."
             },
@@ -3900,7 +4155,12 @@ export const universities = [
             },
             {
               "name": "IT",
-              "jobRoles": ["IT Project Manager", "Chief Information Officer (CIO)", "Systems Director", "Technology Consultant"],
+              "jobRoles": [
+                "IT Project Manager",
+                "Chief Information Officer (CIO)",
+                "Systems Director",
+                "Technology Consultant"
+              ],
               "price": "Check Plan",
               "details": "Technology planning in corporation level."
             },
@@ -3944,9 +4204,13 @@ export const universities = [
     "logo": "https://ui-avatars.com/api/?name=OPJ&background=b91c1c&color=fff&size=150",
     "location": "Haryana (MoE Institution of Eminence)",
     "type": "Private University",
-    "level": ["PG"],
+    "level": [
+      "PG"
+    ],
     "budget": 180000,
-    "specializations": ["MBA (1-Year)"],
+    "specializations": [
+      "MBA (1-Year)"
+    ],
     "accreditation": "AACSB, NAAC A+, UGC-Entitled",
     "fees": "Semester / Annual Options",
     "placement": "UpGrad Career Accelerator Pack | 1-1 Coaching",
@@ -3986,43 +4250,73 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing",
-              "jobRoles": ["Marketing Director", "Brand Head", "Chief Marketing Officer (CMO)", "Consumer Insights Lead"],
+              "jobRoles": [
+                "Marketing Director",
+                "Brand Head",
+                "Chief Marketing Officer (CMO)",
+                "Consumer Insights Lead"
+              ],
               "price": "₹1,80,000",
               "details": "Engaging the modern consumer through branding, PR, and high-level marketing communications."
             },
             {
               "name": "Finance",
-              "jobRoles": ["Investment Banker", "Corporate Treasurer", "CFO", "Financial Model Architect"],
+              "jobRoles": [
+                "Investment Banker",
+                "Corporate Treasurer",
+                "CFO",
+                "Financial Model Architect"
+              ],
               "price": "₹1,80,000",
               "details": "High-level strategies and data insights for sophisticated behavioral and corporate financial planning."
             },
             {
               "name": "AI for Business",
-              "jobRoles": ["AI Implementation Strategist", "Data Product Manager", "Business Intelligence Head"],
+              "jobRoles": [
+                "AI Implementation Strategist",
+                "Data Product Manager",
+                "Business Intelligence Head"
+              ],
               "price": "₹1,80,000",
               "details": "Leveraging intelligent technologies like Generative AI, NLP, and Visual Analytics for corporate optimization."
             },
             {
               "name": "Digital Finance",
-              "jobRoles": ["Fintech Product Lead", "Blockchain Strategist", "Digital Banking Head"],
+              "jobRoles": [
+                "Fintech Product Lead",
+                "Blockchain Strategist",
+                "Digital Banking Head"
+              ],
               "price": "₹1,80,000",
               "details": "Innovations in financial tech, cryptocurrency workflows, and massive fintech ecosystems."
             },
             {
               "name": "Human Resource Management",
-              "jobRoles": ["Chief HR Officer (CHRO)", "Talent Acquisition Director", "Org Design Consultant"],
+              "jobRoles": [
+                "Chief HR Officer (CHRO)",
+                "Talent Acquisition Director",
+                "Org Design Consultant"
+              ],
               "price": "₹1,80,000",
               "details": "Strategic HR practices focusing intricately on talent management and global employee well-being."
             },
             {
               "name": "Strategy and Leadership",
-              "jobRoles": ["Management Consultant", "Chief Executive Officer (CEO)", "Business Transformation Lead"],
+              "jobRoles": [
+                "Management Consultant",
+                "Chief Executive Officer (CEO)",
+                "Business Transformation Lead"
+              ],
               "price": "₹1,80,000",
               "details": "Crafting hard competitive edges using advanced design thinking and disruptive international business schemas."
             },
             {
               "name": "Supply Chain & Operations Management",
-              "jobRoles": ["Operations Director", "Global Logistics Head", "Procurement Head"],
+              "jobRoles": [
+                "Operations Director",
+                "Global Logistics Head",
+                "Procurement Head"
+              ],
               "price": "₹1,80,000",
               "details": "Optimizing maximum corporate efficiency utilizing complex global logistics, project management analytics, and OR."
             }
@@ -4037,9 +4331,15 @@ export const universities = [
     "logo": "https://ui-avatars.com/api/?name=DPU&background=9d174d&color=fff&size=150",
     "location": "Pune, Maharashtra",
     "type": "Deemed to be University",
-    "level": ["UG", "PG"],
+    "level": [
+      "UG",
+      "PG"
+    ],
     "budget": 189400,
-    "specializations": ["MBA", "BBA"],
+    "specializations": [
+      "MBA",
+      "BBA"
+    ],
     "accreditation": "NAAC A++, NIRF Top 50, UGC-Entitled",
     "fees": "Semester options available",
     "placement": "Dedicated Placement Drives | Corporate Connect",
@@ -4078,31 +4378,51 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing Management",
-              "jobRoles": ["Marketing Executive", "Brand Associate", "Sales Coordinator"],
+              "jobRoles": [
+                "Marketing Executive",
+                "Brand Associate",
+                "Sales Coordinator"
+              ],
               "price": "₹ 1,45,400",
               "details": "Core focus on Consumer Behavior, Market Research, and Digital outreach."
             },
             {
               "name": "Human Resource Management",
-              "jobRoles": ["HR Assistant", "Recruitment Coordinator", "Employee Relations Junior"],
+              "jobRoles": [
+                "HR Assistant",
+                "Recruitment Coordinator",
+                "Employee Relations Junior"
+              ],
               "price": "₹ 1,45,400",
               "details": "Essential workflows in Talent Acquisition and Organizational structure."
             },
             {
               "name": "Finance Management",
-              "jobRoles": ["Financial Analyst", "Audit Assistant", "Investment Co-ordinator"],
+              "jobRoles": [
+                "Financial Analyst",
+                "Audit Assistant",
+                "Investment Co-ordinator"
+              ],
               "price": "₹ 1,45,400",
               "details": "Understanding Capital Markets, baseline Wealth Management, and Corporate Finance."
             },
             {
               "name": "IT and Systems Management",
-              "jobRoles": ["IT Support Analyst", "Systems Coordinator", "Tech Associate"],
+              "jobRoles": [
+                "IT Support Analyst",
+                "Systems Coordinator",
+                "Tech Associate"
+              ],
               "price": "₹ 1,45,400",
               "details": "Foundations of IT infrastructures and systems management protocols."
             },
             {
               "name": "International Business Management",
-              "jobRoles": ["Export Coordinator", "Global Sales Associate", "International Trade Analyst"],
+              "jobRoles": [
+                "Export Coordinator",
+                "Global Sales Associate",
+                "International Trade Analyst"
+              ],
               "price": "₹ 1,45,400",
               "details": "Dynamics of Global Marketing and cross-border Export-Import handling."
             },
@@ -4148,67 +4468,111 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing Management",
-              "jobRoles": ["Brand Manager", "Marketing Head", "Chief Marketing Officer (CMO)"],
+              "jobRoles": [
+                "Brand Manager",
+                "Marketing Head",
+                "Chief Marketing Officer (CMO)"
+              ],
               "price": "₹ 1,89,400",
               "details": "Advanced focus on hyper-targeted Consumer Behavior, Marketing Research, and modern Digital funnels."
             },
             {
               "name": "Human Resource Management",
-              "jobRoles": ["HR Business Partner", "Recruitment Head", "CHRO"],
+              "jobRoles": [
+                "HR Business Partner",
+                "Recruitment Head",
+                "CHRO"
+              ],
               "price": "₹ 1,89,400",
               "details": "Complex employee ecosystems, global Talent Acquisition, and Organizational Development strategies."
             },
             {
               "name": "Finance Management",
-              "jobRoles": ["Financial Controller", "Investment Banker", "CFO"],
+              "jobRoles": [
+                "Financial Controller",
+                "Investment Banker",
+                "CFO"
+              ],
               "price": "₹ 1,89,400",
               "details": "Aggressive focus on high-stakes Capital Markets, Wealth Management, and structured Corporate Finance."
             },
             {
               "name": "IT Management",
-              "jobRoles": ["IT Project Manager", "Systems Analyst", "Chief Information Officer"],
+              "jobRoles": [
+                "IT Project Manager",
+                "Systems Analyst",
+                "Chief Information Officer"
+              ],
               "price": "₹ 1,89,400",
               "details": "Deep dive into agile Software Project Management and enterprise Information Security frameworks."
             },
             {
               "name": "Project Management",
-              "jobRoles": ["Project Head", "Operations Director", "Scrum Master"],
+              "jobRoles": [
+                "Project Head",
+                "Operations Director",
+                "Scrum Master"
+              ],
               "price": "₹ 1,89,400",
               "details": "Strategic Resource Planning, timeline logistics, and enterprise scale Quality Management."
             },
             {
               "name": "Operations Management",
-              "jobRoles": ["Operations Manager", "Supply Chain Director", "Procurement Head"],
+              "jobRoles": [
+                "Operations Manager",
+                "Supply Chain Director",
+                "Procurement Head"
+              ],
               "price": "₹ 1,89,400",
               "details": "Comprehensive focus strictly on massive Production Planning and integrated SCM."
             },
             {
               "name": "Hospital Administration & Healthcare Management",
-              "jobRoles": ["Hospital Admin", "Healthcare Operations Lead", "Clinical Director"],
+              "jobRoles": [
+                "Hospital Admin",
+                "Healthcare Operations Lead",
+                "Clinical Director"
+              ],
               "price": "₹ 1,89,400",
               "details": "Specialized administrative tracks focusing natively on Clinical Services and macro Hospital Planning."
             },
             {
               "name": "International Business Management",
-              "jobRoles": ["Global Operations Head", "International Sales Director", "ExIm Specialist"],
+              "jobRoles": [
+                "Global Operations Head",
+                "International Sales Director",
+                "ExIm Specialist"
+              ],
               "price": "₹ 1,89,400",
               "details": "Cross-border strategy, Global Marketing architectures, and definitive Export-Import Management."
             },
             {
               "name": "Fintech Management",
-              "jobRoles": ["Fintech Product Manager", "Digital Banking Lead", "Financial Strategist"],
+              "jobRoles": [
+                "Fintech Product Manager",
+                "Digital Banking Lead",
+                "Financial Strategist"
+              ],
               "price": "₹ 1,89,400",
               "details": "Strict focus heavily leveraging Digital Payments schemas and emerging Financial Technologies."
             },
             {
               "name": "Business Analytics Management",
-              "jobRoles": ["Lead Data Analyst", "Business Intelligence Manager", "Strategy Consultant"],
+              "jobRoles": [
+                "Lead Data Analyst",
+                "Business Intelligence Manager",
+                "Strategy Consultant"
+              ],
               "price": "₹ 1,89,400",
               "details": "Big Data ecosystems, massive-scale Data Mining, and high-accuracy Predictive Modeling."
             },
             {
               "name": "Artificial Intelligence and Machine Learning",
-              "jobRoles": ["AI Product Lead", "ML Integrations Manager", "Tech Strategist"],
+              "jobRoles": [
+                "AI Product Lead",
+                "ML Integrations Manager",
+                "Tech Strategist"
+              ],
               "price": "₹ 1,89,400",
               "details": "Leveraging Deep Learning frameworks and deploying functional AI explicitly for Business growth."
             },
@@ -4238,414 +4602,414 @@ export const universities = [
     }
   },
   {
-  "id": "vgu-online",
-  "name": "Vivekanand Global University (VGU Online)",
-  "logo": "https://ui-avatars.com/api/?name=VGU&background=8b5cf6&color=fff&size=150",
-  "location": "Jaipur, Rajasthan",
-  "type": "Private University",
-  "level": [
-    "UG",
-    "PG"
-  ],
-  "budget": 150000,
-  "specializations": [
-    "MBA",
-    "MCA",
-    "BBA",
-    "BCA",
-    "MA",
-    "MSc",
-    "BA"
-  ],
-  "accreditation": "NAAC A+, UGC-Entitled, AICTE Approved",
-  "fees": "Semester / Annual Options",
-  "placement": "360° Career Support | Embedded Industry Projects",
-  "eligibility": "10+2 / Graduation (50%)",
-  "ranking": "NAAC A+ Accredited University",
-  "exams": "Merit Based",
-  "url": "https://onlinevgu.com/",
-  "extendedDetails": {
-    "usps": [
-      "NAAC A+ Accredited strictly ensuring the highest tier of academic compliance",
-      "UGC-Entitled 360° Career Support with integrated industry projects",
-      "Stunning 15% upfront fee concession actively available on One-Time Payments",
-      "Dual focus on high-demand tech and management paths like Gen-AI & Agri-Business",
-      "Extremely affordable entry barriers with ₹ 1,500/sem Exam Fees"
+    "id": "vgu-online",
+    "name": "Vivekanand Global University (VGU Online)",
+    "logo": "https://ui-avatars.com/api/?name=VGU&background=8b5cf6&color=fff&size=150",
+    "location": "Jaipur, Rajasthan",
+    "type": "Private University",
+    "level": [
+      "UG",
+      "PG"
     ],
-    "payment": "High-value concessions: 10% Off on Annual Pay | 15% Off on One-Time Full Pay. Exam Fee: ₹1,500/sem.",
-    "examination": "70:30 Evaluation | VGU ERP Proctored Portal.",
-    "leadLocking": "Auto Lock on VGU Portal",
-    "programs": [
-      {
-        "group": "PG",
-        "name": "MBA",
-        "duration": "24 Months (2 Years)",
-        "priceRange": "₹ 1,50,000",
-        "eligibility": "3-Year Bachelor's Degree From A Recognized University/Institution.",
-        "about": "Ranked as North India's Best Management Programme by Times B-School. This 2-Year PG program includes a massive 20-credit industry project explicitly aligned with executive leadership strategies.",
-        "careerScope": "Target high-density management funnels ranging from Agri-Business optimization to global Corporate Finance and IT Project Strategy.",
-        "paymentDetails": "<b>🔥 Top Ranked PG Program!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,50,000</b><br/>• <b>Semester Fee:</b> <b>₹ 37,500</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Special 15% Concession on One-Time Payment reducing costs explicitly to ₹ 1,27,500!</i>",
-        "certifications": "Embedded 360° Career Support tracking and advanced industry capstone certification.",
-        "usps": [
-          "Ranked North India's Best Management Programme",
-          "Specialized tracks explicitly covering niche domains like Agri-Business",
-          "Direct 15% Financial concession dropping total fees heavily",
-          "Custom 20-Credit industry alignment project mandatory for graduation"
-        ],
-        "specializations": [
-          {
-            "name": "Marketing Management",
-            "jobRoles": [
-              "Brand Manager",
-              "Digital Marketing Strategist",
-              "Media Planner"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Brand positioning, high-impact digital strategy natively paired with ROI optimization."
-          },
-          {
-            "name": "Human Resource Management",
-            "jobRoles": [
-              "HR Business Partner",
-              "Talent Acquisition Manager",
-              "L&D Manager"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Talent pipelines, employee relations workflows, and corporate L&D strategy."
-          },
-          {
-            "name": "Financial Management",
-            "jobRoles": [
-              "Investment Analyst",
-              "Credit Risk Manager",
-              "Portfolio Manager"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Corporate wealth scaling, portfolio tracking, and high-frequency risk modeling."
-          },
-          {
-            "name": "Operations Management",
-            "jobRoles": [
-              "Logistics Manager",
-              "Supply Chain Consultant",
-              "Inventory Manager"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Lean operational theory, massive-scale logistics mapping, and agile SC management."
-          },
-          {
-            "name": "Information Technology Management",
-            "jobRoles": [
-              "IT Project Manager",
-              "ERP Consultant",
-              "Tech Strategy Consultant"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Software infrastructure planning, enterprise server logic, and structured tech oversight."
-          },
-          {
-            "name": "Healthcare Management",
-            "jobRoles": [
-              "Hospital Administrator",
-              "Quality Assurance Manager",
-              "Health Services Coordinator"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Clinical pathway optimizations natively tied with regional Hospital expansion networks."
-          },
-          {
-            "name": "Agri Business",
-            "jobRoles": [
-              "Agri Marketing Specialist",
-              "Farm Manager",
-              "Rural Banker"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Nuances of rural financing, agricultural supply chains, and large-scale farming logistics."
-          },
-          {
-            "name": "International Business",
-            "jobRoles": [
-              "International Trade Consultant",
-              "Export Manager",
-              "Global Strategy Analyst"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Global policy navigation explicitly mapping cross-border trade and multinational strategies."
-          }
-        ]
-      },
-      {
-        "group": "PG",
-        "name": "MCA",
-        "duration": "24 Months (2 Years)",
-        "priceRange": "₹ 1,50,000",
-        "eligibility": "Graduation with Mathematics at 10+2 level or at Graduation level.",
-        "about": "A premier Master of Computer Applications designed strictly leveraging deep-tech pipelines including applied AI, Data Science models, and scalable Cloud architecture.",
-        "careerScope": "Positions graduates seamlessly as Software Engineers, Enterprise Cloud Architects, and Data Scientists within high-growth technical sectors.",
-        "paymentDetails": "<b>🔥 Top Ranked IT Master's!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,50,000</b><br/>• <b>Semester Fee:</b> <b>₹ 37,500</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Special 15% Concession on One-Time Pay available natively inside the portal!</i>",
-        "certifications": "VGU Cloud Architecture and Development compliance certification included.",
-        "usps": [
-          "Curriculum sharply focused on functional AI and Deep Tech paradigms",
-          "Explicitly UGC-Entitled and AICTE Approved",
-          "Massive 15% upfront discount options for tech students",
-          "Advanced coding and algorithm structuring natively embedded in the core"
-        ],
-        "specializations": [
-          {
-            "name": "Computer Applications (General)",
-            "jobRoles": [
-              "Software Developer",
-              "Cloud Architect",
-              "Data Engineer"
-            ],
-            "price": "₹ 1,50,000",
-            "details": "Comprehensive software lifecycle tracking targeting maximum corporate employability."
-          }
-        ]
-      },
-      {
-        "group": "PG",
-        "name": "MA English",
-        "duration": "24 Months (2 Years)",
-        "priceRange": "₹ 72,000",
-        "eligibility": "Any Bachelor's Degree from a recognized University.",
-        "about": "An extensively detailed Master of Arts parsing complex English literary histories, communicative linguistics, and global cultural discourse.",
-        "careerScope": "Ideal for Academic tracking, advanced Corporate Communication leadership, and Publishing.",
-        "paymentDetails": "<b>🔥 High-Value Arts Master's!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 72,000</b><br/>• <b>Semester Fee:</b> <b>₹ 18,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Extremely affordable pathways available actively.</i>",
-        "certifications": "N/A",
-        "usps": [
-          "Extremely affordable Master's level program",
-          "Deep dive explicitly into cross-cultural communication",
-          "UGC-Entitled ensuring public sector eligibility"
-        ],
-        "specializations": [
-          {
-            "name": "English",
-            "jobRoles": [
-              "Content Strategist",
-              "Lecturer",
-              "Corporate Communications Head"
-            ],
-            "price": "₹ 72,000",
-            "details": "Strict focus spanning literature timelines and syntax architecture."
-          }
-        ]
-      },
-      {
-        "group": "PG",
-        "name": "MSc Maths",
-        "duration": "24 Months (2 Years)",
-        "priceRange": "₹ 72,000",
-        "eligibility": "B.A / B.Sc. / B.E. / B.Tech. with Mathematics as a core subject.",
-        "about": "Advanced mathematical modeling strictly exploring pure and applied mathematics, data cryptography, and statistical predictability.",
-        "careerScope": "Direct gateway explicitly into roles as Quantitative Analysts, Cryptographers, and Statistical Researchers.",
-        "paymentDetails": "<b>🔥 Advanced Science Track!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 72,000</b><br/>• <b>Semester Fee:</b> <b>₹ 18,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Flexible 10% Annual concessions available actively.</i>",
-        "certifications": "N/A",
-        "usps": [
-          "Extensive focus on modern statistical software pipelines",
-          "Highly accessible pricing for advanced sciences",
-          "Full Career Support enabling direct corporate analytics integration"
-        ],
-        "specializations": [
-          {
-            "name": "Mathematics",
-            "jobRoles": [
-              "Quantitative Analyst",
-              "Data Scientist",
-              "Mathematician"
-            ],
-            "price": "₹ 72,000",
-            "details": "Mathematical arrays, calculus limits, and corporate statistical probability."
-          }
-        ]
-      },
-      {
-        "group": "UG",
-        "name": "BBA",
-        "duration": "36 Months (3 Years)",
-        "priceRange": "₹ 1,32,000",
-        "eligibility": "10+2 from a recognized educational board.",
-        "about": "A transformative framework establishing baseline corporate readiness targeting finance, retail, and tech-driven models like Digital Marketing explicitly.",
-        "careerScope": "Foundational stepping stone natively targeting entry-to-mid level roles in corporate sales, digital marketing architecture, and modern retail funnels.",
-        "paymentDetails": "<b>🔥 UGC-Entitled Business Track!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,32,000</b><br/>• <b>Semester Fee:</b> <b>₹ 22,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Special 15% upfront concessions actively dropping price to ₹ 1,12,200!</i>",
-        "certifications": "Foundational VGU Management Framework completion tag.",
-        "usps": [
-          "Massive tech-aligned specializations actively including FinTech",
-          "UGC Entitled actively validating national employability",
-          "15% Discount on total upfront payments natively reducing friction",
-          "Smooth entry loops completely devoid of rigid entrance exams"
-        ],
-        "specializations": [
-          {
-            "name": "General Management",
-            "jobRoles": [
-              "Business Executive",
-              "Sales Associate",
-              "Management Trainee"
-            ],
-            "price": "₹ 1,32,000",
-            "details": "Standardized tracking of holistic corporate organizational structures."
-          },
-          {
-            "name": "Retail Management",
-            "jobRoles": [
-              "Retail Operations Lead",
-              "Store Manager",
-              "Merchandising Junior"
-            ],
-            "price": "₹ 1,32,000",
-            "details": "Modern D2C and massive brick-and-mortar lifecycle pipelines."
-          },
-          {
-            "name": "Digital Marketing",
-            "jobRoles": [
-              "SEO Executive",
-              "PPC Coordinator",
-              "Content Marketer"
-            ],
-            "price": "₹ 1,32,000",
-            "details": "Core mapping explicitly covering SEM, programmatic ads, and lead scaling."
-          },
-          {
-            "name": "FinTech",
-            "jobRoles": [
-              "Fintech Operations Associate",
-              "Digital Banking Assistant"
-            ],
-            "price": "₹ 1,32,000",
-            "details": "Digital ecosystems natively tracking cryptocurrency logic and mobile banking limits."
-          }
-        ]
-      },
-      {
-        "group": "UG",
-        "name": "BCA",
-        "duration": "36 Months (3 Years)",
-        "priceRange": "₹ 1,32,000",
-        "eligibility": "10+2 from a recognized educational board.",
-        "about": "An extensively modernized Bachelor's explicitly incorporating high-tier software scripting, foundational logic arrays, and core computing networks.",
-        "careerScope": "Ideal pathway targeting foundational software deployment, basic AI implementations, and systems networking support.",
-        "paymentDetails": "<b>🔥 Top Tech Base Track!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,32,000</b><br/>• <b>Semester Fee:</b> <b>₹ 22,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Special 15% upfront concessions dropping total cost to ₹ 1,12,200!</i>",
-        "certifications": "N/A",
-        "usps": [
-          "Unique 'Artificial Intelligence' specialization offered at the UG tier",
-          "UGC-Entitled ensuring complete global academic mobility",
-          "NAAC A+ grade guaranteeing rigorous lab simulation standards",
-          "Extensive 360 Career Support embedding technical graduates actively"
-        ],
-        "specializations": [
-          {
-            "name": "General Computer Applications",
-            "jobRoles": [
-              "Junior Software Developer",
-              "Network Admin",
-              "Tech Support Specialist"
-            ],
-            "price": "₹ 1,32,000",
-            "details": "Core programming workflows covering C++, Java, and baseline web architecture."
-          },
-          {
-            "name": "Artificial Intelligence",
-            "jobRoles": [
-              "AI Implementer",
-              "Data Processing Junior",
-              "ML Training Assistant"
-            ],
-            "price": "₹ 1,32,000",
-            "details": "Introductions natively mapping AI tool utilization and neural logic trees."
-          }
-        ]
-      },
-      {
-        "group": "UG",
-        "name": "BA",
-        "duration": "36 Months (3 Years)",
-        "priceRange": "₹ 72,000",
-        "eligibility": "10+2 from a recognized educational board.",
-        "about": "A multi-disciplinary Bachelor of Arts establishing extensive academic grounding across critical humanities, political theory, and economic planning.",
-        "careerScope": "Targeting roles heavily within Public Sector applications, Journalism, Economic advisory, and widespread educational tracking.",
-        "paymentDetails": "<b>🔥 Supreme Accessibility!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 72,000</b><br/>• <b>Semester Fee:</b> <b>₹ 12,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Highest accessibility model via manageable 12k/sem milestones.</i>",
-        "certifications": "N/A",
-        "usps": [
-          "Massive array of 7 distinct specializations targeting highly niche fields",
-          "Unbeatable fee structure pinned remarkably at just ₹ 12,000/sem",
-          "UGC-Entitled securing UPSC/Government job eligibility natively",
-          "High flexibility ensuring active concurrent employment scaling"
-        ],
-        "specializations": [
-          {
-            "name": "Economics",
-            "jobRoles": [
-              "Economic Researcher",
-              "Financial Writer",
-              "Data Coordinator"
-            ],
-            "price": "₹ 72,000",
-            "details": "Macro and micro planning explicitly tied to global inflation and trade dynamics."
-          },
-          {
-            "name": "Political Science",
-            "jobRoles": [
-              "Political Analyst",
-              "Policy Coordinator",
-              "Public Relations Executive"
-            ],
-            "price": "₹ 72,000",
-            "details": "Governance structures intricately mapping global treaties and civic frameworks."
-          },
-          {
-            "name": "Development Studies",
-            "jobRoles": [
-              "NGO Coordinator",
-              "Social Development Officer",
-              "Urban Planner Junior"
-            ],
-            "price": "₹ 72,000",
-            "details": "Socio-economic modeling exploring sustainable expansion logic."
-          },
-          {
-            "name": "International Relations",
-            "jobRoles": [
-              "Diplomatic Attaché Junior",
-              "Global Risk Analyst Junior"
-            ],
-            "price": "₹ 72,000",
-            "details": "Cross-border negotiation theory explicitly studying multinational alliances."
-          },
-          {
-            "name": "English",
-            "jobRoles": [
-              "Copywriter",
-              "Content Editor",
-              "Proofreader"
-            ],
-            "price": "₹ 72,000",
-            "details": "Structural syntax reviews heavily prioritizing linguistic mastery."
-          },
-          {
-            "name": "History",
-            "jobRoles": [
-              "Archivist Junior",
-              "Academic Researcher",
-              "Museum Associate"
-            ],
-            "price": "₹ 72,000",
-            "details": "Timeline chronologies extensively mapping civilization growth vectors."
-          },
-          {
-            "name": "Computer Applications",
-            "jobRoles": [
-              "Tech Writer",
-              "Digital Documentation Exec",
-              "IT Ops Junior"
-            ],
-            "price": "₹ 72,000",
-            "details": "Hybrid tracking utilizing core tech loops within humanities structures."
-          }
-        ]
-      }
-    ]
+    "budget": 150000,
+    "specializations": [
+      "MBA",
+      "MCA",
+      "BBA",
+      "BCA",
+      "MA",
+      "MSc",
+      "BA"
+    ],
+    "accreditation": "NAAC A+, UGC-Entitled, AICTE Approved",
+    "fees": "Semester / Annual Options",
+    "placement": "360° Career Support | Embedded Industry Projects",
+    "eligibility": "10+2 / Graduation (50%)",
+    "ranking": "NAAC A+ Accredited University",
+    "exams": "Merit Based",
+    "url": "https://onlinevgu.com/",
+    "extendedDetails": {
+      "usps": [
+        "NAAC A+ Accredited strictly ensuring the highest tier of academic compliance",
+        "UGC-Entitled 360° Career Support with integrated industry projects",
+        "Stunning 15% upfront fee concession actively available on One-Time Payments",
+        "Dual focus on high-demand tech and management paths like Gen-AI & Agri-Business",
+        "Extremely affordable entry barriers with ₹ 1,500/sem Exam Fees"
+      ],
+      "payment": "High-value concessions: 10% Off on Annual Pay | 15% Off on One-Time Full Pay. Exam Fee: ₹1,500/sem.",
+      "examination": "70:30 Evaluation | VGU ERP Proctored Portal.",
+      "leadLocking": "Auto Lock on VGU Portal",
+      "programs": [
+        {
+          "group": "PG",
+          "name": "MBA",
+          "duration": "24 Months (2 Years)",
+          "priceRange": "₹ 1,50,000",
+          "eligibility": "3-Year Bachelor's Degree From A Recognized University/Institution.",
+          "about": "Ranked as North India's Best Management Programme by Times B-School. This 2-Year PG program includes a massive 20-credit industry project explicitly aligned with executive leadership strategies.",
+          "careerScope": "Target high-density management funnels ranging from Agri-Business optimization to global Corporate Finance and IT Project Strategy.",
+          "paymentDetails": "<b>🔥 Top Ranked PG Program!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,50,000</b><br/>• <b>Semester Fee:</b> <b>₹ 37,500</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Special 15% Concession on One-Time Payment reducing costs explicitly to ₹ 1,27,500!</i>",
+          "certifications": "Embedded 360° Career Support tracking and advanced industry capstone certification.",
+          "usps": [
+            "Ranked North India's Best Management Programme",
+            "Specialized tracks explicitly covering niche domains like Agri-Business",
+            "Direct 15% Financial concession dropping total fees heavily",
+            "Custom 20-Credit industry alignment project mandatory for graduation"
+          ],
+          "specializations": [
+            {
+              "name": "Marketing Management",
+              "jobRoles": [
+                "Brand Manager",
+                "Digital Marketing Strategist",
+                "Media Planner"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Brand positioning, high-impact digital strategy natively paired with ROI optimization."
+            },
+            {
+              "name": "Human Resource Management",
+              "jobRoles": [
+                "HR Business Partner",
+                "Talent Acquisition Manager",
+                "L&D Manager"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Talent pipelines, employee relations workflows, and corporate L&D strategy."
+            },
+            {
+              "name": "Financial Management",
+              "jobRoles": [
+                "Investment Analyst",
+                "Credit Risk Manager",
+                "Portfolio Manager"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Corporate wealth scaling, portfolio tracking, and high-frequency risk modeling."
+            },
+            {
+              "name": "Operations Management",
+              "jobRoles": [
+                "Logistics Manager",
+                "Supply Chain Consultant",
+                "Inventory Manager"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Lean operational theory, massive-scale logistics mapping, and agile SC management."
+            },
+            {
+              "name": "Information Technology Management",
+              "jobRoles": [
+                "IT Project Manager",
+                "ERP Consultant",
+                "Tech Strategy Consultant"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Software infrastructure planning, enterprise server logic, and structured tech oversight."
+            },
+            {
+              "name": "Healthcare Management",
+              "jobRoles": [
+                "Hospital Administrator",
+                "Quality Assurance Manager",
+                "Health Services Coordinator"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Clinical pathway optimizations natively tied with regional Hospital expansion networks."
+            },
+            {
+              "name": "Agri Business",
+              "jobRoles": [
+                "Agri Marketing Specialist",
+                "Farm Manager",
+                "Rural Banker"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Nuances of rural financing, agricultural supply chains, and large-scale farming logistics."
+            },
+            {
+              "name": "International Business",
+              "jobRoles": [
+                "International Trade Consultant",
+                "Export Manager",
+                "Global Strategy Analyst"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Global policy navigation explicitly mapping cross-border trade and multinational strategies."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "MCA",
+          "duration": "24 Months (2 Years)",
+          "priceRange": "₹ 1,50,000",
+          "eligibility": "Graduation with Mathematics at 10+2 level or at Graduation level.",
+          "about": "A premier Master of Computer Applications designed strictly leveraging deep-tech pipelines including applied AI, Data Science models, and scalable Cloud architecture.",
+          "careerScope": "Positions graduates seamlessly as Software Engineers, Enterprise Cloud Architects, and Data Scientists within high-growth technical sectors.",
+          "paymentDetails": "<b>🔥 Top Ranked IT Master's!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,50,000</b><br/>• <b>Semester Fee:</b> <b>₹ 37,500</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Special 15% Concession on One-Time Pay available natively inside the portal!</i>",
+          "certifications": "VGU Cloud Architecture and Development compliance certification included.",
+          "usps": [
+            "Curriculum sharply focused on functional AI and Deep Tech paradigms",
+            "Explicitly UGC-Entitled and AICTE Approved",
+            "Massive 15% upfront discount options for tech students",
+            "Advanced coding and algorithm structuring natively embedded in the core"
+          ],
+          "specializations": [
+            {
+              "name": "Computer Applications (General)",
+              "jobRoles": [
+                "Software Developer",
+                "Cloud Architect",
+                "Data Engineer"
+              ],
+              "price": "₹ 1,50,000",
+              "details": "Comprehensive software lifecycle tracking targeting maximum corporate employability."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "MA English",
+          "duration": "24 Months (2 Years)",
+          "priceRange": "₹ 72,000",
+          "eligibility": "Any Bachelor's Degree from a recognized University.",
+          "about": "An extensively detailed Master of Arts parsing complex English literary histories, communicative linguistics, and global cultural discourse.",
+          "careerScope": "Ideal for Academic tracking, advanced Corporate Communication leadership, and Publishing.",
+          "paymentDetails": "<b>🔥 High-Value Arts Master's!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 72,000</b><br/>• <b>Semester Fee:</b> <b>₹ 18,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Extremely affordable pathways available actively.</i>",
+          "certifications": "N/A",
+          "usps": [
+            "Extremely affordable Master's level program",
+            "Deep dive explicitly into cross-cultural communication",
+            "UGC-Entitled ensuring public sector eligibility"
+          ],
+          "specializations": [
+            {
+              "name": "English",
+              "jobRoles": [
+                "Content Strategist",
+                "Lecturer",
+                "Corporate Communications Head"
+              ],
+              "price": "₹ 72,000",
+              "details": "Strict focus spanning literature timelines and syntax architecture."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "MSc Maths",
+          "duration": "24 Months (2 Years)",
+          "priceRange": "₹ 72,000",
+          "eligibility": "B.A / B.Sc. / B.E. / B.Tech. with Mathematics as a core subject.",
+          "about": "Advanced mathematical modeling strictly exploring pure and applied mathematics, data cryptography, and statistical predictability.",
+          "careerScope": "Direct gateway explicitly into roles as Quantitative Analysts, Cryptographers, and Statistical Researchers.",
+          "paymentDetails": "<b>🔥 Advanced Science Track!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 72,000</b><br/>• <b>Semester Fee:</b> <b>₹ 18,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Flexible 10% Annual concessions available actively.</i>",
+          "certifications": "N/A",
+          "usps": [
+            "Extensive focus on modern statistical software pipelines",
+            "Highly accessible pricing for advanced sciences",
+            "Full Career Support enabling direct corporate analytics integration"
+          ],
+          "specializations": [
+            {
+              "name": "Mathematics",
+              "jobRoles": [
+                "Quantitative Analyst",
+                "Data Scientist",
+                "Mathematician"
+              ],
+              "price": "₹ 72,000",
+              "details": "Mathematical arrays, calculus limits, and corporate statistical probability."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BBA",
+          "duration": "36 Months (3 Years)",
+          "priceRange": "₹ 1,32,000",
+          "eligibility": "10+2 from a recognized educational board.",
+          "about": "A transformative framework establishing baseline corporate readiness targeting finance, retail, and tech-driven models like Digital Marketing explicitly.",
+          "careerScope": "Foundational stepping stone natively targeting entry-to-mid level roles in corporate sales, digital marketing architecture, and modern retail funnels.",
+          "paymentDetails": "<b>🔥 UGC-Entitled Business Track!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,32,000</b><br/>• <b>Semester Fee:</b> <b>₹ 22,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Special 15% upfront concessions actively dropping price to ₹ 1,12,200!</i>",
+          "certifications": "Foundational VGU Management Framework completion tag.",
+          "usps": [
+            "Massive tech-aligned specializations actively including FinTech",
+            "UGC Entitled actively validating national employability",
+            "15% Discount on total upfront payments natively reducing friction",
+            "Smooth entry loops completely devoid of rigid entrance exams"
+          ],
+          "specializations": [
+            {
+              "name": "General Management",
+              "jobRoles": [
+                "Business Executive",
+                "Sales Associate",
+                "Management Trainee"
+              ],
+              "price": "₹ 1,32,000",
+              "details": "Standardized tracking of holistic corporate organizational structures."
+            },
+            {
+              "name": "Retail Management",
+              "jobRoles": [
+                "Retail Operations Lead",
+                "Store Manager",
+                "Merchandising Junior"
+              ],
+              "price": "₹ 1,32,000",
+              "details": "Modern D2C and massive brick-and-mortar lifecycle pipelines."
+            },
+            {
+              "name": "Digital Marketing",
+              "jobRoles": [
+                "SEO Executive",
+                "PPC Coordinator",
+                "Content Marketer"
+              ],
+              "price": "₹ 1,32,000",
+              "details": "Core mapping explicitly covering SEM, programmatic ads, and lead scaling."
+            },
+            {
+              "name": "FinTech",
+              "jobRoles": [
+                "Fintech Operations Associate",
+                "Digital Banking Assistant"
+              ],
+              "price": "₹ 1,32,000",
+              "details": "Digital ecosystems natively tracking cryptocurrency logic and mobile banking limits."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BCA",
+          "duration": "36 Months (3 Years)",
+          "priceRange": "₹ 1,32,000",
+          "eligibility": "10+2 from a recognized educational board.",
+          "about": "An extensively modernized Bachelor's explicitly incorporating high-tier software scripting, foundational logic arrays, and core computing networks.",
+          "careerScope": "Ideal pathway targeting foundational software deployment, basic AI implementations, and systems networking support.",
+          "paymentDetails": "<b>🔥 Top Tech Base Track!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,32,000</b><br/>• <b>Semester Fee:</b> <b>₹ 22,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Special 15% upfront concessions dropping total cost to ₹ 1,12,200!</i>",
+          "certifications": "N/A",
+          "usps": [
+            "Unique 'Artificial Intelligence' specialization offered at the UG tier",
+            "UGC-Entitled ensuring complete global academic mobility",
+            "NAAC A+ grade guaranteeing rigorous lab simulation standards",
+            "Extensive 360 Career Support embedding technical graduates actively"
+          ],
+          "specializations": [
+            {
+              "name": "General Computer Applications",
+              "jobRoles": [
+                "Junior Software Developer",
+                "Network Admin",
+                "Tech Support Specialist"
+              ],
+              "price": "₹ 1,32,000",
+              "details": "Core programming workflows covering C++, Java, and baseline web architecture."
+            },
+            {
+              "name": "Artificial Intelligence",
+              "jobRoles": [
+                "AI Implementer",
+                "Data Processing Junior",
+                "ML Training Assistant"
+              ],
+              "price": "₹ 1,32,000",
+              "details": "Introductions natively mapping AI tool utilization and neural logic trees."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BA",
+          "duration": "36 Months (3 Years)",
+          "priceRange": "₹ 72,000",
+          "eligibility": "10+2 from a recognized educational board.",
+          "about": "A multi-disciplinary Bachelor of Arts establishing extensive academic grounding across critical humanities, political theory, and economic planning.",
+          "careerScope": "Targeting roles heavily within Public Sector applications, Journalism, Economic advisory, and widespread educational tracking.",
+          "paymentDetails": "<b>🔥 Supreme Accessibility!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 72,000</b><br/>• <b>Semester Fee:</b> <b>₹ 12,000</b><br/><br/><i>Exam Fee: ₹ 1,500/semester</i><br/><i>Highest accessibility model via manageable 12k/sem milestones.</i>",
+          "certifications": "N/A",
+          "usps": [
+            "Massive array of 7 distinct specializations targeting highly niche fields",
+            "Unbeatable fee structure pinned remarkably at just ₹ 12,000/sem",
+            "UGC-Entitled securing UPSC/Government job eligibility natively",
+            "High flexibility ensuring active concurrent employment scaling"
+          ],
+          "specializations": [
+            {
+              "name": "Economics",
+              "jobRoles": [
+                "Economic Researcher",
+                "Financial Writer",
+                "Data Coordinator"
+              ],
+              "price": "₹ 72,000",
+              "details": "Macro and micro planning explicitly tied to global inflation and trade dynamics."
+            },
+            {
+              "name": "Political Science",
+              "jobRoles": [
+                "Political Analyst",
+                "Policy Coordinator",
+                "Public Relations Executive"
+              ],
+              "price": "₹ 72,000",
+              "details": "Governance structures intricately mapping global treaties and civic frameworks."
+            },
+            {
+              "name": "Development Studies",
+              "jobRoles": [
+                "NGO Coordinator",
+                "Social Development Officer",
+                "Urban Planner Junior"
+              ],
+              "price": "₹ 72,000",
+              "details": "Socio-economic modeling exploring sustainable expansion logic."
+            },
+            {
+              "name": "International Relations",
+              "jobRoles": [
+                "Diplomatic Attaché Junior",
+                "Global Risk Analyst Junior"
+              ],
+              "price": "₹ 72,000",
+              "details": "Cross-border negotiation theory explicitly studying multinational alliances."
+            },
+            {
+              "name": "English",
+              "jobRoles": [
+                "Copywriter",
+                "Content Editor",
+                "Proofreader"
+              ],
+              "price": "₹ 72,000",
+              "details": "Structural syntax reviews heavily prioritizing linguistic mastery."
+            },
+            {
+              "name": "History",
+              "jobRoles": [
+                "Archivist Junior",
+                "Academic Researcher",
+                "Museum Associate"
+              ],
+              "price": "₹ 72,000",
+              "details": "Timeline chronologies extensively mapping civilization growth vectors."
+            },
+            {
+              "name": "Computer Applications",
+              "jobRoles": [
+                "Tech Writer",
+                "Digital Documentation Exec",
+                "IT Ops Junior"
+              ],
+              "price": "₹ 72,000",
+              "details": "Hybrid tracking utilizing core tech loops within humanities structures."
+            }
+          ]
+        }
+      ]
+    }
   }
-}
 ];
