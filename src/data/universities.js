@@ -2374,7 +2374,7 @@ export const universities = [
         "UGC-Entitled degree equivalent to on-campus degrees.",
         "No Cost EMI Options Available. Block your seat with ₹10,000."
       ],
-      "payment": "Seat Booking: ₹10,000 | Zero Cost EMI available. <br/><b>MBA Single Cert</b>: ₹41,250/Sem (25% Disc). <br/><b>MBA 3-Cert Bundle</b>: ₹45,100/Sem (18% Disc). <br/><b>BBA Single Cert</b>: ₹21,875/Sem (25% Disc). <br/><b>BBA 2-Cert Bundle</b>: ₹23,334/Sem (20% Disc).",
+      "payment": "Booking Amount: ₹10,000 | 0% EMI Available.<br/><br/><b>MBA Fees:</b><br/>• Normal (1 Cert): ₹1,65,000 Total (₹41,250 / Semester)<br/>• Premium (3 Certs): ₹1,80,400 Total (₹45,100 / Semester)<br/><br/><b>BBA Fees:</b><br/>• Normal (1 Cert): ₹1,31,250 Total (₹21,875 / Semester)<br/>• Premium (2 Certs): ₹1,40,000 Total (₹23,334 / Semester)",
       "examination": "100% Online Delivery | On Demand Examination",
       "leadLocking": "Direct University Portal LSQ",
       "programs": [
@@ -2386,118 +2386,118 @@ export const universities = [
           "specializations": [
             {
               "name": "Human Resource Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Human Resource Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Marketing",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Marketing. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "International Business",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in International Business. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Entrepreneurship",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Entrepreneurship. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Finance",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Finance. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Information Technology",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Information Technology. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Logistics and Supply Chain Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Logistics and Supply Chain Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Retail Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Retail Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Operation Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Operation Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Banking and Insurance",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Banking and Insurance. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Hospital Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Hospital Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Event Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Event Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Media Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Media Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Travel and Tourism",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Travel and Tourism. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Airlines & Airport Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Airlines & Airport Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Digital Marketing",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Digital Marketing. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Data Science & Artificial Intelligence",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Data Science & Artificial Intelligence. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "International Relations",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in International Relations. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "FinTech",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in FinTech. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "General Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in General Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Business Analytics",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Business Analytics. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Disaster Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Disaster Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Brand Management",
-              "price": "₹41,250",
-              "details": "Dual Specialization MBA in Brand Management. (Single Cert: ₹1.65L | 3-Cert Bundle: ₹1.8L)"
+              "price": "₹1,65,000",
+              "details": "Total Fees: ₹1,65,000 (₹41,250 / Sem) for Single Certificate. Or choose the 3-Certificate Bundle for ₹1,80,400 Total (₹45,100 / Sem). Includes 25% Early Bird Scholarship."
             }
           ]
         },
@@ -2509,78 +2509,78 @@ export const universities = [
           "specializations": [
             {
               "name": "Entrepreneurship",
-              "price": "₹21,875",
-              "details": "Specialization in Entrepreneurship via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Human Resource Management",
-              "price": "₹21,875",
-              "details": "Specialization in Human Resource Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Marketing",
-              "price": "₹21,875",
-              "details": "Specialization in Marketing via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "International Business",
-              "price": "₹21,875",
-              "details": "Specialization in International Business via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Family Business",
-              "price": "₹21,875",
-              "details": "Specialization in Family Business via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Digital Marketing",
-              "price": "₹21,875",
-              "details": "Specialization in Digital Marketing via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Fin-Tech",
-              "price": "₹21,875",
-              "details": "Specialization in Fin-Tech via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Retail and E-Commerce",
-              "price": "₹21,875",
-              "details": "Specialization in Retail and E-Commerce via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Artificial Intelligence",
-              "price": "₹21,875",
-              "details": "Specialization in Artificial Intelligence via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "HealthCare Management",
-              "price": "₹21,875",
-              "details": "Specialization in HealthCare Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Logistics and Supply Chain Management",
-              "price": "₹21,875",
-              "details": "Specialization in Logistics and Supply Chain Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Foreign Exchange Management",
-              "price": "₹21,875",
-              "details": "Specialization in Foreign Exchange Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Travel & Tourism Management",
-              "price": "₹21,875",
-              "details": "Specialization in Travel & Tourism Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Event Management",
-              "price": "₹21,875",
-              "details": "Specialization in Event Management via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             },
             {
               "name": "Banking and Finance",
-              "price": "₹21,875",
-              "details": "Specialization in Banking and Finance via Dual Specialization BBA. (Single Cert: ₹1.31L | 2-Cert Bundle: ₹1.4L)"
+              "price": "₹1,31,250",
+              "details": "Total Fees: ₹1,31,250 (₹21,875 / Sem) for Single Certificate. Or choose the 2-Certificate Bundle for ₹1,40,000 Total (₹23,334 / Sem). Includes 25% Early Bird Scholarship."
             }
           ]
         },
