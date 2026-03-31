@@ -5045,63 +5045,224 @@ export const universities = [
             {
               "name": "International Business",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in International Business is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within International Business to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of International Business frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "International Business Specialist",
+                "Manager - International Business",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Banking & Financial Services",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Banking & Financial Services is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Banking & Financial Services to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Banking & Financial Services frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Banking & Financial Services Specialist",
+                "Manager - Banking & Financial Services",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Hospital & Healthcare Management",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Hospital & Healthcare Management is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Hospital & Healthcare Management to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Hospital & Healthcare Management frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Hospital & Healthcare Management Specialist",
+                "Manager - Hospital & Healthcare Management",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Logistics & Supply Chain Management",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Logistics & Supply Chain Management is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Logistics & Supply Chain Management to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Logistics & Supply Chain Management frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Logistics & Supply Chain Management Specialist",
+                "Manager - Logistics & Supply Chain Management",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Human Resource Management",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Human Resource Management is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Human Resource Management to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Human Resource Management frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Human Resource Management Specialist",
+                "Manager - Human Resource Management",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Marketing",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Marketing is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Marketing to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Marketing frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Marketing Specialist",
+                "Manager - Marketing",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Finance",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Finance is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Finance to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Finance frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Finance Specialist",
+                "Manager - Finance",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Data Science",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Data Science is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Data Science to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Data Science frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Data Science Specialist",
+                "Manager - Data Science",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Business Analytics",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Business Analytics is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Business Analytics to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Business Analytics frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Business Analytics Specialist",
+                "Manager - Business Analytics",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Digital Marketing",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Digital Marketing is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Digital Marketing to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Digital Marketing frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Digital Marketing Specialist",
+                "Manager - Digital Marketing",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Information Technology",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Information Technology is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Information Technology to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Information Technology frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Information Technology Specialist",
+                "Manager - Information Technology",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Operations Management",
               "price": "₹1,46,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)",
+              "about": "The MBA in Operations Management is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Operations Management to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Operations Management frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Operations Management Specialist",
+                "Manager - Operations Management",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             }
+          ],
+          "usps": [
+            "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+            "Live Interactive sessions on weekends.",
+            "Dedicated Career and Placement Support."
           ]
         },
         {
@@ -5116,28 +5277,98 @@ export const universities = [
             {
               "name": "Machine Learning & AI",
               "price": "₹1,08,800 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access",
+              "about": "The MCA in Machine Learning & AI is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Machine Learning & AI to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Machine Learning & AI frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Machine Learning & AI Specialist",
+                "Manager - Machine Learning & AI",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Data Science",
               "price": "₹1,08,800 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access",
+              "about": "The MCA in Data Science is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Data Science to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Data Science frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Data Science Specialist",
+                "Manager - Data Science",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Cybersecurity",
               "price": "₹1,08,800 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access",
+              "about": "The MCA in Cybersecurity is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Cybersecurity to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Cybersecurity frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Cybersecurity Specialist",
+                "Manager - Cybersecurity",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Full Stack Web Development",
               "price": "₹1,08,800 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access",
+              "about": "The MCA in Full Stack Web Development is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Full Stack Web Development to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Full Stack Web Development frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Full Stack Web Development Specialist",
+                "Manager - Full Stack Web Development",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "AR/VR Game Development",
               "price": "₹1,08,800 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access",
+              "about": "The MCA in AR/VR Game Development is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within AR/VR Game Development to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of AR/VR Game Development frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "AR/VR Game Development Specialist",
+                "Manager - AR/VR Game Development",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             }
+          ],
+          "usps": [
+            "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+            "Live Interactive sessions on weekends.",
+            "Dedicated Career and Placement Support."
           ]
         },
         {
@@ -5150,8 +5381,28 @@ export const universities = [
             {
               "name": "Finance & Accounting",
               "price": "₹74,240 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹74,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹81,600 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Skill Enhancement in Fundamentals of IT"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹74,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹81,600 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Skill Enhancement in Fundamentals of IT",
+              "about": "The M.Com in Finance & Accounting is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Finance & Accounting to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Finance & Accounting frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Finance & Accounting Specialist",
+                "Manager - Finance & Accounting",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             }
+          ],
+          "about": "LPU Online offers an UGC entitled M.Com program combining academic rigor with industry-focused practical knowledge. Gain critical proficiencies in M.Com core subjects and get access to exclusive online virtual-labs.",
+          "careerScope": "Broad career opportunities across multiple corporate sectors, preparing you for leadership and specialized roles in top multinational companies.",
+          "usps": [
+            "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+            "Live Interactive sessions on weekends.",
+            "Dedicated Career and Placement Support."
           ]
         },
         {
@@ -5164,23 +5415,82 @@ export const universities = [
             {
               "name": "English",
               "price": "₹59,840 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers",
+              "about": "The MA in English is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within English to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of English frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "English Specialist",
+                "Manager - English",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "History",
               "price": "₹59,840 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers",
+              "about": "The MA in History is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within History to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of History frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "History Specialist",
+                "Manager - History",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Sociology",
               "price": "₹59,840 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers",
+              "about": "The MA in Sociology is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Sociology to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Sociology frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Sociology Specialist",
+                "Manager - Sociology",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Political Science",
               "price": "₹59,840 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers",
+              "about": "The MA in Political Science is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Political Science to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Political Science frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Political Science Specialist",
+                "Manager - Political Science",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             }
+          ],
+          "about": "LPU Online offers an UGC entitled MA program combining academic rigor with industry-focused practical knowledge. Gain critical proficiencies in MA core subjects and get access to exclusive online virtual-labs.",
+          "careerScope": "Broad career opportunities across multiple corporate sectors, preparing you for leadership and specialized roles in top multinational companies.",
+          "usps": [
+            "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+            "Live Interactive sessions on weekends.",
+            "Dedicated Career and Placement Support."
           ]
         },
         {
@@ -5193,13 +5503,46 @@ export const universities = [
             {
               "name": "Mathematics",
               "price": "₹59,840 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Differential Equations & Complex Analysis"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Differential Equations & Complex Analysis",
+              "about": "The M.Sc in Mathematics is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Mathematics to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Mathematics frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Mathematics Specialist",
+                "Manager - Mathematics",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             },
             {
               "name": "Economics",
               "price": "₹59,840 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Weekly Masterclasses by Industry Experts"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Weekly Masterclasses by Industry Experts",
+              "about": "The M.Sc in Economics is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Economics to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Economics frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Economics Specialist",
+                "Manager - Economics",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             }
+          ],
+          "about": "LPU Online offers an UGC entitled M.Sc program combining academic rigor with industry-focused practical knowledge. Gain critical proficiencies in M.Sc core subjects and get access to exclusive online virtual-labs.",
+          "careerScope": "Broad career opportunities across multiple corporate sectors, preparing you for leadership and specialized roles in top multinational companies.",
+          "usps": [
+            "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+            "Live Interactive sessions on weekends.",
+            "Dedicated Career and Placement Support."
           ]
         },
         {
@@ -5212,8 +5555,28 @@ export const universities = [
             {
               "name": "General Management",
               "price": "₹1,11,360 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,11,360 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,22,400 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Experiential Learning with E-commerce & Business Ethics"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,11,360 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,22,400 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Experiential Learning with E-commerce & Business Ethics",
+              "about": "The BBA in General Management is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within General Management to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of General Management frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "General Management Specialist",
+                "Manager - General Management",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             }
+          ],
+          "about": "LPU Online offers an UGC entitled BBA program combining academic rigor with industry-focused practical knowledge. Gain critical proficiencies in BBA core subjects and get access to exclusive online virtual-labs.",
+          "careerScope": "Broad career opportunities across multiple corporate sectors, preparing you for leadership and specialized roles in top multinational companies.",
+          "usps": [
+            "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+            "Live Interactive sessions on weekends.",
+            "Dedicated Career and Placement Support."
           ]
         },
         {
@@ -5226,8 +5589,28 @@ export const universities = [
             {
               "name": "Software Development",
               "price": "₹1,11,360 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,11,360 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,22,400 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Hands-on skills in Python, Java, SQL, AI"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,11,360 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,22,400 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Hands-on skills in Python, Java, SQL, AI",
+              "about": "The BCA in Software Development is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within Software Development to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of Software Development frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "Software Development Specialist",
+                "Manager - Software Development",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             }
+          ],
+          "about": "LPU Online offers an UGC entitled BCA program combining academic rigor with industry-focused practical knowledge. Gain critical proficiencies in BCA core subjects and get access to exclusive online virtual-labs.",
+          "careerScope": "Broad career opportunities across multiple corporate sectors, preparing you for leadership and specialized roles in top multinational companies.",
+          "usps": [
+            "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+            "Live Interactive sessions on weekends.",
+            "Dedicated Career and Placement Support."
           ]
         },
         {
@@ -5240,11 +5623,36 @@ export const universities = [
             {
               "name": "General Arts",
               "price": "₹89,760 (Lump Sum Plan)",
-              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹89,760 (Best Value!)<br/>• <b>Semester-wise:</b> ₹98,400 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Community Development Projects & IT Fundamentals"
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹89,760 (Best Value!)<br/>• <b>Semester-wise:</b> ₹98,400 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Community Development Projects & IT Fundamentals",
+              "about": "The BA in General Arts is designed to equip students with contemporary frameworks and real-world tools. Focus strongly on cutting-edge techniques within General Arts to maximize corporate relevance.",
+              "careerScope": "Highly demanded role. Graduates of General Arts frequently become strategic leaders, consultants, and senior specialists at top firms.",
+              "usps": [
+                "Extensive Case-Study and Virtual Lab Approach.",
+                "Master classes by Industry Experts.",
+                "Top Tier Hiring Output."
+              ],
+              "jobRoles": [
+                "General Arts Specialist",
+                "Manager - General Arts",
+                "Consultant"
+              ],
+              "paymentDetails": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist."
             }
+          ],
+          "about": "LPU Online offers an UGC entitled BA program combining academic rigor with industry-focused practical knowledge. Gain critical proficiencies in BA core subjects and get access to exclusive online virtual-labs.",
+          "careerScope": "Broad career opportunities across multiple corporate sectors, preparing you for leadership and specialized roles in top multinational companies.",
+          "usps": [
+            "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+            "Live Interactive sessions on weekends.",
+            "Dedicated Career and Placement Support."
           ]
         }
       ]
-    }
+    },
+    "level": [
+      "UG",
+      "PG"
+    ],
+    "budget": 146240
   }
 ];

@@ -227,18 +227,11 @@ const UniversityDetails = () => {
                                    <Banknote className="text-[#ff6b00]" size={18}/> Financial Ledger
                                 </h3>
                                 <div className="flex flex-col gap-3">
-                                   {uni.extendedDetails.payment.split('. ').map((sentence, idx) => (
-                                       sentence.trim() && (
-                                          <div key={idx} className="flex gap-4 items-start bg-slate-50 p-4 rounded-xl border border-slate-100 hover:border-[#ff6b00]/30 hover:bg-[#fff7ed]/50 transition-colors">
-                                             <div className="mt-0.5 w-6 h-6 rounded-full bg-white shadow-sm border border-slate-200 text-[#ff6b00] flex items-center justify-center shrink-0">
-                                                 <ArrowRight size={12} strokeWidth={3} />
-                                             </div>
-                                             <p className="text-slate-700 font-bold text-[14px] leading-snug pt-0.5">
-                                                 {sentence}
-                                             </p>
-                                          </div>
-                                       )
-                                   ))}
+                                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 payment-html-wrapper" dangerouslySetInnerHTML={{__html: uni.extendedDetails.payment}}></div>
+                                   <style dangerouslySetInnerHTML={{__html: `
+                                       .payment-html-wrapper b { color: #1e293b; display: inline-block; font-weight: 800; font-size: 14px; margin-bottom: 4px; }
+                                       .payment-html-wrapper br { margin-bottom: 8px; content: ""; display: block; }
+                                   `}} />
                                 </div>
                             </div>
 
