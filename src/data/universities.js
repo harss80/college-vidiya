@@ -4737,7 +4737,7 @@ export const universities = [
         "Online classes & exams with recorded lectures in Learning Management System.",
         "100% Online delivery with personalized career development."
       ],
-      "payment": "\n  <b>Fee Payment Options:</b><br/>\n  • <b>Semester-wise:</b> Standard option across all programs. Example: MBA is ₹37,500/Semester.<br/>\n  • <b>Annual / Full Payment:</b> Full fee payment discounts might apply on counseling. Standard total for MBA is ₹1,50,000.<br/>\n  • <b>EMI:</b> 0% EMI Options Available for all courses.<br/><br/>\n  <b>Scholarships & Discounts:</b><br/>\n  • <b>30% Scholarship</b> to pursue Dual Degrees (e.g., Degree + PG Diploma in Digital Marketing / Financial Services).\n",
+      "payment": "<b>Fee Payment Options (Massive Upfront Discounts):</b><br/>• <b>Lump Sum (Full Payment):</b> Highest discount. Saves up to ₹60,000!<br/>• <b>Yearly Payment:</b> Moderate discount. Saves up to ₹40,000!<br/>• <b>Semester-wise:</b> Standard option with 0% EMI available.<br/><br/><b>Scholarships & Discounts:</b><br/>• <b>30% Scholarship</b> to pursue Dual Degrees (e.g., Degree + PG Diploma in Digital Marketing / Financial Services).",
       "examination": "100% Online Delivery (Proctored) | Passing Criteria = Minimum 40%",
       "leadLocking": "Direct Lead Submission",
       "programs": [
@@ -4749,103 +4749,103 @@ export const universities = [
           "specializations": [
             {
               "name": "Marketing Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Finance Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Goods and Service Tax & Micro Finance</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Goods and Service Tax & Micro Finance</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Human Resource Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Information Technology",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Agri- Business Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Business Analytics",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners & Advanced Data</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners & Advanced Data</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Banking and Financial Services",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Micro Finance</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Micro Finance</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Digital Marketing and Sales",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Entrepreneurship and Innovation Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Family Managed Business",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Healthcare Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "International Trade and Business",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Export-Import Management</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Export-Import Management</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Logistics and Supply Chain Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Operations Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Pharmaceutical Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Project Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Project Management</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Project Management</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Public Policy",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Retail Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Export-Import Management</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Export-Import Management</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Tourism and Event Management",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Forensic Accounting and Corporate Fraud Investigation",
-              "price": "₹1,50,000",
-              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Goods and Service Tax</b> & 30% Off on Dual Diploma."
+              "price": "₹90,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹90,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,10,000 Total (₹55,000/yr)<br/>• <b>Semester:</b> ₹1,50,000 Total (₹37,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Goods and Service Tax</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4857,13 +4857,13 @@ export const universities = [
           "specializations": [
             {
               "name": "Artificial Intelligence and Machine Learning",
-              "price": "₹1,20,000",
-              "details": "<b>Fees:</b> ₹1,20,000 Total | ₹30,000/Semester.<br/><b>Special USP:</b> Tech-focused Add-On Certifications."
+              "price": "₹80,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹80,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,00,000 Total (₹50,000/yr)<br/>• <b>Semester:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "General",
-              "price": "₹1,20,000",
-              "details": "<b>Fees:</b> ₹1,20,000 Total | ₹30,000/Semester.<br/><b>Special USP:</b> Tech-focused Add-On Certifications."
+              "price": "₹80,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹80,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹1,00,000 Total (₹50,000/yr)<br/>• <b>Semester:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4875,8 +4875,8 @@ export const universities = [
           "specializations": [
             {
               "name": "General",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>ChatGPT & Email Marketing</b> & 30% Off on Dual Diploma."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>ChatGPT & Email Marketing</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4888,8 +4888,8 @@ export const universities = [
           "specializations": [
             {
               "name": "General",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4901,43 +4901,43 @@ export const universities = [
           "specializations": [
             {
               "name": "Psychology",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "English",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Journalism and mass communication",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Economics",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Sociology",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Political Science",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Geography",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "History",
-              "price": "₹1,11,000",
-              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
+              "price": "₹70,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹70,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹90,000 Total (₹30,000/yr)<br/>• <b>Semester:</b> ₹1,11,000 Total (₹18,500/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4949,13 +4949,13 @@ export const universities = [
           "specializations": [
             {
               "name": "English Language Teaching",
-              "price": "₹60,000",
-              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
+              "price": "₹40,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹40,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹50,000 Total (₹25,000/yr)<br/>• <b>Semester:</b> ₹60,000 Total (₹15,000/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Journalism and Mass Communication",
-              "price": "₹60,000",
-              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
+              "price": "₹40,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹40,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹50,000 Total (₹25,000/yr)<br/>• <b>Semester:</b> ₹60,000 Total (₹15,000/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4967,8 +4967,8 @@ export const universities = [
           "specializations": [
             {
               "name": "Applied Mathematics",
-              "price": "₹60,000",
-              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
+              "price": "₹40,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹40,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹50,000 Total (₹25,000/yr)<br/>• <b>Semester:</b> ₹60,000 Total (₹15,000/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4980,8 +4980,8 @@ export const universities = [
           "specializations": [
             {
               "name": "General",
-              "price": "₹60,000",
-              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
+              "price": "₹40,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹40,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹50,000 Total (₹25,000/yr)<br/>• <b>Semester:</b> ₹60,000 Total (₹15,000/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4993,8 +4993,8 @@ export const universities = [
           "specializations": [
             {
               "name": "Master of Social Work",
-              "price": "₹60,000",
-              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
+              "price": "₹40,000 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹40,000 (Highest Discount!)<br/>• <b>Yearly:</b> ₹50,000 Total (₹25,000/yr)<br/>• <b>Semester:</b> ₹60,000 Total (₹15,000/sem)<br/><br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Industry Relevant Add-On Certification</b> & 30% Off on Dual Diploma."
             }
           ]
         }
