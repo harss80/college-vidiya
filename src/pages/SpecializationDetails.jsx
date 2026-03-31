@@ -61,9 +61,10 @@ const SpecializationDetails = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{spec.name}</h1>
-                        <p className="text-slate-600 font-medium text-base md:text-lg leading-relaxed max-w-3xl border-l-4 border-[#0047ad] pl-4">
-                            {spec.details}
-                        </p>
+                        <div 
+                            className="text-slate-600 font-medium text-base md:text-lg leading-relaxed max-w-3xl border-l-4 border-[#0047ad] pl-4 rendering-html"
+                            dangerouslySetInnerHTML={{__html: spec.details}}
+                        />
                     </div>
                 </div>
                 
