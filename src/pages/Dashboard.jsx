@@ -12,39 +12,39 @@ const Dashboard = () => {
   const preciousObjections = [
     {
        id: 1,
-       question: "Why should I use College Vidya instead of applying directly?",
+       question: "Why should I use College Buddy instead of applying directly?",
        pitch: "If you go directly to a university website, their sales team will only tell you the positives to meet their targets. As an aggregator, we provide 100% unbiased comparison between 100+ universities. We show you the hidden fees, actual student reviews, and verify their UGC-DEB status. Plus, you still pay the fee directly to the university portal, but you get our lifetime post-admission support for free.",
        points: ["Unbiased vs Biased", "Transparency of hidden fees"]
     },
     {
        id: 2,
        question: "Are online degrees really valid for govt jobs and MNCs?",
-       pitch: "Yes, absolutely! According to the latest UGC mandate, degrees obtained through Online and Distance learning from recognized institutions are treated as exactly equivalent to traditional regular degrees. We ensure that every single university listed on College Vidya is strictly UGC-DEB approved, making your degree 100% valid for government exams like UPSC, state PSCs, and all private sector jobs.",
+       pitch: "Yes, absolutely! According to the latest UGC mandate, degrees obtained through Online and Distance learning from recognized institutions are treated as exactly equivalent to traditional regular degrees. We ensure that every single university listed on College Buddy is strictly UGC-DEB approved, making your degree 100% valid for government exams like UPSC, state PSCs, and all private sector jobs.",
        points: ["UGC Equivalency Mandate", "Our strict quality checks"]
     },
     {
        id: 3,
        question: "Is there any hidden fee or counseling charge you take from me later?",
-       pitch: "College Vidya's expert counseling is 100% free for students forever. We do not charge you a single rupee. We operate on a standardized aggregator model where universities pay us a fixed partnership fee, so our counselors have zero incentive to push a specific 'expensive' college. Your fees go directly to your chosen university's secure payment gateway.",
+       pitch: "College Buddy's expert counseling is 100% free for students forever. We do not charge you a single rupee. We operate on a standardized aggregator model where universities pay us a fixed partnership fee, so our counselors have zero incentive to push a specific 'expensive' college. Your fees go directly to your chosen university's secure payment gateway.",
        points: ["100% Free Counseling", "No Sales Pressure"]
     },
     {
        id: 4,
        question: "What if the university ignores me after I pay the fees?",
-       pitch: "This is exactly why you need College Vidya! If you face delayed books, LMS login issues, or unresponsiveness from the university, you don't fight alone. We have a dedicated Post-Admission Support team that acts as your advocate to resolve issues directly with the university escalation matrix.",
-       points: ["Dedicated Post-Admission Advocacy", "CV Community Support"]
+       pitch: "This is exactly why you need College Buddy! If you face delayed books, LMS login issues, or unresponsiveness from the university, you don't fight alone. We have a dedicated Post-Admission Support team that acts as your advocate to resolve issues directly with the university escalation matrix.",
+       points: ["Dedicated Post-Admission Advocacy", "CB Community Support"]
     },
     {
        id: 5,
        question: "Online degrees don't have placement. How will I get a job?",
-       pitch: "That's a myth. Many of our top partnering universities offer extensive placement assistance. Beyond that, College Vidya provides its own dedicated Job & Internship Portal exclusively for our enrolled students, connecting you with 300+ hiring partners, resume-building sessions, and interview prep.",
-       points: ["CV Job Portal", "300+ Hiring Partners"]
+       pitch: "That's a myth. Many of our top partnering universities offer extensive placement assistance. Beyond that, College Buddy provides its own dedicated Job & Internship Portal exclusively for our enrolled students, connecting you with 300+ hiring partners, resume-building sessions, and interview prep.",
+       points: ["CB Job Portal", "300+ Hiring Partners"]
     },
     {
        id: 6,
        question: "Can I get an education loan? My budget is very low.",
-       pitch: "Absolutely. We ensure financial constraints don't stop your education. We can help you structure Zero-Cost EMIs (0% Interest) starting at very low monthly payments. Additionally, we check your eligibility for the 'CV Subsidy' which can give you up to ₹10,000 off on select approved courses.",
-       points: ["Zero-Cost EMIs", "CV Subsidy (Up to 10k)"]
+       pitch: "Absolutely. We ensure financial constraints don't stop your education. We can help you structure Zero-Cost EMIs (0% Interest) starting at very low monthly payments. Additionally, we check your eligibility for the 'CB Subsidy' which can give you up to ₹10,000 off on select approved courses.",
+       points: ["Zero-Cost EMIs", "CB Subsidy (Up to 10k)"]
     },
     {
        id: 7,
@@ -100,7 +100,7 @@ const Dashboard = () => {
             viewport={{ once: true }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 tracking-tight leading-[1.1]"
           >
-            College Vidya <span className="text-accent-400">Mock Call</span><br className="hidden md:block" /> Training Simulator
+            College Buddy <span className="text-accent-400">Mock Call</span><br className="hidden md:block" /> Training Simulator
           </motion.h1>
 
           <motion.p 
@@ -170,7 +170,7 @@ const Dashboard = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
                     { label: 'Platform Goal', value: 'Unbiased Decision Partner', icon: <Target size={24} />, desc: "We are NOT an agent. We guide, we don't sell.", color: 'bg-primary-50 border-primary-100 text-primary-600', iconColor: 'text-primary-600' },
-                    { label: 'Financial Aid Given', value: 'CV Subsidy', icon: <Wallet size={24} />, desc: "Up to ₹10,000 subsidy available for eligible students.", color: 'bg-amber-50 border-amber-100 text-amber-600', iconColor: 'text-amber-500' },
+                    { label: 'Financial Aid Given', value: 'CB Subsidy', icon: <Wallet size={24} />, desc: "Up to ₹10,000 subsidy available for eligible students.", color: 'bg-amber-50 border-amber-100 text-amber-600', iconColor: 'text-amber-500' },
                     { label: 'Admission Process', value: 'Direct to Univ.', icon: <Banknote size={24} />, desc: "Students pay fees DIRECTLY on the official gateway, not to us.", color: 'bg-emerald-50 border-emerald-100 text-emerald-600', iconColor: 'text-emerald-500' },
                     { label: 'Comparison Tool', value: '30+ Parameters', icon: <SlidersHorizontal size={24} />, desc: "Compare fees, EMI, syllabus depth, ROI, faculty, and LMS.", color: 'bg-rose-50 border-rose-100 text-rose-600', iconColor: 'text-rose-500' },
                 ].map((stat, i) => (
@@ -279,7 +279,7 @@ const Dashboard = () => {
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-16">
                <span className="text-accent-400 font-bold tracking-wider uppercase text-sm mb-3 block">Competitive Analysis for Training</span>
-               <h2 className="text-3xl md:text-4xl font-extrabold mb-6">College Vidya vs. Traditional Portals</h2>
+               <h2 className="text-3xl md:text-4xl font-extrabold mb-6">College Buddy vs. Traditional Portals</h2>
                <p className="text-base md:text-lg text-primary-100 max-w-2xl mx-auto font-medium">Understand our positioning in the market so you can easily dismantle comparisons to generic ed-tech websites.</p>
             </div>
 
@@ -301,7 +301,7 @@ const Dashboard = () => {
          </div>
       </section>
 
-      {/* 5. Post-Admission & CV Community (Upsell / Trust Building) */}
+      {/* 5. Post-Admission & CB Community (Upsell / Trust Building) */}
       <section className="bg-[#f8fafc] py-16 md:py-24 border-b border-slate-200 relative overflow-hidden">
          <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{ backgroundImage: "radial-gradient(#000 1px, transparent 1px)", backgroundSize: "30px 30px" }}></div>
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -326,7 +326,7 @@ const Dashboard = () => {
                                  <Users size={16} />
                               </span>
                               <h3 className={`text-[14px] md:text-[15px] font-bold transition-colors ${activePillar === 1 ? 'text-primary-800' : 'text-slate-700 group-hover:text-primary-600'}`}>
-                                 The CV Community
+                                 The CB Community
                               </h3>
                            </div>
                            <ChevronDown size={16} className={`text-slate-400 transition-transform ${activePillar === 1 ? 'rotate-180 text-primary-500' : ''}`} />
@@ -415,7 +415,7 @@ const Dashboard = () => {
                                  transition={{ duration: 0.15 }}
                               >
                                  <div className="px-4 pb-4 md:px-5 md:pb-5 bg-primary-50/50 rounded-b-xl border-t border-primary-100/50">
-                                    <p className="text-slate-600 font-medium text-[13px] leading-relaxed mb-3 mt-1.5">If the university delays books or ignores queries, CV escalates and resolves it directly.</p>
+                                    <p className="text-slate-600 font-medium text-[13px] leading-relaxed mb-3 mt-1.5">If the university delays books or ignores queries, CB escalates and resolves it directly.</p>
                                     <div className="bg-white border-l-[3px] border-emerald-400 pl-3 py-2 rounded-r-lg shadow-sm">
                                          <p className="text-[10px] font-black tracking-widest uppercase text-emerald-600 mb-0.5">Key Script</p>
                                          <p className="text-slate-800 font-bold text-[13px] italic leading-tight">"If the university ignores you, we escalate it to the VCs directly."</p>

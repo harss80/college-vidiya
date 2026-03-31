@@ -8,7 +8,7 @@ const UniversityDetails = () => {
    const navigate = useNavigate();
    const [selectedGroup, setSelectedGroup] = useState('UG');
    const [selectedProgram, setSelectedProgram] = useState(null);
-   const [selectedSpec, setSelectedSpec] = useState(null);
+   
 
    const uni = useMemo(() => {
      return universities.find(u => u.id === uniId);
@@ -107,18 +107,18 @@ const UniversityDetails = () => {
                                     {/* Level 1: Tab System - softer and cleaner */}
                                     <div className="flex flex-wrap border-b border-slate-200 gap-4 sm:gap-4 sm:p-5 md:p-8">
                                        <button 
-                                          onClick={() => { setSelectedGroup('UG'); setSelectedProgram(null); setSelectedSpec(null); }}
+                                          onClick={() => { setSelectedGroup('UG'); setSelectedProgram(null);  }}
                                           className={`py-3 text-xs sm:text-[13px] font-black uppercase tracking-widest transition-all border-b-2 mb-[-1px] ${selectedGroup === 'UG' ? 'border-[#0047ad] text-[#0047ad]' : 'border-transparent text-slate-500 hover:text-slate-800'}`}
                                        >Undergraduate (UG)</button>
                                        <button 
-                                          onClick={() => { setSelectedGroup('PG'); setSelectedProgram(null); setSelectedSpec(null); }}
+                                          onClick={() => { setSelectedGroup('PG'); setSelectedProgram(null);  }}
                                           className={`py-3 text-xs sm:text-[13px] font-black uppercase tracking-widest transition-all border-b-2 mb-[-1px] ${selectedGroup === 'PG' ? 'border-[#0047ad] text-[#0047ad]' : 'border-transparent text-slate-500 hover:text-slate-800'}`}
                                        >Postgraduate (PG)</button>
                                     </div>
 
-                                    <div className="flex lg:flex-row flex-col gap-4 sm:p-5 md:p-8 mt-2">
+                                    <div className="flex flex-col gap-6 sm:p-5 md:p-8 mt-2">
                                        {/* Level 2: List of Programs */}
-                                       <div className="flex-1 flex flex-col gap-3">
+                                       <div className="w-full flex flex-col gap-4">
                                           {uni.extendedDetails.programs.filter(p => p.group === selectedGroup).map((prog, i) => {
                                              const isProgSelected = selectedProgram?.name === prog.name;
                                              return (
@@ -127,7 +127,7 @@ const UniversityDetails = () => {
                                                    <button 
                                                       onClick={() => {
                                                          setSelectedProgram(isProgSelected ? null : prog);
-                                                         setSelectedSpec(null);
+                                                         
                                                       }}
                                                       className={`w-full text-left p-4 sm:p-5 flex justify-between items-center transition-colors ${isProgSelected ? 'bg-[#fff7ed]' : 'bg-white hover:bg-slate-50'}`}
                                                    >
@@ -142,16 +142,23 @@ const UniversityDetails = () => {
 
                                                    {/* Level 3: Specializations Expanded Grid */}
                                                    {isProgSelected && prog.specializations && (
-                                                      <div className="p-4 sm:p-5 bg-slate-50 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                                      <div className="p-4 sm:p-5 md:p-6 bg-slate-50 border-t border-slate-100 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 lg:gap-4">
                                                          {prog.specializations.map((spec, j) => {
-                                                             const isSpecSelected = selectedSpec?.name === spec.name;
+                                                             const isSpecSelected = false;
                                                              return (
                                                                 <button 
                                                                    key={j}
-                                                                   onClick={() => setSelectedSpec(spec)}
-                                                                   className={`text-left px-4 py-3 rounded-lg border text-[13px] font-bold transition-all ${isSpecSelected ? 'bg-slate-900 text-white border-slate-900 shadow-lg' : 'bg-white text-slate-600 border-slate-200 hover:border-[#0047ad] hover:text-[#0047ad] shadow-sm'}`}
+                                                                   onClick={() => navigate(`/mock-calls/university/${uniId}/program/${encodeURIComponent(prog.name)}/specialization/${encodeURIComponent(spec.name)}`)}
+                                                                   className={`text-left px-4 py-3 rounded-lg border transition-all flex flex-col gap-1 items-start ${isSpecSelected ? 'bg-slate-900 border-slate-900 shadow-lg' : 'bg-white border-slate-200 hover:border-[#0047ad] shadow-sm group'}`}
                                                                 >
-                                                                   {spec.name}
+                                                                   <span className={`text-[13px] font-bold ${isSpecSelected ? 'text-white' : 'text-slate-700 group-hover:text-[#0047ad]'}`}>
+                                                                       {spec.name}
+                                                                   </span>
+                                                                   {(spec.price || prog.priceRange) && (
+                                                                       <span className={`text-[10px] font-black uppercase tracking-widest mt-1 ${isSpecSelected ? 'text-slate-300' : 'text-emerald-600 group-hover:text-[#ff6b00]'}`}>
+                                                                           {spec.price || prog.priceRange}
+                                                                       </span>
+                                                                   )}
                                                                 </button>
                                                              );
                                                          })}
@@ -162,25 +169,9 @@ const UniversityDetails = () => {
                                           })}
                                        </div>
 
-                                       {/* Level 4: Spec details - Clean dark panel */}
-                                       <div className="w-full lg:w-[350px] shrink-0">
-                                          {selectedSpec ? (
-                                             <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 md:p-8 shadow-xl sticky top-28 transform animate-in fade-in zoom-in-95 duration-200">
-                                                 <span className="px-3 py-1 bg-white/10 rounded-md text-[10px] font-black uppercase tracking-widest text-[#ff6b00] mb-4 inline-block">{selectedProgram.name} Specialization</span>
-                                                 <h4 className="text-2xl font-black leading-tight mb-4 text-white">{selectedSpec.name}</h4>
-                                                 <p className="text-slate-400 font-medium text-sm leading-relaxed mb-6 pb-6 border-b border-white/10">{selectedSpec.details}</p>
-                                                 
-                                                 <div className="mb-6">
-                                                    <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 block mb-2 cursor-default">Investment Required</span>
-                                                    <div className="text-4xl font-black text-emerald-400 tracking-tight">{selectedSpec.price}</div>
-                                                 </div>
-                                                 
-                                                 <div>
-                                                    <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 block mb-2 cursor-default">Total Duration</span>
-                                                    <div className="text-lg font-bold text-slate-300">{selectedProgram.duration}</div>
-                                                 </div>
-                                             </div>
-                                          ) : selectedProgram ? (
+                                       
+                                           <div className="w-full mt-2 lg:mt-6">
+                                           {selectedProgram ? (
                                              <div className="h-full min-h-[300px] border-2 border-dashed border-slate-300 rounded-2xl bg-slate-50 p-4 sm:p-5 md:p-8 flex flex-col items-center justify-center text-center">
                                                 <TrendingUp size={32} className="text-slate-300 mb-4" />
                                                 <h4 className="text-[15px] font-black text-slate-700 mb-2">Select an Elective</h4>

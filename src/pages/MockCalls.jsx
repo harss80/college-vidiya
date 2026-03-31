@@ -97,7 +97,7 @@ const MockCalls = () => {
                   <span className="p-3 bg-white/10 text-[#ffb180] rounded-2xl border border-white/20 shadow-sm backdrop-blur-md">
                     <PhoneCall size={36} />
                   </span>
-                  College Vidya Mock Desk
+                  College Buddy Mock Desk
                </h1>
                <p className="text-lg md:text-xl font-medium text-blue-100 mt-6 max-w-2xl leading-relaxed">
                   Query <span className="text-white font-bold">{universities.length}+ partnered approvals</span> instantly to construct high-converting, unbiased pitches.
@@ -229,33 +229,33 @@ const MockCalls = () => {
                               {/* Overlapping Content Body */}
                               <div className="px-6 flex flex-col flex-1 relative z-10 -mt-12">
                                  {/* Logo & Top Badges Row */}
-                                 <div className="flex justify-between items-end mb-4">
-                                    <div className="w-24 h-24 bg-white rounded-2xl p-2 shadow-lg border border-slate-100 flex items-center justify-center group-hover:-translate-y-1 transition-transform duration-300">
+                                 <div className="flex justify-between items-start gap-3 mb-4">
+                                    <div className="w-20 h-20 sm:w-24 sm:h-24 bg-white shrink-0 rounded-2xl p-2 shadow-lg border border-slate-100 flex items-center justify-center group-hover:-translate-y-1 transition-transform duration-300 relative z-20">
                                         <img src={uni.logo} alt={uni.name} className="w-full h-full object-contain rounded-xl" />
                                     </div>
-                                    <div className="flex flex-col items-end gap-1.5 mb-2">
-                                        <span className="bg-emerald-50 text-emerald-700 text-[10px] font-black px-2.5 py-1 rounded-md border border-emerald-200 shadow-sm uppercase">{uni.accreditation}</span>
-                                        <span className="bg-purple-50 text-purple-700 text-[10px] font-black px-2.5 py-1 rounded-md border border-purple-200 shadow-sm uppercase">{uni.ranking}</span>
+                                    <div className="flex flex-col items-end gap-1.5 pt-2 mb-2 flex-1 min-w-0">
+                                        <div title={uni.accreditation} className="bg-emerald-50 text-emerald-700 text-[10px] font-black px-2.5 py-1 rounded-md border border-emerald-200 shadow-sm uppercase text-right max-w-full leading-tight line-clamp-2">{uni.accreditation}</div>
+                                        <div title={uni.ranking} className="bg-purple-50 text-purple-700 text-[10px] font-black px-2.5 py-1 rounded-md border border-purple-200 shadow-sm uppercase text-right max-w-full truncate">{uni.ranking}</div>
                                     </div>
                                  </div>
 
                                  {/* Title & Location (No Truncation) */}
-                                 <h3 className="text-[22px] font-black text-slate-900 leading-[1.25] mb-2 group-hover:text-[#0056d2] transition-colors">
+                                 <h3 className="text-[20px] sm:text-[22px] font-black text-slate-900 leading-[1.25] mb-2 group-hover:text-[#0056d2] transition-colors line-clamp-2 min-h-[50px] sm:min-h-[55px]">
                                     {uni.name}
                                  </h3>
                                  <div className="flex items-center gap-1.5 text-[14px] text-slate-500 font-bold mb-6">
-                                    <MapPin size={16} className="text-slate-400" /> {uni.location}
+                                    <MapPin size={16} className="text-slate-400 shrink-0" /> <span className="truncate">{uni.location}</span>
                                  </div>
 
                                  {/* Premium Data Box Matrix */}
                                  <div className="grid grid-cols-2 gap-px bg-slate-200 border border-slate-200 rounded-xl overflow-hidden mb-6 shadow-sm">
-                                    <div className="bg-white p-4 flex flex-col justify-center">
-                                       <span className="text-[10px] text-slate-400 font-black uppercase tracking-widest mb-1.5 flex items-center gap-1"><Banknote size={12}/> Est. Tuition</span>
-                                       <span className="text-[16px] font-black text-slate-900">{uni.fees}</span>
+                                    <div className="bg-white p-3 sm:p-4 flex flex-col justify-center">
+                                       <span className="text-[9px] sm:text-[10px] text-slate-400 font-black uppercase tracking-widest mb-1.5 flex items-center gap-1"><Banknote size={12}/> Est. Tuition</span>
+                                       <span className="text-[14px] sm:text-[16px] font-black text-slate-900 line-clamp-2 leading-tight">{uni.fees}</span>
                                     </div>
-                                    <div className="bg-white p-4 flex flex-col justify-center">
-                                       <span className="text-[10px] text-slate-400 font-black uppercase tracking-widest mb-1.5 flex items-center gap-1"><TrendingUp size={12}/> Max Package</span>
-                                       <span className="text-[16px] font-black text-emerald-600">{uni.placement.split('|')[1]?.trim() || uni.placement}</span>
+                                    <div className="bg-white p-3 sm:p-4 flex flex-col justify-center">
+                                       <span className="text-[9px] sm:text-[10px] text-slate-400 font-black uppercase tracking-widest mb-1.5 flex items-center gap-1"><TrendingUp size={12}/> Max Package</span>
+                                       <span className="text-[14px] sm:text-[16px] font-black text-emerald-600 line-clamp-2 leading-tight">{uni.placement.split('|')[1]?.trim() || uni.placement.split('|')[0]?.trim()}</span>
                                     </div>
                                  </div>
 

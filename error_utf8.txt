@@ -1,0 +1,27 @@
+﻿node : D:\collegevidiyaguid
+e\src\data\universities.js:
+4650
+At line:1 char:1
++ node -c 
+src/data/universities.js > 
+error.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (D:\  
+  collegevidiy...rsities   
+ .js:4650:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+];
+^
+
+SyntaxError: Unexpected 
+token ']'
+    at checkSyntax (node:in
+ternal/main/check_syntax:74
+:5)
+
+Node.js v22.13.1

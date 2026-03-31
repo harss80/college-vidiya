@@ -12,9 +12,9 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex items-center gap-6">
             <NavLink to="/" className="flex items-center gap-3 group">
-              <img src="/logo.png" alt="College Vidya Logo" className="h-[36px] md:h-[46px] object-contain" />
+              <img src="/logo.png" alt="College Buddy" className="h-[36px] md:h-[46px] object-contain" />
               <div className="hidden md:flex flex-col border-l-2 border-slate-300 pl-3 ml-1 leading-none py-1">
-                 <span className="text-slate-800 font-black text-[15px] tracking-wide uppercase">Employee</span>
+                 <span className="text-slate-800 font-black text-xl tracking-wide uppercase">College Buddy</span>
                  <span className="text-primary-600 font-bold text-[13px] tracking-wider uppercase">Mock Call Simulator</span>
               </div>
             </NavLink>

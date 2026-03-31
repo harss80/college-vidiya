@@ -10,7 +10,7 @@ export const callFlowData = [
       { id: "op1", text: "Greetings", points: 2 },
       { id: "op2", text: "Student Name confirmation & Purpose of the Call", points: 2 },
       { id: "op3", text: "Confirmation of Preferred Language", points: 2 },
-      { id: "op4", text: "Introduction - Counsellor and College Vidya", points: 5 },
+      { id: "op4", text: "Introduction - Counsellor and College Buddy", points: 5 },
       { id: "op5", text: "Call recording Disclaimer", points: 2 },
     ]
   },
@@ -18,7 +18,7 @@ export const callFlowData = [
     category: "Know your Student",
     weight: 15,
     items: [
-      { id: "k1", text: "Confirm V-card Details and Update missing Data- (CV Website-8 questions)", points: 5 },
+      { id: "k1", text: "Confirm V-card Details and Update missing Data- (CB Website-8 questions)", points: 5 },
       { id: "k2", text: "Program & Specialization", points: 2 },
       { id: "k3", text: "Location", points: 1 },
       { id: "k4", text: "Confirm correct percentage of last Qualification", points: 1 },
@@ -30,11 +30,11 @@ export const callFlowData = [
     category: "Suggesting University",
     weight: 40,
     items: [
-      { id: "s1", text: "Did counsellor refer the top 3 Listed/PTU Universities from the third page of CV website?", points: 7.5 },
-      { id: "s2", text: "Did the counsellor Suggest the right University from CV website?", points: 7.5 },
+      { id: "s1", text: "Did counsellor refer the top 3 Listed/PTU Universities from the third page of CB website?", points: 7.5 },
+      { id: "s2", text: "Did the counsellor Suggest the right University from CB website?", points: 7.5 },
       { id: "s3", text: "Did the counsellor Explain the Features, Key Highlights and Program Outcome of the Selected Univer", points: 10 },
-      { id: "s4", text: "Did the counsellor elaborate the USP of the university from Compare Page of CV Website?", points: 10 },
-      { id: "s5", text: "College Vidya Features Informed - Ex. Video call, Chat Process, Talk to University Etc.", points: 5 },
+      { id: "s4", text: "Did the counsellor elaborate the USP of the university from Compare Page of CB Website?", points: 10 },
+      { id: "s5", text: "College Buddy Features Informed - Ex. Video call, Chat Process, Talk to University Etc.", points: 5 },
     ]
   },
   {
