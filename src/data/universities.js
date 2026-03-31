@@ -3221,318 +3221,6 @@ export const universities = [
     "url": "https://collegevidya.com/"
   },
   {
-    "id": "parul",
-    "name": "Parul University (Online)",
-    "logo": "https://ui-avatars.com/api/?name=PU&background=7e22ce&color=fff&size=150",
-    "location": "Vadodara, Gujarat",
-    "type": "State Private University",
-    "level": [
-      "UG",
-      "PG"
-    ],
-    "budget": 120000,
-    "specializations": [
-      "MBA",
-      "BCA",
-      "BBA",
-      "MCA",
-      "MA",
-      "MSW",
-      "MCOM",
-      "MSC",
-      "BA"
-    ],
-    "accreditation": "NAAC A++, AIU, WES, QS Diamond",
-    "fees": "Semester, Annual & Full Options",
-    "placement": "Skill Assessment | Virtual Drives & Mock Preps",
-    "eligibility": "12th / Grad as per course",
-    "ranking": "NIRF 101-150 Band",
-    "exams": "Merit Based",
-    "extendedDetails": {
-      "usps": [
-        "Legacy from 2009, State Private University with prestigious NAAC A++ accreditation.",
-        "QS World Ranking Participation, Association of Indian Universities (AIU) Membership.",
-        "World Education Services (WES) Recognition and QS I GAUGE Diamond Rating.",
-        "Access to Dual Degree & Certification paths at 30% Scholarship (e.g. MBA with PG Diploma in Digital Marketing).",
-        "Advanced & Flexible Learning Platform (LMS) with 24/7 access.",
-        "Career Support & Placement Assistance with Virtual placement drives & Interview Preparations."
-      ],
-      "payment": "Reg: ₹500 | Block: ₹10,000 (Full Pay) | Loan: Fibe (3,6,9m 0% EMI | 12m has 10.25% int)",
-      "examination": "70:30 Model | 30% Internal Assessment, 70% Proctored Exam | Pass Criteria = 40%",
-      "leadLocking": "Auto Lock on LSQ | LSQ = Parul",
-      "programs": [
-        {
-          "group": "UG",
-          "name": "BA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "English",
-              "price": "Check Plan",
-              "details": "Core linguistics, literature context, and modern English evaluation. (Free Certs: Excel, ChatGPT)"
-            },
-            {
-              "name": "Journalism and Mass communication",
-              "price": "Check Plan",
-              "details": "Media framework, fast iteration journalism, broadcasting. (Free Certs: Excel, ChatGPT)"
-            }
-          ]
-        },
-        {
-          "group": "UG",
-          "name": "BBA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Marketing",
-              "jobRoles": [
-                "Brand Manager",
-                "Chief Marketing Officer (CMO)",
-                "Digital Marketing Director",
-                "Market Research Analyst"
-              ],
-              "price": "Check Plan",
-              "details": "Market penetration strategies and digital funnels. (Free Certs: ChatGPT, Email/Mobile Marketing, GST, Excel)"
-            },
-            {
-              "name": "Finance",
-              "jobRoles": [
-                "Chief Financial Officer (CFO)",
-                "Investment Banker",
-                "Financial Risk Manager",
-                "Corporate Treasurer"
-              ],
-              "price": "Check Plan",
-              "details": "Corporate finance modeling, markets context. (Optional Diploma in Fin Services)."
-            },
-            {
-              "name": "Human Resource",
-              "price": "Check Plan",
-              "details": "Modern recruitment vectors, HR algorithms."
-            }
-          ]
-        },
-        {
-          "group": "UG",
-          "name": "BCA",
-          "duration": "36 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "General",
-              "price": "Check Plan",
-              "details": "Applied computer engineering vectors. (Free Certs: Mobile App Dev, IoT, Web Dev, Excel)"
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MBA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Agribusiness Management",
-              "price": "Check Plan",
-              "details": "Agriculture economic theory and farming logistics management."
-            },
-            {
-              "name": "Banking & Financial Services",
-              "price": "Check Plan",
-              "details": "Investment metrics, BFSI landscape strategies."
-            },
-            {
-              "name": "Business Analytics",
-              "jobRoles": [
-                "Data Science Manager",
-                "Strategy Consultant",
-                "Business Intelligence Lead",
-                "Operations Analyst"
-              ],
-              "price": "Check Plan",
-              "details": "High-density data management and SQL-backed business insights."
-            },
-            {
-              "name": "Digital Marketing & Sales",
-              "price": "Check Plan",
-              "details": "Funnel scaling, ROAS modeling, paid campaigns."
-            },
-            {
-              "name": "Entrepreneurship & Innovation Management",
-              "price": "Check Plan",
-              "details": "Startup ecosystem integration, zero-to-one funding logistics."
-            },
-            {
-              "name": "Family Managed Business",
-              "price": "Check Plan",
-              "details": "Managing inherited organizational structures and scale."
-            },
-            {
-              "name": "Finance",
-              "jobRoles": [
-                "Chief Financial Officer (CFO)",
-                "Investment Banker",
-                "Financial Risk Manager",
-                "Corporate Treasurer"
-              ],
-              "price": "Check Plan",
-              "details": "Corporate funding pipelines, advanced budgeting."
-            },
-            {
-              "name": "Forensic Accounting & Corporate Fraud Investigation",
-              "price": "Check Plan",
-              "details": "Audit compliance tracking and fraud deterrence."
-            },
-            {
-              "name": "Healthcare Management",
-              "price": "Check Plan",
-              "details": "Hospital administration and medical infrastructure tracking."
-            },
-            {
-              "name": "Human Resource Management",
-              "price": "Check Plan",
-              "details": "Retention dynamics, employee relationship structures."
-            },
-            {
-              "name": "Information Technology",
-              "price": "Check Plan",
-              "details": "Enterprise IT resource planning and cloud integration."
-            },
-            {
-              "name": "International Trade & Business",
-              "price": "Check Plan",
-              "details": "Cross-border logistical and economic deployment."
-            },
-            {
-              "name": "Logistics & Supply Chain Management",
-              "price": "Check Plan",
-              "details": "Warehouse operations, global freight scaling."
-            },
-            {
-              "name": "Marketing",
-              "jobRoles": [
-                "Brand Manager",
-                "Chief Marketing Officer (CMO)",
-                "Digital Marketing Director",
-                "Market Research Analyst"
-              ],
-              "price": "Check Plan",
-              "details": "Product marketing and multi-channel branding."
-            },
-            {
-              "name": "Operations Management",
-              "price": "Check Plan",
-              "details": "Efficiency algorithms and supply metrics optimization."
-            },
-            {
-              "name": "Pharmaceutical Management",
-              "price": "Check Plan",
-              "details": "Pharma manufacturing economics and medical sales."
-            },
-            {
-              "name": "Project Management",
-              "price": "Check Plan",
-              "details": "Agile, scrum, and timeline architecture frameworks."
-            },
-            {
-              "name": "Public Policy",
-              "price": "Check Plan",
-              "details": "Government frameworks and public administration logistics."
-            },
-            {
-              "name": "Retail Management",
-              "price": "Check Plan",
-              "details": "Omni-channel retail deployments."
-            },
-            {
-              "name": "Tourism & Event Management",
-              "price": "Check Plan",
-              "details": "High-scale event execution and hospitality mechanics."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MCA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Cybersecurity & Forensic",
-              "price": "Check Plan",
-              "details": "Advanced network-level intrusion detection and system hardening."
-            },
-            {
-              "name": "Full Stack Web Development",
-              "price": "Check Plan",
-              "details": "Backend and frontend scaling logic structures."
-            },
-            {
-              "name": "Artificial Intelligence / Machine Learning",
-              "price": "Check Plan",
-              "details": "Model training, neural network basics and dataset normalization."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MSC",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "Applied Mathematics",
-              "price": "Check Plan",
-              "details": "High-level theoretical computation and statistics."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MA",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "ELT & JMC",
-              "price": "Check Plan",
-              "details": "Advanced literature and mass communication media theories."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MSW",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "General Master of Social Work",
-              "price": "Check Plan",
-              "details": "Advanced community structures and NGO logistics."
-            }
-          ]
-        },
-        {
-          "group": "PG",
-          "name": "MCOM",
-          "duration": "24 Months",
-          "priceRange": "Check Plan",
-          "specializations": [
-            {
-              "name": "General Commerce",
-              "price": "Check Plan",
-              "details": "Advanced accounting, commerce laws and taxation frameworks."
-            }
-          ]
-        }
-      ]
-    },
-    "url": "https://paruluniversity.online/"
-  },
-  {
     "id": "lpu-online",
     "name": "Lovely Professional University (LPU Online)",
     "logo": "https://ui-avatars.com/api/?name=LPU&background=ea580c&color=fff&size=150",
@@ -5006,6 +4694,307 @@ export const universities = [
               ],
               "price": "₹ 72,000",
               "details": "Hybrid tracking utilizing core tech loops within humanities structures."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "parul",
+    "name": "Parul University (Online)",
+    "logo": "https://ui-avatars.com/api/?name=PU&background=dc2626&color=fff&size=150",
+    "location": "Vadodara, Gujarat",
+    "type": "Private University",
+    "level": [
+      "UG",
+      "PG",
+      "Diploma"
+    ],
+    "budget": 150000,
+    "specializations": [
+      "MBA",
+      "BBA",
+      "MCA",
+      "BCA",
+      "MA",
+      "BA",
+      "M.Sc",
+      "M.Com",
+      "MSW"
+    ],
+    "accreditation": "NAAC A++, UGC Entitled, AICTE, NIRF Top 50 (Innovation)",
+    "fees": "Semester Wise Payment Option Available",
+    "placement": "700+ Industry Collaborations | Personalized Resume Building",
+    "eligibility": "10+2 for UG / Bachelor's Degree for PG",
+    "ranking": "Youngest University to receive NAAC A++ | Top 50 NIRF Innovation",
+    "exams": "Merit Based",
+    "extendedDetails": {
+      "usps": [
+        "Youngest University in India to receive NAAC A++ accreditation.",
+        "12 Cr in entrepreneurship funding & 180+ Start-ups Incubated.",
+        "GSIRF 4/5 Stars Rating.",
+        "Online classes & exams with recorded lectures in Learning Management System.",
+        "100% Online delivery with personalized career development."
+      ],
+      "payment": "Registration: ₹1000 | Admission Processing Fee Applicable. Easy installments and EMI options available.",
+      "examination": "100% Online Delivery (Proctored) | Passing Criteria = Minimum 40%",
+      "leadLocking": "Direct Lead Submission",
+      "programs": [
+        {
+          "group": "PG",
+          "name": "MBA",
+          "duration": "24 Months",
+          "priceRange": "₹37,500 / Semester",
+          "specializations": [
+            {
+              "name": "Marketing Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Marketing Management."
+            },
+            {
+              "name": "Finance Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Finance Management."
+            },
+            {
+              "name": "Human Resource Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Human Resource Management."
+            },
+            {
+              "name": "Information Technology",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Information Technology."
+            },
+            {
+              "name": "Agri- Business Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Agri- Business Management."
+            },
+            {
+              "name": "Business Analytics",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Business Analytics."
+            },
+            {
+              "name": "Banking and Financial Services",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Banking and Financial Services."
+            },
+            {
+              "name": "Digital Marketing and Sales",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Digital Marketing and Sales."
+            },
+            {
+              "name": "Entrepreneurship and Innovation Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Entrepreneurship and Innovation Management."
+            },
+            {
+              "name": "Family Managed Business",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Family Managed Business."
+            },
+            {
+              "name": "Healthcare Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Healthcare Management."
+            },
+            {
+              "name": "International Trade and Business",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in International Trade and Business."
+            },
+            {
+              "name": "Logistics and Supply Chain Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Logistics and Supply Chain Management."
+            },
+            {
+              "name": "Operations Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Operations Management."
+            },
+            {
+              "name": "Pharmaceutical Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Pharmaceutical Management."
+            },
+            {
+              "name": "Project Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Project Management."
+            },
+            {
+              "name": "Public Policy",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Public Policy."
+            },
+            {
+              "name": "Retail Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Retail Management."
+            },
+            {
+              "name": "Tourism and Event Management",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Tourism and Event Management."
+            },
+            {
+              "name": "Forensic Accounting and Corporate Fraud Investigation",
+              "price": "₹1,50,000",
+              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Forensic Accounting and Corporate Fraud Investigation."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "MCA",
+          "duration": "24 Months",
+          "priceRange": "₹30,000 / Semester",
+          "specializations": [
+            {
+              "name": "Artificial Intelligence and Machine Learning",
+              "price": "₹1,20,000",
+              "details": "Total: ₹1,20,000 (₹30,000 / Semester)."
+            },
+            {
+              "name": "General",
+              "price": "₹1,20,000",
+              "details": "Total: ₹1,20,000 (₹30,000 / Semester). Core MCA curriculum."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BBA",
+          "duration": "36 Months",
+          "priceRange": "₹18,500 / Semester",
+          "specializations": [
+            {
+              "name": "General",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester)."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BCA",
+          "duration": "36 Months",
+          "priceRange": "₹18,500 / Semester",
+          "specializations": [
+            {
+              "name": "General",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester)."
+            }
+          ]
+        },
+        {
+          "group": "UG",
+          "name": "BA",
+          "duration": "36 Months",
+          "priceRange": "₹18,500 / Semester",
+          "specializations": [
+            {
+              "name": "Psychology",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Psychology."
+            },
+            {
+              "name": "English",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in English."
+            },
+            {
+              "name": "Journalism and mass communication",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Journalism and mass communication."
+            },
+            {
+              "name": "Economics",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Economics."
+            },
+            {
+              "name": "Sociology",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Sociology."
+            },
+            {
+              "name": "Political Science",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Political Science."
+            },
+            {
+              "name": "Geography",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Geography."
+            },
+            {
+              "name": "History",
+              "price": "₹1,11,000",
+              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in History."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "MA",
+          "duration": "24 Months",
+          "priceRange": "₹15,000 / Semester",
+          "specializations": [
+            {
+              "name": "English Language Teaching",
+              "price": "₹60,000",
+              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+            },
+            {
+              "name": "Journalism and Mass Communication",
+              "price": "₹60,000",
+              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "M.Sc",
+          "duration": "24 Months",
+          "priceRange": "₹15,000 / Semester",
+          "specializations": [
+            {
+              "name": "Applied Mathematics",
+              "price": "₹60,000",
+              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "M.Com",
+          "duration": "24 Months",
+          "priceRange": "₹15,000 / Semester",
+          "specializations": [
+            {
+              "name": "General",
+              "price": "₹60,000",
+              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "MSW",
+          "duration": "24 Months",
+          "priceRange": "₹15,000 / Semester",
+          "specializations": [
+            {
+              "name": "Master of Social Work",
+              "price": "₹60,000",
+              "details": "Total: ₹60,000 (₹15,000 / Semester)."
             }
           ]
         }
