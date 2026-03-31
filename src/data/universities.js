@@ -5000,5 +5000,251 @@ export const universities = [
         }
       ]
     }
+  },
+  {
+    "id": "lpu",
+    "name": "Lovely Professional University (LPU Online)",
+    "logo": "https://www.lpuonline.com/images/logo.png",
+    "type": "Private University",
+    "location": "Phagwara, Punjab",
+    "accreditation": "NAAC A++, UGC-DEB, AICTE, NIRF",
+    "ranking": "NAAC A++ | 5th in THE World Ranking",
+    "placement": "Dedicated Placement Support | Top Recruiters",
+    "fees": "₹59,840 - ₹1,46,240",
+    "specializations": [
+      "MBA",
+      "MCA",
+      "BBA",
+      "BCA",
+      "BA",
+      "MA",
+      "M.Sc",
+      "M.Com"
+    ],
+    "extendedDetails": {
+      "leadLocking": "Candidates MUST register on the official LPU Online portal using the LMS. Generate DEB-ID explicitly.",
+      "usps": [
+        "NAAC A++ Accredited & ranked 5th by THE World University Ranking.",
+        "Live Interactive sessions on weekends.",
+        "400+ hours of recorded content.",
+        "In-demand tech training: Canva, Tableau, Numpy, SAP.",
+        "Online Proctored exams monitored LIVE through AI tools."
+      ],
+      "payment": "<b>Massive Upfront Grants:</b><br/>• <b>Lump Sum (Full Payment):</b> Includes up to 10% special waiver on top of student grant.<br/>• <b>Semester-wise:</b> A 20% Student grant is applied automatically to semester fees.<br/>• <b>EMI:</b> Flexible 0% EMI options exist.",
+      "examination": "100% Online Proctored | 30% Continuous Assessments + 70% Term-End",
+      "programs": [
+        {
+          "name": "MBA",
+          "group": "PG",
+          "duration": "2 Years (4 Semesters)",
+          "eligibility": "Bachelor’s degree in any discipline or equivalent; OR Completed CS / CA / CMA.",
+          "about": "UGC entitled MBA with intensive Capstone Projects and advanced analytics training (Google Analytics, SAP, Tableau).",
+          "careerScope": "Top management roles, strategic planners.",
+          "priceRange": "₹40,400 / Sem",
+          "specializations": [
+            {
+              "name": "International Business",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Banking & Financial Services",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Hospital & Healthcare Management",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Logistics & Supply Chain Management",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Human Resource Management",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Marketing",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Finance",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Data Science",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Business Analytics",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Digital Marketing",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Information Technology",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            },
+            {
+              "name": "Operations Management",
+              "price": "₹1,46,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,46,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,61,600 Total (₹40,400/sem)<br/><br/><b>Special USP:</b> Includes Analytics Platforms Training (Google Analytics, EXCEL, TABLEAU)"
+            }
+          ]
+        },
+        {
+          "name": "MCA",
+          "group": "PG",
+          "duration": "2 Years (4 Semesters)",
+          "eligibility": "Bachelor’s degree with Math at 10+2 or Graduation. Bridge course for non-tech backgrounds.",
+          "about": "Practical-first approach focusing on tech languages (SQL, Python, Java) and Virtual Labs.",
+          "careerScope": "Software Engineering, AI Strategy, Web Architecture.",
+          "priceRange": "₹30,000 / Sem",
+          "specializations": [
+            {
+              "name": "Machine Learning & AI",
+              "price": "₹1,08,800 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+            },
+            {
+              "name": "Data Science",
+              "price": "₹1,08,800 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+            },
+            {
+              "name": "Cybersecurity",
+              "price": "₹1,08,800 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+            },
+            {
+              "name": "Full Stack Web Development",
+              "price": "₹1,08,800 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+            },
+            {
+              "name": "AR/VR Game Development",
+              "price": "₹1,08,800 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,08,800 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,20,000 Total (₹30,000/sem)<br/><br/><b>Special USP:</b> Summer Training, Project Work & Virtual Labs Access"
+            }
+          ]
+        },
+        {
+          "name": "M.Com",
+          "group": "PG",
+          "duration": "2 Years (4 Semesters)",
+          "eligibility": "Bachelor’s degree (Commerce or Management or Economics or Accounts).",
+          "priceRange": "₹20,400 / Sem",
+          "specializations": [
+            {
+              "name": "Finance & Accounting",
+              "price": "₹74,240 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹74,240 (Best Value!)<br/>• <b>Semester-wise:</b> ₹81,600 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Skill Enhancement in Fundamentals of IT"
+            }
+          ]
+        },
+        {
+          "name": "MA",
+          "group": "PG",
+          "duration": "2 Years (4 Semesters)",
+          "eligibility": "Bachelor’s degree in any discipline.",
+          "priceRange": "₹16,400 / Sem",
+          "specializations": [
+            {
+              "name": "English",
+              "price": "₹59,840 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers"
+            },
+            {
+              "name": "History",
+              "price": "₹59,840 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers"
+            },
+            {
+              "name": "Sociology",
+              "price": "₹59,840 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers"
+            },
+            {
+              "name": "Political Science",
+              "price": "₹59,840 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Research Exposure through Dissertations & Term Papers"
+            }
+          ]
+        },
+        {
+          "name": "M.Sc",
+          "group": "PG",
+          "duration": "2 Years (4 Semesters)",
+          "eligibility": "Bachelor's degree with Math / Economics accordingly.",
+          "priceRange": "₹16,400 / Sem",
+          "specializations": [
+            {
+              "name": "Mathematics",
+              "price": "₹59,840 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Differential Equations & Complex Analysis"
+            },
+            {
+              "name": "Economics",
+              "price": "₹59,840 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹59,840 (Best Value!)<br/>• <b>Semester-wise:</b> ₹65,600 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Weekly Masterclasses by Industry Experts"
+            }
+          ]
+        },
+        {
+          "name": "BBA",
+          "group": "UG",
+          "duration": "3 Years (6 Semesters)",
+          "eligibility": "10+2 in any stream.",
+          "priceRange": "₹20,400 / Sem",
+          "specializations": [
+            {
+              "name": "General Management",
+              "price": "₹1,11,360 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,11,360 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,22,400 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Experiential Learning with E-commerce & Business Ethics"
+            }
+          ]
+        },
+        {
+          "name": "BCA",
+          "group": "UG",
+          "duration": "3 Years (6 Semesters)",
+          "eligibility": "10+2 in any stream.",
+          "priceRange": "₹20,400 / Sem",
+          "specializations": [
+            {
+              "name": "Software Development",
+              "price": "₹1,11,360 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹1,11,360 (Best Value!)<br/>• <b>Semester-wise:</b> ₹1,22,400 Total (₹20,400/sem)<br/><br/><b>Special USP:</b> Hands-on skills in Python, Java, SQL, AI"
+            }
+          ]
+        },
+        {
+          "name": "BA",
+          "group": "UG",
+          "duration": "3 Years (6 Semesters)",
+          "eligibility": "10+2 in any stream.",
+          "priceRange": "₹16,400 / Sem",
+          "specializations": [
+            {
+              "name": "General Arts",
+              "price": "₹89,760 (Lump Sum Plan)",
+              "details": "<b>Flexible Pricing Discounts:</b><br/>• <b>Lump Sum (1-Time):</b> ₹89,760 (Best Value!)<br/>• <b>Semester-wise:</b> ₹98,400 Total (₹16,400/sem)<br/><br/><b>Special USP:</b> Community Development Projects & IT Fundamentals"
+            }
+          ]
+        }
+      ]
+    }
   }
 ];
