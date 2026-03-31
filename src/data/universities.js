@@ -4737,7 +4737,7 @@ export const universities = [
         "Online classes & exams with recorded lectures in Learning Management System.",
         "100% Online delivery with personalized career development."
       ],
-      "payment": "Registration: ₹1000 | Admission Processing Fee Applicable. Easy installments and EMI options available.",
+      "payment": "\n  <b>Fee Payment Options:</b><br/>\n  • <b>Semester-wise:</b> Standard option across all programs. Example: MBA is ₹37,500/Semester.<br/>\n  • <b>Annual / Full Payment:</b> Full fee payment discounts might apply on counseling. Standard total for MBA is ₹1,50,000.<br/>\n  • <b>EMI:</b> 0% EMI Options Available for all courses.<br/><br/>\n  <b>Scholarships & Discounts:</b><br/>\n  • <b>30% Scholarship</b> to pursue Dual Degrees (e.g., Degree + PG Diploma in Digital Marketing / Financial Services).\n",
       "examination": "100% Online Delivery (Proctored) | Passing Criteria = Minimum 40%",
       "leadLocking": "Direct Lead Submission",
       "programs": [
@@ -4750,102 +4750,102 @@ export const universities = [
             {
               "name": "Marketing Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Marketing Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Finance Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Finance Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Goods and Service Tax & Micro Finance</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Human Resource Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Human Resource Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Information Technology",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Information Technology."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Agri- Business Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Agri- Business Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Business Analytics",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Business Analytics."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners & Advanced Data</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Banking and Financial Services",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Banking and Financial Services."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Micro Finance</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Digital Marketing and Sales",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Digital Marketing and Sales."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Entrepreneurship and Innovation Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Entrepreneurship and Innovation Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Family Managed Business",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Family Managed Business."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Healthcare Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Healthcare Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "International Trade and Business",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in International Trade and Business."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Export-Import Management</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Logistics and Supply Chain Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Logistics and Supply Chain Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Operations Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Operations Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Pharmaceutical Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Pharmaceutical Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Project Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Project Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Project Management</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Public Policy",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Public Policy."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Retail Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Retail Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Export-Import Management</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Tourism and Event Management",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Tourism and Event Management."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Excel for Beginners</b> & 30% Off on Dual Diploma."
             },
             {
               "name": "Forensic Accounting and Corporate Fraud Investigation",
               "price": "₹1,50,000",
-              "details": "Total: ₹1,50,000 (₹37,500 / Semester). Specialization in Forensic Accounting and Corporate Fraud Investigation."
+              "details": "<b>Fees:</b> ₹1,50,000 Total | ₹37,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>Goods and Service Tax</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4858,12 +4858,12 @@ export const universities = [
             {
               "name": "Artificial Intelligence and Machine Learning",
               "price": "₹1,20,000",
-              "details": "Total: ₹1,20,000 (₹30,000 / Semester)."
+              "details": "<b>Fees:</b> ₹1,20,000 Total | ₹30,000/Semester.<br/><b>Special USP:</b> Tech-focused Add-On Certifications."
             },
             {
               "name": "General",
               "price": "₹1,20,000",
-              "details": "Total: ₹1,20,000 (₹30,000 / Semester). Core MCA curriculum."
+              "details": "<b>Fees:</b> ₹1,20,000 Total | ₹30,000/Semester.<br/><b>Special USP:</b> Tech-focused Add-On Certifications."
             }
           ]
         },
@@ -4876,7 +4876,7 @@ export const universities = [
             {
               "name": "General",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester)."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester | <b>No Annual Option explicitly published (EMI available)</b>.<br/><b>Special USP:</b> Includes Free Add-On Certification in <b>ChatGPT & Email Marketing</b> & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4889,7 +4889,7 @@ export const universities = [
             {
               "name": "General",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester)."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             }
           ]
         },
@@ -4902,42 +4902,42 @@ export const universities = [
             {
               "name": "Psychology",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Psychology."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             },
             {
               "name": "English",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in English."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             },
             {
               "name": "Journalism and mass communication",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Journalism and mass communication."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             },
             {
               "name": "Economics",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Economics."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             },
             {
               "name": "Sociology",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Sociology."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             },
             {
               "name": "Political Science",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Political Science."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             },
             {
               "name": "Geography",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in Geography."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             },
             {
               "name": "History",
               "price": "₹1,11,000",
-              "details": "Total: ₹1,11,000 (₹18,500 / Semester). Specialization in History."
+              "details": "<b>Fees:</b> ₹1,11,000 Total | ₹18,500/Semester.<br/><b>Special USP:</b> Access to Free Add-On Certifications (like Excel/ChatGPT) based on availability."
             }
           ]
         },
@@ -4950,12 +4950,12 @@ export const universities = [
             {
               "name": "English Language Teaching",
               "price": "₹60,000",
-              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
             },
             {
               "name": "Journalism and Mass Communication",
               "price": "₹60,000",
-              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4968,7 +4968,7 @@ export const universities = [
             {
               "name": "Applied Mathematics",
               "price": "₹60,000",
-              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4981,7 +4981,7 @@ export const universities = [
             {
               "name": "General",
               "price": "₹60,000",
-              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
             }
           ]
         },
@@ -4994,7 +4994,7 @@ export const universities = [
             {
               "name": "Master of Social Work",
               "price": "₹60,000",
-              "details": "Total: ₹60,000 (₹15,000 / Semester)."
+              "details": "<b>Fees:</b> ₹60,000 Total | ₹15,000/Semester.<br/><b>Special USP:</b> Relevant Industry Add-On Certification & 30% Off on Dual Diploma."
             }
           ]
         }
