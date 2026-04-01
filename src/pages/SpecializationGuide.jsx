@@ -1,21 +1,30 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Flame, Target, Lightbulb, CheckCircle2, BookOpen } from 'lucide-react';
+import { Search, Flame, Target, Lightbulb, CheckCircle2, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
 import { specializationData } from '../data/specializationGuideData';
 
 const SpecializationGuide = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [expandedIndex, setExpandedIndex] = useState(null);
 
   const filteredData = useMemo(() => {
-    if (!searchTerm.trim()) return specializationData;
-
-    const queryWords = searchTerm.toLowerCase().split(/\s+/).filter(w => w);
-
+    // Reset expansion when search changes to avoid mismatched indices, but better to just use ID if possible.
+    // We'll reset it to null here.
     return specializationData.filter(spec => {
+      if (!searchTerm.trim()) return true;
+      const queryWords = searchTerm.toLowerCase().split(/\s+/).filter(w => w);
       const searchString = `${spec.name} ${spec.acronyms.join(' ')} ${spec.category} ${spec.whatIsIt} ${spec.secretFact}`.toLowerCase();
-      // Expanded acronym check natively built-in via the acronyms array
+      // Only match if at least one acronym exactly matches or if substring matches the query
       return queryWords.every(word => searchString.includes(word));
     });
   }, [searchTerm]);
+
+  const toggleExpand = (index) => {
+    if (expandedIndex === index) {
+      setExpandedIndex(null);
+    } else {
+      setExpandedIndex(index);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-[#f8fafc] pt-20 pb-20">
@@ -30,7 +39,7 @@ const SpecializationGuide = () => {
             Specialization <span className="text-[#ff6b00]">Master Guide</span>
           </h1>
           <p className="text-lg text-blue-100 font-medium max-w-2xl mx-auto opacity-90">
-            Search any specialization below to instantly access deep industry insights, secret facts, and core USPs to pitch to students.
+            Search any specialization across all universities to instantly access deep industry insights, secret facts, and core USPs for your pitch.
           </p>
         </div>
       </div>
@@ -43,10 +52,13 @@ const SpecializationGuide = () => {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-primary-500 w-6 h-6" />
             <input
               type="text"
-              placeholder="Search by name, acronym (e.g., HR, AI), or category..."
+              placeholder="Search by name, acronym (e.g., HR, AI, ACCA, BFSI) or category..."
               className="w-full pl-14 pr-4 py-4 md:py-5 border-none bg-slate-50 text-slate-800 rounded-xl focus:ring-2 focus:ring-primary-500/20 font-medium text-lg placeholder-slate-400 outline-none transition-all"
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => {
+                  setSearchTerm(e.target.value);
+                  setExpandedIndex(null); // Reset when searching
+              }}
             />
           </div>
         </div>
@@ -61,69 +73,86 @@ const SpecializationGuide = () => {
             </div>
         </div>
 
-        {/* Mappings Grid */}
-        <div className="space-y-6">
+        {/* Mappings Grid - ACCORDION STYLE */}
+        <div className="space-y-4">
           {filteredData.length > 0 ? (
-            filteredData.map((spec, index) => (
-              <div key={index} className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 hover:shadow-md transition-shadow relative overflow-hidden group">
-                <div className="absolute top-0 left-0 w-2 h-full bg-[#ff6b00] group-hover:w-3 transition-all duration-300"></div>
-                
-                <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-6">
-                   <div>
-                     <div className="inline-flex items-center gap-2 text-xs font-black text-[#0047ad] uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-full mb-3">
-                        <Target size={14} /> {spec.category}
+            filteredData.map((spec, index) => {
+              const isExpanded = expandedIndex === index;
+
+              return (
+                <div key={index} className={`bg-white rounded-2xl shadow-sm border ${isExpanded ? 'border-[#0047ad]' : 'border-slate-200'} transition-all duration-300 relative overflow-hidden group`}>
+                  {/* Left Highlight Strip */}
+                  <div className={`absolute top-0 left-0 w-2 h-full transition-all duration-300 ${isExpanded ? 'bg-[#ff6b00]' : 'bg-transparent group-hover:bg-slate-300'}`}></div>
+
+                  {/* Header (Clickable) */}
+                  <div 
+                    onClick={() => toggleExpand(index)}
+                    className="p-5 md:p-6 cursor-pointer hover:bg-slate-50 flex items-center justify-between gap-4"
+                  >
+                     <div className="pl-3">
+                       <div className="inline-flex items-center gap-2 text-[10px] md:text-xs font-black text-[#0047ad] uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-full mb-2">
+                          <Target size={12} /> {spec.category}
+                       </div>
+                       <h3 className="text-lg md:text-2xl font-black text-slate-900 leading-tight block">{spec.name}</h3>
+                       <div className="hidden sm:flex flex-wrap gap-2 mt-2">
+                          {spec.acronyms.map((acr, i) => (
+                              <span key={i} className="text-xs font-bold text-slate-400 bg-slate-100 px-2 py-0.5 rounded uppercase">{acr}</span>
+                          ))}
+                       </div>
                      </div>
-                     <h3 className="text-2xl font-black text-slate-900">{spec.name}</h3>
-                     <div className="flex flex-wrap gap-2 mt-2">
-                        {spec.acronyms.map((acr, i) => (
-                            <span key={i} className="text-xs font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded uppercase">#{acr}</span>
-                        ))}
+
+                     <div className="shrink-0 w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-400 group-hover:bg-[#0047ad] group-hover:text-white transition-colors">
+                        {isExpanded ? <ChevronUp size={24} /> : <ChevronDown size={24} />}
                      </div>
-                   </div>
-                </div>
+                  </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-                    {/* Left Col: Explanations */}
-                    <div className="md:col-span-7 space-y-6">
-                        <div className="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                            <h4 className="text-sm font-black text-slate-800 uppercase tracking-widest mb-2 flex items-center gap-2">
-                                <Search size={16} className="text-[#0047ad]"/> What exactly is it?
-                            </h4>
-                            <p className="text-slate-700 font-medium leading-relaxed">
-                                {spec.whatIsIt}
-                            </p>
-                        </div>
-                        
-                        <div className="bg-amber-50 p-5 rounded-xl border border-amber-100">
-                            <h4 className="text-sm font-black text-amber-900 uppercase tracking-widest mb-2 flex items-center gap-2">
-                                <Lightbulb size={16} className="text-amber-600"/> The Hidden Truth
-                            </h4>
-                            <p className="text-amber-800 font-medium leading-relaxed italic">
-                                "{spec.secretFact}"
-                            </p>
-                        </div>
+                  {/* Collapsible Content */}
+                  {isExpanded && (
+                    <div className="px-5 md:px-6 pb-6 pt-2 border-t border-slate-100 bg-slate-50/50">
+                      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mt-4">
+                          {/* Left Col: Explanations */}
+                          <div className="md:col-span-7 space-y-4">
+                              <div className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-2">
+                                      <Search size={14} className="text-[#0047ad]"/> What exactly is it?
+                                  </h4>
+                                  <p className="text-slate-700 font-medium leading-relaxed text-sm md:text-base">
+                                      {spec.whatIsIt}
+                                  </p>
+                              </div>
+                              
+                              <div className="bg-amber-50 p-5 rounded-xl border border-amber-100">
+                                  <h4 className="text-xs font-black text-amber-900 uppercase tracking-widest mb-2 flex items-center gap-2">
+                                      <Lightbulb size={14} className="text-amber-600"/> The Hidden Truth
+                                  </h4>
+                                  <p className="text-amber-800 font-medium leading-relaxed italic text-sm md:text-base">
+                                      "{spec.secretFact}"
+                                  </p>
+                              </div>
+                          </div>
+
+                          {/* Right Col: USPs to pitch */}
+                          <div className="md:col-span-5 relative">
+                              <div className="h-full bg-white border border-slate-200 p-5 rounded-xl shadow-sm">
+                                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-4 flex items-center gap-2">
+                                      <Flame size={14} className="text-[#ff6b00]"/> Top 3 USPs (Sales Pitch)
+                                  </h4>
+                                  <ul className="space-y-4">
+                                      {spec.usps.map((usp, i) => (
+                                          <li key={i} className="flex items-start gap-3">
+                                              <CheckCircle2 size={18} className="text-emerald-500 shrink-0 mt-0.5" />
+                                              <span className="text-sm font-bold text-slate-700">{usp}</span>
+                                          </li>
+                                      ))}
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
                     </div>
-
-                    {/* Right Col: USPs to pitch */}
-                    <div className="md:col-span-5 relative">
-                        <div className="h-full bg-white border border-slate-200 p-5 rounded-xl shadow-sm">
-                            <h4 className="text-sm font-black text-slate-800 uppercase tracking-widest mb-4 flex items-center gap-2">
-                                <Flame size={16} className="text-[#ff6b00]"/> Top 3 USPs (Sales Pitch)
-                            </h4>
-                            <ul className="space-y-4">
-                                {spec.usps.map((usp, i) => (
-                                    <li key={i} className="flex items-start gap-3">
-                                        <CheckCircle2 size={18} className="text-emerald-500 shrink-0 mt-0.5" />
-                                        <span className="text-sm font-bold text-slate-700">{usp}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
+                  )}
                 </div>
-
-              </div>
-            ))
+              );
+            })
           ) : (
             <div className="text-center py-20 bg-white rounded-2xl border border-dashed border-slate-300">
                 <Search size={48} className="mx-auto text-slate-300 mb-4" />
