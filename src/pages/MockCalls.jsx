@@ -142,7 +142,7 @@ const MockCalls = () => {
                <div className="flex items-center gap-3 w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 hide-scrollbar">
                   <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest pl-2">Level</span>
                   <div className="flex bg-slate-50 p-1 rounded-xl border border-slate-100">
-                     {['All', 'UG', 'PG', 'Ph.D'].map((lvl) => (
+                     {['All', 'UG', 'PG', 'Integrated', 'Ph.D'].map((lvl) => (
                         <button
                            key={lvl}
                            onClick={() => setLevelFilter(lvl)}

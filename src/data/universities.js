@@ -2334,7 +2334,8 @@ export const universities = [
     "type": "State Private University",
     "level": [
       "UG",
-      "PG"
+      "PG",
+      "Integrated"
     ],
     "budget": 130000,
     "specializations": [
@@ -2383,7 +2384,11 @@ export const universities = [
             {
               "name": "Vernacular",
               "price": "₹1,50,000",
-              "details": "Intensive focus on regional languages and vernacular literature."
+              "details": "Intensive focus on regional languages. Available in 5 Languages: Hindi, Tamil, Telugu, Kannada, and Malayalam.",
+              "usps": [
+                "Learn entirely in your native tongue for maximum comprehension.",
+                "Official Amity University Degree structure is identical to English tracks."
+              ]
             },
             {
               "name": "JMC",
@@ -2656,6 +2661,64 @@ export const universities = [
               "name": "Financial Management",
               "price": "₹1,99,000",
               "details": "Advanced core banking, tax brackets, and portfolios."
+            }
+          ]
+        },
+        {
+          "group": "Integrated",
+          "name": "Integrated BBA-MBA",
+          "duration": "60 Months (5 Years)",
+          "priceRange": "₹ 3,50,000",
+          "eligibility": "10+2 (HSC) with minimum 45% marks from a recognized board.",
+          "careerScope": "Seamless entry into mid-level management without needing a separate master's degree. Accelerates early corporate progression.",
+          "about": "A dual degree 5-year program that fuses undergraduate foundations with advanced postgraduate strategic management, removing the need to re-apply for an MBA completely.",
+          "paymentDetails": "<b>🔥 Premium Dual Degree!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 3,50,000</b><br/>• <b>Semester-wise Breakdown:</b> <b>₹ 35,000 per sem</b><br/><br/><i>Upfront payment typically yields an 8% concession via Amity's pricing engine.</i>",
+          "certifications": "TCS iON and HCL Tech advanced certifications modules included directly in the trajectory.",
+          "usps": [
+            "Save the massive hassle of re-applying for an MBA.",
+            "Deep corporate integration and placement tracks starting directly from the 3rd year.",
+            "TCS iON certification modules built into the unified curriculum.",
+            "Cost-effective scale compared to paying for BBA and MBA apart."
+          ],
+          "specializations": [
+            {
+              "name": "Integrated Track Operations",
+              "jobRoles": [
+                "Management Trainee",
+                "Operations Analyst",
+                "Business Administrator"
+              ],
+              "price": "₹ 3,50,000",
+              "details": "Master the complete business lifecycle from foundational commerce principles directly into strategic C-suite decision making."
+            }
+          ]
+        },
+        {
+          "group": "Integrated",
+          "name": "Integrated BCA-MCA",
+          "duration": "60 Months (5 Years)",
+          "priceRange": "₹ 3,50,000",
+          "eligibility": "10+2 (HSC) with Mathematics heavily preferred, minimum 45% marks.",
+          "careerScope": "Direct pipeline into senior software engineering, data engineering, and complex enterprise architecture roles at tech giants.",
+          "about": "A unified 5-year integrated tech pipeline that builds coders into elite IT leaders by merging the breadth of a BCA with the systemic depth of an MCA.",
+          "paymentDetails": "<b>🔥 Specialized Tech Dual Degree!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 3,50,000</b><br/>• <b>Semester-wise:</b> <b>₹ 35,000 per sem</b><br/><br/><i>Flexible EMI options are instantly structured through Amity Finance partners (Fibe/Grayquest).</i>",
+          "certifications": "Includes access to exclusive HCL Tech cyber security operations and advanced data engineering modules.",
+          "usps": [
+            "Unified and Seamless Master's progression.",
+            "End-to-end SDLC and Enterprise tech curriculum over 10 cohesive semesters.",
+            "Direct hiring drives mapping natively with core Amity tech partners.",
+            "Eliminates the MCA entrance exam filtering standard."
+          ],
+          "specializations": [
+            {
+              "name": "Integrated Software Engineering",
+              "jobRoles": [
+                "Senior Software Developer",
+                "Systems Architect",
+                "Data Engineer"
+              ],
+              "price": "₹ 3,50,000",
+              "details": "Dual focus strongly mapped on building robust modern web and enterprise applications, while architecting deep-layer server infrastructures."
             }
           ]
         }

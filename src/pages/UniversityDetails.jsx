@@ -114,6 +114,12 @@ const UniversityDetails = () => {
                                           onClick={() => { setSelectedGroup('PG'); setSelectedProgram(null);  }}
                                           className={`py-3 text-xs sm:text-[13px] font-black uppercase tracking-widest transition-all border-b-2 mb-[-1px] ${selectedGroup === 'PG' ? 'border-[#0047ad] text-[#0047ad]' : 'border-transparent text-slate-500 hover:text-slate-800'}`}
                                        >Postgraduate (PG)</button>
+                                       {uni.extendedDetails.programs.some(p => p.group === 'Integrated') && (
+                                       <button 
+                                          onClick={() => { setSelectedGroup('Integrated'); setSelectedProgram(null);  }}
+                                          className={`py-3 text-xs sm:text-[13px] font-black uppercase tracking-widest transition-all border-b-2 mb-[-1px] ${selectedGroup === 'Integrated' ? 'border-[#0047ad] text-[#0047ad]' : 'border-transparent text-slate-500 hover:text-slate-800'}`}
+                                       >Integrated</button>
+                                       )}
                                     </div>
 
                                     <div className="flex flex-col gap-6 sm:p-5 md:p-8 mt-2">
