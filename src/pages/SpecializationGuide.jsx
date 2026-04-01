@@ -7,14 +7,36 @@ const SpecializationGuide = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const filteredData = useMemo(() => {
-    // Reset expansion when search changes to avoid mismatched indices, but better to just use ID if possible.
-    // We'll reset it to null here.
     return specializationData.filter(spec => {
-      if (!searchTerm.trim()) return true;
-      const queryWords = searchTerm.toLowerCase().split(/\s+/).filter(w => w);
-      const searchString = `${spec.name} ${spec.acronyms.join(' ')} ${spec.category} ${spec.type} ${spec.whatIsIt} ${spec.secretFact}`.toLowerCase();
-      // Only match if at least one acronym exactly matches or if substring matches the query
-      return queryWords.every(word => searchString.includes(word));
+      const normalizedSearch = searchTerm.toLowerCase().trim();
+      if (!normalizedSearch) return true;
+
+      // 1. Direct exact match check on full phrase against acronyms
+      if (spec.acronyms.some(acr => acr.toLowerCase() === normalizedSearch)) return true;
+
+      // 2. Word by word intelligent matching
+      const queryWords = normalizedSearch.split(/\s+/).filter(w => w);
+      const contentString = `${spec.whatIsIt} ${spec.secretFact} ${spec.usps.join(' ')}`.toLowerCase();
+      const searchEverything = `${spec.name} ${spec.category} ${spec.type} ${spec.acronyms.join(' ')} ${contentString}`.toLowerCase();
+
+      return queryWords.every(word => {
+        // If the word perfectly matches an acronym for this spec, pass it
+        if (spec.acronyms.some(acr => acr.toLowerCase() === word)) return true;
+
+        if (word.length <= 2) {
+            // For tiny words (like "ai", "it", "hr"), strictly require whole-word matches 
+            // Avoids matching "ai" inside the word "retail" or "main"
+            try {
+                const boundaryRegex = new RegExp(`\\b${word}\\b`, 'i');
+                return boundaryRegex.test(searchEverything);
+            } catch (e) {
+                return false;
+            }
+        } else {
+            // Standard substring matching for normal/longer words
+            return searchEverything.includes(word);
+        }
+      });
     });
   }, [searchTerm]);
 
