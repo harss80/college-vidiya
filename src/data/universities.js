@@ -2662,11 +2662,6 @@ export const universities = [
               "details": "TCS guided implementation of intelligent networks."
             },
             {
-              "name": "AR & VR (TCS ION)",
-              "price": "₹1,99,000",
-              "details": "Immersive development models utilizing TCS resources."
-            },
-            {
               "name": "Cyber Security (HCL TECH)",
               "price": "₹1,99,000",
               "details": "Advanced penetration testing systems backed by HCL Tech."
