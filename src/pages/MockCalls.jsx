@@ -4,6 +4,32 @@ import { Search, MapPin, BookOpen, Filter, GraduationCap, Banknote, ShieldCheck,
 import { universities } from '../data/universities';
 import { useNavigate } from 'react-router-dom';
 
+const expandText = (text) => {
+    if (!text) return '';
+    let t = text.toLowerCase();
+    
+    // Add abbreviations to full names
+    t = t.replace(/\bartificial intelligence\b/g, 'artificial intelligence ai');
+    t = t.replace(/\bmachine learning\b/g, 'machine learning ml');
+    t = t.replace(/\bhuman resource(s)?\b/g, 'human resource hr');
+    t = t.replace(/\binformation technology\b/g, 'information technology it');
+    t = t.replace(/\bsupply chain\b/g, 'supply chain scm');
+    t = t.replace(/\bjournalism\b/g, 'journalism jmc');
+    t = t.replace(/\binternational business\b/g, 'international business ib');
+    t = t.replace(/\bfull stack\b/g, 'full stack fs');
+    
+    // Add full names to abbreviations
+    t = t.replace(/\bai\b/g, 'ai artificial intelligence');
+    t = t.replace(/\bml\b/g, 'ml machine learning');
+    t = t.replace(/\bhr\b/g, 'hr human resource');
+    t = t.replace(/\bit\b/g, 'it information technology');
+    t = t.replace(/\bscm\b/g, 'scm supply chain');
+    t = t.replace(/\bib\b/g, 'ib international business');
+    t = t.replace(/\bfs\b/g, 'fs full stack');
+    
+    return t;
+};
+
 const MockCalls = () => {
   const navigate = useNavigate();
   const [specSearch, setSpecSearch] = useState(() => sessionStorage.getItem('cvSearch') || '');
@@ -33,7 +59,7 @@ const MockCalls = () => {
         const queryWords = specSearch.toLowerCase().split(/\s+/).filter(w => w && !stopWords.includes(w));
         
         let hasValidProgramMatch = false;
-        const uniBaseText = `${uni.name} ${uni.location} ${uni.type} ${uni.ranking} ${uni.accreditation}`.toLowerCase();
+        const uniBaseText = expandText(`${uni.name} ${uni.location} ${uni.type} ${uni.ranking} ${uni.accreditation}`);
 
         if (uni.extendedDetails?.programs) {
             const validPrograms = uni.extendedDetails.programs.filter(prog => levelFilter === 'All' || prog.group === levelFilter);
@@ -41,12 +67,12 @@ const MockCalls = () => {
             if (validPrograms.length === 0 && queryWords.length > 0) return false;
             
             hasValidProgramMatch = validPrograms.some(prog => {
-                const progText = `${prog.name} ${prog.name.replace(/\./g, '')} ${prog.group} ${prog.specializations ? prog.specializations.map(s => s.name).join(' ') : ''}`.toLowerCase();
+                const progText = expandText(`${prog.name} ${prog.name.replace(/\./g, '')} ${prog.group} ${prog.specializations ? prog.specializations.map(s => s.name).join(' ') : ''}`);
                 // Every query word must natively exist in general info OR this exact specific program context
                 return queryWords.every(w => uniBaseText.includes(w) || progText.includes(w));
             });
         } else {
-            const tagsText = uni.specializations.join(' ').toLowerCase();
+            const tagsText = expandText(uni.specializations.join(' '));
             hasValidProgramMatch = queryWords.every(w => uniBaseText.includes(w) || tagsText.includes(w));
         }
 
@@ -72,12 +98,12 @@ const MockCalls = () => {
        
        let matchedSpecs = [];
        if (queryWords.length > 0) {
-         const uniBaseText = `${uni.name} ${uni.location} ${uni.type} ${uni.ranking}`.toLowerCase();
+         const uniBaseText = expandText(`${uni.name} ${uni.location} ${uni.type} ${uni.ranking}`);
          const specRequiredWords = queryWords.filter(w => !uniBaseText.includes(w));
          
          if (specRequiredWords.length > 0) {
              matchedSpecs = allAvailableTags.filter(spec => 
-                 specRequiredWords.every(w => spec.toLowerCase().includes(w))
+                 specRequiredWords.every(w => expandText(spec).includes(w))
              );
          }
        }
