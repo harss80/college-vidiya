@@ -1,302 +1,295 @@
 export const specializationData = [
+  // ==========================================
+  // CORE DEGREES
+  // ==========================================
+  {
+    name: "Master of Business Administration (MBA)",
+    acronyms: ["mba", "master of business administration", "pg"],
+    category: "Management",
+    type: "Degree",
+    whatIsIt: "The ultimate corporate passport. An MBA doesn't teach you 'how to do the work'—it teaches you how to manage the people doing the work. It transforms a normal employee into a team leader or decision-maker.",
+    secretFact: "Most students do an MBA just for 'placements'. But the real value of an MBA is 'networking'. You are paying to sit in a room with future CEOs, startup founders, and industry leaders.",
+    usps: [
+      "Instantly upgrades your salary bracket regardless of your previous graduation background.",
+      "The only degree where cross-industry switching is accepted (e.g., Engineer turning into a Finance Head).",
+      "Essential if you ever want to reach Vice-President or Director levels in a corporate hierarchy."
+    ]
+  },
+  {
+    name: "Bachelor of Business Administration (BBA)",
+    acronyms: ["bba", "bachelor of business administration", "ug"],
+    category: "Management",
+    type: "Degree",
+    whatIsIt: "A 3-year foundational program that teaches you how modern companies operate. You learn the basics of marketing, finance, HR, and accounting immediately after 12th.",
+    secretFact: "Unlike B.Com which is purely accounting, BBA is highly communication and presentation-driven. If a student is highly extroverted but hates heavy math, BBA is the exact perfect choice.",
+    usps: [
+      "The most seamless stepping stone to a high-tier MBA program.",
+      "Gets you out of the 'science/commerce' trap and into pure practical corporate readiness.",
+      "Startups prefer BBA grads for sales, marketing, and operations roles over regular graduates."
+    ]
+  },
+  {
+    name: "Master of Computer Applications (MCA)",
+    acronyms: ["mca", "master of computer applications", "pg", "it"],
+    category: "Tech & IT",
+    type: "Degree",
+    whatIsIt: "The absolute equivalent to a B.Tech/M.Tech in Computer Science, but designed for students from non-engineering backgrounds (like BCA or B.Sc). It makes you a hardcore software developer.",
+    secretFact: "IT companies literally do not differentiate between a B.Tech CS grad and an MCA grad. The salary, the role, and the interview processes are exactly the same.",
+    usps: [
+      "The fastest way to enter massive tech giants (TCS, Infosys, Google, Microsoft) without clearing JEE.",
+      "Highly tech-focused—zero filler subjects like physics or chemistry.",
+      "Perfect for BCA / B.Sc students seeking a massive 200% salary jump."
+    ]
+  },
+  {
+    name: "Bachelor of Computer Applications (BCA)",
+    acronyms: ["bca", "bachelor of computer applications", "ug", "it"],
+    category: "Tech & IT",
+    type: "Degree",
+    whatIsIt: "A 3-year pure coding and software degree. It completely skips the physics/chemistry that B.Tech forces on you and focuses 100% on programming languages, databases, and web development.",
+    secretFact: "Many students with Arts or Commerce backgrounds in 12th think they can never become software engineers. BCA doesn't require 12th Science/Maths in many universities! It is the ultimate backdoor into IT.",
+    usps: [
+      "Zero 'filler' subjects. You learn exactly what IT companies test you on.",
+      "In 3 years, you learn the exact same coding skills that take B.Tech students 4 years.",
+      "Massive demand as full-stack developers in the startup ecosystem."
+    ]
+  },
+  {
+    name: "Bachelor of Commerce (B.Com)",
+    acronyms: ["b.com", "bcom", "commerce", "ug"],
+    category: "Commerce & Finance",
+    type: "Degree",
+    whatIsIt: "The foundational degree of the financial world. It strictly focuses on accounting, corporate taxation, economics, and business law. It teaches you how money is recorded and regulated.",
+    secretFact: "A plain 'General B.Com' has very low market value today. B.Com only becomes powerful if paired with a professional certification like CA, CS, CMA, or CPA.",
+    usps: [
+      "The mathematically safest degree for students who want to enter banking or auditing.",
+      "Relaxed curriculum allows students massive free time to prepare for Govt Exams or CA/UPSC.",
+      "Every single registered business absolutely needs a commerce graduate for basic bookkeeping."
+    ]
+  },
+  {
+    name: "Master of Commerce (M.Com)",
+    acronyms: ["m.com", "mcom", "commerce", "pg"],
+    category: "Commerce & Finance",
+    type: "Degree",
+    whatIsIt: "A heavy academic extension of B.Com. It dives extremely deep into advanced corporate taxation, macroeconomics, auditing principles, and financial administration.",
+    secretFact: "In the corporate sector, an MBA Finance is usually preferred over an M.Com. However, if a student wants to become a Professor, pursue a PhD, or clear the UGC-NET exam, M.Com is completely mandatory.",
+    usps: [
+      "The absolute best degree for entering the Teaching and Academic Research field in Commerce.",
+      "Provides deep, undisputed authority in auditing and direct/indirect taxation.",
+      "Highly respected in Government banking and PSU job interviews."
+    ]
+  },
+  {
+    name: "Bachelor / Master of Arts (BA / MA)",
+    acronyms: ["ba", "ma", "arts", "humanities", "b.a", "m.a", "ug", "pg"],
+    category: "Arts & Humanities",
+    type: "Degree",
+    whatIsIt: "The study of human society, history, political science, and literature. Rather than teaching you a 'technical' skill, it trains you how to think critically, write powerfully, and understand systemic human behavior.",
+    secretFact: "Parents often think 'Arts means the student is weak'. This is horribly wrong. Top consulting firms (like McKinsey) and global media houses specifically hire Arts grads because they solve complex human problems better than engineers.",
+    usps: [
+      "The absolute best foundational degree for UPSC / IAS / Civil Services preparation.",
+      "Tons of free time during the degree for skill-building, internships, or Govt exam prep.",
+      "Leads to powerful, impact-driven careers in Journalism, NGOs, or Public Policy."
+    ]
+  },
+  
+  // ==========================================
+  // SPECIALIZATIONS
+  // ==========================================
   {
     name: "Human Resource Management (HR)",
-    acronyms: ["hr", "human resource", "hrm", "leadership", "strategy"],
+    acronyms: ["hr", "human resource", "hrm", "leadership"],
     category: "Management",
-    whatIsIt: "HR is the backbone of corporate culture. It goes beyond hiring and payroll—it involves strategic talent acquisition, conflict resolution, labor law compliance, and designing compensation structures that maximize employee output.",
-    secretFact: "Most students don't know that modern HR heavily relies on psychology and 'People Analytics' (using data to predict employee turnover and performance) rather than just taking interviews.",
+    type: "Specialization",
+    whatIsIt: "HR is NOT just taking interviews and organizing rangoli competitions. It is the corporate science of maximizing employee output, handling massive corporate conflicts, and ensuring labor law compliance.",
+    secretFact: "If you hate Maths but still want a massive corporate package, HR is the golden ticket. It relies 90% on Emotional Intelligence, negotiation, and corporate psychology.",
     usps: [
-      "High emotional intelligence (EQ) matters more than heavy math or coding skills.",
-      "Recession-resistant: Every registered company physically requires an HR department.",
-      "Clear pathway to the C-Suite level as a CHRO (Chief Human Resources Officer)."
+      "Every structured company physically requires an HR department—zero risk of the industry 'dying'.",
+      "No coding, no heavy accounting, no complex math.",
+      "Clear, highly respected pathway to C-Suite leadership (CHRO)."
     ]
   },
   {
     name: "Marketing & Digital Marketing",
-    acronyms: ["marketing", "sales", "digital marketing", "brand management", "e-marketing"],
+    acronyms: ["marketing", "sales", "digital marketing", "seo"],
     category: "Management",
-    whatIsIt: "Marketing is the science of making people want a product. It merges consumer psychology with data. It ranges from running Instagram ad campaigns to designing massive billboard strategies and figuring out pricing psychology.",
-    secretFact: "Students think Marketing is just 'selling things to people'. In reality, 80% of modern marketing is completely digital and data-driven—analyzing spreadsheets, conversion rates(ROI), and search algorithms.",
+    type: "Specialization",
+    whatIsIt: "Marketing is consumer psychology mixed with internet data. It ranges from designing massive brand campaigns (like Zomato's ads) to running hyper-targeted Instagram and Google Ad algorithms.",
+    secretFact: "Students think Marketing is 'sales' (door-to-door selling). Real modern marketing is sitting at a laptop, analyzing spreadsheet data, optimizing 'Cost Per Click', and controlling a million-dollar ad budget.",
     usps: [
-      "Directly impacts company revenue, meaning top marketers are often the highest-paid employees.",
-      "Highly creative field that avoids routine, repetitive desk work.",
-      "Huge freelance and agency potential globally."
+      "Marketers directly bring in revenue, making them the most protected employees during mass lay-offs.",
+      "Highly creative, dynamic, day-to-day work avoiding boring monotonous desk routines.",
+      "The easiest skill to freelance internationally or start your own ad agency with zero initial investment."
     ]
   },
   {
-    name: "Core Finance & FinTech",
-    acronyms: ["finance", "fin", "investment", "fintech", "fin-tech", "financial"],
+    name: "Finance & Investment Banking",
+    acronyms: ["finance", "fin", "investment", "fintech"],
     category: "Commerce & Finance",
-    whatIsIt: "Finance is about raising capital, managing stock portfolios, analyzing financial risks, and deciding where a company should invest its money. FinTech mixes this with technology (like Paytm or GPay).",
-    secretFact: "Accounting looks at the *past* (what was spent), while Finance looks at the *future* (how to grow money). FinTech completely disrupts traditional banking by automating these processes.",
+    type: "Specialization",
+    whatIsIt: "The core science of money multiplication. You analyze market risks, decide which startup your company should buy (Mergers & Acquisitions), and manage multi-million dollar institutional portfolios.",
+    secretFact: "You do not need to be a 'Math Genius'. Finance is basic arithmetic combined with immense logical foresight and understanding of how geopolitics (like a war) affects stock prices.",
     usps: [
-      "Prepares you for elite sectors like Investment Banking, Venture Capital, and Hedge Funds.",
-      "Teaches you personal wealth creation natively.",
-      "Massive boom in FinTech startups globally paying sky-high salaries."
-    ]
-  },
-  {
-    name: "International Finance & ACCA",
-    acronyms: ["acca", "international finance", "global finance", "ifrs", "global finance market"],
-    category: "Commerce & Finance",
-    whatIsIt: "ACCA (Association of Chartered Certified Accountants) is a globally recognized accounting body. This specialization merges Indian accounting with global financial reporting standards (IFRS), allowing you to work in 180+ countries.",
-    secretFact: "If you want to work abroad (UK, Canada, Dubai), a standard Indian B.Com/M.Com is weak. ACCA gives you direct regulatory authority to sign off on international corporate audits.",
-    usps: [
-      "Globally recognized certification built directly into the university degree.",
-      "Direct pathway to working in the 'Big 4' accounting firms (Deloitte, PwC, EY, KPMG).",
-      "Saves years of external preparation since ACCA exams are integrated."
-    ]
-  },
-  {
-    name: "Banking, Financial Services & Insurance (BFSI)",
-    acronyms: ["bfsi", "banking", "insurance", "financial services", "wealth management"],
-    category: "Commerce & Finance",
-    whatIsIt: "BFSI is hyper-specialized for commercial banks, mutual funds, and insurance conglomerates. It focuses on how lending happens, how interest rates affect the economy, and institutional risk management.",
-    secretFact: "Unlike generic Finance, BFSI professionals literally manage the flow of money in the overall economy. It heavily relies on complex risk-prediction and regulatory compliance.",
-    usps: [
-      "Direct entry into the most cash-rich sector of the global economy.",
-      "Highly stable operations with massive institutional bonuses and job security.",
-      "Perfect for students obsessed with macroeconomic trends and market crashes."
-    ]
-  },
-  {
-    name: "Accounting & Taxation",
-    acronyms: ["accounting", "taxation", "auditing", "forensic accounting", "b.com"],
-    category: "Commerce & Finance",
-    whatIsIt: "The meticulous process of recording corporate financial transactions, ensuring legal tax compliance (GST/Income Tax), and performing audits. Forensic accounting involves tracking down corporate financial fraud.",
-    secretFact: "Accounting is shifting rapidly into AI. Modern accountants don't do data entry; they manage AI software that does the data entry, making the role much more strategic.",
-    usps: [
-      "The ultimate foundational business skill—every business owner relies entirely on their accountant.",
-      "Excellent backup or stepping stone for CA/CS/CMA aspirants.",
-      "Extremely secure; as long as taxes exist, accountants are needed."
+      "Unarguably the highest ceiling for corporate bonuses and wealth accumulation.",
+      "Leads directly into elite sectors like Venture Capital, Hedge Funds, and Investment Banking.",
+      "You inherently learn how to build and maintain your own personal wealth while doing your job."
     ]
   },
   {
     name: "Artificial Intelligence & Machine Learning (AI/ML)",
-    acronyms: ["ai", "ml", "artificial intelligence", "machine learning", "nlp", "llm"],
+    acronyms: ["ai", "ml", "artificial intelligence", "machine learning"],
     category: "Tech & IT",
-    whatIsIt: "Teaching computer algorithms to recognize patterns and make decisions without human intervention. This is the exact technology behind ChatGPT, facial recognition, and algorithmic trading.",
-    secretFact: "Students often think AI is just 'advanced coding'. Actually, 60-70% of AI/ML is heavy Mathematics (Calculus, Linear Algebra, and Statistics) and cleaning raw data.",
+    type: "Specialization",
+    whatIsIt: "You literally teach computer systems to think, learn from errors, and make decisions without being explicitly coded. You are architecting the exact brains behind self-driving cars and ChatGPT.",
+    secretFact: "Students jump into AI thinking it's purely 'smart coding'. Beware: over 60% of AI development is hardcore Statistics, Calculus, and painstakingly organizing messy raw client data.",
     usps: [
-      "Currently commands the highest starting salary packages in the global tech ecosystem.",
-      "Future-proof: You are building the automation that replaces other jobs.",
-      "Highly exportable skill set granting massive remote-work opportunities."
+      "The undisputed most valuable technological skill on the planet right now.",
+      "Massive demand-supply gap means AI engineers negotiate their own exorbitant salaries.",
+      "You are 'future-proofing' your career—you are building the robots, so the robots won't replace you."
     ]
   },
   {
-    name: "Data Science & Business Analytics",
-    acronyms: ["data science", "ds", "analytics", "business analytics", "data engineering"],
+    name: "Data Science & Analytics",
+    acronyms: ["data science", "ds", "analytics", "business analytics"],
     category: "Tech & IT",
-    whatIsIt: "Data Science is the extraction of hidden, actionable insights from massive, chaotic datasets. It helps companies figure out *why* sales dropped or *what* product users will buy next.",
-    secretFact: "Data Science isn't software engineering. A data scientist rarely builds the app; they purely analyze the numbers behind the app to advise the CEO on business strategy.",
+    type: "Specialization",
+    whatIsIt: "Every time you use Swiggy, millions of data points are generated. Data Scientists extract this raw chaotic data, organize it, and tell the CEO exactly *what product users will buy next* based on hidden patterns.",
+    secretFact: "A Data Scientist will almost never build the actual mobile app. Their sole job is to manipulate the database *behind* the app to uncover business secrets that increase profit.",
     usps: [
-      "Known as the 'Sexiest Job of the 21st Century' due to extreme corporate reliance on data.",
-      "Bridges the gap between hardcore IT and Business Management.",
-      "Applicable in every single industry: Healthcare, Finance, E-commerce, Sports."
-    ]
-  },
-  {
-    name: "Cyber Security & Blockchain",
-    acronyms: ["cyber", "security", "hacking", "ethical hacking", "blockchain"],
-    category: "Tech & IT",
-    whatIsIt: "Cyber Security defends networks from malicious attacks. Blockchain is the un-hackable decentralized ledger technology behind Crypto (Bitcoin) and advanced secure banking networks.",
-    secretFact: "You don't just sit in a dark room and hack things. A massive part of Cyber Security is 'Compliance'—making sure corporate networks follow complex international digital privacy laws.",
-    usps: [
-      "Extreme demand-supply gap: There are millions of unfilled cyber jobs globally right now.",
-      "Highly respected 'hero' role within corporate tech infrastructures.",
-      "Government, Defense, and top-tier Banks are the absolute primary recruiters."
-    ]
-  },
-  {
-    name: "Cloud Computing & DevOps",
-    acronyms: ["cloud", "aws", "azure", "infrastructure", "devops"],
-    category: "Tech & IT",
-    whatIsIt: "Storing and managing data over the internet instead of local hard drives. DevOps merges Development (coding) with Operations (server management) so software updates launch instantly without crashing.",
-    secretFact: "Cloud Engineers rarely write the actual app code (like a frontend developer does). They just build and maintain the massive invisible server infrastructure that ensures the app never crashes.",
-    usps: [
-      "Nearly 90% of global companies have migrated to the cloud; demand is absolute.",
-      "Direct integration with top certifications (AWS, Azure, GCP) which guarantee jobs.",
-      "DevOps engineers are often the highest-paid technical staff in a company."
-    ]
-  },
-  {
-    name: "Full Stack Software Development",
-    acronyms: ["full stack", "software engineering", "computer applications", "bca", "mca"],
-    category: "Tech & IT",
-    whatIsIt: "The core of IT. Building both the front-end (what the user sees, like the website buttons) and back-end (database logic, servers) of applications.",
-    secretFact: "A degree isn't enough here. Your 'GitHub portfolio' (the actual projects you have coded and published online) matters 100x more than the university marksheet.",
-    usps: [
-      "The most versatile and universally employable tech degree globally.",
-      "Massive startup culture—you literally have the skills to build your own tech company overnight.",
-      "Allows for pure remote, asynchronous work across international time zones."
+      "Universally known as the 'Sexiest Job of the 21st Century' due to extreme corporate reliance on data.",
+      "The perfect bridge for someone who understands BOTH technology and business strategy.",
+      "Applicable across every single industry: Sports, Healthcare, Finance, and E-commerce."
     ]
   },
   {
     name: "Supply Chain & Logistics Management",
-    acronyms: ["scm", "supply", "chain", "logistics", "shipping", "lscm"],
+    acronyms: ["scm", "supply", "chain", "logistics", "shipping"],
     category: "Management",
-    whatIsIt: "The massive logistical puzzle of getting a product from raw materials into the customer’s hands. Think of how Amazon delivers a package in 1 day—that is peak Supply Chain Management.",
-    secretFact: "Students think it's just 'truck driving and godowns'. In reality, modern SCM uses advanced AI algorithms and global geo-political trade strategies to bypass supply bottlenecks.",
+    type: "Specialization",
+    whatIsIt: "The massively complex puzzle of moving physical goods globally. From sourcing cotton in India, manufacturing shirts in Bangladesh, to delivering it via Amazon Prime in New York within 2 days.",
+    secretFact: "Students think SCM is 'managing a dusty godown'. In reality, modern SCM utilizes advanced AI route-prediction algorithms and intense multi-million dollar vendor negotiations.",
     usps: [
-      "The absolute backbone of global e-commerce; exploded in value post-pandemic.",
-      "Involves travel, vendor negotiations, and dynamic day-to-day problem solving.",
-      "Highly sought after by giants like Amazon, Flipkart, Maersk, and Apple."
+      "Post-COVID, CEOs realized Supply Chain is the most critical organ of a company. Demand exploded.",
+      "Highly dynamic roles involving international travel, vendor relations, and crisis problem-solving.",
+      "Heavily recruited by corporate giants like Amazon, Maersk, Apple, and Flipkart."
     ]
   },
   {
-    name: "Operations & Project Management",
-    acronyms: ["operations", "ops", "project management", "production"],
-    category: "Management",
-    whatIsIt: "Operations revolves around the internal efficiency of a company. Project management involves taking a massive corporate goal (like building a new app) and organizing exactly who does what and when.",
-    secretFact: "Operations managers are obsessed with 'Lean' methodologies—literally looking at a factory line or a software workflow and finding the exact second where time is being wasted.",
+    name: "Cyber Security",
+    acronyms: ["cyber", "security", "hacking", "ethical hacking"],
+    category: "Tech & IT",
+    type: "Specialization",
+    whatIsIt: "You are the digital bodyguard of a corporation. You actively penetrate the company's own networks to find weaknesses (Ethical Hacking) before Russian or Chinese hackers exploit them.",
+    secretFact: "The movies lie—you don't just furiously type on a keyboard in a dark room. 50% of a Cyber Security role is enforcing 'Compliance' and training careless employees not to click on phishing links.",
     usps: [
-      "The CEO of a company is usually promoted directly from the Operations department (COO).",
-      "Highly analytical role that gives you total control over how a company physically functions.",
-      "Very high salary ceilings because ops managers directly save the company millions in wasted costs."
+      "An absolutely massive global shortage of millions of unfilled cyber security professionals.",
+      "Highly respected 'hero' role within corporate defense infrastructures.",
+      "Government, Intelligence Agencies, and Defense sectors are the primary elite recruiters."
     ]
   },
   {
-    name: "International Business (IB)",
-    acronyms: ["ib", "international", "global", "trade"],
-    category: "Management",
-    whatIsIt: "IB focuses on how companies operate globally—dealing with cross-border trade, foreign currency exchange, global shipping laws, and adapting products for foreign cultures.",
-    secretFact: "Understanding foreign cultures and geopolitics is just as important as knowing the math. An IB manager must literally predict how a war in Europe might affect trade prices in Asia.",
+    name: "International Finance & ACCA",
+    acronyms: ["acca", "international finance", "global finance", "ifrs"],
+    category: "Commerce & Finance",
+    type: "Specialization",
+    whatIsIt: "ACCA is a globally recognized UK-based accounting body. This specialization merges standard Indian accounting with global financial reporting standards (IFRS), giving you authority to work in 180+ countries.",
+    secretFact: "If you want to work abroad (UK, Canada, Dubai), a standard Indian B.Com is mathematically useless. ACCA gives you direct regulatory authority to sign off on international corporate audits.",
     usps: [
-      "Massive opportunities for international travel and global corporate postings.",
-      "High prestige roles dealing with multi-national corporations (MNCs) and exports.",
-      "Perfect for students interested in economics, geopolitics, and global trade."
+      "Instantly converts a generic B.Com into a massive, globally-accepted professional weapon.",
+      "The most direct pathway to getting hired by the 'Big 4' (Deloitte, PwC, EY, KPMG).",
+      "Saves years of external preparation since ACCA subjects are integrated directly into the university semesters."
     ]
   },
   {
-    name: "Travel, Tourism & Hospitality",
-    acronyms: ["travel", "tourism", "hospitality", "airlines"],
-    category: "Specialized",
-    whatIsIt: "Managing the massive ecosystem of human travel. This includes running luxury 5-star hotels, managing airline operations, directing cruise ships, and curating massive global tour packages.",
-    secretFact: "It's not just 'going on holiday'. Hospitality is famous for its grueling 12-hour shifts and extreme demand for absolute perfection under high-pressure customer service situations.",
+    name: "Banking, Financial Services & Insurance (BFSI)",
+    acronyms: ["bfsi", "banking", "insurance", "financial services"],
+    category: "Commerce & Finance",
+    type: "Specialization",
+    whatIsIt: "A hyper-specialized vertical of finance entirely dedicated to how commercial banks, mutual funds, and massive insurance conglomerates operate, lend money, and manage institutional risk.",
+    secretFact: "Unlike generic Finance (which manages a specific company's internal money), BFSI professionals literally manage the flow of public and institutional money in the macro-economy.",
     usps: [
-      "The most glamorous industry with perks like discounted flights and free luxury stays.",
-      "Massive global mobility—a hotel manager in India can easily transfer to Dubai or London.",
-      "Post-COVID 'revenge travel' has sent the industry's demand for managers through the roof."
+      "Direct entry pipeline into the most cash-rich and highly regulated sector of the global economy.",
+      "Notoriously stable operations with massive institutional bonuses and immense job security.",
+      "Perfect for students obsessed with macroeconomic trends (repo rates, inflation) rather than corporate equity."
     ]
   },
   {
     name: "Hospital & Healthcare Management",
     acronyms: ["hospital", "healthcare", "pharma", "health"],
     category: "Healthcare",
-    whatIsIt: "This involves running the administrative, financial, and operational sides of massive hospitals, clinics, and pharmaceutical chains so doctors can focus purely on treating patients.",
-    secretFact: "You do NOT need a medical background (MBBS/BDS) to run a hospital. Hospitals are massive businesses that desperately need corporate managers who understand clinical workflows.",
+    type: "Specialization",
+    whatIsIt: "Managing the massive administrative, financial, logistical, and operational machineries of super-specialty hospitals, clinical tech startups, and massive pharmaceutical supply chains.",
+    secretFact: "Student misconception: 'I need to be a doctor to work in a hospital'. The absolute opposite is true. Doctors hate administration. Hospitals desperately need corporate MBAs to run the business side.",
     usps: [
-      "Taps into a massive, recession-proof multi-billion dollar healthcare sector.",
-      "Allows you to work in respectable clinical environments without facing medical entrance exams.",
-      "Direct pathways to becoming a Hospital Director or Dean of Administration."
+      "Taps into a massive, heavily recession-proof multi-billion dollar healthcare sector.",
+      "Allows you to command massive authority in a clinical environment without facing medical entrance exams.",
+      "Direct corporate pathways to becoming a Hospital Director or Dean of Administration."
     ]
   },
   {
-    name: "Event Management",
-    acronyms: ["event", "events", "wedding"],
-    category: "Creative & Media",
-    whatIsIt: "The end-to-end conceptualization, budgeting, planning, and execution of large-scale events—ranging from massive corporate summits and product launches to luxury destination weddings.",
-    secretFact: "It looks glamorous from the outside, but 90% of the job is brutal logistics, intense vendor negotiation, crisis management, and functioning perfectly under extreme pressure.",
+    name: "Travel, Tourism & Hospitality",
+    acronyms: ["travel", "tourism", "hospitality", "airlines"],
+    category: "Specialized",
+    type: "Specialization",
+    whatIsIt: "Managing the massive ecosystem of human travel. This includes running luxury 5-star hotel chains, managing complex airline operations, directing international cruise ships, and curating massive global tours.",
+    secretFact: "It's not just 'going on a holiday for free'. Hospitality is famous for its grueling shifts and extreme demand for absolute perfection under high-pressure customer service situations.",
     usps: [
-      "No desk-job monotony; every single project and location is totally different.",
-      "Massive independent business (startup) potential with huge profit margins.",
-      "Builds an elite, high-level network of corporate and celebrity clients."
+      "The most glamorous industry with lifestyle perks like drastically discounted global flights and luxury stays.",
+      "Massive international mobility—a hotel manager in Mumbai can easily transfer properties to Dubai or London.",
+      "Post-COVID 'revenge travel' has sent the industry's demand for capable managers through the roof."
     ]
   },
   {
-    name: "Retail & E-Commerce Management",
-    acronyms: ["retail", "e-commerce", "ecommerce"],
+    name: "Cloud Computing & DevOps",
+    acronyms: ["cloud", "aws", "azure", "infrastructure", "devops"],
+    category: "Tech & IT",
+    type: "Specialization",
+    whatIsIt: "Companies no longer host their data on physical servers in their office; they use massive internet data centers (Cloud). DevOps completely automates how software gets updated without crashing.",
+    secretFact: "Cloud Engineers rarely write the actual app code (like a frontend developer does). Ther job is to construct the massive invisible architectural infrastructure that ensures Swiggy/Netflix never experiences downtime.",
+    usps: [
+      "Nearly 90% of global companies have definitively migrated to the cloud; corporate demand is staggering.",
+      "Direct integration with top certifications (AWS, Azure, GCP) which practically guarantee placements.",
+      "DevOps and Cloud Architects are highly specialized, drastically reducing competition compared to generic developers."
+    ]
+  },
+  {
+    name: "International Business (IB)",
+    acronyms: ["ib", "international", "global", "trade"],
     category: "Management",
-    whatIsIt: "Running the massive ecosystem of buying and selling. Retail focuses on physical malls/supermarkets (store layouts, inventory), while E-Commerce focuses entirely on digital storefronts (Myntra, Flipkart).",
-    secretFact: "E-Commerce managers spend half their day staring at 'Drop-off rates'—literally analyzing the exact second a customer abandoned their digital shopping cart and figuring out how to stop it.",
+    type: "Specialization",
+    whatIsIt: "Operating a corporation globally. Dealing with cross-border trade constraints, foreign currency fluctuations, global shipping laws, and adapting marketing identically for radically different foreign cultures.",
+    secretFact: "Understanding geopolitics is just as critical as the math. An IB manager must literally accurately predict how a conflict in Europe might affect specific raw material trade prices in Asia.",
     usps: [
-      "E-Commerce is the fastest-growing sector on the planet right now.",
-      "Teaches you exactly how to scale your own Direct-to-Consumer (D2C) brand.",
-      "High reliance on data-analytics makes the role extremely secure."
+      "Opens massive, unparalleled opportunities for international corporate travel and global postings.",
+      "High prestige executive roles dealing heavily with multi-national corporations (MNCs) and export-import logic.",
+      "Perfect for highly intellectual students interested in macro-economics, geopolitics, and global trade dynamics."
     ]
   },
   {
-    name: "Entrepreneurship & Family Business",
-    acronyms: ["entrepreneurship", "family business", "startup"],
+    name: "Operations & Project Management",
+    acronyms: ["operations", "ops", "project management"],
     category: "Management",
-    whatIsIt: "Instead of training you to be an employee, this trains you to be the boss. It covers venture capital pitching, legal company registration, scaling family-owned legacies, and startup incubation.",
-    secretFact: "Most MBA programs train you for corporate conformity. This specific specialization forces you to break rules, prototype products, and legally learn how to protect your equity from investors.",
+    type: "Specialization",
+    whatIsIt: "The meticulous science of internal company efficiency. Making sure the business runs as fast and cheaply as realistically possible without sacrificing product quality—whether in an automobile factory or an IT firm.",
+    secretFact: "Operations managers are ruthlessly obsessed with 'Lean' methodologies—literally looking at a factory assembly line or a software workflow and finding the exact second where time is being wasted.",
     usps: [
-      "Designed specifically for Next-Gen heirs taking over legacy family businesses.",
-      "Provides direct access to University Incubation centers and angel investor networks.",
-      "Focuses on practical risk-taking rather than pure textbook accounting."
+      "The CEO of a multi-billion dollar company is very often promoted directly from the Operations department (COO).",
+      "Highly analytical role that gives you total systemic control over how a company physically functions.",
+      "Commands very high salary ceilings because ops managers definitively save the company millions in wasted costs."
     ]
   },
   {
     name: "Journalism & Mass Communication (JMC)",
     acronyms: ["jmc", "journalism", "mass comm", "media"],
     category: "Creative & Media",
-    whatIsIt: "JMC is the study of disseminating deep information to the masses. It spans news anchoring, investigative reporting, documentary filmmaking, radio, and massive digital media publishing.",
-    secretFact: "Modern JMC is no longer just holding a mic on TV. It is intensely focused on Digital Media, SEO, navigating algorithmic echo chambers, and data-journalism (using code to find news).",
+    type: "Specialization",
+    whatIsIt: "The intensive study of disseminating deep information to the masses. It comprehensively spans news anchoring, investigative reporting, documentary filmmaking, radio, and massive digital media publishing strategies.",
+    secretFact: "Modern JMC is absolutely not just holding a mic on TV. It is intensely focused on Digital Media, corporate SEO, navigating algorithmic echo chambers, and data-journalism (using code to find news stories).",
     usps: [
-      "Gives ultimate creative freedom and a powerful voice in society.",
-      "Highly practical; you spend more time on field, shooting, and editing than in classrooms.",
-      "Opens doors to PR, Corporate Communications, and widespread digital content creation."
-    ]
-  },
-  {
-    name: "Agri-Business Management",
-    acronyms: ["agri", "agriculture", "agri business"],
-    category: "Specialized",
-    whatIsIt: "Merging corporate business strategy with the agricultural sector. It involves managing massive supply chains of crops, operating agricultural tech (AgriTech) startups, and rural bank lending.",
-    secretFact: "Agri-business is moving heavily into drone technology, genetic farming, and massive export logistics. It is NOT farming; it is the multi-billion dollar corporate layer sitting above the farms.",
-    usps: [
-      "Massive government subsidies and support exist for AgriTech businesses.",
-      "Huge demand in heavy agriculturally-dependent economies like India.",
-      "Involves direct societal impact while maintaining corporate salary structures."
-    ]
-  },
-  {
-    name: "Real Estate & Infrastructure",
-    acronyms: ["real estate", "infrastructure"],
-    category: "Specialized",
-    whatIsIt: "The business of buying, selling, developing, and managing massive land and property portfolios. It includes everything from corporate skyscrapers to commercial malls and luxury townships.",
-    secretFact: "Real Estate managers deal with intense legal regulations, endless negotiation, and zoning laws. The biggest money isn't in selling the house, it's efficiently financing the massive land purchase.",
-    usps: [
-      "Real Estate is historically the largest wealth-generating asset class in the world.",
-      "Highly commission and networking-based (the sky is the limit for income).",
-      "Immune to being replaced by AI because physical land cannot be digitized."
-    ]
-  },
-  {
-    name: "Arts, Humanities & Public Policy",
-    acronyms: ["english", "history", "sociology", "political science", "public policy", "ba", "ma"],
-    category: "Arts & Humanities",
-    whatIsIt: "The deep study of human society, governance, and literature. Public Policy specifically focuses on analyzing and writing the actual laws and regulations that governments enforce.",
-    secretFact: "Most students think Arts degrees are 'useless'. In reality, top corporate consultancy firms (like McKinsey) hire Humanities grads specifically because they can think laterally and understand human behavior better than engineers.",
-    usps: [
-      "The absolute best foundational degree for preparing for UPSC / Civil Services.",
-      "Public Policy graduates work directly with politicians, ministries, and massive NGOs.",
-      "Develops elite written communication and critical thinking skills."
-    ]
-  },
-  {
-    name: "Psychology & Social Work (MSW)",
-    acronyms: ["psychology", "social work", "msw", "rural management"],
-    category: "Arts & Humanities",
-    whatIsIt: "Psychology explores the human mind and behavior (clinical or organizational). MSW focuses on actively deploying resources to help marginalized communities, running NGOs, and rural upliftment.",
-    secretFact: "Corporate Psychology (Organizational Behavior) is one of the highest-paid consulting niches right now. Tech giants hire psychologists to figure out how to make their apps more addictive.",
-    usps: [
-      "Massive impact-driven career for those who want to fix society.",
-      "Clinical psychology demand is skyrocketing post-pandemic due to mental health awareness.",
-      "MSW gives direct entry into top global NGOs (UN, WHO, Amnesty)."
-    ]
-  },
-  {
-    name: "Vernacular Studies",
-    acronyms: ["vernacular", "hindi", "tamil", "telugu"],
-    category: "Specialized",
-    whatIsIt: "Pursuing standard corporate degrees (like B.Com or MBA) entirely in a regional language to break the English-barrier for Tier-3 city or rural students.",
-    secretFact: "Countless brilliant business minds fail simply because they cannot speak English. Vernacular degrees allow them to grasp complex financial and management concepts in their mother tongue.",
-    usps: [
-      "Empowers students from non-metro cities to gain top-tier corporate knowledge seamlessly.",
-      "Perfect for local business owners who want to scale their operations without needing English.",
-      "Highly promoted by the government under the New Education Policy (NEP)."
+      "Grants ultimate creative freedom and a powerful, authoritative voice in broader human society.",
+      "Highly practical degree; you spend overwhelmingly more time on the field, shooting, and editing than in typical classrooms.",
+      "Opens very lucrative corporate doors into PR (Public Relations) and widespread digital content creation."
     ]
   }
 ];

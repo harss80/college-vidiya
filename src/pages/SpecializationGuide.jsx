@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Flame, Target, Lightbulb, CheckCircle2, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
+import { Search, Flame, Target, Lightbulb, CheckCircle2, BookOpen, ChevronDown, ChevronUp, GraduationCap } from 'lucide-react';
 import { specializationData } from '../data/specializationGuideData';
 
 const SpecializationGuide = () => {
@@ -12,7 +12,7 @@ const SpecializationGuide = () => {
     return specializationData.filter(spec => {
       if (!searchTerm.trim()) return true;
       const queryWords = searchTerm.toLowerCase().split(/\s+/).filter(w => w);
-      const searchString = `${spec.name} ${spec.acronyms.join(' ')} ${spec.category} ${spec.whatIsIt} ${spec.secretFact}`.toLowerCase();
+      const searchString = `${spec.name} ${spec.acronyms.join(' ')} ${spec.category} ${spec.type} ${spec.whatIsIt} ${spec.secretFact}`.toLowerCase();
       // Only match if at least one acronym exactly matches or if substring matches the query
       return queryWords.every(word => searchString.includes(word));
     });
@@ -90,8 +90,9 @@ const SpecializationGuide = () => {
                     className="p-5 md:p-6 cursor-pointer hover:bg-slate-50 flex items-center justify-between gap-4"
                   >
                      <div className="pl-3">
-                       <div className="inline-flex items-center gap-2 text-[10px] md:text-xs font-black text-[#0047ad] uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-full mb-2">
-                          <Target size={12} /> {spec.category}
+                       <div className={`inline-flex items-center gap-2 text-[10px] md:text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full mb-2 ${spec.type === 'Degree' ? 'bg-purple-50 text-purple-700' : 'bg-blue-50 text-[#0047ad]'}`}>
+                          {spec.type === 'Degree' ? <GraduationCap size={14} /> : <Target size={12} />} 
+                          {spec.type} • {spec.category}
                        </div>
                        <h3 className="text-lg md:text-2xl font-black text-slate-900 leading-tight block">{spec.name}</h3>
                        <div className="hidden sm:flex flex-wrap gap-2 mt-2">
