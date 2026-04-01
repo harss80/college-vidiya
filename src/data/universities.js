@@ -2628,6 +2628,21 @@ export const universities = [
                 "Official Amity University MBA Degree.",
                 "Best for tier-2/3 market leadership."
               ]
+            },
+            {
+              "name": "Hospital and Healthcare Management",
+              "price": "₹1,99,000",
+              "details": "Extensive focus on advanced hospital administration, clinical workflows, healthcare laws, and strategic clinic scaling.",
+              "jobRoles": [
+                "Hospital Administrator",
+                "Operations Manager (Healthcare)",
+                "Clinical Director"
+              ],
+              "usps": [
+                "Directly targets the fast-growing health sector post-pandemic.",
+                "UGC-recognized MBA officially tailored for aspiring hospital leaders.",
+                "Comprehensive curriculum merging core business management with clinical administration frameworks."
+              ]
             }
           ],
           "eligibility": "Graduation in any discipline with a minimum of 40% marks. If below 40%, students must qualify for the Amity Admission Test.",
