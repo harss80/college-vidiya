@@ -2032,7 +2032,11 @@ export const universities = [
       "MBA",
       "MBA WX",
       "Diploma",
-      "Certificate"
+      "Certificate",
+      "Supply Chain Management",
+      "International Trade Management",
+      "Retail Management",
+      "Banking and Depository Management"
     ],
     "accreditation": "NAAC A++, NIRF 52th, Category 1 University (MHRD)",
     "fees": "Semester, Annual & Full course Fee",
@@ -2150,6 +2154,74 @@ export const universities = [
               "name": "Operations & Data Science",
               "price": "₹1,96,000",
               "details": "Lean principles, logistics, and data-driven supply chain optimizations."
+            },
+            {
+              "name": "Supply Chain Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Supply Chain Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Supply Chain Management frameworks.",
+              "careerScope": "Senior and lead roles within Supply Chain Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Supply Chain Management",
+                "Supply Chain Management Consultant",
+                "Director of Supply Chain Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "International Trade Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in International Trade Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical International Trade Management frameworks.",
+              "careerScope": "Senior and lead roles within International Trade Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - International Trade Management",
+                "International Trade Management Consultant",
+                "Director of International Trade Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "Retail Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Retail Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Retail Management frameworks.",
+              "careerScope": "Senior and lead roles within Retail Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Retail Management",
+                "Retail Management Consultant",
+                "Director of Retail Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "Banking and Depository Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Banking and Depository Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Banking and Depository Management frameworks.",
+              "careerScope": "Senior and lead roles within Banking and Depository Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Banking and Depository Management",
+                "Banking and Depository Management Consultant",
+                "Director of Banking and Depository Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
             }
           ]
         },
