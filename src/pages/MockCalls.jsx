@@ -6,9 +6,15 @@ import { useNavigate } from 'react-router-dom';
 
 const MockCalls = () => {
   const navigate = useNavigate();
-  const [specSearch, setSpecSearch] = useState('');
-  const [levelFilter, setLevelFilter] = useState('All');
-  const [budgetFilter, setBudgetFilter] = useState('All');
+  const [specSearch, setSpecSearch] = useState(() => sessionStorage.getItem('cvSearch') || '');
+  const [levelFilter, setLevelFilter] = useState(() => sessionStorage.getItem('cvLevel') || 'All');
+  const [budgetFilter, setBudgetFilter] = useState(() => sessionStorage.getItem('cvBudget') || 'All');
+
+  React.useEffect(() => {
+    sessionStorage.setItem('cvSearch', specSearch);
+    sessionStorage.setItem('cvLevel', levelFilter);
+    sessionStorage.setItem('cvBudget', budgetFilter);
+  }, [specSearch, levelFilter, budgetFilter]);
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
   const filteredUniversities = useMemo(() => {
