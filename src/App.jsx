@@ -6,6 +6,7 @@ import MockCalls from './pages/MockCalls';
 import UniversityDetails from './pages/UniversityDetails';
 import SpecializationDetails from './pages/SpecializationDetails';
 import CounselorFlow from './pages/CounselorFlow';
+import SpecializationGuide from './pages/SpecializationGuide';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="mock-calls" element={<MockCalls />} />
           <Route path="counselor-framework" element={<CounselorFlow />} />
+          <Route path="specialization-guide" element={<SpecializationGuide />} />
           <Route path="mock-calls/university/:uniId" element={<UniversityDetails />} />
           <Route path="mock-calls/university/:uniId/program/:programName/specialization/:specName" element={<SpecializationDetails />} />
           {/* Placeholder for Manual */}
