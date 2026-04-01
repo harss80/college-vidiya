@@ -2768,6 +2768,35 @@ export const universities = [
               "details": "Dual focus strongly mapped on building robust modern web and enterprise applications, while architecting deep-layer server infrastructures."
             }
           ]
+        },
+        {
+          "group": "Integrated",
+          "name": "Integrated B.Com - M.Com",
+          "duration": "60 Months (5 Years)",
+          "priceRange": "₹ 2,75,000",
+          "fee": "₹ 2,75,000",
+          "eligibility": "10+2 (HSC) from a recognized board. Basic English proficiency preferred.",
+          "careerScope": "Seamless entry into advanced financial roles, core accounting, and taxation without applying for a separate Master's degree.",
+          "about": "A dual degree 5-year program that fuses undergraduate commerce and accounting principles with advanced postgraduate financial strategy and taxation.",
+          "paymentDetails": "<b>🔥 Specialized Commerce Dual Degree!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 2,75,000</b><br/>• <b>Semester-wise:</b> <b>₹ 27,500 per sem</b> (10 Semesters)<br/><br/><i>Lumpsum payment brings instant concession via Amity portal.</i>",
+          "certifications": "Includes global accounting framework basics mapped to ACCA protocols.",
+          "usps": [
+            "Seamless progression from B.Com to M.Com without re-registering.",
+            "Deep grounding in corporate finance and tax brackets across 10 semesters.",
+            "Save 1 full year of academic timeline compared to doing degrees apart."
+          ],
+          "specializations": [
+            {
+              "name": "Integrated Commerce Strategy",
+              "jobRoles": [
+                "Financial Analyst",
+                "Tax Consultant",
+                "Senior Accountant"
+              ],
+              "price": "₹ 2,75,000",
+              "details": "A comprehensive journey from basic debit/credit structures to full-scale corporate taxation modelling."
+            }
+          ]
         }
       ]
     },
