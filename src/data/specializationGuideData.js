@@ -93,7 +93,128 @@ export const specializationData = [
       "Leads to powerful, impact-driven careers in Journalism, NGOs, or Public Policy."
     ]
   },
-  
+  {
+    name: "Bachelor / Master of Science (B.Sc / M.Sc)",
+    acronyms: ["bsc", "msc", "science", "ug", "pg", "b.sc", "m.sc"],
+    category: "Science & Tech",
+    type: "Degree",
+    whatIsIt: "A hardcore academic dive into pure sciences (Physics, Chemistry, Math) or applied sciences (Data Science, Biotech). It is highly research-and-theory driven compared to the purely applied B.Tech.",
+    secretFact: "Unless you are doing a highly specialized B.Sc (like Data Science or IT), a general B.Sc is purely a stepping stone for academia/teaching or massive government scientific exams.",
+    usps: [
+      "Essential for entering purely scientific research organizations (ISRO, DRDO, BARC).",
+      "Very low absolute fee structure compared to Engineering (B.Tech).",
+      "Provides extremely deep subject matter expertise rather than superficial corporate training."
+    ]
+  },
+  {
+    name: "Bachelor of Technology (B.Tech)",
+    acronyms: ["btech", "b.tech", "engineering", "ug"],
+    category: "Tech & IT",
+    type: "Degree",
+    whatIsIt: "The gold standard of undergraduate technical education in India. A rigorous 4-year program training students to literally engineer hardware or software solutions from the ground up.",
+    secretFact: "Only 20% of B.Tech students actually get jobs in 'core engineering' (like mechanical or civil). Almost 80% eventually learn to code and get placed in IT/Software companies regardless of their branch.",
+    usps: [
+      "Unmatched global prestige; Silicon Valley thrives heavily on Indian B.Tech graduates.",
+      "Trains intense logical problem-solving capable of cracking any corporate interview.",
+      "Highest average starting package compared to any other undergraduate degree."
+    ]
+  },
+
+  // ==========================================
+  // ENTRANCE EXAMS
+  // ==========================================
+  {
+    name: "Common Admission Test (CAT)",
+    acronyms: ["cat", "iim", "mba exam"],
+    category: "Entrance Exam",
+    type: "Exam",
+    whatIsIt: "The most difficult and prestigious MBA entrance exam in India, conducted by the IIMs. It tests extreme high-speed quantitative aptitude, verbal ability, and deep logical reasoning.",
+    secretFact: "CAT doesn't just test math; it tests 'pressure handling'. Actually, a completely average student who solves past 10 years papers thoroughly has a higher chance than a genius who purely relies on talent.",
+    usps: [
+      "The only gateway to the 'Holy Trinity' of IIMs (Ahmedabad, Bangalore, Calcutta).",
+      "Scoring 99%ile practically guarantees a heavily funded bank loan for your MBA fee.",
+      "Universally accepted by non-IIM top colleges (FMS, MDI, SPJIMR) as well."
+    ]
+  },
+  {
+    name: "Management Aptitude Test (MAT)",
+    acronyms: ["mat", "mba exam", "management aptitude"],
+    category: "Entrance Exam",
+    type: "Exam",
+    whatIsIt: "A standard national-level MBA entrance exam conducted by AIMA. It is significantly easier than CAT and happens 4 times a year, giving students multiple chances to perform.",
+    secretFact: "Top Tier-1 colleges (like IIMs or XLRI) DO NOT accept MAT. MAT is exclusively meant for Tier-2 and Tier-3 private management colleges. It is the ultimate 'backup' exam.",
+    usps: [
+      "Happens 4 times a year, so you never waste a full academic year if you fail once.",
+      "Math section is far easier than CAT, favoring non-engineering students.",
+      "Accepted by over 600+ B-Schools across India."
+    ]
+  },
+  {
+    name: "Xavier Aptitude Test (XAT)",
+    acronyms: ["xat", "xlri", "mba exam"],
+    category: "Entrance Exam",
+    type: "Exam",
+    whatIsIt: "Considered the toughest MBA entrance exam in the country (often tougher than CAT). Conducted by XLRI Jamshedpur, it includes a notorious 'Decision Making' section that tests pure corporate ethics.",
+    secretFact: "If a student has a low grading history in 10th and 12th, XAT/XLRI does not care. Unlike IIMs which reject students for poor past academic scores, XLRI focuses purely on the XAT exam score and interview.",
+    usps: [
+      "Direct gateway to XLRI (India’s #1 HR College) and SPJIMR.",
+      "Tests actual business decision-making rather than just rote mathematical formulas.",
+      "Forgiving towards past academic failures (10th/12th marks)."
+    ]
+  },
+  {
+    name: "Common University Entrance Test (CUET)",
+    acronyms: ["cuet", "ug exam", "cuet ug", "cuet pg"],
+    category: "Entrance Exam",
+    type: "Exam",
+    whatIsIt: "The massive new national entrance exam that practically replaced 12th board marks for undergraduate central university admissions (like DU, JNU, BHU).",
+    secretFact: "12th board marks literally do not matter for Delhi University anymore. A student with 60% in boards who scores 99% in CUET will easily beat a 95% board topper who bombed the CUET.",
+    usps: [
+      "Completely equalizes the playing field across different state boards.",
+      "Allows testing in 13+ regional languages, breaking the English barrier.",
+      "A massive single window for entering 250+ central and state universities."
+    ]
+  },
+  {
+    name: "NMAT by GMAC (NMAT)",
+    acronyms: ["nmat", "nmims", "mba exam"],
+    category: "Entrance Exam",
+    type: "Exam",
+    whatIsIt: "An adaptive, candidate-friendly MBA entrance exam specifically meant for entering NMIMS Mumbai and a few other premium private B-Schools. 'Adaptive' means the exam adapts to your skill level live.",
+    secretFact: "Unlike CAT, there is NO negative marking in NMAT. Furthermore, students can give 'retakes' to improve their scores, much like global exams (GMAT).",
+    usps: [
+      "Gateway to NMIMS Mumbai, one of India's elite marketing & finance colleges.",
+      "No negative marking means students can aggressively guess tough questions.",
+      "You can choose the order of sections during the exam flexibly."
+    ]
+  },
+  {
+    name: "Symbiosis National Aptitude Test (SNAP)",
+    acronyms: ["snap", "symbiosis", "mba exam"],
+    category: "Entrance Exam",
+    type: "Exam",
+    whatIsIt: "A heavily speed-based MBA entrance exam specifically for the 16 Symbiosis institutes in India (including SIBM and SCMHRD). It’s only 60 minutes long.",
+    secretFact: "SNAP has entirely removed Reading Comprehension (RC) and Data Interpretation (DI) from its exam. It purely tests high-speed vocabulary and quick logical puzzles.",
+    usps: [
+      "The shortest major MBA exam in India (just 1 hour).",
+      "Extremely friendly to students who hate long reading comprehension passages.",
+      "Gateway to SIBM Pune, one of the elite corporate networking hubs of India."
+    ]
+  },
+  {
+    name: "Common Management Admission Test (CMAT)",
+    acronyms: ["cmat", "nta exams", "mba exam"],
+    category: "Entrance Exam",
+    type: "Exam",
+    whatIsIt: "A national-level MBA entrance exam conducted by NTA. It is slightly tougher than MAT but easier than CAT. It is widely accepted by top AICTE-approved institutions like JBIMS and K.J. Somaiya.",
+    secretFact: "CMAT has a unique 'Innovation & Entrepreneurship' section. If a student is well-read in startups, funding, and general business news, they can massively boost their percentile here.",
+    usps: [
+      "Accepted by elite Maharashtra colleges (JBIMS, SIMSREE) for All-India candidates.",
+      "Generous time limit (180 mins for 100 questions) makes it a low-pressure exam.",
+      "Highly scoring for students with strong General Knowledge (GK) and business awareness."
+    ]
+  },
+
   // ==========================================
   // SPECIALIZATIONS
   // ==========================================
@@ -246,7 +367,7 @@ export const specializationData = [
     category: "Tech & IT",
     type: "Specialization",
     whatIsIt: "Companies no longer host their data on physical servers in their office; they use massive internet data centers (Cloud). DevOps completely automates how software gets updated without crashing.",
-    secretFact: "Cloud Engineers rarely write the actual app code (like a frontend developer does). Ther job is to construct the massive invisible architectural infrastructure that ensures Swiggy/Netflix never experiences downtime.",
+    secretFact: "Cloud Engineers rarely write the actual app code (like a frontend developer does). Their job is to construct the massive invisible architectural infrastructure that ensures Swiggy/Netflix never experiences downtime.",
     usps: [
       "Nearly 90% of global companies have definitively migrated to the cloud; corporate demand is staggering.",
       "Direct integration with top certifications (AWS, Azure, GCP) which practically guarantee placements.",

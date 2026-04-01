@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Flame, Target, Lightbulb, CheckCircle2, BookOpen, ChevronDown, ChevronUp, GraduationCap } from 'lucide-react';
+import { Search, Flame, Target, Lightbulb, CheckCircle2, BookOpen, ChevronDown, ChevronUp, GraduationCap, PenTool } from 'lucide-react';
 import { specializationData } from '../data/specializationGuideData';
 
 const SpecializationGuide = () => {
@@ -90,8 +90,12 @@ const SpecializationGuide = () => {
                     className="p-5 md:p-6 cursor-pointer hover:bg-slate-50 flex items-center justify-between gap-4"
                   >
                      <div className="pl-3">
-                       <div className={`inline-flex items-center gap-2 text-[10px] md:text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full mb-2 ${spec.type === 'Degree' ? 'bg-purple-50 text-purple-700' : 'bg-blue-50 text-[#0047ad]'}`}>
-                          {spec.type === 'Degree' ? <GraduationCap size={14} /> : <Target size={12} />} 
+                       <div className={`inline-flex items-center gap-2 text-[10px] md:text-xs font-black uppercase tracking-widest px-3 py-1.5 rounded-md mb-2 ${
+                          spec.type === 'Degree' ? 'bg-indigo-50 text-indigo-700 border border-indigo-100' : 
+                          spec.type === 'Exam' ? 'bg-rose-50 text-rose-700 border border-rose-100' : 
+                          'bg-blue-50 text-[#0047ad] border border-blue-100'
+                       }`}>
+                          {spec.type === 'Degree' ? <GraduationCap size={14} /> : spec.type === 'Exam' ? <PenTool size={14} /> : <Target size={12} />} 
                           {spec.type} • {spec.category}
                        </div>
                        <h3 className="text-lg md:text-2xl font-black text-slate-900 leading-tight block">{spec.name}</h3>
@@ -109,24 +113,28 @@ const SpecializationGuide = () => {
 
                   {/* Collapsible Content */}
                   {isExpanded && (
-                    <div className="px-5 md:px-6 pb-6 pt-2 border-t border-slate-100 bg-slate-50/50">
-                      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mt-4">
+                    <div className="px-5 md:px-6 pb-6 pt-0 border-t border-slate-100 bg-slate-50/50">
+                      <div className="grid grid-cols-1 md:grid-cols-12 gap-4 mt-6">
                           {/* Left Col: Explanations */}
                           <div className="md:col-span-7 space-y-4">
-                              <div className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
-                                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-2">
-                                      <Search size={14} className="text-[#0047ad]"/> What exactly is it?
+                              <div className="bg-white p-5 md:p-6 rounded-2xl border border-slate-200 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.1)] relative overflow-hidden">
+                                  <div className="absolute top-0 left-0 w-1 h-full bg-[#0047ad]"></div>
+                                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-2">
+                                      <Search size={16} className="text-[#0047ad]"/> What exactly is it?
                                   </h4>
-                                  <p className="text-slate-700 font-medium leading-relaxed text-sm md:text-base">
+                                  <p className="text-slate-700 font-semibold leading-relaxed text-sm md:text-base">
                                       {spec.whatIsIt}
                                   </p>
                               </div>
                               
-                              <div className="bg-amber-50 p-5 rounded-xl border border-amber-100">
-                                  <h4 className="text-xs font-black text-amber-900 uppercase tracking-widest mb-2 flex items-center gap-2">
-                                      <Lightbulb size={14} className="text-amber-600"/> The Hidden Truth
+                              <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-5 md:p-6 rounded-2xl border border-amber-200/60 shadow-inner relative overflow-hidden">
+                                  <div className="absolute -right-6 -top-6 text-amber-500/10 rotate-12">
+                                      <Lightbulb size={120} />
+                                  </div>
+                                  <h4 className="text-xs font-black text-amber-900 uppercase tracking-widest mb-3 flex items-center gap-2 relative z-10">
+                                      <Lightbulb size={16} className="text-amber-600"/> The Hidden Truth
                                   </h4>
-                                  <p className="text-amber-800 font-medium leading-relaxed italic text-sm md:text-base">
+                                  <p className="text-amber-900/90 font-medium leading-relaxed italic text-sm md:text-base relative z-10">
                                       "{spec.secretFact}"
                                   </p>
                               </div>
@@ -134,15 +142,17 @@ const SpecializationGuide = () => {
 
                           {/* Right Col: USPs to pitch */}
                           <div className="md:col-span-5 relative">
-                              <div className="h-full bg-white border border-slate-200 p-5 rounded-xl shadow-sm">
-                                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-4 flex items-center gap-2">
-                                      <Flame size={14} className="text-[#ff6b00]"/> Top 3 USPs (Sales Pitch)
+                              <div className="h-full bg-gradient-to-b from-slate-800 to-slate-900 border border-slate-700 p-6 rounded-2xl shadow-xl">
+                                  <h4 className="text-xs font-black text-white/60 uppercase tracking-widest mb-6 flex items-center gap-2">
+                                      <Flame size={16} className="text-[#ff6b00]"/> Top 3 USPs (Sales Pitch)
                                   </h4>
-                                  <ul className="space-y-4">
+                                  <ul className="space-y-5">
                                       {spec.usps.map((usp, i) => (
-                                          <li key={i} className="flex items-start gap-3">
-                                              <CheckCircle2 size={18} className="text-emerald-500 shrink-0 mt-0.5" />
-                                              <span className="text-sm font-bold text-slate-700">{usp}</span>
+                                          <li key={i} className="flex items-start gap-3 group/usp">
+                                              <div className="mt-0.5 bg-white/10 p-1 rounded-full group-hover/usp:bg-emerald-500 transition-colors">
+                                                 <CheckCircle2 size={16} className="text-emerald-400 group-hover/usp:text-white" />
+                                              </div>
+                                              <span className="text-sm font-semibold text-slate-300 leading-relaxed group-hover/usp:text-white transition-colors">{usp}</span>
                                           </li>
                                       ))}
                                   </ul>
