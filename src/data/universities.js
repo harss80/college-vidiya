@@ -2387,7 +2387,7 @@ export const universities = [
               "details": "Intensive focus on regional languages. Available in 5 Languages: Hindi, Tamil, Telugu, Kannada, and Malayalam.",
               "usps": [
                 "Learn entirely in your native tongue for maximum comprehension.",
-                "Official Amity University Degree structure is identical to English tracks."
+                "Eliminates English barriers while granting the exact same official Amity Degree."
               ]
             },
             {
@@ -2462,7 +2462,7 @@ export const universities = [
           "group": "UG",
           "name": "B.Com",
           "duration": "36 Months",
-          "priceRange": "Check Plan",
+          "priceRange": "₹16,500 / Sem  |  ₹99,000 (Full)",
           "specializations": [
             {
               "name": "General",
@@ -2473,8 +2473,26 @@ export const universities = [
               "name": "ACCA",
               "price": "₹1,50,000",
               "details": "Global accounting protocols preparing for the ACCA certification."
+            },
+            {
+              "name": "Vernacular (B.Com)",
+              "price": "₹99,000",
+              "details": "Intensive focus on regional languages. Available in 5 Languages: Hindi, Tamil, Telugu, Kannada, and Malayalam.",
+              "jobRoles": [
+                "Accountant",
+                "Finance Assistant",
+                "Local Business Analyst"
+              ],
+              "usps": [
+                "Learn entirely in your native tongue.",
+                "Eliminates English barrier in core accounting logic."
+              ]
             }
-          ]
+          ],
+          "eligibility": "10+2 (Higher Secondary) from a recognized board. Basic English proficiency preferred.",
+          "fee": "₹99,000",
+          "paymentDetails": "<b>🔥 Flexible Payments & Discounts!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 99,000</b> (One-time payment brings direct discounts)<br/>• <b>Semester-wise Breakdown:</b> <b>₹ 16,500 per sem</b> (6 Semesters)<br/>• <b>Note:</b> Semester-wise and Lumpsum options ONLY. No annual format.<br/><i>EMI options start at ₹ 3,919 / month.</i>",
+          "certifications": "QS Ranked program, UGC recognized, WES global accreditation."
         },
         {
           "group": "PG",
@@ -2498,7 +2516,7 @@ export const universities = [
           "group": "PG",
           "name": "MBA",
           "duration": "24 Months",
-          "priceRange": "Check Plan",
+          "priceRange": "₹49,750 / Sem  |  ₹1,99,000 (Full)",
           "specializations": [
             {
               "name": "Business Analytics",
@@ -2595,8 +2613,27 @@ export const universities = [
               "name": "General Management",
               "price": "₹1,99,000",
               "details": "Holistic enterprise scaling and administrative leadership."
+            },
+            {
+              "name": "Vernacular (MBA)",
+              "price": "₹1,99,000",
+              "details": "Intensive focus on regional languages. Available in 5 Languages: Hindi, Tamil, Telugu, Kannada, and Malayalam.",
+              "jobRoles": [
+                "Regional Manager",
+                "Branch Head",
+                "Sales Coordinator"
+              ],
+              "usps": [
+                "Learn entirely in your native tongue for maximum comprehension.",
+                "Official Amity University MBA Degree.",
+                "Best for tier-2/3 market leadership."
+              ]
             }
-          ]
+          ],
+          "eligibility": "Graduation in any discipline with a minimum of 40% marks. If below 40%, students must qualify for the Amity Admission Test.",
+          "fee": "₹1,99,000",
+          "paymentDetails": "<b>🔥 Flexible Payments & Discounts!</b><br/><br/>• <b>Total Program Fee:</b> <b>₹ 1,99,000</b> (Lumpsum payment yields up to 10% discount)<br/>• <b>Semester-wise Breakdown:</b> <b>₹ 49,750 per sem</b> (4 Semesters)<br/>• <b>Note:</b> There is NO Annual payment option; you can pay Per Semester or Full Course.<br/><i>Zero Cost EMI starts at ₹ 7,877 / month.</i>",
+          "certifications": "Programs are globally recognized: QS Ranked, UGC-Entitled, and WES (World Education Services) accredited in USA/Canada."
         },
         {
           "group": "PG",
