@@ -1,0 +1,337 @@
+{
+  "id": "amity",
+  "name": "Amity Online University",
+  "logo": "https://ui-avatars.com/api/?name=AU&background=ea580c&color=fff&size=150",
+  "location": "Noida",
+  "type": "State Private University",
+  "level": [
+    "UG",
+    "PG"
+  ],
+  "budget": 130000,
+  "specializations": [
+    "MBA",
+    "MCA",
+    "BBA",
+    "BCA",
+    "B.Com",
+    "M.Com",
+    "BA",
+    "MA"
+  ],
+  "accreditation": "NAAC A+, NIRF Rank 22, WASC, WES, IAU, UK Quality Assured",
+  "fees": "Semester, Annual & Full course fee",
+  "placement": "Industry Mentor | Virtual Placement Drives | Master Classes",
+  "eligibility": "40% in Grad (If below, Amity MBA Eligibility Test required)",
+  "ranking": "NIRF Rank 22",
+  "exams": "Merit Based / Amity Test",
+  "extendedDetails": {
+    "usps": [
+      "Legacy from 1986 (Education Group)",
+      "Amity Innovation Incubator and Amity Alumni Club setup",
+      "Daily Live Classes in 2 Slots (Weekday & Weekends)",
+      "Hard Copy of books only provided for Amity Noida",
+      "TCS ION & HCL Tech Collaboration (Paytm and KPMG with internship opportunities)",
+      "Placement opportunities actively start from the 1st semester itself",
+      "Free 6 bonus courses available from Amity University platform",
+      "Scholarships: Divyaang/Defence/Alumni (20%), Merit (up to 20%), Sports CHAMPS (30-100%)",
+      "Early payment concessions: 8-12% on Full fee, 5% on Annual fee"
+    ],
+    "payment": "Registration: ₹1100 | Block Amount: ₹5000 | Loans: Fibe, TCPL, Grayquest | Cardless EMI available",
+    "examination": "70:30 (30% Continuous Assessment, 70% Proctored Exam) | Passing Criteria = 40%",
+    "leadLocking": "Auto Lock on LSQ | LSQ = AU",
+    "programs": [
+      {
+        "group": "UG",
+        "name": "BA",
+        "duration": "36 Months",
+        "priceRange": "Check Plan",
+        "specializations": [
+          {
+            "name": "General",
+            "price": "₹1,50,000",
+            "details": "Core humanities, liberal arts, and sociology frameworks."
+          },
+          {
+            "name": "Vernacular",
+            "price": "₹1,50,000",
+            "details": "Intensive focus on regional languages and vernacular literature."
+          },
+          {
+            "name": "JMC",
+            "price": "₹1,50,000",
+            "details": "Journalism, mass communication, and media ethics."
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "BBA",
+        "duration": "36 Months",
+        "priceRange": "Check Plan",
+        "specializations": [
+          {
+            "name": "General",
+            "price": "₹1,50,000",
+            "details": "Management principles, economics, and corporate strategy."
+          },
+          {
+            "name": "Travel and tourism management",
+            "price": "₹1,50,000",
+            "details": "Hospitality, tourism operations, and travel agency architectures."
+          },
+          {
+            "name": "Data Analytics (HCL Tech)",
+            "price": "₹1,50,000",
+            "details": "Corporate business analytics guided by HCL Tech integrations."
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "BCA",
+        "duration": "36 Months",
+        "priceRange": "Check Plan",
+        "specializations": [
+          {
+            "name": "General",
+            "price": "₹1,50,000",
+            "details": "Fundamental coding, logic building, and application structures."
+          },
+          {
+            "name": "Data Analytics - TCS ION",
+            "price": "₹1,50,000",
+            "details": "Data pipelining and analytical logic partnered with TCS ION."
+          },
+          {
+            "name": "Cloud & Security - TCS ION",
+            "price": "₹1,50,000",
+            "details": "Enterprise cloud defense and deployment via TCS ION frameworks."
+          },
+          {
+            "name": "Software Engineering - HCL Tech",
+            "price": "₹1,50,000",
+            "details": "Full lifecycle SDLC backed by HCL Tech."
+          },
+          {
+            "name": "Data Engineering - HCL Tech",
+            "price": "₹1,50,000",
+            "details": "Structuring massive datasets and databases with HCL Tech."
+          },
+          {
+            "name": "Financial Technology and AI - Paytm",
+            "price": "₹1,50,000",
+            "details": "Fintech, AI models, and gateway infrastructures with Paytm."
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "B.Com",
+        "duration": "36 Months",
+        "priceRange": "Check Plan",
+        "specializations": [
+          {
+            "name": "General",
+            "price": "₹1,50,000",
+            "details": "Foundational auditing, commerce, and accounting."
+          },
+          {
+            "name": "ACCA",
+            "price": "₹1,50,000",
+            "details": "Global accounting protocols preparing for the ACCA certification."
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MA",
+        "duration": "24 Months",
+        "priceRange": "Check Plan",
+        "specializations": [
+          {
+            "name": "JMC",
+            "price": "₹1,99,000",
+            "details": "Advanced mass media, broadcast logic, and digital journalism."
+          },
+          {
+            "name": "Public Policy Governance",
+            "price": "₹1,99,000",
+            "details": "State crafting, policy analysis, and legal frameworks."
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MBA",
+        "duration": "24 Months",
+        "priceRange": "Check Plan",
+        "specializations": [
+          {
+            "name": "Business Analytics",
+            "jobRoles": [
+              "Data Science Manager",
+              "Strategy Consultant",
+              "Business Intelligence Lead",
+              "Operations Analyst"
+            ],
+            "price": "₹1,99,000",
+            "details": "Metric-driven organizational strategies and intelligence."
+          },
+          {
+            "name": "Data Science",
+            "price": "₹1,99,000",
+            "details": "Complex data modeling and quantitative prediction."
+          },
+          {
+            "name": "Digital Entrepreneurship",
+            "price": "₹1,99,000",
+            "details": "Startup scaling within digital internet economies."
+          },
+          {
+            "name": "Digital Marketing Management",
+            "price": "₹1,99,000",
+            "details": "Omnichannel growth hacking and web optimizations."
+          },
+          {
+            "name": "Entrepreneurship and Leadership Management",
+            "price": "₹1,99,000",
+            "details": "Corporate scaling and team structuring."
+          },
+          {
+            "name": "Finance and Accounting Management",
+            "price": "₹1,99,000",
+            "details": "Capital structures, banking, and wealth logic."
+          },
+          {
+            "name": "Global Finance Market",
+            "price": "₹1,99,000",
+            "details": "International banking, stocks, and cross-border hedge logic."
+          },
+          {
+            "name": "Hospitality Management",
+            "price": "₹1,99,000",
+            "details": "High-end hotel management and global hospitality scaling."
+          },
+          {
+            "name": "Human Resource Management",
+            "price": "₹1,99,000",
+            "details": "Talent tech, organizational pipelines, and retention models."
+          },
+          {
+            "name": "Human Resources Analytics",
+            "price": "₹1,99,000",
+            "details": "Using complex data models to handle HR pipelines."
+          },
+          {
+            "name": "Information Technology Management",
+            "price": "₹1,99,000",
+            "details": "Enterprise IT operations and software systems mapping."
+          },
+          {
+            "name": "Insurance Management",
+            "price": "₹1,99,000",
+            "details": "Risk mapping, underwriting logic, and actuarial systems."
+          },
+          {
+            "name": "International Business Management",
+            "price": "₹1,99,000",
+            "details": "Global vendor management and compliance operations."
+          },
+          {
+            "name": "International Finance (ACCA)",
+            "price": "₹1,99,000",
+            "details": "High-tier accounting aligned with ACCA global requirements."
+          },
+          {
+            "name": "Marketing & Sales Management",
+            "price": "₹1,99,000",
+            "details": "Consumer psychology, retail strategies, and sales."
+          },
+          {
+            "name": "Production and Operations Management",
+            "price": "₹1,99,000",
+            "details": "Lean pipelines, factory operations, and scaling setups."
+          },
+          {
+            "name": "Retail Management",
+            "price": "₹1,99,000",
+            "details": "Brick-and-mortar strategies and storefront operations."
+          },
+          {
+            "name": "General Management",
+            "price": "₹1,99,000",
+            "details": "Holistic enterprise scaling and administrative leadership."
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MCA",
+        "duration": "24 Months",
+        "priceRange": "Check Plan",
+        "specializations": [
+          {
+            "name": "General",
+            "price": "₹1,99,000",
+            "details": "Standard high-level programming and enterprise systems."
+          },
+          {
+            "name": "Block Chain",
+            "price": "₹1,99,000",
+            "details": "Cryptography, Web3, and decentralized application deployment."
+          },
+          {
+            "name": "ML",
+            "price": "₹1,99,000",
+            "details": "Machine learning logic and algorithmic model building."
+          },
+          {
+            "name": "AI & ML (TCS ION)",
+            "price": "₹1,99,000",
+            "details": "TCS guided implementation of intelligent networks."
+          },
+          {
+            "name": "AR & VR (TCS ION)",
+            "price": "₹1,99,000",
+            "details": "Immersive development models utilizing TCS resources."
+          },
+          {
+            "name": "Cyber Security (HCL TECH)",
+            "price": "₹1,99,000",
+            "details": "Advanced penetration testing systems backed by HCL Tech."
+          },
+          {
+            "name": "Software Engineering (HCL TECH)",
+            "price": "₹1,99,000",
+            "details": "Deep SDLC and enterprise architecture via HCL Tech."
+          },
+          {
+            "name": "Financial Technology and AI - Paytm",
+            "price": "₹1,99,000",
+            "details": "Disruptive Fintech architectures via Paytm models."
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "M.Com",
+        "duration": "24 Months",
+        "priceRange": "Check Plan",
+        "specializations": [
+          {
+            "name": "Fintech",
+            "price": "₹1,99,000",
+            "details": "E-banking frameworks, crypto-economics, and finance."
+          },
+          {
+            "name": "Financial Management",
+            "price": "₹1,99,000",
+            "details": "Advanced core banking, tax brackets, and portfolios."
+          }
+        ]
+      }
+    ]
+  },
+  "url": "https://amityonline.com/"
+}
