@@ -89,22 +89,74 @@ const CounselorFlow = () => {
             <h3 className="text-sm font-black text-slate-800 uppercase tracking-widest mb-2 flex items-center gap-2"><HelpCircle size={16} className="text-emerald-600" /> Behavioral Question:</h3>
             <p className="font-medium text-slate-700 italic">"Agar aapko agle 5 saal kisi ek cheez par kaam karna pade, toh aap kisme zyada comfortable feel karoge?"</p>
             
-            <div className="mt-4 space-y-3">
-               <div className="flex items-center justify-between bg-white p-3 rounded-lg border border-slate-200">
-                  <span className="text-sm font-bold text-slate-700">1. Logic & Problem Solving (Coding)</span>
-                  <span className="text-xs font-black bg-emerald-100 text-emerald-800 px-2 py-1 rounded">BCA / MCA</span>
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+               {/* Tech & IT */}
+               <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-3">💻 Tech & IT</h4>
+                  <div className="space-y-2">
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">1. Coding & Software Dev</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">BCA / MCA / B.Tech</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">2. Patterns in Data & Graphs</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">Data Science / Business Analytics</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">3. Securing Networks (Hacking)</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MCA Cyber Security</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">4. Building AI/Robots</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MCA Artificial Intelligence & ML</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">5. Managing Tech Teams</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Information Technology</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">6. Cloud Servers & Config</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">BCA Cloud Computing</span></div>
+                  </div>
                </div>
-               <div className="flex items-center justify-between bg-white p-3 rounded-lg border border-slate-200">
-                  <span className="text-sm font-bold text-slate-700">2. Managing People & Money (Sales, Finance)</span>
-                  <span className="text-xs font-black bg-emerald-100 text-emerald-800 px-2 py-1 rounded">BBA / MBA</span>
+
+               {/* Management */}
+               <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-3">📊 Management & Ops</h4>
+                  <div className="space-y-2">
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">7. Leading Teams & Hiring</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA HR Management</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">8. Selling & Social Media</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Marketing</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">9. Amazon-style Delivery Logic</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Supply Chain</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">10. Import/Export Global Trade</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA International Business</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">11. Factory Efficiency</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Operations Management</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">12. Store Layouts & Malls</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Retail Management</span></div>
+                  </div>
                </div>
-               <div className="flex items-center justify-between bg-white p-3 rounded-lg border border-slate-200">
-                  <span className="text-sm font-bold text-slate-700">3. Creativity & Design (Editing, Graphics)</span>
-                  <span className="text-xs font-black bg-emerald-100 text-emerald-800 px-2 py-1 rounded">BA / MA (JMC)</span>
+
+               {/* Finance & Commerce */}
+               <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-3">📈 Finance & Commerce</h4>
+                  <div className="space-y-2">
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">13. Stock Markets & Investing</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Finance</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">14. Bookkeeping & Audits</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">B.Com / General Finance</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">15. Corporate Taxation</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">M.Com / Dual B.Com</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">16. Banking & Risk Management</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA BFSI</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">17. Wealth Management</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Accounting & Finance</span></div>
+                  </div>
                </div>
-               <div className="flex items-center justify-between bg-white p-3 rounded-lg border border-slate-200">
-                  <span className="text-sm font-bold text-slate-700">4. Hospital & Admin (Healthcare)</span>
-                  <span className="text-xs font-black bg-emerald-100 text-emerald-800 px-2 py-1 rounded">MBA Pharma / Health</span>
+
+               {/* Creative & Media */}
+               <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-3">🎨 Creative & Media</h4>
+                  <div className="space-y-2">
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">18. Video Editing & News</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">BA/MA Journalism (JMC)</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">19. PR Campaigns & Ads</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Advertising & PR</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">20. Planning Weddings/Concerts</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Event Management</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">21. Graphics & Visual Arts</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">BA Multimedia / B.Des</span></div>
+                     <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">22. Literature & Society</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">BA / MA English</span></div>
+                  </div>
+               </div>
+
+               {/* Health & Specialized */}
+               <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm md:col-span-2">
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-3">🩺 Healthcare & Specialized</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                     <div className="space-y-2">
+                         <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">23. Hospital Administration</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Hospital & Healthcare</span></div>
+                         <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">24. Medical Sales / Operations</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Pharmaceutical</span></div>
+                         <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">25. Lab Analytics</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">M.Sc Mathematics / Stats</span></div>
+                         <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">26. Hotel & Resort Management</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">BBA Hospitality</span></div>
+                     </div>
+                     <div className="space-y-2">
+                         <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">27. Airlines & Travel Ops</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">BBA Travel & Tourism</span></div>
+                         <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">28. Building Startups</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MBA Entrepreneurship</span></div>
+                         <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">29. Contracts & Corporate Law</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">BBA LLB / Business Law</span></div>
+                         <div className="flex flex-col"><span className="text-sm font-bold text-slate-700">30. Rural Upliftment & NGOs</span><span className="text-[10px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded w-fit mt-1">MSW / Rural Management</span></div>
+                     </div>
+                  </div>
                </div>
             </div>
           </div>
