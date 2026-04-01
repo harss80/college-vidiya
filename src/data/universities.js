@@ -1001,24 +1001,6 @@ export const universities = [
           ]
         },
         {
-          "group": "UG",
-          "name": "BA",
-          "duration": "36 Months",
-          "priceRange": "₹1,00,000",
-          "specializations": [
-            {
-              "name": "JMC",
-              "price": "₹1,00,000",
-              "details": "Mass media, journalism ethics, and digital broadcasting."
-            },
-            {
-              "name": "Economics",
-              "price": "₹1,00,000",
-              "details": "Comprehensive liberal arts approach to economic theory."
-            }
-          ]
-        },
-        {
           "group": "PG",
           "name": "MBA",
           "duration": "24 Months",
