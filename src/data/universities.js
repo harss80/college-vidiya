@@ -4195,7 +4195,8 @@ export const universities = [
     "budget": 189400,
     "specializations": [
       "MBA",
-      "BBA"
+      "BBA",
+      "MCA"
     ],
     "accreditation": "NAAC A++, NIRF Top 50, UGC-Entitled",
     "fees": "Semester options available",
@@ -4452,6 +4453,34 @@ export const universities = [
               "name": "Agri Business Management",
               "price": "₹ 1,89,400",
               "details": "Nuances of large-scale Rural Marketing, seed-to-shelf logistics, and the modern Agro-Industry."
+            }
+          ]
+        },
+        {
+          "group": "PG",
+          "name": "MCA",
+          "duration": "24 Months (2 Years)",
+          "priceRange": "₹ 1,40,000",
+          "eligibility": "Any Non-IT / IT Graduate (BCA/BBA/B.Sc/B.Com/BA) with minimum 50% marks (45% for reserved categories). Mathematics at 10+2 level or Graduation mapped is highly preferred/mandated.",
+          "about": "Online Master of Computer Applications designed for fresh graduates and working professionals to build advanced computing and business application skills.",
+          "careerScope": "Top tier tech roles in software development, architecture, cloud engineering, and database management.",
+          "paymentDetails": "<b>🔥 High-Demand MCA Program!</b><br/><br/>• <b>Semester 1 & 2 Fee:</b> <b>₹ 40,000 each</b><br/>• <b>Semester 3 & 4 Fee:</b> <b>₹ 30,000 each</b><br/>• <b>Total Program Fee:</b> <b>₹ 1,40,000</b><br/><br/><i>Special Scholarship of ₹10,000 available on Lumpsum payment within 15 days of admission.</i>",
+          "certifications": "Includes access to leading technical certifications across the cloud and AI spectrum.",
+          "usps": [
+            "Highly interactive I-Learn system with recorded practical frameworks.",
+            "Dedicated placement drives connecting to MNC tech partners.",
+            "Discount of ₹ 10,000 on upfront complete fee payment."
+          ],
+          "specializations": [
+            {
+              "name": "General",
+              "jobRoles": [
+                "Software Developer",
+                "IT Consultant",
+                "Systems Architect"
+              ],
+              "price": "₹ 1,40,000",
+              "details": "Comprehensive advanced track mapping full-stack software development workflows, systems architecture, and database algorithms."
             }
           ]
         }
