@@ -1561,39 +1561,457 @@ export const universities = [
     "id": "nmims-wx",
     "name": "NMIMS Global - MBA WX (Working Executive)",
     "logo": "https://ui-avatars.com/api/?name=NM&background=ea580c&color=fff&size=150",
-    "location": "Mumbai",
-    "type": "Deemed",
+    "location": "Mumbai, Maharashtra",
+    "type": "Deemed-to-be University",
     "level": [
-      "PG",
-      "Executive"
+      "UG",
+      "PG"
     ],
-    "budget": 400000,
+    "budget": 196000,
     "specializations": [
+      "Information Technology and Systems Management",
+      "Marketing Management",
+      "Financial Management",
+      "Human Resource Management",
+      "Operations Management",
+      "Business Analytics Management",
+      "Business Management",
       "Applied Finance",
       "Digital Marketing",
-      "Leadership & Strategy",
-      "MBA in Marketing",
-      "Operations & Supply Chain"
+      "Marketing",
+      "Leadership and Strategy",
+      "Operations & Supply Chain",
+      "Business Analytics",
+      "Accounting & Finance",
+      "HR",
+      "Finance"
     ],
-    "accreditation": "UGC, NAAC A+, Harvard Business Publishing modules",
-    "fees": "₹4,00,000 / Total",
-    "placement": "Industry Mentors | High Placement Track",
+    "accreditation": "NAAC A+ (3.59 CGPA), UGC Category-1",
+    "fees": "₹94,000 - ₹4,00,000",
+    "placement": "Top Recruiters: Accenture, Amazon, KPMG, Capgemini | ₹12-15 LPA Avg",
     "eligibility": "Working Professionals (24 Months)",
-    "ranking": "Premium Executive Program",
+    "ranking": "Top 50 NIRF, 40+ Years Legacy",
     "exams": "No Entrance (Direct Admission)",
     "extendedDetails": {
+      "leadLocking": "Candidates MUST register on the official NMIMS Online portal. Documentation (Degree/HSC) must be uploaded via correct agency codings to secure pipeline tracking.",
       "usps": [
-        "Foundation Modules from Harvard Business Publishing Education (1-year free validity)",
-        "Capstone Project: 15-month course + 3-month capstone + 6-month industry project",
-        "Campus Immersion: Mandatory 2-week block in Term 6 (3rd weekend)",
-        "Soft Skill & Aptitude coaching, interview prep & resume building",
-        "Personalized career guidance from Industry mentors"
+        "NAAC A+ Grade (3.59 CGPA) & Category-1 University status by UGC.",
+        "40+ years of legacy with highly recognized brand value.",
+        "500+ hiring partners including Accenture, Amazon, Capgemini, JP Morgan.",
+        "Mobile App enabled 'Online-plus' flexible pedagogy.",
+        "Career Services: Resume building, mock interviews, and access to a dedicated job portal."
       ],
-      "payment": "Registration = ₹1500 + Initial ₹20,000 | Loans: Propelled, Avanse",
-      "examination": "70:30 (30% Continuous Assessment, 70% Proctored) | Passing 40%",
-      "leadLocking": "Auto Lock on LSQ (LSQ = NMIMS)"
+      "payment": "<b>Massive Flexibility & Structuring:</b><br/>• <b>Lump Sum (Full Payment):</b> Highest cost-savings, effectively giving ~10% discount on total fee.<br/>• <b>Yearly Payment:</b> Divide fee equally across academic years for balanced tracking.<br/>• <b>Semester-wise:</b> Pay as you progress each semester for max flexibility.<br/>• <b>Note:</b> Registration involves ₹1,200 Admissions fee + ₹10,000 Initial processing fee. Exam fees: ₹800 per subject.",
+      "examination": "Proctored Online Examinations held at the end of each semester. Real-time AI monitoring ensures integrity and global accessibility.",
+      "programs": [
+        {
+          "name": "MBA",
+          "group": "PG",
+          "duration": "2 Years (4 Semesters)",
+          "eligibility": "Bachelor’s Degree (10+2+3) with minimum 50% marks (45% for reserved/PwD categories or with 2+ years work experience).",
+          "fee": "₹1,96,000",
+          "priceRange": "₹55,000 / Sem  |  ₹1,05,000 / Yr",
+          "about": "UGC-entitled Online MBA backed by NMIMS's 40-year legacy. A rigorous business pedagogy focused on practical frameworks.",
+          "careerScope": "Designed for mid-to-senior management ascension across IT, Finance, Marketing, and Operations sectors.",
+          "specializations": [
+            {
+              "name": "Information Technology and Systems Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Information Technology and Systems Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Information Technology and Systems Management frameworks.",
+              "careerScope": "Senior and lead roles within Information Technology and Systems Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Information Technology and Systems Management",
+                "Information Technology and Systems Management Consultant",
+                "Director of Information Technology and Systems Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "Marketing Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Marketing Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Marketing Management frameworks.",
+              "careerScope": "Senior and lead roles within Marketing Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Marketing Management",
+                "Marketing Management Consultant",
+                "Director of Marketing Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "Financial Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Financial Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Financial Management frameworks.",
+              "careerScope": "Senior and lead roles within Financial Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Financial Management",
+                "Financial Management Consultant",
+                "Director of Financial Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "Human Resource Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Human Resource Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Human Resource Management frameworks.",
+              "careerScope": "Senior and lead roles within Human Resource Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Human Resource Management",
+                "Human Resource Management Consultant",
+                "Director of Human Resource Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "Operations Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Operations Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Operations Management frameworks.",
+              "careerScope": "Senior and lead roles within Operations Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Operations Management",
+                "Operations Management Consultant",
+                "Director of Operations Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "Business Analytics Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Business Analytics Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Business Analytics Management frameworks.",
+              "careerScope": "Senior and lead roles within Business Analytics Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Business Analytics Management",
+                "Business Analytics Management Consultant",
+                "Director of Business Analytics Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            },
+            {
+              "name": "Business Management",
+              "price": "₹1,96,000 (Lump Sum Plan)",
+              "duration": "2 Years",
+              "about": "The MBA in Business Management prepares professionals with the core competencies to excel globally. It bridges foundational theories with advanced, practical Business Management frameworks.",
+              "careerScope": "Senior and lead roles within Business Management. Alumni frequently target strategy, consulting, and senior managerial bands.",
+              "jobRoles": [
+                "Senior Manager - Business Management",
+                "Business Management Consultant",
+                "Director of Business Management"
+              ],
+              "usps": [
+                "Corporate-aligned curriculum updated regularly.",
+                "Case-study driven methodology for real-world application.",
+                "High corporate acceptance rate for promotions."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Executive MBA",
+          "group": "PG",
+          "duration": "15 to 24 Months",
+          "eligibility": "Bachelor’s Degree with 55% marks + minimum 3 years of work experience.",
+          "fee": "₹4,00,000",
+          "priceRange": "₹4,00,000 (Full)",
+          "about": "Intensive Executive MBA for experienced professionals wanting to fast-track their rise to C-suite and VP positions.",
+          "careerScope": "Targeting top-tier strategy, VP, and Director-level positions across competitive corporate environments.",
+          "specializations": [
+            {
+              "name": "Applied Finance",
+              "price": "₹4,00,000 (Full Program)",
+              "duration": "15-24 Months",
+              "about": "Executive MBA in Applied Finance integrates high-level strategic models with intensive peer learning.",
+              "careerScope": "Senior executives aiming for CXO, Director, or VP roles in Applied Finance.",
+              "jobRoles": [
+                "VP - Applied Finance",
+                "Head of Applied Finance",
+                "Applied Finance Director"
+              ],
+              "usps": [
+                "Peer-to-peer networking with seasoned professionals.",
+                "Master classes from top CXOs.",
+                "Ivy-league style rigorous case studies."
+              ]
+            },
+            {
+              "name": "Digital Marketing",
+              "price": "₹4,00,000 (Full Program)",
+              "duration": "15-24 Months",
+              "about": "Executive MBA in Digital Marketing integrates high-level strategic models with intensive peer learning.",
+              "careerScope": "Senior executives aiming for CXO, Director, or VP roles in Digital Marketing.",
+              "jobRoles": [
+                "VP - Digital Marketing",
+                "Head of Digital Marketing",
+                "Digital Marketing Director"
+              ],
+              "usps": [
+                "Peer-to-peer networking with seasoned professionals.",
+                "Master classes from top CXOs.",
+                "Ivy-league style rigorous case studies."
+              ]
+            },
+            {
+              "name": "Marketing",
+              "price": "₹4,00,000 (Full Program)",
+              "duration": "15-24 Months",
+              "about": "Executive MBA in Marketing integrates high-level strategic models with intensive peer learning.",
+              "careerScope": "Senior executives aiming for CXO, Director, or VP roles in Marketing.",
+              "jobRoles": [
+                "VP - Marketing",
+                "Head of Marketing",
+                "Marketing Director"
+              ],
+              "usps": [
+                "Peer-to-peer networking with seasoned professionals.",
+                "Master classes from top CXOs.",
+                "Ivy-league style rigorous case studies."
+              ]
+            },
+            {
+              "name": "Leadership and Strategy",
+              "price": "₹4,00,000 (Full Program)",
+              "duration": "15-24 Months",
+              "about": "Executive MBA in Leadership and Strategy integrates high-level strategic models with intensive peer learning.",
+              "careerScope": "Senior executives aiming for CXO, Director, or VP roles in Leadership and Strategy.",
+              "jobRoles": [
+                "VP - Leadership and Strategy",
+                "Head of Leadership and Strategy",
+                "Leadership and Strategy Director"
+              ],
+              "usps": [
+                "Peer-to-peer networking with seasoned professionals.",
+                "Master classes from top CXOs.",
+                "Ivy-league style rigorous case studies."
+              ]
+            },
+            {
+              "name": "Operations & Supply Chain",
+              "price": "₹4,00,000 (Full Program)",
+              "duration": "15-24 Months",
+              "about": "Executive MBA in Operations & Supply Chain integrates high-level strategic models with intensive peer learning.",
+              "careerScope": "Senior executives aiming for CXO, Director, or VP roles in Operations & Supply Chain.",
+              "jobRoles": [
+                "VP - Operations & Supply Chain",
+                "Head of Operations & Supply Chain",
+                "Operations & Supply Chain Director"
+              ],
+              "usps": [
+                "Peer-to-peer networking with seasoned professionals.",
+                "Master classes from top CXOs.",
+                "Ivy-league style rigorous case studies."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BBA",
+          "group": "UG",
+          "duration": "3 Years (6 Semesters)",
+          "eligibility": "HSC (10+2) in any discipline with minimum 50% marks (45% for reserved categories).",
+          "fee": "₹1,31,000",
+          "priceRange": "₹25,000 / Sem  |  ₹47,000 / Yr",
+          "about": "Comprehensive Bachelor of Business Administration giving students a solid runway into the corporate world or further studies.",
+          "careerScope": "Entry-level management roles, executive trainees, and business analysts in top MNCs.",
+          "specializations": [
+            {
+              "name": "Marketing Management",
+              "price": "₹1,31,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "A rigorous undergraduate track focusing on Marketing Management. Builds a strong foundation for corporate success.",
+              "careerScope": "Accelerated entry into junior management and analyst roles specifically in Marketing Management.",
+              "jobRoles": [
+                "Marketing Management Executive",
+                "Management Trainee",
+                "Junior Analyst"
+              ],
+              "usps": [
+                "Industry-recognized UG degree.",
+                "Direct progression paths for MBA.",
+                "Skill-based assignments and term papers."
+              ]
+            },
+            {
+              "name": "Financial Management",
+              "price": "₹1,31,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "A rigorous undergraduate track focusing on Financial Management. Builds a strong foundation for corporate success.",
+              "careerScope": "Accelerated entry into junior management and analyst roles specifically in Financial Management.",
+              "jobRoles": [
+                "Financial Management Executive",
+                "Management Trainee",
+                "Junior Analyst"
+              ],
+              "usps": [
+                "Industry-recognized UG degree.",
+                "Direct progression paths for MBA.",
+                "Skill-based assignments and term papers."
+              ]
+            },
+            {
+              "name": "Business Management",
+              "price": "₹1,31,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "A rigorous undergraduate track focusing on Business Management. Builds a strong foundation for corporate success.",
+              "careerScope": "Accelerated entry into junior management and analyst roles specifically in Business Management.",
+              "jobRoles": [
+                "Business Management Executive",
+                "Management Trainee",
+                "Junior Analyst"
+              ],
+              "usps": [
+                "Industry-recognized UG degree.",
+                "Direct progression paths for MBA.",
+                "Skill-based assignments and term papers."
+              ]
+            },
+            {
+              "name": "Business Analytics",
+              "price": "₹1,45,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "A rigorous undergraduate track focusing on Business Analytics. Builds a strong foundation for corporate success.",
+              "careerScope": "Accelerated entry into junior management and analyst roles specifically in Business Analytics.",
+              "jobRoles": [
+                "Business Analytics Executive",
+                "Management Trainee",
+                "Junior Analyst"
+              ],
+              "usps": [
+                "Industry-recognized UG degree.",
+                "Direct progression paths for MBA.",
+                "Skill-based assignments and term papers."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B.Com",
+          "group": "UG",
+          "duration": "3 Years (6 Semesters)",
+          "eligibility": "HSC (10+2) with minimum 50% marks.",
+          "fee": "₹94,000",
+          "priceRange": "₹18,000 / Sem  |  ₹33,000 / Yr",
+          "about": "Classic and highly demanded Bachelor of Commerce program focusing on modern accounting, finance, and market strategies.",
+          "careerScope": "Core roles in accounting firms, financial services, tax consulting, and corporate finance departments.",
+          "specializations": [
+            {
+              "name": "Accounting & Finance",
+              "price": "₹94,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "Specialized B.Com focusing extensively on Accounting & Finance to develop robust quantitative and strategic skills.",
+              "careerScope": "Excellent prospects in Accounting & Finance departments across Big 4 accounting firms and MNCs.",
+              "jobRoles": [
+                "Accountant",
+                "Financial Analyst",
+                "Accounting & Finance Associate"
+              ],
+              "usps": [
+                "Perfect foundation for CA/CS candidates.",
+                "Curriculum aligned with international finance standards.",
+                "High ROI degree with nominal fee."
+              ]
+            },
+            {
+              "name": "Business Analytics",
+              "price": "₹94,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "Specialized B.Com focusing extensively on Business Analytics to develop robust quantitative and strategic skills.",
+              "careerScope": "Excellent prospects in Business Analytics departments across Big 4 accounting firms and MNCs.",
+              "jobRoles": [
+                "Accountant",
+                "Financial Analyst",
+                "Business Analytics Associate"
+              ],
+              "usps": [
+                "Perfect foundation for CA/CS candidates.",
+                "Curriculum aligned with international finance standards.",
+                "High ROI degree with nominal fee."
+              ]
+            },
+            {
+              "name": "Marketing",
+              "price": "₹94,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "Specialized B.Com focusing extensively on Marketing to develop robust quantitative and strategic skills.",
+              "careerScope": "Excellent prospects in Marketing departments across Big 4 accounting firms and MNCs.",
+              "jobRoles": [
+                "Accountant",
+                "Financial Analyst",
+                "Marketing Associate"
+              ],
+              "usps": [
+                "Perfect foundation for CA/CS candidates.",
+                "Curriculum aligned with international finance standards.",
+                "High ROI degree with nominal fee."
+              ]
+            },
+            {
+              "name": "HR",
+              "price": "₹94,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "Specialized B.Com focusing extensively on HR to develop robust quantitative and strategic skills.",
+              "careerScope": "Excellent prospects in HR departments across Big 4 accounting firms and MNCs.",
+              "jobRoles": [
+                "Accountant",
+                "Financial Analyst",
+                "HR Associate"
+              ],
+              "usps": [
+                "Perfect foundation for CA/CS candidates.",
+                "Curriculum aligned with international finance standards.",
+                "High ROI degree with nominal fee."
+              ]
+            },
+            {
+              "name": "Finance",
+              "price": "₹94,000 (Lump Sum Plan)",
+              "duration": "3 Years",
+              "about": "Specialized B.Com focusing extensively on Finance to develop robust quantitative and strategic skills.",
+              "careerScope": "Excellent prospects in Finance departments across Big 4 accounting firms and MNCs.",
+              "jobRoles": [
+                "Accountant",
+                "Financial Analyst",
+                "Finance Associate"
+              ],
+              "usps": [
+                "Perfect foundation for CA/CS candidates.",
+                "Curriculum aligned with international finance standards.",
+                "High ROI degree with nominal fee."
+              ]
+            }
+          ]
+        }
+      ]
     },
-    "url": "https://collegevidya.com/"
+    "url": "https://online.nmims.edu/"
   },
   {
     "id": "nmims",
