@@ -209,23 +209,25 @@ const UniversityDetails = () => {
                          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:p-5 md:p-8">
                             
                             {/* Key Propositions Box */}
-                            <div className="bg-white rounded-2xl shadow-[0_2px_10px_rgba(0,0,0,0.03)] p-4 sm:p-5 md:p-8 lg:col-span-2">
-                                <h3 className="text-[13px] font-black text-slate-400 uppercase tracking-[0.2em] flex items-center gap-2 mb-5 md:mb-8 pb-4 border-b border-slate-100">
-                                   <BookOpen className="text-emerald-500" size={18}/> Key Propositions & Validation
-                                </h3>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 md:gap-x-12 gap-y-6">
-                                   {uni.extendedDetails.usps.map((usp, i) => (
-                                      <div key={i} className="flex gap-4 items-start group">
-                                         <div className="mt-0.5 text-[#0047ad] bg-blue-50 p-1 rounded-md shrink-0">
-                                            <CheckCircle2 size={16} />
-                                         </div>
-                                         <div className="text-slate-700 font-medium text-[15px] leading-relaxed">
-                                            {usp}
-                                         </div>
-                                      </div>
-                                   ))}
+                            {uni.extendedDetails.usps && uni.extendedDetails.usps.length > 0 && (
+                                <div className="bg-white rounded-2xl shadow-[0_2px_10px_rgba(0,0,0,0.03)] p-4 sm:p-5 md:p-8 lg:col-span-2">
+                                    <h3 className="text-[13px] font-black text-slate-400 uppercase tracking-[0.2em] flex items-center gap-2 mb-5 md:mb-8 pb-4 border-b border-slate-100">
+                                       <BookOpen className="text-emerald-500" size={18}/> Key Propositions & Validation
+                                    </h3>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 md:gap-x-12 gap-y-6">
+                                       {uni.extendedDetails.usps.map((usp, i) => (
+                                          <div key={i} className="flex gap-4 items-start group">
+                                             <div className="mt-0.5 text-[#0047ad] bg-blue-50 p-1 rounded-md shrink-0">
+                                                <CheckCircle2 size={16} />
+                                             </div>
+                                             <div className="text-slate-700 font-medium text-[15px] leading-relaxed">
+                                                {usp}
+                                             </div>
+                                          </div>
+                                       ))}
+                                    </div>
                                 </div>
-                            </div>
+                            )}
 
                             {/* Financial Operations Box */}
                             <div className="bg-white rounded-2xl shadow-[0_2px_10px_rgba(0,0,0,0.04)] p-4 sm:p-5 md:p-8 border-t-[4px] border-t-[#ff6b00]">
