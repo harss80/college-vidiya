@@ -71,18 +71,18 @@ const UniversityDetails = () => {
                   </div>
 
                   {/* Right: Sharp Data Widgets - Now fully fluid, wrapping smoothly. */}
-                  <div className="flex flex-wrap gap-3 md:gap-4 flex-[1_1_auto] w-full xl:w-auto xl:max-w-2xl mt-2 xl:mt-0 justify-start xl:justify-end">
-                      <div className="bg-white/5 border border-white/10 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[180px] max-w-full">
+                  <div className="flex flex-wrap gap-3 md:gap-4 flex-[1_1_auto] w-full xl:w-auto mt-6 xl:mt-0 justify-start xl:justify-end">
+                      <div className="bg-white/5 border border-white/10 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[220px] max-w-full">
                          <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 block">Est. Tuition Band</span>
-                         <span className="text-lg sm:text-xl md:text-2xl font-black text-emerald-400 block tracking-tight leading-tight break-words">{uni.fees.split('-')[0] || uni.fees}</span>
+                         <span className="text-lg sm:text-xl md:text-2xl font-black text-emerald-400 block tracking-tight leading-tight">{uni.fees}</span>
                       </div>
-                      <div className="bg-white/5 border border-white/10 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[180px] max-w-full">
-                         <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 block">Max Placement Pkg</span>
-                         <span className="text-lg sm:text-xl md:text-2xl font-black text-white block tracking-tight leading-tight break-words">{uni.placement.split('|')[1]?.trim() || uni.placement}</span>
+                      <div className="bg-white/5 border border-white/10 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[220px] max-w-full">
+                         <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1 block">Placement & Support</span>
+                         <span className="text-[15px] sm:text-base md:text-lg font-bold text-white block tracking-tight leading-snug">{uni.placement}</span>
                       </div>
-                      <div className="bg-[#0047ad]/20 border border-[#0047ad]/40 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[180px] max-w-full">
+                      <div className="bg-[#0047ad]/20 border border-[#0047ad]/40 p-4 sm:p-5 rounded-xl backdrop-blur-sm flex flex-col justify-center flex-1 min-w-[220px] max-w-full">
                          <span className="text-[10px] text-[#8cb4ff] font-bold uppercase tracking-widest mb-1 block">Global Rank</span>
-                         <span className="text-lg sm:text-xl md:text-2xl font-black text-white block tracking-tight leading-tight break-words">{uni.ranking}</span>
+                         <span className="text-[15px] sm:text-base md:text-lg font-bold text-white block tracking-tight leading-snug">{uni.ranking}</span>
                       </div>
                   </div>
                </div>
@@ -296,7 +296,7 @@ const UniversityDetails = () => {
                           {uni.extendedDetails?.leadLocking && (
                              <div className="mt-10 bg-[#fff5f5] border border-red-100 p-4 sm:p-5 rounded-2xl relative">
                                 <span className="text-[10px] text-red-600 font-black uppercase tracking-widest block mb-2 flex items-center gap-1.5"><AlertCircle size={14}/> Critical Directive</span>
-                                <span className="text-red-900 font-bold text-[14px] leading-snug">{uni.extendedDetails.leadLocking}</span>
+                                <div className="text-red-900 font-bold text-[14px] leading-snug payment-html-wrapper" dangerouslySetInnerHTML={{__html: uni.extendedDetails.leadLocking}}></div>
                              </div>
                           )}
                       </div>

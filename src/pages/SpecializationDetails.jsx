@@ -185,22 +185,28 @@ const SpecializationDetails = () => {
                             <div className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden">
                                 <div className="bg-[#0047ad] px-6 py-4 flex items-center gap-2">
                                     <BookOpen size={18} className="text-white" />
-                                    <h5 className="text-[13px] font-black uppercase tracking-widest text-white">Semester-wise Syllabus</h5>
+                                    <h5 className="text-[13px] font-black uppercase tracking-widest text-white">Syllabus Details</h5>
                                 </div>
-                                <div className="grid grid-cols-1 sm:grid-cols-2">
-                                    {(spec.syllabus || prog.syllabus).map((sem, i) => (
-                                        <div key={i} className={`p-6 border-slate-100 ${i % 2 === 0 ? 'border-r' : ''} ${i < (spec.syllabus || prog.syllabus).length - 2 ? 'border-b' : ''} hover:bg-slate-50 transition-colors`}>
-                                            <strong className="text-[#0047ad] text-xs font-black uppercase tracking-widest block mb-4">{sem.semester}</strong>
-                                            <ul className="text-slate-600 text-[13px] leading-relaxed space-y-2">
-                                                {sem.subjects.map((sub, j) => (
-                                                    <li key={j} className="flex items-start gap-2">
-                                                        <div className="w-1 h-1 rounded-full bg-[#ff6b00] shrink-0 mt-2"></div>
-                                                        {sub}
-                                                    </li>
-                                                ))}
-                                            </ul>
+                                <div className={Array.isArray(spec.syllabus || prog.syllabus) ? "grid grid-cols-1 sm:grid-cols-2" : ""}>
+                                    {Array.isArray(spec.syllabus || prog.syllabus) ? (
+                                        (spec.syllabus || prog.syllabus).map((sem, i) => (
+                                            <div key={i} className={`p-6 border-slate-100 ${i % 2 === 0 ? 'border-r' : ''} ${i < (spec.syllabus || prog.syllabus).length - 2 ? 'border-b' : ''} hover:bg-slate-50 transition-colors`}>
+                                                <strong className="text-[#0047ad] text-xs font-black uppercase tracking-widest block mb-4">{sem.semester}</strong>
+                                                <ul className="text-slate-600 text-[13px] leading-relaxed space-y-2">
+                                                    {sem.subjects.map((sub, j) => (
+                                                        <li key={j} className="flex items-start gap-2">
+                                                            <div className="w-1 h-1 rounded-full bg-[#ff6b00] shrink-0 mt-2"></div>
+                                                            {sub}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        ))
+                                    ) : (
+                                        <div className="p-6">
+                                            <p className="text-slate-600 text-[14px] leading-relaxed font-medium">{spec.syllabus || prog.syllabus}</p>
                                         </div>
-                                    ))}
+                                    )}
                                 </div>
                             </div>
                         )}

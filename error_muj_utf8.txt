@@ -1,0 +1,8 @@
+D:\collegevidiyaguide\inject_muj_new_data.js:66
+      \${scholarshipNote ? `<li><b>Additional:</b> \${scholarshipNote}</li>` : ""}
+                                ^
+
+SyntaxError: Unexpected token '<'
+    at checkSyntax (node:internal/main/check_syntax:72:5)
+
+Node.js v24.14.1

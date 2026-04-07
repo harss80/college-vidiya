@@ -1,0 +1,600 @@
+{
+  "id": "jain",
+  "name": "JAIN (Deemed-to-be University) Online",
+  "logo": "https://ui-avatars.com/api/?name=JAIN&background=ea580c&color=fff&size=150",
+  "location": "Bangalore, Karnataka",
+  "type": "Deemed to be University",
+  "level": [
+    "UG",
+    "PG"
+  ],
+  "budget": 165000,
+  "specializations": [
+    "MBA",
+    "MCA",
+    "BBA",
+    "BCA",
+    "B.Com",
+    "M.Com",
+    "MA"
+  ],
+  "accreditation": "NAAC A++, NIRF Rank 62, UGC-Entitled, AICTE Approved, KSURF 5-star",
+  "fees": "Semester / Annual / EMI Options",
+  "placement": "360° Placement Assistance | 20,000+ LinkedIn Learning Courses",
+  "eligibility": "10+2 / Graduation as per course",
+  "ranking": "NAAC A++ | NIRF 62",
+  "exams": "Merit Based",
+  "url": "https://onlinejain.com/",
+  "extendedDetails": {
+    "usps": [
+      "NAAC A++ Accredited, ensuring the absolute highest tier of academic rigor and mobility",
+      "UGC-Entitled & AICTE Approved, validating national & global corporate employability",
+      "Free access to over 20,000+ LinkedIn Learning certification courses tied to curriculums",
+      "Global Collaborations with AICPA, ACCA, CMA, and IoA explicitly integrating international metrics",
+      "Connect to Careers powered by Foundit (Integrated virtual e-hire portal for job tracking)"
+    ],
+    "payment": "Registration/Application: ₹ 2,500 | Exam Fee: ₹ 3,000 per year | Low/No-Cost EMI Options natively available with Propelld, Liquiloans, and Avanse.",
+    "examination": "70:30 Pattern | 30% Continuous Assessment, 70% Proctored Online Exam | Pass: 40%",
+    "leadLocking": "Auto Lock on LSQ | LSQ Opportunity = JU",
+    "programs": [
+      {
+        "group": "PG",
+        "name": "MBA",
+        "duration": "24 Months (2 Years)",
+        "priceRange": "₹ 1,96,000",
+        "eligibility": "Bachelor's Degree (min 3 years) with a minimum of 50% marks (45% for reserved categories) from a Recognized University.",
+        "about": "A premium, fully-accredited Master of Business Administration explicitly designed for executives. The program aggressively integrates modern management pipelines, business analytics, and elite talent acceleration logic.",
+        "careerScope": "Target high-end executive funnels mapping to consulting, C-suite fast tracking, and cross-border digital transformations.",
+        "paymentDetails": "<b>🔥 NAAC A++ Ranked MBA!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,96,000</b><br/>• <b>Semester Fee:</b> <b>₹ 49,000</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Flexible low-cost EMIs available natively reducing friction for students.</i>",
+        "certifications": "Integrated with 20k+ LinkedIn Learning modules for rapid upskilling.",
+        "usps": [
+          "NAAC A++ ranked and globally recognized",
+          "16 distinct specializations including Analytics & AI",
+          "Real-world business case simulations mimicking Fortune 500 challenges",
+          "Massive networking via JAIN's established Pan-India base"
+        ],
+        "specializations": [
+          {
+            "name": "Human Resource Management",
+            "jobRoles": [
+              "HR Director",
+              "Talent Acquisition Head",
+              "L&D Head"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Workforce analytics, strategic recruitment, and massive talent retention structures.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Finance",
+            "jobRoles": [
+              "Chief Financial Officer",
+              "Investment Analyst",
+              "Corporate Treasurer"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Corporate finance mapping, asset tracking, and deep investment mechanics.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Marketing",
+            "jobRoles": [
+              "Chief Marketing Officer",
+              "Digital Growth Head",
+              "Brand Owner"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Omni-channel brand deployment and extreme digital marketing leverage.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "General Management",
+            "jobRoles": [
+              "Business Unit Head",
+              "Operations VP",
+              "Consultant"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Broad spectrum, high-level structural oversight and leadership training.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Systems and Operations Management",
+            "jobRoles": [
+              "Operations Director",
+              "IT Strategy Head",
+              "Logistics VP"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Enterprise capacity planning and tech-first operational mapping.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Finance & Marketing",
+            "price": "₹ 1,96,000",
+            "details": "Dual force integration tracking capital expenditure against marketing ROI.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "HR & Finance",
+            "price": "₹ 1,96,000",
+            "details": "Metrics linking direct employee value metrics with financial outcomes.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Marketing & HR",
+            "price": "₹ 1,96,000",
+            "details": "Synergy of corporate brand building internally (staff) and externally (clients).",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Information Technology Management",
+            "jobRoles": [
+              "CIO",
+              "IT Systems Director",
+              "Tech Architect"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Massive scale enterprise software ecosystem management.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Project Management",
+            "price": "₹ 1,96,000",
+            "details": "Agile/Scrum master pipelines, critical path algorithms, and delivery.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Logistics & Supply Chain",
+            "price": "₹ 1,96,000",
+            "details": "Global vendor mapping, warehouse logic, and distribution networks.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Business Intelligence & Analytics",
+            "price": "₹ 1,96,000",
+            "details": "Deep machine learning deployments mapped directly to predictive business modeling.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MCA",
+        "duration": "24 Months (2 Years)",
+        "priceRange": "₹ 1,96,000",
+        "eligibility": "BCA/B.Sc/B.Com/B.A with Mathematics at 10+2 or Graduation + min 50% aggregate.",
+        "about": "A rigorous, tech-first Master of Computer Applications program heavily focusing on high-level enterprise computing, big data parsing, and cyber defense protocols.",
+        "careerScope": "Straightforward integration into tech unicorns, software houses, and heavy enterprise infrastructure teams natively.",
+        "paymentDetails": "<b>🔥 Code-First PG Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,96,000</b><br/>• <b>Semester Fee:</b> <b>₹ 49,000</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Flexible monthly EMI solutions actively provided.</i>",
+        "certifications": "Embedded massive LinkedIn Learning technical pathways.",
+        "usps": [
+          "AICTE Approved Master's Tier IT degree",
+          "Cutting edge tracks like NLP, LLM Development & DevOps",
+          "Real-server simulation projects standard across specializations"
+        ],
+        "specializations": [
+          {
+            "name": "Computer Science & IT",
+            "jobRoles": [
+              "Full Stack Developer",
+              "Software Engineer",
+              "Systems Architect"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Advanced enterprise architecture, algorithms, and deep java/python stacks.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Data Analytics",
+            "jobRoles": [
+              "Data Engineer",
+              "Analytics Lead",
+              "Business Intelligence Manager"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "ETL pipelines, machine learning logic, and big data warehousing models.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Cyber Security",
+            "jobRoles": [
+              "Security Operations Head",
+              "Ethical Hacker",
+              "Threat Hunter"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Offensive and defensive network hacking architectures and encryption.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "DevOps",
+            "jobRoles": [
+              "Site Reliability Engineer",
+              "DevOps Manager",
+              "Cloud Ops"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "CI/CD serverless pipelines, micro-services mapping, and Docker/K8s automation.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "NLP & LLM Development",
+            "jobRoles": [
+              "AI Engineer",
+              "Machine Learning Researcher",
+              "Prompt Engineer Specialist"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Extensive logic building training generative AI, transformer models, and semantic processing.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "M.Com",
+        "duration": "24 Months",
+        "priceRange": "₹ 1,96,000",
+        "eligibility": "B.Com/BBA or equivalent with a minimum of 50% marks from a recognized university.",
+        "about": "Advanced master-tier commercial theory explicitly mapping domestic CA pipelines, sophisticated accounting strategies, and corporate legal structures.",
+        "careerScope": "Ideal for students tracking heavily into accounting firms or seeking CFO corporate ladders.",
+        "paymentDetails": "<b>🔥 Specialized Commerce Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,96,000</b><br/>• <b>Semester Fee:</b> <b>₹ 49,000</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Accessible EMI networks.</i>",
+        "certifications": "Alignments with global accounting institutions available.",
+        "usps": [
+          "Direct international finance specializations natively",
+          "Heavy focus on global compliance frameworks"
+        ],
+        "specializations": [
+          {
+            "name": "Accounting & Finance",
+            "jobRoles": [
+              "Financial Analyst",
+              "Senior Accountant",
+              "Auditing Manager"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Massive focus on modern accounting platforms and taxation limits.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "International Finance",
+            "jobRoles": [
+              "Global Controller",
+              "Forex Analyst",
+              "Trade Specialist"
+            ],
+            "price": "₹ 1,96,000",
+            "details": "Studying strictly international liquidity, hedging strategies, and cross-border trades.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "BBA",
+        "duration": "36 Months (3 Years)",
+        "priceRange": "₹ 1,65,000",
+        "eligibility": "Pass in 10+2 in any stream from a recognized board (CBSE, ISC, State Boards).",
+        "about": "A massive, industry-focused Bachelor's of Business Administration providing rigorous baseline foundations in retail, operations, and modern marketing.",
+        "careerScope": "Positions graduates seamlessly into entry/mid corporate ladders, start-up growth teams, and operations logistics across borders.",
+        "paymentDetails": "<b>🔥 Highly Demand UG Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,65,000</b><br/>• <b>Semester Fee:</b> <b>₹ 27,500</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Smooth ₹ 5000/mo EMI options available on demand.</i>",
+        "certifications": "Integrated baseline corporate certificates mapped via LinkedIn Learning.",
+        "usps": [
+          "Ranked actively among India's top BBA pathways",
+          "Highly affordable entry point into top-tier brand",
+          "100% placement search support dynamically post-graduation"
+        ],
+        "specializations": [
+          {
+            "name": "Finance",
+            "jobRoles": [
+              "Financial Analyst Jr.",
+              "Banking Executive",
+              "Tax Consultant"
+            ],
+            "price": "₹ 1,65,000",
+            "details": "Entry corporate finance architectures and compliance studies.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Marketing",
+            "jobRoles": [
+              "Marketing Assoc.",
+              "Sales Exec.",
+              "Brand Executive"
+            ],
+            "price": "₹ 1,65,000",
+            "details": "Digital tracking natively, base SEO math, and consumer persuasion models.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Human Resource Management",
+            "jobRoles": [
+              "HR Executive",
+              "Recruitment Consultant",
+              "Payroll Ops"
+            ],
+            "price": "₹ 1,65,000",
+            "details": "Hiring cycles and generalized corporate legal labor compliance.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "BCA",
+        "duration": "36 Months (3 Years)",
+        "priceRange": "₹ 1,65,000",
+        "eligibility": "Pass in 10+2 from a recognized board.",
+        "about": "A rigorous technical foundation providing deep IT scripting, server logic limits, and robust mathematical computing methodologies.",
+        "careerScope": "Provides an immediate runway into software testing, front-end design, database administration, and support engineering explicitly.",
+        "paymentDetails": "<b>🔥 Foundational IT Base Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,65,000</b><br/>• <b>Semester Fee:</b> <b>₹ 27,500</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i><br/><i>Low barrier cost distribution available actively.</i>",
+        "certifications": "LinkedIn technical tracks embedded.",
+        "usps": [
+          "Vast highly advanced specializations mapping Data Science and AI at exactly UG Level",
+          "Top 60 NIRF University brand value automatically inherited"
+        ],
+        "specializations": [
+          {
+            "name": "Computer Science and IT",
+            "jobRoles": [
+              "Junior Dev",
+              "Tech Support Engineer",
+              "Quality Assurance Analyst"
+            ],
+            "price": "₹ 1,65,000",
+            "details": "General software engineering paths natively prioritizing Java, Python, and C++.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Data Science and Analytics",
+            "jobRoles": [
+              "Data Analyst Jr.",
+              "Business Analyst",
+              "Database Admin"
+            ],
+            "price": "₹ 1,65,000",
+            "details": "Data pipelines, Tableau integrations, and database maintenance logic.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Cyber Security",
+            "jobRoles": [
+              "SOC Analyst Jr.",
+              "Network Admin",
+              "Security Tech"
+            ],
+            "price": "₹ 1,65,000",
+            "details": "Network firewalls explicitly tracking packet loss and malicious routing.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Artificial Intelligence",
+            "jobRoles": [
+              "AI Research Assoc.",
+              "Data Trainee",
+              "Algorithm Analyst Jr."
+            ],
+            "price": "₹ 1,65,000",
+            "details": "Basic mapping of deep learning architectures and data-fed training loops.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Cloud Computing",
+            "jobRoles": [
+              "Cloud Ops Jr.",
+              "Server Coordinator",
+              "Sysadmin"
+            ],
+            "price": "₹ 1,65,000",
+            "details": "AWS & Azure configuration scripts, virtualization basics, and backup mapping.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "B.Com",
+        "duration": "36 Months (3 Years)",
+        "priceRange": "₹ 1,65,000",
+        "eligibility": "Pass in 10+2 from a recognized board.",
+        "about": "A cornerstone commerce degree extensively focusing on commercial laws, economic strategy, and massive-scale auditing preparations.",
+        "careerScope": "Ideal pathway explicitly tailored for CA/CS grounding, auditing firms, and junior accounting execution roles.",
+        "paymentDetails": "<b>🔥 Top UG Commerce Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,65,000</b><br/>• <b>Semester Fee:</b> <b>₹ 27,500</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i>",
+        "certifications": "Pathways naturally supporting concurrent ACCA/CMA study.",
+        "usps": [
+          "Massively popular UG program directly linked with high corporate placement",
+          "Syllabus updated dynamically mapping current compliance laws"
+        ],
+        "specializations": [
+          {
+            "name": "Accounting & Finance",
+            "jobRoles": [
+              "Accountant",
+              "Audit Assistant",
+              "Operations Analyst Jr."
+            ],
+            "price": "₹ 1,65,000",
+            "details": "Standard auditing pathways explicitly covering GST and corporate taxation.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "International Finance & Accounting",
+            "jobRoles": [
+              "Global Acct. Exec.",
+              "Trade Assistant",
+              "Compliance Checker Jr."
+            ],
+            "price": "₹ 1,65,000",
+            "details": "Tracking frameworks heavily utilizing broad-market international accounting models.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MA",
+        "duration": "24 Months (2 Years)",
+        "priceRange": "₹ 1,40,000",
+        "eligibility": "Graduation from a recognized university.",
+        "about": "Master of Arts providing intense humanities tracking, political study logic, and literature reviews.",
+        "careerScope": "Tracks perfectly natively into educational architectures, corporate communications, and research.",
+        "paymentDetails": "<b>🔥 Highly Accessible PG Arts Track!</b><br/><br/>• <b>Total Fee:</b> <b>₹ 1,40,000</b><br/>• <b>Semester Fee:</b> <b>₹ 35,000</b><br/><br/><i>Registration: ₹ 2,500 | Exam Fee: ₹ 3,000/yr</i>",
+        "certifications": "N/A",
+        "usps": [
+          "UGC-Entitled ensuring full govt exam eligibility",
+          "Low stress, highly academic syllabus architecture"
+        ],
+        "specializations": [
+          {
+            "name": "English",
+            "jobRoles": [
+              "Content Strategist",
+              "Lecturer",
+              "Corporate Editor"
+            ],
+            "price": "₹ 1,40,000",
+            "details": "Syntax studies, deep classic literature analysis, and linguistic logic networks.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Public Policy",
+            "jobRoles": [
+              "Policy Analyst",
+              "Research Exec",
+              "Consultant"
+            ],
+            "price": "₹ 1,40,000",
+            "details": "Global civics, macro-economics, and governance tracking models.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

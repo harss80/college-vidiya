@@ -1,0 +1,757 @@
+{
+  "id": "muj-online",
+  "name": "Manipal University Jaipur (MUJ) Online",
+  "logo": "https://ui-avatars.com/api/?name=MUJ&background=ea580c&color=fff&size=150",
+  "location": "Jaipur",
+  "type": "State Private University",
+  "level": [
+    "UG",
+    "PG"
+  ],
+  "budget": 150000,
+  "specializations": [
+    "BBA",
+    "MBA",
+    "BCA",
+    "MCA",
+    "BCOM",
+    "MCOM",
+    "BA JMC"
+  ],
+  "accreditation": "UGC, NAAC A+, WES, NIRF 58th, AICTE",
+  "fees": "₹1,35,000 - ₹1,75,000",
+  "placement": "Skill Assessment | Virtual Placement Drives",
+  "eligibility": "12th / Graduation as per course",
+  "ranking": "NIRF 58th",
+  "exams": "Merit Based",
+  "extendedDetails": {
+    "usps": [
+      "Legacy from 2011, NAAC A+ & NIRF 58th Ranked",
+      "Global Networking and access to extensive Alumni base",
+      "Real world case studies embedded in syllabus",
+      "Attractive Scholarships: Divyang, Disabled, Govt Employee, Merit (>80%)",
+      "Student can avail coupon discount on weekdays (Tuesday, Thursday & Saturday) on semester fee",
+      "10% discount on Overall fees and 5% discount on Annual payment, without discount coupon",
+      "Counsellor should NOT Register the Student by collecting ₹500. Block amount should be minimum ₹5000",
+      "Discounts are based on the opted fee structure (overall/semester/annual)",
+      "Counselors CAN generate semester weekend coupons from LSQ itself",
+      "Free access to paid Coursera content for UG & PG",
+      "MCA program includes Microsoft Certification",
+      "Attempt 3 examinations in one day (first-come slot prioritization)"
+    ],
+    "payment": "Registration: ₹500 | Block Amount: ₹5000. Loans: FIBE, Propelled, Greyquest, TCPL. UG no cost EMI on full fee. PG no cost EMI on sem and annual fee (If PG student wants 0 cost EMI on full fee, discount will not be applicable). No cost EMI is applicable on Debit card of HDFC Bank only.",
+    "examination": "70:30 (30% Continuous Assessment, 70% Proctored) | Passing 40%",
+    "leadLocking": "Auto Lock on LSQ | LSQ = MUJ",
+    "programs": [
+      {
+        "group": "UG",
+        "name": "BBA",
+        "duration": "36 Months",
+        "priceRange": "₹1,35,000",
+        "eligibility": "10+2 from a recognized board or an equivalent 3-year diploma. Minimum 50% aggregate (45% for reserved categories).",
+        "about": "A prestigious UGC-entitled Online Bachelor of Business Administration from Manipal University Jaipur. Designed for future executives and entrepreneurs, this program delivers a foundation in global business management, coupled with real-world case studies and immersive digital learning experiences via free Coursera access.",
+        "careerScope": "Graduate with the robust analytical and leadership skills required to excel in contemporary corporate roles. Placements heavily target positions like Business Analyst, Marketing Executive, HR Specialist, Operations Manager, and Financial Planner across global MNCs and startups.",
+        "paymentDetails": "<b>🔥 Top Ranked Online BBA Program!</b><br/><br/>• <b>Semester Fee:</b> <strike>₹25,000</strike> <b>₹22,500</b><br/>• <b>Total Program Fee:</b> <strike>₹1,50,000</strike> <b>₹1,35,000</b><br/><br/><i>Exam Fee: ₹0 (Included)</i><br/><i>Ultra-flexible No-Cost EMIs starting as low as ₹3,750/month (for 36 Months) to comfortably finance your degree.</i>",
+        "certifications": "Integrated direct access to premium Coursera learning modules natively mapping globally recognized certifications directly into your academic transcript.",
+        "usps": [
+          "Fully UGC-entitled degree possessing the exact same value as an on-campus BBA",
+          "100% Online delivery designed explicitly for working professionals",
+          "Unlimited access to premium certifications on Coursera",
+          "Dedicated placement counseling and live mock interviews",
+          "Seamless No-Cost EMI integrations with Eduvanz/Liquid Loans at ₹3,750/mo"
+        ],
+        "specializations": [
+          {
+            "name": "HR",
+            "jobRoles": [
+              "HR Director",
+              "Talent Acquisition Lead",
+              "Compensation & Benefits Manager",
+              "Employee Relations Specialist"
+            ],
+            "price": "₹1,35,000",
+            "details": "Focus on talent tech and modern recruitment practices.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Marketing",
+            "jobRoles": [
+              "Brand Manager",
+              "Chief Marketing Officer (CMO)",
+              "Digital Marketing Director",
+              "Market Research Analyst"
+            ],
+            "price": "₹1,35,000",
+            "details": "Digital advertising, consumer behavior, and brand management.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Finance & Accounting",
+            "price": "₹1,35,000",
+            "details": "Core accounting, corporate finance, and taxation modules.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Entrepreneurship Management & Family Business",
+            "price": "₹1,35,000",
+            "details": "Frameworks for scaling startups and managing legacy family businesses.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Data Analytics",
+            "price": "₹1,35,000",
+            "details": "Business intelligence and metric-driven decision making.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Retail & E-commerce",
+            "price": "₹1,35,000",
+            "details": "Supply chain mapping and modern digital storefront management.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Digital Marketing",
+            "price": "₹1,35,000",
+            "details": "Intensive focus on SEO, SEM, and social media ecosystems.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "BCA",
+        "duration": "36 Months",
+        "priceRange": "₹1,35,000",
+        "eligibility": "10+2 from a recognized board or an equivalent 3-year AICTE recognized diploma. Minimum 50% aggregate (45% for reserved categories).",
+        "about": "The UGC-entitled Online BCA at Manipal University Jaipur equips you with deep coding, software architecture, and advanced computing skills. Enhanced by Google Cloud computing labs and comprehensive programming modules, it's designed to build highly competent full-stack developers and cloud architects.",
+        "careerScope": "The global tech industry eagerly absorbs BCA graduates from recognized universities. Unlock high-paying opportunities as Cloud Developers, Software Engineers, Systems Analysts, Data Analysts, and Network Administrators in top-tier tech firms.",
+        "paymentDetails": "<b>🔥 Tech-Focused Online BCA!</b><br/><br/>• <b>Semester Fee:</b> <strike>₹25,000</strike> <b>₹22,500</b><br/>• <b>Total Program Fee:</b> <strike>₹1,50,000</strike> <b>₹1,35,000</b><br/><br/><i>Exam Fee: ₹0 (Included automatically)</i><br/><i>Attractive easy-EMI options available locked at ₹3,750/month (for 36 Months) ensuring you can sponsor your tech upskilling effortlessly!</i>",
+        "certifications": "Includes prestigious Google Cloud electives mapped directly into learning workflows alongside premium certifications from Coursera.",
+        "usps": [
+          "UGC-Entitled specialized tech degree on par with physical campus equivalents",
+          "Industry-vetted curriculum focusing on Cloud, AI, and Cybersecurity",
+          "Free premium tier access to global technical certifications via Coursera Plus",
+          "Strong placement cell targeting rapid tech hiring globally",
+          "Affordable financing featuring exactly ₹3,750/mo No-Cost EMI"
+        ],
+        "specializations": [
+          {
+            "name": "Data Science & Analytics",
+            "price": "₹1,35,000",
+            "details": "Python, R, and advanced machine learning modeling.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Cyber Security",
+            "price": "₹1,35,000",
+            "details": "Network defense, ethical hacking, and cryptography protocols.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Cloud Computing",
+            "price": "₹1,35,000",
+            "details": "AWS, Azure, and distributed systems architecture.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "BCOM",
+        "duration": "36 Months",
+        "priceRange": "₹99,000",
+        "eligibility": "10+2 from a recognized board or an equivalent 3-year diploma. Minimum 50% aggregate (45% for reserved categories).",
+        "about": "Manipal's UGC-entitled Online BCom is a powerfully tailored commerce degree focusing on modern accounting, global finance, corporate taxation, and business laws. Delivered on a cutting-edge platform, it readies candidates for financial excellence in any corporate ecosystem.",
+        "careerScope": "Commerce graduates dictate the essential financial health of every industry. Career tracks span into roles like Financial Analyst, Tax Consultant, Operations Lead, Auditor, and corporate Accountant in prominent BFSI sectors.",
+        "paymentDetails": "<b>🔥 Highly Accessible Online Commerce Degree!</b><br/><br/>• <b>Semester Fee:</b> <strike>₹18,000</strike> <b>₹16,500</b><br/>• <b>Total Program Fee:</b> <strike>₹1,08,000</strike> <b>₹99,000</b><br/><br/><i>Exam Fee: Entirely covered in base tuition</i><br/><i>Take advantage of our lowest No-Cost EMI option starting entirely at just ₹2,750/month (for 36 Months)!</i>",
+        "certifications": "Augment your financial expertise seamlessly with unlimited access to premium finance/accounting certifications courtesy of integrated Coursera Plus.",
+        "usps": [
+          "Highly acclaimed UGC-entitled Commerce Degree",
+          "Specifically curated for students aiming for CA/CS setups concurrently",
+          "Complete free access to global financial certificates via Coursera",
+          "Dedicated placement assistance tapping diverse corporate sectors",
+          "Exceptionally accessible pricing via a structured ₹2,750/mo No-Cost EMI"
+        ],
+        "specializations": [
+          {
+            "name": "Banking & FinTech",
+            "price": "₹99,000",
+            "details": "Modern banking operations and emerging financial technologies.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Accounting with AI",
+            "price": "₹99,000",
+            "details": "Automated auditing and AI-driven ledger management.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Business Analytics",
+            "jobRoles": [
+              "Data Science Manager",
+              "Strategy Consultant",
+              "Business Intelligence Lead",
+              "Operations Analyst"
+            ],
+            "price": "₹99,000",
+            "details": "Quantitative methods for process optimization.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "E-Commerce",
+            "price": "₹99,000",
+            "details": "Logistics, digital payments, and dropshipping frameworks.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Business Accounting & Taxation",
+            "price": "₹99,000",
+            "details": "Deep dive into GST, income tax, and corporate accounting.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Economics",
+            "price": "₹99,000",
+            "details": "Macro and micro economic strategies for business scaling.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Financial Analytics",
+            "price": "₹99,000",
+            "details": "Risk modeling and algorithmic trading basics.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Digital Marketing with AI",
+            "price": "₹99,000",
+            "details": "Using generative AI for automated marketing campaigns.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MBA",
+        "duration": "24 Months",
+        "priceRange": "₹1,75,000",
+        "eligibility": "10+2+3 year Bachelor's degree with a minimum of 50% marks (45% for reserved categories). Valid score in university entrance or established exams.",
+        "about": "The UGC-entitled Online MBA from Manipal University Jaipur (MUJ) provides learners with a rigorous and contemporary academic framework. Leveraging advanced LMS technologies, including Coursera access for enriched learning, MUJ creates leaders ready to conquer modern corporate challenges globally. Includes robust placement assistance.",
+        "careerScope": "Elevate your career trajectory as a management professional. Corporate domains heavily recruit UGC-recognized MBA graduates for mid to senior leadership positions, fast-tracking their strategic growth, compensation mapping, and organizational value proposition.",
+        "paymentDetails": "<b>🔥 UGC-Entitled Online MBA!</b><br/><br/>• <b>Semester Fee:</b> <b>₹43,750</b><br/>• <b>Total Program Fee:</b> <b>₹1,75,000</b><br/><br/><i>Exam Fee: As per university norms</i><br/><i>Flexible EMI options are available to assist with funding your degree seamlessly.</i>",
+        "certifications": "Students receive extensive access to a premium Coursera academic catalog, allowing them to pursue multiple world-class certifications from global institutions matching their major.",
+        "usps": [
+          "UGC-Entitled degree equivalent to a traditional on-campus MBA",
+          "Advanced digital learning platform accompanied by free Coursera access",
+          "Highly acclaimed industry-oriented curriculum tailored for working professionals",
+          "Robust Placement Assistance and access to an active, expanding alumni network",
+          "Interactive live classes delivered by esteemed academic mentors"
+        ],
+        "specializations": [
+          {
+            "name": "Finance",
+            "jobRoles": [
+              "Financial Analyst",
+              "Investment Manager",
+              "Corporate Treasurer",
+              "Finance Manager"
+            ],
+            "price": "₹1,75,000",
+            "details": "Focuses on essential financial skills including taxation, treasury management, international finance, and internal audit.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Marketing",
+            "jobRoles": [
+              "Marketing Manager",
+              "Brand Manager",
+              "Sales Manager",
+              "Market Research Analyst"
+            ],
+            "price": "₹1,75,000",
+            "details": "Covers consumer behavior, services marketing, advertising, sales distribution, and international marketing.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Human Resource Management",
+            "jobRoles": [
+              "HR Manager",
+              "Talent Acquisition Specialist",
+              "Training Manager",
+              "Compensation Specialist"
+            ],
+            "price": "₹1,75,000",
+            "details": "Designed for the evolving HR landscape; covers employee relations, compensation, performance, and change management.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Analytics & Data Science",
+            "jobRoles": [
+              "Data Analyst",
+              "BI Manager",
+              "Analytics Manager",
+              "Data Scientist"
+            ],
+            "price": "₹1,75,000",
+            "details": "Equips learners with skills in data analysis, machine learning, programming, and business intelligence.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Project Management",
+            "jobRoles": [
+              "Project Manager",
+              "Program Manager",
+              "Operations Manager",
+              "Project Lead"
+            ],
+            "price": "₹1,75,000",
+            "details": "Focuses on project planning, scheduling, finance & budgeting, risk management, and contracts.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Operations Management",
+            "jobRoles": [
+              "Operations Manager",
+              "Plant Manager",
+              "Quality Assurance Manager",
+              "Process Consultant"
+            ],
+            "price": "₹1,75,000",
+            "details": "Covers production and operations management, strategic policy, and managerial economics.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "International Business",
+            "jobRoles": [
+              "Export-Import Manager",
+              "International Marketing Manager",
+              "Foreign Trade Analyst"
+            ],
+            "price": "₹1,75,000",
+            "details": "Focuses on global industry-relevant skills, international trade, and diverse global job opportunities.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Supply Chain Management",
+            "jobRoles": [
+              "Supply Chain Analyst",
+              "Logistics Manager",
+              "Purchasing Manager",
+              "SCM Consultant"
+            ],
+            "price": "₹1,75,000",
+            "details": "Focuses on logistics, procurement, warehouse management, and supply chain optimization.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "BFSI",
+            "jobRoles": [
+              "Bank Manager",
+              "Relationship Manager",
+              "Insurance Advisor",
+              "Financial Planner"
+            ],
+            "price": "₹1,75,000",
+            "details": "Specialized in Banking, Financial Services, and Insurance operations and management.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "IT & FinTech",
+            "jobRoles": [
+              "Fintech Product Manager",
+              "IT Systems Analyst",
+              "Tech Business Analyst"
+            ],
+            "price": "₹1,75,000",
+            "details": "Integrates IT with financial tech, covering blockchain, cryptocurrency, and cybersecurity in finance.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Information System Management",
+            "jobRoles": [
+              "IT Manager",
+              "MIS Manager",
+              "Systems Analyst",
+              "IT Projects Lead"
+            ],
+            "price": "₹1,75,000",
+            "details": "Focuses on the management of organizational IT infrastructure and information systems.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Retail Management",
+            "jobRoles": [
+              "Store Manager",
+              "Retail Operations Manager",
+              "Merchandising Manager"
+            ],
+            "price": "₹1,75,000",
+            "details": "Covers retail operations, store management, merchandising, and consumer retail behavior.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Digital Marketing",
+            "jobRoles": [
+              "Digital Marketing Manager",
+              "SEO Specialist",
+              "Social Media Manager"
+            ],
+            "price": "₹1,75,000",
+            "details": "Specialized in digital strategy, including SEO, SEM, social media, and digital analytics.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MCA",
+        "duration": "24 Months",
+        "priceRange": "₹1,58,000",
+        "eligibility": "BCA / B.Sc (Computer Science / IT) or equivalent degree with minimum 50% marks (45% for reserved categories). Candidates from non-IT backgrounds must have Mathematics at 10+2 level.",
+        "about": "The UGC-entitled Online Master of Computer Applications (MCA) at Manipal University Jaipur is designed to create tech-leaders of tomorrow. With access to advanced cloud labs, Google Cloud computing modules, and free Coursera certifications, this degree equips professionals with deep-tech proficiencies necessary for superior IT leadership.",
+        "careerScope": "An MCA radically shifts IT careers from foundational coding to architectural design and technology management. Graduates emerge as high-tier software architects, predictive analytics leaders, or cybersecurity specialists seamlessly fitting into global Fortune 500 tech teams.",
+        "paymentDetails": "<b>🔥 UGC-Entitled Online MCA!</b><br/><br/>• <b>Semester Fee:</b> <b>₹39,500</b><br/>• <b>Total Program Fee:</b> <b>₹1,58,000</b><br/><br/><i>Exam Fee: Included in Semester Fee</i><br/><i>Attractive easy-EMI options available to sponsor your tech upskilling effortlessly.</i>",
+        "certifications": "Inclusive access to exhaustive technical certification tracks exclusively via Coursera, allowing candidates to specialize in Cloud, AI, and Big Data while completing standard degree modules.",
+        "usps": [
+          "Strictly UGC-Entitled tech degree globally equivalent to an on-campus MCA",
+          "Google Cloud specific electives mapped directly into your learning flow",
+          "Free Coursera Plus access boosting your resume with industry-recognized tech certs",
+          "Placement assistance mapped to modern hiring profiles in MNCs",
+          "Access to e-library, proctored computer-based assessments, and live tech labs"
+        ],
+        "specializations": [
+          {
+            "name": "AI & Data Science",
+            "jobRoles": [
+              "Data Scientist",
+              "AI Research and Development",
+              "Predictive Analytics Specialist",
+              "Data Engineer"
+            ],
+            "price": "₹1,58,000",
+            "details": "Combines core computer applications with categorical data analysis, cryptography, and data-backed models.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Cloud Computing",
+            "jobRoles": [
+              "Cloud Architect",
+              "Cloud Developer",
+              "Cloud Security Engineer",
+              "Google Cloud Specialist"
+            ],
+            "price": "₹1,58,000",
+            "details": "Master key cloud computing platforms, Google Cloud architectures, and scalable infrastructure.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Cybersecurity",
+            "jobRoles": [
+              "Cybersecurity Analyst",
+              "Ethical Hacker",
+              "Network Security Engineer",
+              "Security Consultant"
+            ],
+            "price": "₹1,58,000",
+            "details": "Focuses on ethical hacking, cryptography, network security, and cyber laws.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "AI & ML",
+            "jobRoles": [
+              "AI Developer",
+              "Machine Learning Engineer",
+              "Research Scientist",
+              "Intelligent Systems Architect"
+            ],
+            "price": "₹1,58,000",
+            "details": "Develop advanced machine learning algorithms, deep learning models, and intelligent systems.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Comprehensive Emerging Technologies",
+            "jobRoles": [
+              "Technology Leader",
+              "IoT Architect",
+              "Blockchain Developer",
+              "Big Data Analyst"
+            ],
+            "price": "₹1,58,000",
+            "details": "Provides broad expertise across IoT, Blockchain, Big Data Analytics, and Business Intelligence.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MCOM",
+        "duration": "24 Months",
+        "priceRange": "₹1,08,000",
+        "specializations": [
+          {
+            "name": "General",
+            "price": "₹1,08,000",
+            "details": "Advanced corporate finance, auditing, and regulatory compliance.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MA",
+        "duration": "24 Months",
+        "priceRange": "₹1,30,000",
+        "specializations": [
+          {
+            "name": "JMC",
+            "price": "₹1,30,000",
+            "details": "Journalism and Mass Communication at a master's level.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Economics",
+            "price": "₹1,30,000",
+            "details": "Econometrics and advanced macro-economic policies.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MSc Mathematics",
+        "duration": "24 Months",
+        "priceRange": "₹80,000",
+        "eligibility": "BSc degree or a 10+2+3/4 years equivalent Bachelor’s degree with Mathematics as a compulsory subject from a recognized university.",
+        "about": "A 100% online UGC-entitled master's degree focusing on pure and applied mathematics. The curriculum covers advanced concepts such as linear algebra, differential equations, topology, and optimization techniques, bridging theoretical mathematics with its real-world applications.",
+        "careerScope": "Graduates thrive in high-demand analytical domains, stepping into roles like Data Scientist, Quantitative Analyst, Statistician, Cryptographer, or Operations Research Analyst across tech, finance, and academia.",
+        "paymentDetails": "<b>🔥 UGC-Entitled Online MSc!</b><br/><br/>• <b>Semester Fee:</b> <b>₹20,000</b><br/>• <b>Total Program Fee:</b> <b>₹80,000</b><br/><br/><i>Exam Fee: Included in Semester Fee</i><br/><i>Flexible No-Cost EMI options available.</i>",
+        "certifications": "Students receive deeply integrated access to Bloomberg Market Concepts (BMC) certification to understand financial markets directly via the Bloomberg Terminal, alongside Coursera access.",
+        "usps": [
+          "NAAC A+ accredited university offering a purely UGC-entitled degree",
+          "Includes Bloomberg Market Concepts (BMC) certification",
+          "Exclusive access to the Coursera platform for in-demand skills",
+          "Build a global network with peers and alumni across industries",
+          "100% remote layout tailored for continuous global learners"
+        ],
+        "specializations": [
+          {
+            "name": "Mathematics (General)",
+            "jobRoles": [
+              "Statistician",
+              "Operations Research Analyst",
+              "Academician"
+            ],
+            "price": "₹80,000",
+            "details": "Core focus on pure mathematics, deep differential equations, and theoretical modeling.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Data Science",
+            "jobRoles": [
+              "Data Scientist",
+              "Predictive Modeler",
+              "Data Analyst"
+            ],
+            "price": "₹80,000",
+            "details": "Applies rigorous statistical learning and optimization techniques to massive datasets.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Computational Science",
+            "jobRoles": [
+              "Computational Scientist",
+              "Quantitative Analyst",
+              "Research Scientist"
+            ],
+            "price": "₹80,000",
+            "details": "Focuses on numerical methods, algorithmic computations, and quantitative problem-solving.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Econometrics",
+            "jobRoles": [
+              "Econometrician",
+              "Financial Engineer",
+              "Cryptographer"
+            ],
+            "price": "₹80,000",
+            "details": "Blends economic theory with high-level mathematics to forecast market trends and perform statistical modeling.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "url": "https://www.onlinemanipal.com/"
+}

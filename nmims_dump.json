@@ -1,0 +1,279 @@
+{
+  "id": "nmims-online",
+  "name": "NMIMS University (Narsee Monjee)",
+  "logo": "https://ui-avatars.com/api/?name=NMIMS&background=dc2626&color=fff&size=150",
+  "location": "Mumbai, Maharashtra",
+  "type": "Deemed-to-be University",
+  "level": [
+    "UG",
+    "PG",
+    "Diploma",
+    "Certificate"
+  ],
+  "budget": 400000,
+  "specializations": [
+    "MBA",
+    "Executive MBA (MBA WX)",
+    "BBA",
+    "B.Com",
+    "Diploma",
+    "Certificate"
+  ],
+  "accreditation": "NAAC A++ (Highest Grade), UGC Entitled, Category 1 Autonomy",
+  "fees": "0% Interest EMI Available / Semester / Annual",
+  "placement": "Tier-1 Fortune 500 Acceptance | Dedicated NMIMS Job Portal",
+  "eligibility": "12th / Graduation as per course",
+  "ranking": "India's Premier B-School Legacy (SVKM Group)",
+  "exams": "Strictly NGA-SCE Proctored (Highly Respected)",
+  "extendedDetails": {
+    "examination": "100% Online Remote Proctored (Highly Strict Environment) | Passing Criteria = Minimum 50% Aggregate Required",
+    "leadLocking": "Exclusive corporate HR recognition. Verifiable Defence credentials needed for 20% flat discount.",
+    "payment": "<b>Premium NMIMS Financial Options</b><br/>Zero Cost EMIs (Eduvanz, Liquiloans) and Armed Forces concessions (20%) are available universally. Click any exact parameter below for your customized table.",
+    "programs": [
+      {
+        "group": "PG",
+        "name": "MBA (Online)",
+        "duration": "24 Months",
+        "priceRange": "₹1,68,000 (Total)",
+        "specializations": [
+          {
+            "name": "Business Management",
+            "price": "₹1,68,000 (Total)",
+            "usps": [
+              "Unmatched SVKM legacy giving you equivalent strategic business insights to top-tier physical B-schools.",
+              "Learn to architect complex corporate structures and drive multi-departmental turnarounds.",
+              "Highly intensive capstone focusing on P&L (Profit & Loss) mastery and executive decision-making.",
+              "Curriculum crafted directly by industry veterans from Fortune 500 boardrooms.",
+              "Direct gateway into NMIMS' massive global alumni network for C-suite networking.",
+              "0% Interest EMI natively available, making premium tier-1 education highly accessible."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree (10+2+3) with min. 50% marks OR 2 yrs work experience",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹42,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹84,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹1,68,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          },
+          {
+            "name": "Financial Management",
+            "price": "₹1,68,000 (Total)",
+            "usps": [
+              "Curriculum heavily aligned with CFA structures and advanced Dalal Street portfolio mechanics.",
+              "Hands-on modeling practice using real-time BSE/NSE corporate data endpoints.",
+              "Perfect for professionals transitioning into investment banking or aggressive wealth management.",
+              "Core focus on international taxation, capital markets, and corporate risk mitigation frameworks.",
+              "Learn advanced corporate valuation techniques from practicing financial controllers.",
+              "Specifically targeted toward banking professionals seeking rapid hierarchy escalation."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree (10+2+3) with min. 50% marks OR 2 yrs work experience",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹42,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹84,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹1,68,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          },
+          {
+            "name": "HR Management",
+            "price": "₹1,68,000 (Total)",
+            "usps": [
+              "Deep dive into advanced talent acquisition, retention algorithms, and predictive HR analytics.",
+              "Mastery over Indian labor laws, corporate compliances, and union negotiation tactics.",
+              "Focus on building and managing geographically dispersed remote workforce architectures.",
+              "Curriculum includes designing lucrative, retention-focused compensation and benefits packages.",
+              "Actionable case studies on resolving high-stakes corporate HR conflicts and ethics violations.",
+              "Seamless transition into HR Director and VP roles within massive tech and manufacturing sectors."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree (10+2+3) with min. 50% marks OR 2 yrs work experience",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹42,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹84,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹1,68,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          },
+          {
+            "name": "Marketing Management",
+            "price": "₹1,68,000 (Total)",
+            "usps": [
+              "Heavy emphasis on automated customer acquisition loops, LTV/CAC modeling, and churn reduction.",
+              "Advanced study of consumer psychology and behavioral economics in retail and digital spaces.",
+              "Learn to manage million-dollar ad-spends and calculate strict Marketing ROI natively.",
+              "Hands-on exposure to global brand positioning and crisis management public relations.",
+              "Perfect for mid-level managers aggressively chasing Chief Marketing Officer (CMO) targets.",
+              "Taught by active agency heads guiding you through real brand turnaround case studies."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree (10+2+3) with min. 50% marks OR 2 yrs work experience",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹42,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹84,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹1,68,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          },
+          {
+            "name": "Operations & Data Science",
+            "price": "₹1,68,000 (Total)",
+            "usps": [
+              "Unique hybrid track blending heavy supply chain logistics with predictive Python/R data models.",
+              "Learn to optimize global inventory networks using advanced machine learning algorithms.",
+              "Six Sigma, Lean Management, and Total Quality Management (TQM) embedded natively.",
+              "Designed for engineers and supply chain managers aiming to digitize their legacy operations.",
+              "Build data-driven dashboarding skills using PowerBI and Tableau for board-level reporting.",
+              "Extremely high placement and transition rate into Amazon, Flipkart, and industrial giants."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree (10+2+3) with min. 50% marks OR 2 yrs work experience",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹42,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹84,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹1,68,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MBA WX (Executive)",
+        "duration": "24 Months",
+        "priceRange": "₹4,00,000 (Total)",
+        "specializations": [
+          {
+            "name": "Leadership and Strategy",
+            "price": "₹4,00,000 (Total)",
+            "usps": [
+              "Built strictly for working professionals with 3+ years experience to leap into CEO/COO roles.",
+              "Harvard Business Publishing case studies heavily integrated into the core curriculum.",
+              "Focus on aggressive corporate mergers, acquisitions, and hostile takeover defenses.",
+              "Learn directly from active CXOs navigating post-pandemic global market shifts.",
+              "Capstone project evaluating live strategies of multi-national enterprise expansions.",
+              "Extremely elite networking cohort consisting only of experienced mid-to-senior managers."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree with 50% + Minimum 3 years of extensive professional work experience.",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹1,00,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹2,00,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹4,00,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          },
+          {
+            "name": "Digital Marketing",
+            "price": "₹4,00,000 (Total)",
+            "usps": [
+              "Strictly for professionals transitioning into CMO roles, bypassing tactical internship-level data.",
+              "Heavy integration of Generative AI logic within modern million-dollar content operations.",
+              "Masterclass level analysis of automated B2B acquisition loops and massive scale media buying.",
+              "Direct case studies from Indian unicorns (Zomato, Cred) on exponential scaling methodologies.",
+              "Connects natively with global ad networks for programmatic advertising insights.",
+              "Ultimate strategic marketing focus over simple execution, training future industry leaders."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree with 50% + Minimum 3 years of extensive professional work experience.",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹1,00,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹2,00,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹4,00,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          },
+          {
+            "name": "Applied Finance",
+            "price": "₹4,00,000 (Total)",
+            "usps": [
+              "Executive tier exploration into private equity, hedge funds, and venture capital mechanics.",
+              "Design robust financial moats for extremely high valuation tech startups.",
+              "Mastery of quantitative easing implications and sovereign wealth fund allocations.",
+              "Learn entirely through simulations mimicking high-stress Dalal street and Wall street scenarios.",
+              "Direct networking routes to top-tier financial directors and prominent banking regulators.",
+              "Zero Cost EMI specifically calibrated for highly paid professionals seeking further upskilling."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree with 50% + Minimum 3 years of extensive professional work experience.",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹1,00,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹2,00,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹4,00,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          },
+          {
+            "name": "Operations & Supply Chain",
+            "price": "₹4,00,000 (Total)",
+            "usps": [
+              "Strategic blueprinting of massive global fulfillment operations spanning multiple continents.",
+              "Focus on avoiding critical logistical bottlenecks highlighted by recent global events.",
+              "Integrate IoT and advanced robotics theoretical capabilities into legacy warehouse structures.",
+              "Directly analyze the supply chain architecture of giants like Toyota, Amazon, and Tesla.",
+              "Designed for Senior Managers, Plant Heads, and Logistical Directors.",
+              "NMIMS elite degree validation assures unparalleled respect in industrial sectors."
+            ],
+            "duration": "24 Months",
+            "eligibility": "Bachelor’s degree with 50% + Minimum 3 years of extensive professional work experience.",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹1,00,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹2,00,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹4,00,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "BBA",
+        "duration": "36 Months",
+        "priceRange": "₹1,44,000 (Total)",
+        "specializations": [
+          {
+            "name": "General Business Administration",
+            "price": "₹1,44,000 (Total)",
+            "usps": [
+              "The absolute highest tier distance BBA available in India via the NAAC A++ SVKM group.",
+              "Secures your foundational knowledge across finance, marketing, and HR simultaneously.",
+              "Provides immediate legitimacy on your resume for early-stage startup hiring or MNCs.",
+              "100% online rigorous exams ensure the market respects your degree profoundly.",
+              "Access to the NMIMS Career Services dashboard including profile mock-ups and practice interviews.",
+              "Extremely flexible 0% interest EMI options spanning up to 12 months for accessibility."
+            ],
+            "duration": "36 Months",
+            "eligibility": "10+2 (HSC) in any discipline with a minimum of 50% marks.",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹24,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹48,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹1,44,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          }
+        ]
+      },
+      {
+        "group": "UG",
+        "name": "B.Com",
+        "duration": "36 Months",
+        "priceRange": "₹94,000 (Total)",
+        "specializations": [
+          {
+            "name": "General Commerce",
+            "price": "₹94,000 (Total)",
+            "usps": [
+              "Advanced foundational curriculum touching upon complex macro-economical commerce loops.",
+              "Highly regarded by Big 4 accounting firms as a baseline for future CA or ACCA candidates.",
+              "NMIMS corporate networking access integrated natively into the UG portal experience.",
+              "Fully remote learning management system (LMS) with world-class faculty delivery.",
+              "Includes robust modules on taxation, auditing principles, and corporate law.",
+              "Highly affordable full program structure (₹94,000) with military/defence concessions available."
+            ],
+            "duration": "36 Months",
+            "eligibility": "10+2 (HSC) in any discipline with a minimum of 50% marks.",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹15,666</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹31,333</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹94,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          }
+        ]
+      },
+      {
+        "group": "Diploma",
+        "name": "Diploma Programs",
+        "duration": "12 Months",
+        "priceRange": "₹94,000 (Total)",
+        "specializations": [
+          {
+            "name": "HR / Finance / Marketing / Ops",
+            "price": "₹94,000 (Total)",
+            "usps": [
+              "Intensive 12-month hyper-focused sprint to master a single corporate discipline.",
+              "Legitimizes your resume instantly with the massive NMIMS Narsee Monjee brand tag.",
+              "Directly mirrors the first half of the prestigious online MBA for uncompromising quality.",
+              "Perfect for career-switchers who need a recognized qualification without a 2-year lock-in.",
+              "Highly strict proctored exams guarantee employers know you earned your capabilities.",
+              "Seamlessly integrated 0% EMI options to ensure zero financial bottlenecks."
+            ],
+            "duration": "12 Months",
+            "eligibility": "Bachelor's Degree in any discipline OR 10+2 with 2 years of work experience.",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹47,000</td>\n      </tr>\n      \n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Annual Option</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹94,000</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹94,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          }
+        ]
+      },
+      {
+        "group": "Certificate",
+        "name": "Certificate Programs",
+        "duration": "6 Months",
+        "priceRange": "₹47,000 (Total)",
+        "specializations": [
+          {
+            "name": "Business Management",
+            "price": "₹47,000 (Total)",
+            "usps": [
+              "Lightning fast 6-month curriculum injecting pure strategic management logic.",
+              "The fastest legitimate pathway to claim NMIMS CDOE Alumni credibility.",
+              "Designed to provide immediate theoretical upgrades for fast-moving early startup founders.",
+              "Completely removes unnecessary filler subjects, focusing 100% on core business survival.",
+              "Incredibly affordable access (₹47,000) to India's premier B-School pedagogy.",
+              "Highly actionable case studies replacing outdated theoretical learning methodologies."
+            ],
+            "duration": "6 Months",
+            "eligibility": "Bachelor's Degree in any discipline OR 10+2 with 2 years of work experience.",
+            "paymentDetails": "<div style=\"font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);\">\n  <div style=\"background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;\">\n    ⭐️ Premium SVKM Legacy Programs\n  </div>\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\">\n    <thead>\n      <tr style=\"border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;\">\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Fee Type</th>\n        <th style=\"padding: 10px 8px; font-weight: 600;\">Amount</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"border-bottom: 1px solid #f1f5f9;\">\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Semester Fee</td>\n        <td style=\"padding: 12px 8px; color: #0f172a; font-weight: 600;\">₹47,000</td>\n      </tr>\n      \n      <tr>\n        <td style=\"padding: 12px 8px; color: #334155; font-weight: 500;\">Full Program</td>\n        <td style=\"padding: 12px 8px; color: #059669; font-weight: 700;\">₹47,000</td>\n      </tr>\n    </tbody>\n  </table>\n  <div style=\"margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;\">\n    <p style=\"margin: 0 0 6px 0; font-weight: 700; color: #b45309;\">Financial & Scholarship Highlights:</p>\n    <ul style=\"margin: 0; padding-left: 20px; font-size: 12px;\">\n      <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>\n      <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>\n      <li>Waived processing fees on single upfront full payments.</li>\n    </ul>\n  </div>\n</div>"
+          }
+        ]
+      }
+    ]
+  },
+  "url": "https://online.nmims.edu/"
+}

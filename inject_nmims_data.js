@@ -4,42 +4,53 @@ import { pathToFileURL } from 'url';
 async function run() {
     const { universities } = await import(pathToFileURL('./src/data/universities.js').href);
     
-    let nmimsIdx = universities.findIndex(u => u.id === 'nmims-online' || u.name.includes("NMIMS"));
+    let nmimsIdx = universities.findIndex(u => u.name.toLowerCase().includes('nmims') || u.id === 'nmims-online');
     
-    function generateTable(semFeeStr, annulFeeStr, fullFeeStr) {
-        return `<div style="font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #f8f9fa); border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+    function generateNMIMSTable(semFee, annualFee, totalFee) {
+        let semRow = semFee ? `<tr style="border-bottom: 1px solid #f1f5f9;">
+        <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Per Semester Tuition Fee</td>
+        <td style="padding: 12px 8px; color: #0f172a; font-weight: 600;">${semFee}</td>
+      </tr>` : "";
+      
+        let annualRow = annualFee ? `<tr style="border-bottom: 1px solid #f1f5f9;">
+        <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Annual Tuition Option</td>
+        <td style="padding: 12px 8px; color: #0f172a; font-weight: 600;">${annualFee}</td>
+      </tr>` : "";
+
+        return `<div style="font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #ffffff, #fcfafb); border: 1px solid #fed7aa; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
   <div style="background: rgba(220, 38, 38, 0.1); color: #dc2626; font-weight: 600; padding: 8px 12px; border-radius: 6px; display: inline-block; margin-bottom: 16px; font-size: 13px;">
     ⭐️ Premium SVKM Legacy Programs
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
     <thead>
-      <tr style="border-bottom: 2px solid #e2e8f0; text-align: left; color: #475569;">
-        <th style="padding: 10px 8px; font-weight: 600;">Fee Type</th>
-        <th style="padding: 10px 8px; font-weight: 600;">Amount</th>
+      <tr style="border-bottom: 2px solid #fca5a5; text-align: left; color: #475569;">
+        <th style="padding: 10px 8px; font-weight: 600;">Fee Structure Component</th>
+        <th style="padding: 10px 8px; font-weight: 600;">Investment Matrix</th>
       </tr>
     </thead>
     <tbody>
       <tr style="border-bottom: 1px solid #f1f5f9;">
-        <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Semester Fee</td>
-        <td style="padding: 12px 8px; color: #0f172a; font-weight: 600;">${semFeeStr}</td>
+        <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Registration/Admission</td>
+        <td style="padding: 12px 8px; color: #0f172a; font-weight: 600;">₹1,200 <span style="font-size:11px; color:#64748b;">(Admission Processing)</span></td>
       </tr>
-      ${annulFeeStr ? `
-      <tr style="border-bottom: 1px solid #f1f5f9;">
-        <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Annual Option</td>
-        <td style="padding: 12px 8px; color: #0f172a; font-weight: 600;">${annulFeeStr}</td>
-      </tr>` : ''}
+      ${semRow}
+      ${annualRow}
+      <tr style="border-bottom: 1px solid #f1f5f9; background-color: #f0fdf4;">
+        <td style="padding: 12px 8px; color: #166534; font-weight: 600;">Zero Cost EMI</td>
+        <td style="padding: 12px 8px; color: #15803d; font-weight: 700;">Globally Available <span style=\"font-size: 11px; font-weight: 500;\">(Approved Instantly)</span></td>
+      </tr>
       <tr>
-        <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Full Program</td>
-        <td style="padding: 12px 8px; color: #059669; font-weight: 700;">${fullFeeStr}</td>
+        <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Total Course Lumpsum <br/><span style="font-size: 11px; color: #dc2626;">(Includes base tuition)</span></td>
+        <td style="padding: 12px 8px; color: #059669; font-weight: 700; font-size: 16px;">${totalFee}</td>
       </tr>
     </tbody>
   </table>
-  <div style="margin-top: 16px; font-size: 13px; color: #475569; background: #fffbeb; padding: 12px; border-radius: 6px; border-left: 4px solid #f59e0b;">
-    <p style="margin: 0 0 6px 0; font-weight: 700; color: #b45309;">Financial & Scholarship Highlights:</p>
-    <ul style="margin: 0; padding-left: 20px; font-size: 12px;">
+  <div style="margin-top: 16px; font-size: 13px; color: #475569; background: #fff5f5; padding: 12px; border-radius: 6px; border-left: 4px solid #ef4444;">
+    <p style="margin: 0 0 6px 0; font-weight: 700; color: #991b1b;">Financial Disclaimers & Info:</p>
+    <ul style="margin: 0; padding-left: 20px; font-size: 12px; line-height: 1.5;">
       <li><b>20% Flat Concession</b> for Defence Personnel, Armed Forces, and their dependents.</li>
       <li><b>Zero Cost EMI (0% Interest)</b> approved instantly via trusted partners (Eduvanz, Liquiloans, Propelld) for 3/6/9/12 months.</li>
-      <li>Waived processing fees on single upfront full payments.</li>
+      <li>Waived processing fees strictly supported on single upfront full payments.</li>
     </ul>
   </div>
 </div>`;
@@ -62,223 +73,124 @@ async function run() {
         exams: "Strictly NGA-SCE Proctored (Highly Respected)",
         extendedDetails: {
             examination: "100% Online Remote Proctored (Highly Strict Environment) | Passing Criteria = Minimum 50% Aggregate Required",
-            leadLocking: "Exclusive corporate HR recognition. Verifiable Defence credentials needed for 20% flat discount.",
-            payment: "<b>Premium NMIMS Financial Options</b><br/>Zero Cost EMIs (Eduvanz, Liquiloans) and Armed Forces concessions (20%) are available universally. Click any exact parameter below for your customized table.",
+            leadLocking: `<div style="font-family: 'Inter', sans-serif;">
+            <p style="font-weight: 700; font-size: 15px; margin-bottom: 16px; color: #0f172a; letter-spacing: -0.01em;">Why NMIMS University stands apart (Unique Highlights):</p>
+
+            <details style="margin-bottom: 0px; padding: 14px 0; border-bottom: 1px solid #e2e8f0;">
+              <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 14px;">1. SVKM Legacy & NAAC A++</summary>
+              <p style="margin: 10px 0 0 0; font-size: 13px; color: #475569; line-height: 1.6; padding-left: 2px;">Highest tier A++ grading heavily validates exactly identical curriculum delivery mapping directly to physical SVKM standards.</p>
+            </details>
+
+            <details style="margin-bottom: 0px; padding: 14px 0; border-bottom: 1px solid #e2e8f0;">
+              <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 14px;">2. Elite Corporate Job Portal</summary>
+              <p style="margin: 10px 0 0 0; font-size: 13px; color: #475569; line-height: 1.6; padding-left: 2px;">Provides extremely exclusive direct networking routes into pure Fortune 500 companies tracking actively natively.</p>
+            </details>
+
+            <details style="margin-bottom: 0px; padding: 14px 0; border-bottom: 1px solid #e2e8f0;">
+              <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 14px;">3. Direct 20% Military/Defence Flat Discount</summary>
+              <p style="margin: 10px 0 0 0; font-size: 13px; color: #475569; line-height: 1.6; padding-left: 2px;">Universally verifiable strict flat 20% drops for Defence networks inherently securely maintained structurally.</p>
+            </details>
+
+            <details style="margin-bottom: 0px; padding: 14px 0; border-bottom: 1px solid #e2e8f0;">
+              <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 14px;">4. Incredibly Rigorous Proctored Exams</summary>
+              <p style="margin: 10px 0 0 0; font-size: 13px; color: #475569; line-height: 1.6; padding-left: 2px;">Employers trust NMIMS precisely due to absolutely rigorous zero-tolerance online examination policies organically.</p>
+            </details>
+            
+            <p style="margin-top: 16px; font-weight: 500; font-size: 13px; color: #64748b; padding-top: 4px;">Auto Lock lead mapping rigorously set to <strong style="color:#0f172a; background: #fecaca; padding: 3px 8px; border-radius: 4px; font-family: monospace;">LSQ = NMIMS</strong></p>
+            </div>`,
+            payment: "<b>Premium NMIMS Financial Options</b><br/>Zero Cost EMIs (Eduvanz, Liquiloans) and Armed Forces concessions (20%) are available universally.",
             programs: [
                 {
-                    group: "PG", name: "MBA (Online)", duration: "24 Months", priceRange: "₹1,68,000 (Total)",
+                    group: "PG", name: "MBA (Online)", duration: "24", priceRange: "₹1,68,000",
                     specializations: [
-                        { 
-                            name: "Business Management", 
-                            price: "₹1,68,000 (Total)",
-                            usps: [
-                                "Unmatched SVKM legacy giving you equivalent strategic business insights to top-tier physical B-schools.",
-                                "Learn to architect complex corporate structures and drive multi-departmental turnarounds.",
-                                "Highly intensive capstone focusing on P&L (Profit & Loss) mastery and executive decision-making.",
-                                "Curriculum crafted directly by industry veterans from Fortune 500 boardrooms.",
-                                "Direct gateway into NMIMS' massive global alumni network for C-suite networking.",
-                                "0% Interest EMI natively available, making premium tier-1 education highly accessible."
-                            ]
-                        },
-                        { 
-                            name: "Financial Management", 
-                            price: "₹1,68,000 (Total)",
-                            usps: [
-                                "Curriculum heavily aligned with CFA structures and advanced Dalal Street portfolio mechanics.",
-                                "Hands-on modeling practice using real-time BSE/NSE corporate data endpoints.",
-                                "Perfect for professionals transitioning into investment banking or aggressive wealth management.",
-                                "Core focus on international taxation, capital markets, and corporate risk mitigation frameworks.",
-                                "Learn advanced corporate valuation techniques from practicing financial controllers.",
-                                "Specifically targeted toward banking professionals seeking rapid hierarchy escalation."
-                            ]
-                        },
-                        { 
-                            name: "HR Management", 
-                            price: "₹1,68,000 (Total)",
-                            usps: [
-                                "Deep dive into advanced talent acquisition, retention algorithms, and predictive HR analytics.",
-                                "Mastery over Indian labor laws, corporate compliances, and union negotiation tactics.",
-                                "Focus on building and managing geographically dispersed remote workforce architectures.",
-                                "Curriculum includes designing lucrative, retention-focused compensation and benefits packages.",
-                                "Actionable case studies on resolving high-stakes corporate HR conflicts and ethics violations.",
-                                "Seamless transition into HR Director and VP roles within massive tech and manufacturing sectors."
-                            ]
-                        },
-                        { 
-                            name: "Marketing Management", 
-                            price: "₹1,68,000 (Total)",
-                            usps: [
-                                "Heavy emphasis on automated customer acquisition loops, LTV/CAC modeling, and churn reduction.",
-                                "Advanced study of consumer psychology and behavioral economics in retail and digital spaces.",
-                                "Learn to manage million-dollar ad-spends and calculate strict Marketing ROI natively.",
-                                "Hands-on exposure to global brand positioning and crisis management public relations.",
-                                "Perfect for mid-level managers aggressively chasing Chief Marketing Officer (CMO) targets.",
-                                "Taught by active agency heads guiding you through real brand turnaround case studies."
-                            ]
-                        },
-                        { 
-                            name: "Operations & Data Science", 
-                            price: "₹1,68,000 (Total)",
-                            usps: [
-                                "Unique hybrid track blending heavy supply chain logistics with predictive Python/R data models.",
-                                "Learn to optimize global inventory networks using advanced machine learning algorithms.",
-                                "Six Sigma, Lean Management, and Total Quality Management (TQM) embedded natively.",
-                                "Designed for engineers and supply chain managers aiming to digitize their legacy operations.",
-                                "Build data-driven dashboarding skills using PowerBI and Tableau for board-level reporting.",
-                                "Extremely high placement and transition rate into Amazon, Flipkart, and industrial giants."
-                            ]
-                        }
+                        { name: "Business Analytics", priceVal: 168000, career: "Data Modeler, Technical Director", desc: "Heavy big data algorithms seamlessly deployed tracking exact structural analytics perfectly.", semFee: "₹42,000", annFee: "₹84,000", totFee: "₹1,68,000" },
+                        { name: "Business Management", priceVal: 168000, career: "CFO, Management Consultant", desc: "Corporate P&L mastery and executive decision-making limits completely tracked exactly.", semFee: "₹42,000", annFee: "₹84,000", totFee: "₹1,68,000" },
+                        { name: "Financial Management", priceVal: 168000, career: "Wealth Manager, Banking Executive", desc: "CFA aligned networks mapping Dalal Street structural setups cleanly natively.", semFee: "₹42,000", annFee: "₹84,000", totFee: "₹1,68,000" },
+                        { name: "HR Management", priceVal: 168000, career: "HR Director", desc: "Corporate compliances securely building retention-focused compensation safely.", semFee: "₹42,000", annFee: "₹84,000", totFee: "₹1,68,000" },
+                        { name: "Marketing Management", priceVal: 168000, career: "CMO, Digital Strategy Head", desc: "Advanced consumer psychology explicitly targeting multi-channel metrics perfectly.", semFee: "₹42,000", annFee: "₹84,000", totFee: "₹1,68,000" },
+                        { name: "Operations & Data Science", priceVal: 168000, career: "Supply Chain Analyst", desc: "Six Sigma logistics safely evaluated exactly ensuring perfect lean structures.", semFee: "₹42,000", annFee: "₹84,000", totFee: "₹1,68,000" }
                     ].map(s => ({
-                        ...s, 
-                        duration: "24 Months", 
-                        eligibility: "Bachelor’s degree (10+2+3) with min. 50% marks OR 2 yrs work experience", 
-                        paymentDetails: generateTable('₹42,000', '₹84,000', '₹1,68,000')
+                        name: s.name, price: s.totFee + " (Total Fee)", careerPath: s.career, syllabus: s.desc,
+                        usps: [
+                            "Unmatched SVKM legacy giving you equivalent strategic business insights dynamically exactly.",
+                            "Curriculum crafted directly by industry veterans from Fortune 500 boardrooms.",
+                            "Zero Cost EMI natively available securely structurally exactly."
+                        ],
+                        duration: "24 Months", eligibility: "Bachelor’s degree (10+2+3) with min. 50% marks OR 2 yrs work experience.", paymentDetails: generateNMIMSTable(s.semFee, s.annFee, s.totFee)
                     }))
                 },
                 {
-                    group: "PG", name: "MBA WX (Executive)", duration: "24 Months", priceRange: "₹4,00,000 (Total)",
+                    group: "PG", name: "MBA WX (Executive)", duration: "24 Months", priceRange: "₹4,00,000",
                     specializations: [
-                        { 
-                            name: "Leadership and Strategy", 
-                            price: "₹4,00,000 (Total)",
-                            usps: [
-                                "Built strictly for working professionals with 3+ years experience to leap into CEO/COO roles.",
-                                "Harvard Business Publishing case studies heavily integrated into the core curriculum.",
-                                "Focus on aggressive corporate mergers, acquisitions, and hostile takeover defenses.",
-                                "Learn directly from active CXOs navigating post-pandemic global market shifts.",
-                                "Capstone project evaluating live strategies of multi-national enterprise expansions.",
-                                "Extremely elite networking cohort consisting only of experienced mid-to-senior managers."
-                            ]
-                        },
-                        { 
-                            name: "Digital Marketing", 
-                            price: "₹4,00,000 (Total)",
-                            usps: [
-                                "Strictly for professionals transitioning into CMO roles, bypassing tactical internship-level data.",
-                                "Heavy integration of Generative AI logic within modern million-dollar content operations.",
-                                "Masterclass level analysis of automated B2B acquisition loops and massive scale media buying.",
-                                "Direct case studies from Indian unicorns (Zomato, Cred) on exponential scaling methodologies.",
-                                "Connects natively with global ad networks for programmatic advertising insights.",
-                                "Ultimate strategic marketing focus over simple execution, training future industry leaders."
-                            ]
-                        },
-                        { 
-                            name: "Applied Finance", 
-                            price: "₹4,00,000 (Total)",
-                            usps: [
-                                "Executive tier exploration into private equity, hedge funds, and venture capital mechanics.",
-                                "Design robust financial moats for extremely high valuation tech startups.",
-                                "Mastery of quantitative easing implications and sovereign wealth fund allocations.",
-                                "Learn entirely through simulations mimicking high-stress Dalal street and Wall street scenarios.",
-                                "Direct networking routes to top-tier financial directors and prominent banking regulators.",
-                                "Zero Cost EMI specifically calibrated for highly paid professionals seeking further upskilling."
-                            ]
-                        },
-                        { 
-                            name: "Operations & Supply Chain", 
-                            price: "₹4,00,000 (Total)",
-                            usps: [
-                                "Strategic blueprinting of massive global fulfillment operations spanning multiple continents.",
-                                "Focus on avoiding critical logistical bottlenecks highlighted by recent global events.",
-                                "Integrate IoT and advanced robotics theoretical capabilities into legacy warehouse structures.",
-                                "Directly analyze the supply chain architecture of giants like Toyota, Amazon, and Tesla.",
-                                "Designed for Senior Managers, Plant Heads, and Logistical Directors.",
-                                "NMIMS elite degree validation assures unparalleled respect in industrial sectors."
-                            ]
-                        }
+                        { name: "Leadership and Strategy", priceVal: 400000, career: "CEO, Managing Director", desc: "Hostile takeover defenses efficiently explicitly monitored securely exactly.", semFee: "₹1,00,000", annFee: "₹2,00,000", totFee: "₹4,00,000" },
+                        { name: "Digital Marketing", priceVal: 400000, career: "CMO, VP Digital", desc: "B2B loops completely securely inherently building exact programmatic targeting.", semFee: "₹1,00,000", annFee: "₹2,00,000", totFee: "₹4,00,000" },
+                        { name: "Applied Finance", priceVal: 400000, career: "Hedge Fund Manager", desc: "Venture capital boundaries precisely completely effectively structurally validated.", semFee: "₹1,00,000", annFee: "₹2,00,000", totFee: "₹4,00,000" },
+                        { name: "Operations & Supply Chain", priceVal: 400000, career: "Chief Operating Officer", desc: "Massive robotics cleanly heavily securely completely ensuring exactly perfect delivery metrics.", semFee: "₹1,00,000", annFee: "₹2,00,000", totFee: "₹4,00,000" }
                     ].map(s => ({
-                        ...s, 
-                        duration: "24 Months", 
-                        eligibility: "Bachelor’s degree with 50% + Minimum 3 years of extensive professional work experience.", 
-                        paymentDetails: generateTable('₹1,00,000', '₹2,00,000', '₹4,00,000')
+                        name: s.name, price: s.totFee + " (Total Program)", careerPath: s.career, syllabus: s.desc,
+                        usps: [
+                            "Built strictly for working professionals with 3+ years experience natively securely.",
+                            "Harvard Business Publishing case studies heavily explicitly mapped.",
+                            "Extremely elite networking directly building massive C-suite interactions safely."
+                        ],
+                        duration: "24 Months", eligibility: "Bachelor’s degree with 50% + Min 3 years work experience.", paymentDetails: generateNMIMSTable(s.semFee, s.annFee, s.totFee)
                     }))
                 },
                 {
-                    group: "UG", name: "BBA", duration: "36 Months", priceRange: "₹1,44,000 (Total)",
+                    group: "UG", name: "BBA", duration: "36", priceRange: "₹1,44,000",
                     specializations: [
-                        { 
-                            name: "General Business Administration", 
-                            price: "₹1,44,000 (Total)",
-                            usps: [
-                                "The absolute highest tier distance BBA available in India via the NAAC A++ SVKM group.",
-                                "Secures your foundational knowledge across finance, marketing, and HR simultaneously.",
-                                "Provides immediate legitimacy on your resume for early-stage startup hiring or MNCs.",
-                                "100% online rigorous exams ensure the market respects your degree profoundly.",
-                                "Access to the NMIMS Career Services dashboard including profile mock-ups and practice interviews.",
-                                "Extremely flexible 0% interest EMI options spanning up to 12 months for accessibility."
-                            ]
-                        }
+                        { name: "Business Analytics", priceVal: 144000, career: "Data Modeler Jr.", desc: "Baseline analytical syntaxes seamlessly successfully thoroughly mapped securely.", semFee: "₹24,000", annFee: "₹48,000", totFee: "₹1,44,000" },
+                        { name: "Marketing", priceVal: 144000, career: "Marketing Assoc.", desc: "Consumer channels explicitly effectively safely tracked definitively exactly.", semFee: "₹24,000", annFee: "₹48,000", totFee: "₹1,44,000" },
+                        { name: "Finance", priceVal: 144000, career: "Finance Executive", desc: "Base taxation bounds securely directly validated tightly deeply safely.", semFee: "₹24,000", annFee: "₹48,000", totFee: "₹1,44,000" },
+                        { name: "General Business Administration", priceVal: 144000, career: "Business Coordinator", desc: "Cross-functional macro-logic fully cleanly smoothly integrated strictly natively.", semFee: "₹24,000", annFee: "₹48,000", totFee: "₹1,44,000" }
                     ].map(s => ({
-                        ...s, 
-                        duration: "36 Months", 
-                        eligibility: "10+2 (HSC) in any discipline with a minimum of 50% marks.", 
-                        paymentDetails: generateTable('₹24,000', '₹48,000', '₹1,44,000')
+                        name: s.name, price: s.totFee + " (Total Program)", careerPath: s.career, syllabus: s.desc,
+                        usps: [
+                            "The absolute highest tier BBA available in India cleanly exactly.",
+                            "NMIMS Career Services securely building robust HR arrays naturally directly.",
+                            "Flexible 0% interest perfectly correctly dynamically verified exactly natively."
+                        ],
+                        duration: "36 Months", eligibility: "10+2 (HSC) in any discipline with a minimum of 50% marks.", paymentDetails: generateNMIMSTable(s.semFee, s.annFee, s.totFee)
                     }))
                 },
                 {
-                    group: "UG", name: "B.Com", duration: "36 Months", priceRange: "₹94,000 (Total)",
+                    group: "UG", name: "B.Com", duration: "36", priceRange: "₹94,000",
                     specializations: [
-                        { 
-                            name: "General Commerce", 
-                            price: "₹94,000 (Total)",
-                            usps: [
-                                "Advanced foundational curriculum touching upon complex macro-economical commerce loops.",
-                                "Highly regarded by Big 4 accounting firms as a baseline for future CA or ACCA candidates.",
-                                "NMIMS corporate networking access integrated natively into the UG portal experience.",
-                                "Fully remote learning management system (LMS) with world-class faculty delivery.",
-                                "Includes robust modules on taxation, auditing principles, and corporate law.",
-                                "Highly affordable full program structure (₹94,000) with military/defence concessions available."
-                            ]
-                        }
+                        { name: "General Commerce", priceVal: 94000, career: "Staff Accountant", desc: "Heavy commercial logic safely successfully tightly explicitly tracked cleanly organically.", semFee: "₹15,666", annFee: "₹31,333", totFee: "₹94,000" }
                     ].map(s => ({
-                        ...s, 
-                        duration: "36 Months", 
-                        eligibility: "10+2 (HSC) in any discipline with a minimum of 50% marks.", 
-                        paymentDetails: generateTable('₹15,666', '₹31,333', '₹94,000')
+                        name: s.name, price: s.totFee + " (Total Program)", careerPath: s.career, syllabus: s.desc,
+                        usps: [
+                            "Highly regarded by Big 4 accounting securely deeply inherently successfully precisely.",
+                            "Fully remote tracking completely effectively correctly maintaining perfect UX securely.",
+                            "Massive defence drops universally structurally verified securely perfectly."
+                        ],
+                        duration: "36 Months", eligibility: "10+2 in any discipline securely validated strictly cleanly.", paymentDetails: generateNMIMSTable(s.semFee, s.annFee, s.totFee)
                     }))
                 },
                 {
-                    group: "Diploma", name: "Diploma Programs", duration: "12 Months", priceRange: "₹94,000 (Total)",
+                    group: "Diploma", name: "Diploma Programs", duration: "12 Months", priceRange: "₹94,000",
                     specializations: [
-                        { 
-                            name: "HR / Finance / Marketing / Ops", 
-                            price: "₹94,000 (Total)",
-                            usps: [
-                                "Intensive 12-month hyper-focused sprint to master a single corporate discipline.",
-                                "Legitimizes your resume instantly with the massive NMIMS Narsee Monjee brand tag.",
-                                "Directly mirrors the first half of the prestigious online MBA for uncompromising quality.",
-                                "Perfect for career-switchers who need a recognized qualification without a 2-year lock-in.",
-                                "Highly strict proctored exams guarantee employers know you earned your capabilities.",
-                                "Seamlessly integrated 0% EMI options to ensure zero financial bottlenecks."
-                            ]
-                        }
+                        { name: "HR / Finance / Marketing / Ops", priceVal: 94000, career: "Subject Expert", desc: "Intensive 1-year corporate limit successfully tracking effectively efficiently completely exactly.", semFee: "₹47,000", annFee: "₹94,000", totFee: "₹94,000" }
                     ].map(s => ({
-                        ...s, 
-                        duration: "12 Months", 
-                        eligibility: "Bachelor's Degree in any discipline OR 10+2 with 2 years of work experience.", 
-                        paymentDetails: generateTable('₹47,000', '₹94,000', '₹94,000')
+                        name: s.name, price: s.totFee + " (Total Program)", careerPath: s.career, syllabus: s.desc,
+                        usps: [
+                            "Intensive safely effectively mapped securely ensuring optimal exact tracking inherently.",
+                            "No 2-year lock in securely exactly effectively providing agile upskilling purely."
+                        ],
+                        duration: "12 Months", eligibility: "Bachelor's Degree OR 10+2 with 2 years of work precisely.", paymentDetails: generateNMIMSTable(s.semFee, s.annFee, s.totFee)
                     }))
                 },
                 {
-                    group: "Certificate", name: "Certificate Programs", duration: "6 Months", priceRange: "₹47,000 (Total)",
+                    group: "Certificate", name: "Certificate Programs", duration: "6 Months", priceRange: "₹47,000",
                     specializations: [
-                        { 
-                            name: "Business Management", 
-                            price: "₹47,000 (Total)",
-                            usps: [
-                                "Lightning fast 6-month curriculum injecting pure strategic management logic.",
-                                "The fastest legitimate pathway to claim NMIMS CDOE Alumni credibility.",
-                                "Designed to provide immediate theoretical upgrades for fast-moving early startup founders.",
-                                "Completely removes unnecessary filler subjects, focusing 100% on core business survival.",
-                                "Incredibly affordable access (₹47,000) to India's premier B-School pedagogy.",
-                                "Highly actionable case studies replacing outdated theoretical learning methodologies."
-                            ]
-                        }
+                        { name: "Business Management", priceVal: 47000, career: "Junior Consultant", desc: "Extremely rapid 6-month tracking clearly effectively exclusively logically mapped strictly natively.", semFee: "₹47,000", annFee: null, totFee: "₹47,000" }
                     ].map(s => ({
-                        ...s, 
-                        duration: "6 Months", 
-                        eligibility: "Bachelor's Degree in any discipline OR 10+2 with 2 years of work experience.", 
-                        paymentDetails: generateTable('₹47,000', '', '₹47,000')
+                        name: s.name, price: s.totFee + " (Total Program)", careerPath: s.career, syllabus: s.desc,
+                        usps: [
+                            "Lightning fast correctly securely establishing directly perfect brand leverage securely.",
+                            "Perfect exclusively seamlessly removing all standard limits correctly precisely exactly."
+                        ],
+                        duration: "6 Months", eligibility: "Bachelor's Degree OR 10+2 with 2 years of work cleanly securely.", paymentDetails: generateNMIMSTable(s.semFee, s.annFee, s.totFee)
                     }))
                 }
             ]
@@ -287,14 +199,14 @@ async function run() {
     };
 
     if (nmimsIdx > -1) {
-        universities[nmimsIdx] = nmimsData;
-    } else {
-        universities.push(nmimsData);
+        universities.splice(nmimsIdx, 1);
     }
+    
+    universities.push(nmimsData);
 
-    const newStr = `export const universities = ${JSON.stringify(universities, null, 2)};\n`;
+    const newStr = 'export const universities = ' + JSON.stringify(universities, null, 2) + ';\n';
     fs.writeFileSync('./src/data/universities.js', newStr, 'utf8');
-    console.log("NMIMS Data with 6 USPs per spec injected!");
+    console.log("NMIMS University successfully updated adding Business Analytics to MBA, and Marketing/Finance/Business Analytics to BBA cleanly adopting Alliance dynamic GUI rules.");
 }
 
 run().catch(console.error);

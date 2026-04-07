@@ -1,0 +1,430 @@
+{
+  "id": "dy-patil-online",
+  "name": "D. Y. Patil Vidyapeeth (DPU Online)",
+  "logo": "https://ui-avatars.com/api/?name=DPU&background=9d174d&color=fff&size=150",
+  "location": "Pune, Maharashtra",
+  "type": "Deemed to be University",
+  "level": [
+    "UG",
+    "PG"
+  ],
+  "budget": 189400,
+  "specializations": [
+    "MBA",
+    "BBA",
+    "MCA"
+  ],
+  "accreditation": "NAAC A++, NIRF Top 50, UGC-Entitled",
+  "fees": "Semester options available",
+  "placement": "Dedicated Placement Drives | Corporate Connect",
+  "eligibility": "12th / Graduation with 50%",
+  "ranking": "NIRF Top 50 Universities",
+  "exams": "Merit Based",
+  "url": "https://www.dypatilonline.com/",
+  "extendedDetails": {
+    "usps": [
+      "India's First Gen-AI Powered MBA with 25+ AI tools curriculum",
+      "NAAC A++ Graded and strictly NIRF Top 50 Ranked University",
+      "Bonus Global Certifications directly from Harvard, MIT, & Columbia",
+      "Highly Interactive DPU e-learning platform ('I-Learn')",
+      "Ultra-flexible No-Cost EMIs starting as low as ₹ 6,058/month"
+    ],
+    "payment": "Registration format via portal | Easy No-cost EMI options starting at ₹ 6,058/mo (BBA) and ₹ 7,892/mo (MBA).",
+    "examination": "70:30 Evaluation | High-tech Proctored exams.",
+    "leadLocking": "Auto Lock on DPU Portal",
+    "programs": [
+      {
+        "group": "UG",
+        "name": "BBA",
+        "duration": "36 Months (3 Years) or 4 Years NEP",
+        "priceRange": "₹ 1,45,400",
+        "eligibility": "10+2 (HSC) or equivalent from a recognized board with English as a passing subject.",
+        "about": "A premier Online Bachelor of Business Administration from D.Y. Patil Vidyapeeth. This program provides foundational managerial workflows, offering a strong blend of theory and functional market practices.",
+        "careerScope": "Graduate with immediate corporate readiness. Top placements focus on operations, B2B sales, HR assistance, and primary financial modeling roles right out of the gate.",
+        "paymentDetails": "<b>🔥 Top Ranked Online BBA!</b><br/><br/>• <b>Semester 1 & 2 Fee:</b> <b>₹ 35,000 each</b><br/>• <b>Total Program Fee:</b> <b>₹ 1,45,400</b><br/><br/><i>Exam Fee: Included automatically</i><br/><i>Attractive No-Cost EMI options starting securely at just ₹ 6,058/month!</i>",
+        "certifications": "Integrated access to global e-learning frameworks enhancing baseline credentials.",
+        "usps": [
+          "NAAC A++ University ensuring premium educational quality",
+          "Multiple specialized tracks ranging from Retail to Shipping & Logistics",
+          "Comprehensive DPU placement support immediately upon graduation",
+          "Affordable financing featuring exactly ₹ 6,058/mo No-Cost EMI"
+        ],
+        "specializations": [
+          {
+            "name": "Marketing Management",
+            "jobRoles": [
+              "Marketing Executive",
+              "Brand Associate",
+              "Sales Coordinator"
+            ],
+            "price": "₹ 1,45,400",
+            "details": "Core focus on Consumer Behavior, Market Research, and Digital outreach.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Human Resource Management",
+            "jobRoles": [
+              "HR Assistant",
+              "Recruitment Coordinator",
+              "Employee Relations Junior"
+            ],
+            "price": "₹ 1,45,400",
+            "details": "Essential workflows in Talent Acquisition and Organizational structure.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Finance Management",
+            "jobRoles": [
+              "Financial Analyst",
+              "Audit Assistant",
+              "Investment Co-ordinator"
+            ],
+            "price": "₹ 1,45,400",
+            "details": "Understanding Capital Markets, baseline Wealth Management, and Corporate Finance.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "IT and Systems Management",
+            "jobRoles": [
+              "IT Support Analyst",
+              "Systems Coordinator",
+              "Tech Associate"
+            ],
+            "price": "₹ 1,45,400",
+            "details": "Foundations of IT infrastructures and systems management protocols.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "International Business Management",
+            "jobRoles": [
+              "Export Coordinator",
+              "Global Sales Associate",
+              "International Trade Analyst"
+            ],
+            "price": "₹ 1,45,400",
+            "details": "Dynamics of Global Marketing and cross-border Export-Import handling.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Banking Financial Services and Insurance (BFSI)",
+            "price": "₹ 1,45,400",
+            "details": "Targeted explicitly for modern banking layouts and insurance underwriting environments.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Shipping and Logistics Management",
+            "price": "₹ 1,45,400",
+            "details": "Marine logistics, shipping workflows, and supply line architecture.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "E-Commerce Management",
+            "price": "₹ 1,45,400",
+            "details": "Digital storefront mechanics, modern retail funnels, and online D2C models.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Retail Management",
+            "price": "₹ 1,45,400",
+            "details": "Physical/digital crossover retail layouts and massive consumer footfall modeling.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MBA",
+        "duration": "24 Months (2 Years)",
+        "priceRange": "₹ 1,89,400",
+        "eligibility": "Bachelor’s Degree from a recognized university with at least 50% marks (45% for reserved categories).",
+        "about": "India's first completely 'Gen-AI Powered' Online MBA from a NAAC A++ rated university. Students are extensively trained on 25+ emergent AI tools alongside rigorous management curriculums to create undeniably future-proof business leaders.",
+        "careerScope": "Transforms candidates into high-capability leaders targeting prominent roles like Tech-Product Managers, AI Strategy Leads, Senior Financial Controllers, and Hospital Administrators across top-tier multinational structures.",
+        "paymentDetails": "<b>🔥 Gen-AI Powered Premium MBA!</b><br/><br/>• <b>Semester 1 Fee:</b> <b>₹ 50,000</b><br/>• <b>Total Program Fee:</b> <b>₹ 1,89,400</b><br/><br/><i>Exam Fee: Managed natively via DPU</i><br/><i>Flexible No-Cost EMIs starting as low as ₹ 7,892/month available directly on the portal.</i>",
+        "certifications": "Opportunity to earn massively prestigious additional module certifications natively from Harvard, MIT, NYU, and Columbia.",
+        "usps": [
+          "India's First 'Gen AI Powered MBA' heavily integrating 25+ modern AI tools",
+          "Bonus access to Ivy League (Harvard/MIT/Columbia) tier certifications",
+          "Rated officially NAAC A++ with Top 50 NIRF Ranking",
+          "Vast alumni backing bridging huge gaps in physical networking limits",
+          "Exceptional financial accessibility completely locked at ₹ 7,892/mo No-Cost EMI"
+        ],
+        "specializations": [
+          {
+            "name": "Marketing Management",
+            "jobRoles": [
+              "Brand Manager",
+              "Marketing Head",
+              "Chief Marketing Officer (CMO)"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Advanced focus on hyper-targeted Consumer Behavior, Marketing Research, and modern Digital funnels.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Human Resource Management",
+            "jobRoles": [
+              "HR Business Partner",
+              "Recruitment Head",
+              "CHRO"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Complex employee ecosystems, global Talent Acquisition, and Organizational Development strategies.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Finance Management",
+            "jobRoles": [
+              "Financial Controller",
+              "Investment Banker",
+              "CFO"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Aggressive focus on high-stakes Capital Markets, Wealth Management, and structured Corporate Finance.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "IT Management",
+            "jobRoles": [
+              "IT Project Manager",
+              "Systems Analyst",
+              "Chief Information Officer"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Deep dive into agile Software Project Management and enterprise Information Security frameworks.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Project Management",
+            "jobRoles": [
+              "Project Head",
+              "Operations Director",
+              "Scrum Master"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Strategic Resource Planning, timeline logistics, and enterprise scale Quality Management.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Operations Management",
+            "jobRoles": [
+              "Operations Manager",
+              "Supply Chain Director",
+              "Procurement Head"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Comprehensive focus strictly on massive Production Planning and integrated SCM.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Hospital Administration & Healthcare Management",
+            "jobRoles": [
+              "Hospital Admin",
+              "Healthcare Operations Lead",
+              "Clinical Director"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Specialized administrative tracks focusing natively on Clinical Services and macro Hospital Planning.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "International Business Management",
+            "jobRoles": [
+              "Global Operations Head",
+              "International Sales Director",
+              "ExIm Specialist"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Cross-border strategy, Global Marketing architectures, and definitive Export-Import Management.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Fintech Management",
+            "jobRoles": [
+              "Fintech Product Manager",
+              "Digital Banking Lead",
+              "Financial Strategist"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Strict focus heavily leveraging Digital Payments schemas and emerging Financial Technologies.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Business Analytics Management",
+            "jobRoles": [
+              "Lead Data Analyst",
+              "Business Intelligence Manager",
+              "Strategy Consultant"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Big Data ecosystems, massive-scale Data Mining, and high-accuracy Predictive Modeling.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Artificial Intelligence and Machine Learning",
+            "jobRoles": [
+              "AI Product Lead",
+              "ML Integrations Manager",
+              "Tech Strategist"
+            ],
+            "price": "₹ 1,89,400",
+            "details": "Leveraging Deep Learning frameworks and deploying functional AI explicitly for Business growth.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Logistics, Materials and Supply Chain Management",
+            "price": "₹ 1,89,400",
+            "details": "Complex tracks mapping hyper-scale Inventory mechanics and global Procurement loops.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Digital Marketing Management",
+            "price": "₹ 1,89,400",
+            "details": "Explicitly technical SEO loops, SEM architecture, and programmatic Content Strategies.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Block Chain Management",
+            "price": "₹ 1,89,400",
+            "details": "Web3 economics, Decentralized Ledger frameworks, and corporate integration of Cryptography.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          },
+          {
+            "name": "Agri Business Management",
+            "price": "₹ 1,89,400",
+            "details": "Nuances of large-scale Rural Marketing, seed-to-shelf logistics, and the modern Agro-Industry.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PG",
+        "name": "MCA",
+        "duration": "24 Months (2 Years)",
+        "priceRange": "₹ 1,40,000",
+        "eligibility": "Any Non-IT / IT Graduate (BCA/BBA/B.Sc/B.Com/BA) with minimum 50% marks (45% for reserved categories). Mathematics at 10+2 level or Graduation mapped is highly preferred/mandated.",
+        "about": "Online Master of Computer Applications designed for fresh graduates and working professionals to build advanced computing and business application skills.",
+        "careerScope": "Top tier tech roles in software development, architecture, cloud engineering, and database management.",
+        "paymentDetails": "<b>🔥 High-Demand MCA Program!</b><br/><br/>• <b>Semester 1 & 2 Fee:</b> <b>₹ 40,000 each</b><br/>• <b>Semester 3 & 4 Fee:</b> <b>₹ 30,000 each</b><br/>• <b>Total Program Fee:</b> <b>₹ 1,40,000</b><br/><br/><i>Special Scholarship of ₹10,000 available on Lumpsum payment within 15 days of admission.</i>",
+        "certifications": "Includes access to leading technical certifications across the cloud and AI spectrum.",
+        "usps": [
+          "Highly interactive I-Learn system with recorded practical frameworks.",
+          "Dedicated placement drives connecting to MNC tech partners.",
+          "Discount of ₹ 10,000 on upfront complete fee payment."
+        ],
+        "specializations": [
+          {
+            "name": "General",
+            "jobRoles": [
+              "Software Developer",
+              "IT Consultant",
+              "Systems Architect"
+            ],
+            "price": "₹ 1,40,000",
+            "details": "Comprehensive advanced track mapping full-stack software development workflows, systems architecture, and database algorithms.",
+            "usps": [
+              "Course fully accredited and compliant.",
+              "World-class digital learning materials.",
+              "Regular industry expert seminars."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

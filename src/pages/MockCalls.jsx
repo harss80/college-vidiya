@@ -44,14 +44,64 @@ const MockCalls = () => {
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
   const filteredUniversities = useMemo(() => {
+      const extractPrice = (priceStr) => {
+          if (!priceStr) return 0;
+          const match = priceStr.toString().match(/₹?([\d,]+)/);
+          return match ? parseInt(match[1].replace(/,/g, ''), 10) : 0;
+      };
+
+      const checkBudget = (priceVal) => {
+          if (budgetFilter === 'All') return true;
+          if (!priceVal) return false;
+          if (budgetFilter === '< ₹1L') return priceVal < 100000;
+          if (budgetFilter === '< ₹1.5L') return priceVal <= 150000;
+          if (budgetFilter === '< ₹2L') return priceVal <= 200000;
+          if (budgetFilter === '₹1L - ₹2L') return priceVal >= 100000 && priceVal <= 200000;
+          if (budgetFilter === '> ₹2L') return priceVal > 200000;
+          return true;
+      };
+
     return universities.filter(uni => {
       // Basic Filters
-      if (levelFilter !== 'All' && !uni.level.includes(levelFilter)) return false;
+      if (levelFilter !== 'All') {
+        if (levelFilter === 'Dual') {
+            let hasDual = false;
+            if (uni.extendedDetails?.programs) {
+                hasDual = uni.extendedDetails.programs.some(prog => 
+                    prog.name.toLowerCase().includes('dual') || 
+                    (prog.specializations && prog.specializations.some(s => s.name.toLowerCase().includes('dual')))
+                );
+            } else if (uni.specializations) {
+                hasDual = uni.specializations.some(s => s.toLowerCase().includes('dual'));
+            }
+            if (!hasDual && uni.name.toLowerCase().includes('dual')) hasDual = true;
+            
+            if (!hasDual) return false;
+        } else {
+            if (!uni.level.includes(levelFilter)) return false;
+        }
+      }
+
       if (budgetFilter !== 'All') {
-        const bdg = uni.budget;
-        if (budgetFilter === '< ₹1L' && bdg >= 100000) return false;
-        if (budgetFilter === '₹1L - ₹2L' && (bdg < 100000 || bdg > 200000)) return false;
-        if (budgetFilter === '> ₹2L' && bdg <= 200000) return false;
+          let hasAnyBudgetMatch = false;
+          if (uni.extendedDetails?.programs) {
+              for (const prog of uni.extendedDetails.programs) {
+                  if (prog.specializations) {
+                      if (prog.specializations.some(s => checkBudget(extractPrice(s.price)))) {
+                          hasAnyBudgetMatch = true;
+                          break;
+                      }
+                  } else if (prog.priceRange) {
+                      if (checkBudget(extractPrice(prog.priceRange))) {
+                          hasAnyBudgetMatch = true;
+                          break;
+                      }
+                  }
+              }
+          } else {
+             hasAnyBudgetMatch = checkBudget(uni.budget);
+          }
+          if (!hasAnyBudgetMatch) return false;
       }
       // Advanced Contextual Search Logic
       if (specSearch.trim()) {
@@ -62,18 +112,32 @@ const MockCalls = () => {
         const uniBaseText = expandText(`${uni.name} ${uni.location} ${uni.type} ${uni.ranking} ${uni.accreditation}`);
 
         if (uni.extendedDetails?.programs) {
-            const validPrograms = uni.extendedDetails.programs.filter(prog => levelFilter === 'All' || prog.group === levelFilter);
+            const validPrograms = uni.extendedDetails.programs.filter(prog => {
+                if (levelFilter === 'All') return true;
+                if (levelFilter === 'Dual') {
+                    return prog.name.toLowerCase().includes('dual') || (prog.specializations && prog.specializations.some(s => s.name.toLowerCase().includes('dual')));
+                }
+                return prog.group === levelFilter;
+            });
             
             if (validPrograms.length === 0 && queryWords.length > 0) return false;
             
             hasValidProgramMatch = validPrograms.some(prog => {
-                const progText = expandText(`${prog.name} ${prog.name.replace(/\./g, '')} ${prog.group} ${prog.specializations ? prog.specializations.map(s => s.name).join(' ') : ''}`);
-                // Every query word must natively exist in general info OR this exact specific program context
-                return queryWords.every(w => uniBaseText.includes(w) || progText.includes(w));
+                if (prog.specializations) {
+                    return prog.specializations.some(s => {
+                        const sText = expandText(`${uniBaseText} ${prog.name} ${prog.name.replace(/\./g, '')} ${prog.group} ${s.name}`);
+                        const textMatch = queryWords.every(w => sText.includes(w));
+                        const budgetMatch = checkBudget(extractPrice(s.price));
+                        return textMatch && budgetMatch;
+                    });
+                } else {
+                    const progText = expandText(`${uniBaseText} ${prog.name} ${prog.name.replace(/\./g, '')} ${prog.group}`);
+                    return queryWords.every(w => progText.includes(w)) && checkBudget(extractPrice(prog.priceRange));
+                }
             });
         } else {
             const tagsText = expandText(uni.specializations.join(' '));
-            hasValidProgramMatch = queryWords.every(w => uniBaseText.includes(w) || tagsText.includes(w));
+            hasValidProgramMatch = queryWords.every(w => uniBaseText.includes(w) || tagsText.includes(w)) && checkBudget(uni.budget);
         }
 
         if (!hasValidProgramMatch) return false;
@@ -82,33 +146,77 @@ const MockCalls = () => {
     }).map(uni => {
        // Advanced UI Highlights
        let allAvailableTags = [];
+       let minRelevantPrice = Infinity;
+       
+       const stopWords = ['in', 'and', 'with', 'for', 'of', '&', 'a', 'the', '-'];
+       const queryWords = specSearch.trim().toLowerCase().split(/\s+/).filter(w => w && !stopWords.includes(w));
+       const uniBaseText = expandText(`${uni.name} ${uni.location} ${uni.type} ${uni.ranking} ${uni.accreditation}`);
+       
        if (uni.extendedDetails?.programs) {
-           const validPrograms = uni.extendedDetails.programs.filter(prog => levelFilter === 'All' || prog.group === levelFilter);
+           const validPrograms = uni.extendedDetails.programs.filter(prog => {
+               if (levelFilter === 'All') return true;
+               if (levelFilter === 'Dual') {
+                   return prog.name.toLowerCase().includes('dual') || (prog.specializations && prog.specializations.some(s => s.name.toLowerCase().includes('dual')));
+               }
+               return prog.group === levelFilter;
+           });
            validPrograms.forEach(prog => {
                if (prog.specializations) {
-                   prog.specializations.forEach(s => allAvailableTags.push(`${prog.name} in ${s.name}`));
+                   prog.specializations.forEach(s => {
+                       const pVal = extractPrice(s.price);
+                       if (checkBudget(pVal)) {
+                           allAvailableTags.push(`${prog.name} in ${s.name}`);
+                           
+                           const sText = expandText(`${uniBaseText} ${prog.name} ${prog.name.replace(/\./g, '')} ${prog.group} ${s.name}`);
+                           if (queryWords.length > 0) {
+                               if (queryWords.every(w => sText.includes(w))) {
+                                   if (pVal < minRelevantPrice && pVal > 0) minRelevantPrice = pVal;
+                               }
+                           } else {
+                               if (pVal < minRelevantPrice && pVal > 0) minRelevantPrice = pVal;
+                           }
+                       }
+                   });
+               } else {
+                   const pVal = extractPrice(prog.priceRange);
+                   if (checkBudget(pVal)) {
+                       allAvailableTags.push(prog.name);
+                       const progText = expandText(`${uniBaseText} ${prog.name} ${prog.name.replace(/\./g, '')} ${prog.group}`);
+                       if (queryWords.length > 0) {
+                           if (queryWords.every(w => progText.includes(w))) {
+                               if (pVal < minRelevantPrice && pVal > 0) minRelevantPrice = pVal;
+                           }
+                       } else {
+                           if (pVal < minRelevantPrice && pVal > 0) minRelevantPrice = pVal;
+                       }
+                   }
                }
            });
        } else {
            allAvailableTags = [...uni.specializations];
+           minRelevantPrice = typeof uni.budget === 'number' ? uni.budget : extractPrice(uni.budget) || Infinity;
        }
        
-       const stopWords = ['in', 'and', 'with', 'for', 'of', '&', 'a', 'the', '-'];
-       const queryWords = specSearch.trim().toLowerCase().split(/\s+/).filter(w => w && !stopWords.includes(w));
+       if (minRelevantPrice === Infinity) {
+           minRelevantPrice = typeof uni.budget === 'number' ? uni.budget : extractPrice(uni.budget) || 0;
+       }
        
        let matchedSpecs = [];
        if (queryWords.length > 0) {
-         const uniBaseText = expandText(`${uni.name} ${uni.location} ${uni.type} ${uni.ranking}`);
          const specRequiredWords = queryWords.filter(w => !uniBaseText.includes(w));
          
          if (specRequiredWords.length > 0) {
              matchedSpecs = allAvailableTags.filter(spec => 
                  specRequiredWords.every(w => expandText(spec).includes(w))
              );
+         } else {
+             matchedSpecs = allAvailableTags.filter(spec => 
+                 queryWords.every(w => expandText(spec).includes(w) || uniBaseText.includes(w))
+             );
          }
        }
-       return { ...uni, matchedSpecs, displayTags: allAvailableTags };
-    });
+       return { ...uni, matchedSpecs, displayTags: allAvailableTags, minRelevantPrice };
+    }).sort((a, b) => a.minRelevantPrice - b.minRelevantPrice);
   }, [specSearch, levelFilter, budgetFilter]);
 
   return (
@@ -168,13 +276,13 @@ const MockCalls = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-14 relative z-30">
         {/* Quick Filters Row */}
-        <div className="bg-white rounded-2xl shadow-xl border border-slate-100 p-4 mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="bg-white rounded-2xl shadow-xl border border-slate-100 p-4 mb-8 flex flex-col md:flex-row items-center justify-center gap-6">
            {/* Filters */}
-           <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
-               <div className="flex items-center gap-3 w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 hide-scrollbar">
+           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">
+               <div className="flex items-center justify-center gap-3 w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 hide-scrollbar">
                   <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest pl-2">Level</span>
                   <div className="flex bg-slate-50 p-1 rounded-xl border border-slate-100">
-                     {['All', 'UG', 'PG', 'Integrated', 'Ph.D'].map((lvl) => (
+                     {['All', 'UG', 'PG', 'Integrated', 'Dual'].map((lvl) => (
                         <button
                            key={lvl}
                            onClick={() => setLevelFilter(lvl)}
@@ -189,9 +297,9 @@ const MockCalls = () => {
                <div className="hidden sm:block w-px h-8 bg-slate-200"></div>
 
                <div className="flex items-center gap-3 w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 hide-scrollbar">
-                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest pl-2">Budget</span>
+                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest pl-2 shrink-0">Budget</span>
                   <div className="flex bg-slate-50 p-1 rounded-xl border border-slate-100">
-                     {['All', '< ₹1L', '₹1L - ₹2L', '> ₹2L'].map((bdg) => (
+                     {['All', '< ₹1L', '< ₹1.5L', '< ₹2L', '> ₹2L'].map((bdg) => (
                         <button
                            key={bdg}
                            onClick={() => setBudgetFilter(bdg)}
