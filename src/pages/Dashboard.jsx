@@ -63,7 +63,7 @@ const Dashboard = () => {
   const visibleObjections = showAllObjections ? preciousObjections : preciousObjections.slice(0, 4);
 
   const handleSearchClick = () => {
-    navigate('/mock-calls');
+    navigate('/university-data');
   };
 
   return (
@@ -138,6 +138,29 @@ const Dashboard = () => {
             </button>
           </motion.div>
 
+          {/* Quick Start Floating Action Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="flex flex-col sm:flex-row gap-4 mt-6 z-20 relative"
+          >
+             <button 
+                onClick={() => navigate('/student-profiler')}
+                className="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold py-4 px-8 rounded-xl backdrop-blur-md transition-all flex items-center justify-center gap-2 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(255,255,255,0.1)]"
+             >
+                <Target size={18} />
+                Launch Degree Matcher
+             </button>
+             <button 
+                onClick={() => navigate('/counselor-framework')}
+                className="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold py-4 px-8 rounded-xl backdrop-blur-md transition-all flex items-center justify-center gap-2 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(255,255,255,0.1)]"
+             >
+                <CheckCircle2 size={18} />
+                Counselor Framework Flow
+             </button>
+          </motion.div>
+
           <motion.div
              initial={{ opacity: 0 }}
              whileInView={{ opacity: 1 }}
@@ -153,8 +176,39 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 relative z-20 pb-12">
-        <div className="bg-white/90 backdrop-blur-xl rounded-[2rem] border border-white/50 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] p-6 md:p-8 lg:p-10">
+      {/* 2. Counselor Performance Widget */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-20 relative z-20 pb-8">
+        <div className="glass-card-premium rounded-[2rem] p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+           <div className="flex items-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 p-1 shadow-lg shrink-0">
+                 <img src="https://ui-avatars.com/api/?name=Counselor&background=ffffff&color=0056d2&bold=true" alt="Profile" className="w-full h-full rounded-full border-2 border-white" />
+              </div>
+              <div>
+                 <h3 className="text-xl font-black text-slate-900 tracking-tight">Welcome back, Counselor</h3>
+                 <p className="text-sm font-bold text-slate-500">Your mock call performance is strictly monitored.</p>
+              </div>
+           </div>
+           
+           <div className="grid grid-cols-3 gap-3 md:gap-6 w-full md:w-auto">
+              <div className="bg-slate-50 border border-slate-100 p-3 md:p-4 rounded-xl flex flex-col items-center justify-center min-w-[100px]">
+                 <span className="text-2xl font-black text-primary-600">12</span>
+                 <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest mt-1">Calls Logged</span>
+              </div>
+              <div className="bg-slate-50 border border-slate-100 p-3 md:p-4 rounded-xl flex flex-col items-center justify-center min-w-[100px] relative overflow-hidden">
+                 <div className="absolute inset-0 bg-emerald-400/10 z-0"></div>
+                 <span className="text-2xl font-black text-emerald-600 z-10">94%</span>
+                 <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest mt-1 z-10">Avg Score</span>
+              </div>
+              <div className="bg-slate-50 border border-slate-100 p-3 md:p-4 rounded-xl flex flex-col items-center justify-center min-w-[100px]">
+                 <span className="text-2xl font-black text-accent-500">Top 5%</span>
+                 <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest mt-1">Rank</span>
+              </div>
+           </div>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 pb-12">
+        <div className="glass-card-premium rounded-[2rem] p-6 md:p-8 lg:p-10">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8 pb-6 border-b border-slate-100">
                 <div>
                     <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-50 text-red-600 font-black text-[10px] uppercase tracking-widest mb-3 border border-red-100 opacity-90">

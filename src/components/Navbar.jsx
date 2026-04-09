@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white border-b border-slate-200 shadow-sm transition-colors duration-300">
+    <nav className="fixed top-0 w-full z-50 glass-nav transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-[72px]">
           {/* Logo Section */}
@@ -20,55 +20,28 @@ const Navbar = () => {
             </NavLink>
             
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-1 pl-6 ml-2 h-8">
-              <NavLink 
-                to="/" 
-                className={({ isActive }) => 
-                  `px-4 py-2 rounded-md text-sm font-bold transition-all ${
-                    isActive 
-                      ? 'text-primary-600 bg-primary-50' 
-                      : 'text-slate-600 hover:text-primary-600 hover:bg-slate-50'
-                  }`
-                }
-              >
-                Dashboard
-              </NavLink>
-              <NavLink 
-                to="/mock-calls" 
-                className={({ isActive }) => 
-                  `px-4 py-2 rounded-md text-sm font-bold transition-all ${
-                    isActive 
-                      ? 'text-primary-600 bg-primary-50' 
-                      : 'text-slate-600 hover:text-primary-600 hover:bg-slate-50'
-                  }`
-                }
-              >
-                University Data Tool
-              </NavLink>
-              <NavLink 
-                to="/counselor-framework" 
-                className={({ isActive }) => 
-                  `px-4 py-2 rounded-md text-sm font-bold transition-all ${
-                    isActive 
-                      ? 'text-primary-600 bg-primary-50' 
-                      : 'text-slate-600 hover:text-primary-600 hover:bg-slate-50'
-                  }`
-                }
-              >
-                Counselor Framework
-              </NavLink>
-              <NavLink 
-                to="/specialization-guide" 
-                className={({ isActive }) => 
-                  `px-4 py-2 rounded-md text-sm font-bold transition-all ${
-                    isActive 
-                      ? 'text-primary-600 bg-primary-50' 
-                      : 'text-slate-600 hover:text-primary-600 hover:bg-slate-50'
-                  }`
-                }
-              >
-                Specialization Guide
-              </NavLink>
+            <div className="hidden md:flex items-center space-x-1 pl-6 ml-2 h-full py-5">
+              {[
+                { to: '/', label: 'Dashboard' },
+                { to: '/university-data', label: 'Universities' },
+                { to: '/counselor-framework', label: 'Framework' },
+                { to: '/specialization-guide', label: 'Specializations' },
+                { to: '/student-profiler', label: 'Profiler' }
+              ].map((link) => (
+                <NavLink 
+                  key={link.to}
+                  to={link.to} 
+                  className={({ isActive }) => 
+                    `px-4 py-2 text-sm font-bold transition-all relative ${
+                      isActive 
+                        ? 'text-primary-600 after:absolute after:-bottom-[18px] after:left-1/2 after:-translate-x-1/2 after:w-1/2 after:h-[3px] after:bg-primary-600 after:rounded-t-full' 
+                        : 'text-slate-500 hover:text-slate-900'
+                    }`
+                  }
+                >
+                  {link.label}
+                </NavLink>
+              ))}
             </div>
           </div>
 
@@ -113,7 +86,7 @@ const Navbar = () => {
                 Dashboard
               </NavLink>
               <NavLink 
-                to="/mock-calls" 
+                to="/university-data" 
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={({ isActive }) => 
                   `block px-4 py-3 rounded-md text-sm font-bold transition-all ${
@@ -123,7 +96,7 @@ const Navbar = () => {
                   }`
                 }
               >
-                University Data Tool
+                Universities
               </NavLink>
               <NavLink 
                 to="/counselor-framework" 
@@ -136,7 +109,7 @@ const Navbar = () => {
                   }`
                 }
               >
-                Counselor Framework
+                Framework
               </NavLink>
               <NavLink 
                 to="/specialization-guide" 
@@ -149,7 +122,20 @@ const Navbar = () => {
                   }`
                 }
               >
-                Specialization Guide
+                Specializations
+              </NavLink>
+              <NavLink 
+                to="/student-profiler" 
+                onClick={() => setIsMobileMenuOpen(false)}
+                className={({ isActive }) => 
+                  `block px-4 py-3 rounded-md text-sm font-bold transition-all ${
+                    isActive 
+                      ? 'text-primary-600 bg-primary-50' 
+                      : 'text-slate-600 hover:text-primary-600 hover:bg-slate-50'
+                  }`
+                }
+              >
+                Profiler
               </NavLink>
               
               <div className="border-t border-slate-100 mt-2 pt-2">

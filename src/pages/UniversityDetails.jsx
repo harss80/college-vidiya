@@ -154,7 +154,7 @@ const UniversityDetails = () => {
                                                              return (
                                                                 <button 
                                                                    key={j}
-                                                                   onClick={() => navigate(`/mock-calls/university/${uniId}/program/${encodeURIComponent(prog.name)}/specialization/${encodeURIComponent(spec.name)}`)}
+                                                                   onClick={() => navigate(`/university-data/university/${uniId}/program/${encodeURIComponent(prog.name)}/specialization/${encodeURIComponent(spec.name)}`)}
                                                                    className={`text-left px-4 py-3 rounded-lg border transition-all flex flex-col gap-1 items-start ${isSpecSelected ? 'bg-slate-900 border-slate-900 shadow-lg' : 'bg-white border-slate-200 hover:border-[#0047ad] shadow-sm group'}`}
                                                                 >
                                                                    <span className={`text-[13px] font-bold ${isSpecSelected ? 'text-white' : 'text-slate-700 group-hover:text-[#0047ad]'}`}>

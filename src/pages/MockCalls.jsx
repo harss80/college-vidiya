@@ -42,6 +42,9 @@ const MockCalls = () => {
     sessionStorage.setItem('cvBudget', budgetFilter);
   }, [specSearch, levelFilter, budgetFilter]);
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
+  
+  const quickSuggestions = ['MCA in AI', 'MBA Dual', 'BCA', 'Data Science', 'Zero EMI'];
 
   const filteredUniversities = useMemo(() => {
       const extractPrice = (priceStr) => {
@@ -222,33 +225,32 @@ const MockCalls = () => {
   return (
     <div className="min-h-screen bg-[#f8fafc]">
       {/* Immersive Search Console Hero */}
-      <div className="bg-[#0047ad] pt-8 pb-32 relative z-20 overflow-hidden">
+      <div className="bg-white pt-32 pb-36 relative z-20 border-b border-slate-200">
          {/* Background Decorators */}
-         <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-white/5 rounded-full blur-[100px] pointer-events-none mix-blend-screen"></div>
-         <div className="absolute bottom-0 left-1/4 w-[600px] h-[600px] bg-[#ff6b00]/10 rounded-full blur-[120px] pointer-events-none mix-blend-screen"></div>
+         <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
+            <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-primary-50 rounded-full blur-[100px]"></div>
+            <div className="absolute bottom-0 left-1/4 w-[600px] h-[600px] bg-accent-50 rounded-full blur-[120px]"></div>
+         </div>
 
-         <div className="bg-red-500/90 text-white backdrop-blur-sm border border-red-400 text-[11px] font-black text-center py-2 px-4 rounded-full max-w-fit mx-auto flex items-center justify-center gap-2 tracking-widest uppercase shadow-md relative z-10 mb-6">
+         <div className="bg-red-50 text-red-600 border border-red-100 text-[11px] font-black text-center py-2 px-4 rounded-full max-w-fit mx-auto flex items-center justify-center gap-2 tracking-widest uppercase relative z-10 mb-6">
             <AlertCircle size={14} /> Live Training Console — Internal Use Only
          </div>
          
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="flex flex-col items-center text-center mb-10">
-               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white flex flex-col md:flex-row items-center gap-4 tracking-tight drop-shadow-md">
-                  <span className="p-3 bg-white/10 text-[#ffb180] rounded-2xl border border-white/20 shadow-sm backdrop-blur-md">
-                    <PhoneCall size={36} />
-                  </span>
-                  College Buddy Mock Desk
+               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight">
+                  <span className="text-primary-600">Mock Call</span> Simulator
                </h1>
-               <p className="text-lg md:text-xl font-medium text-blue-100 mt-6 max-w-2xl leading-relaxed">
-                  Query <span className="text-white font-bold">{universities.length}+ partnered approvals</span> instantly to construct high-converting, unbiased pitches.
+               <p className="text-lg md:text-xl font-medium text-slate-500 mt-6 max-w-2xl leading-relaxed">
+                  Query <span className="text-slate-800 font-bold">{universities.length}+ partnered approvals</span> instantly to construct high-converting, unbiased pitches.
                </p>
             </div>
 
             {/* Giant Omni Search Bar */}
             <div className="max-w-3xl mx-auto relative group">
-               <div className="absolute inset-0 bg-[#0056d2] rounded-2xl blur-xl group-hover:bg-[#0056d2]/80 transition-colors duration-500"></div>
-               <div className="relative bg-white rounded-2xl flex flex-col sm:flex-row items-center p-2 shadow-2xl border-2 border-white/20 transition-all focus-within:ring-4 focus-within:ring-white/20">
-                  <div className="w-full flex items-center">
+               <div className="absolute inset-0 bg-primary-400 rounded-[1.25rem] blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+               <div className="relative bg-white rounded-[1.25rem] flex flex-col sm:flex-row items-center p-2 shadow-lg border border-slate-200 transition-all focus-within:ring-4 focus-within:ring-primary-500/10 focus-within:border-primary-300 z-20">
+                  <div className="w-full flex items-center relative">
                      <div className="pl-4 pr-3">
                         <Search className="h-6 w-6 sm:h-7 sm:w-7 text-slate-400" />
                      </div>
@@ -257,6 +259,8 @@ const MockCalls = () => {
                         placeholder="Search 'MCA in AI', 'Delhi'..."
                         value={specSearch}
                         onChange={(e) => setSpecSearch(e.target.value)}
+                        onFocus={() => setIsSearchFocused(true)}
+                        onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
                         className="w-full py-3 sm:py-4 text-lg sm:text-xl text-slate-900 font-bold bg-transparent outline-none placeholder:text-slate-400 tracking-tight"
                         autoFocus
                      />
@@ -266,27 +270,53 @@ const MockCalls = () => {
                         <span className="px-2 py-1 bg-slate-100 rounded text-[10px] font-bold text-slate-500 border border-slate-200">K</span>
                      </div>
                   </div>
-                  <button className="w-full sm:w-auto mt-2 sm:mt-0 flex items-center justify-center gap-2 bg-[#ff6b00] hover:bg-[#e65c00] text-white font-bold py-3 px-8 rounded-xl transition-all shadow-lg shadow-[#ff6b00]/30 mr-0 sm:mr-1 whitespace-nowrap">
+                  <button className="w-full sm:w-auto mt-2 sm:mt-0 flex items-center justify-center gap-2 bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-8 rounded-xl transition-all shadow-md mr-0 sm:mr-1 whitespace-nowrap">
                      Find Matches
                   </button>
                </div>
+
+               {/* Autocomplete Suggestions */}
+               <AnimatePresence>
+                 {isSearchFocused && !specSearch && (
+                   <motion.div 
+                      initial={{ opacity: 0, y: 10, scale: 0.98 }}
+                      animate={{ opacity: 1, y: 0, scale: 1 }}
+                      exit={{ opacity: 0, y: 10, scale: 0.98 }}
+                      transition={{ duration: 0.15 }}
+                      className="absolute top-full left-0 right-0 mt-3 bg-white/95 backdrop-blur-xl border border-slate-200 rounded-2xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] p-4 z-50 text-left"
+                   >
+                      <p className="text-[10px] font-black tracking-widest text-slate-400 uppercase mb-3 pl-2">Top Searches</p>
+                      <div className="flex flex-wrap gap-2">
+                        {quickSuggestions.map((s, i) => (
+                           <button 
+                             key={i} 
+                             onMouseDown={(e) => { e.preventDefault(); setSpecSearch(s); setIsSearchFocused(false); }}
+                             className="px-4 py-2 bg-slate-50 hover:bg-primary-50 hover:text-primary-600 text-slate-600 font-bold text-sm rounded-xl border border-slate-200 hover:border-primary-200 transition-colors"
+                           >
+                             {s}
+                           </button>
+                        ))}
+                      </div>
+                   </motion.div>
+                 )}
+               </AnimatePresence>
             </div>
          </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-14 relative z-30">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-40 sticky top-[72px] mt-4">
         {/* Quick Filters Row */}
-        <div className="bg-white rounded-2xl shadow-xl border border-slate-100 p-4 mb-8 flex flex-col md:flex-row items-center justify-center gap-6">
+        <div className="bg-white/80 backdrop-blur-md border border-slate-200 shadow-sm rounded-xl p-3 mb-8 flex flex-col md:flex-row items-center justify-center gap-6">
            {/* Filters */}
            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">
                <div className="flex items-center justify-center gap-3 w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 hide-scrollbar">
                   <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest pl-2">Level</span>
-                  <div className="flex bg-slate-50 p-1 rounded-xl border border-slate-100">
+                  <div className="flex bg-slate-100/50 p-1 rounded-lg border border-slate-100">
                      {['All', 'UG', 'PG', 'Integrated', 'Dual'].map((lvl) => (
                         <button
                            key={lvl}
                            onClick={() => setLevelFilter(lvl)}
-                           className={`px-4 py-1.5 rounded-lg text-[13px] font-bold transition-all duration-300 ${levelFilter === lvl ? 'bg-[#e0edff] text-[#0056d2] shadow-sm' : 'text-slate-500 hover:text-slate-900'}`}
+                           className={`px-4 py-1.5 rounded-md text-[13px] font-bold transition-all duration-300 ${levelFilter === lvl ? 'bg-white text-primary-600 shadow-sm border border-slate-200' : 'text-slate-500 hover:text-slate-900 border border-transparent'}`}
                         >
                            {lvl === 'All' ? 'Any' : lvl}
                         </button>
@@ -294,16 +324,16 @@ const MockCalls = () => {
                   </div>
                </div>
                
-               <div className="hidden sm:block w-px h-8 bg-slate-200"></div>
+               <div className="hidden sm:block w-px h-6 bg-slate-200"></div>
 
                <div className="flex items-center gap-3 w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 hide-scrollbar">
                   <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest pl-2 shrink-0">Budget</span>
-                  <div className="flex bg-slate-50 p-1 rounded-xl border border-slate-100">
+                  <div className="flex bg-slate-100/50 p-1 rounded-lg border border-slate-100">
                      {['All', '< ₹1L', '< ₹1.5L', '< ₹2L', '> ₹2L'].map((bdg) => (
                         <button
                            key={bdg}
                            onClick={() => setBudgetFilter(bdg)}
-                           className={`px-4 py-1.5 rounded-lg text-[13px] font-bold transition-all duration-300 ${budgetFilter === bdg ? 'bg-[#e0edff] text-[#0056d2] shadow-sm' : 'text-slate-500 hover:text-slate-900'}`}
+                           className={`px-4 py-1.5 rounded-md text-[13px] font-bold transition-all duration-300 ${budgetFilter === bdg ? 'bg-white text-primary-600 shadow-sm border border-slate-200' : 'text-slate-500 hover:text-slate-900 border border-transparent'}`}
                         >
                            {bdg === 'All' ? 'Any' : bdg}
                         </button>
@@ -347,92 +377,90 @@ const MockCalls = () => {
                           animate={{ opacity: 1, scale: 1 }}
                           exit={{ opacity: 0, scale: 0.9 }}
                           transition={{ duration: 0.2 }}
-                          onClick={() => navigate(`/mock-calls/university/${uni.id}`)}
+                          onClick={() => navigate(`/university-data/university/${uni.id}`)}
                           className="bg-white border border-slate-200 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-[#0056d2]/5 hover:border-primary-200 hover:-translate-y-1 transition-all duration-300 flex flex-col group cursor-pointer"
                        >
-                           {/* Premium Profile Card Format */}
-                           <div className="bg-white rounded-[1.5rem] overflow-hidden border border-slate-200 shadow-[0_4px_20px_rgb(0,0,0,0.04)] hover:shadow-[0_12px_40px_rgb(0,86,210,0.12)] hover:border-blue-200 transition-all duration-300 flex flex-col relative group h-full">
+                           {/* Premium Profile Card */}
+                           <div className="bg-white rounded-[1.5rem] overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl hover:shadow-primary-500/10 hover:border-primary-200 transition-all duration-300 flex flex-col relative group h-full p-6">
                               
-                              {/* Rich Banner Header */}
-                              <div className="h-28 bg-gradient-to-r from-[#003B95] to-[#0056d2] relative p-5 flex justify-between items-start overflow-hidden">
-                                 <div className="absolute -top-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
-                                 <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
-                                 
-                                 <div className="bg-white/20 backdrop-blur-md border border-white/20 text-white text-[10px] font-black px-2.5 py-1.5 rounded-lg inline-flex items-center gap-1.5 shadow-sm relative z-10 tracking-widest uppercase">
-                                    <ShieldCheck size={14}/> Authorized
-                                 </div>
-                                 <div className="bg-black/20 backdrop-blur-sm text-white/90 text-[10px] font-bold px-2.5 py-1.5 rounded-lg relative z-10 tracking-widest uppercase">
-                                    {uni.type}
-                                 </div>
-                              </div>
+                                {/* Header Section with Uniform Height */}
+                                <div className="h-[145px] flex flex-col mb-2">
+                                   {/* Top Info Tags */}
+                                   <div className="flex items-center gap-2 mb-4 shrink-0">
+                                      <div className="bg-emerald-50 text-emerald-700 text-[10px] font-black px-2.5 py-1 rounded-md border border-emerald-100 uppercase flex items-center gap-1">
+                                         <ShieldCheck size={12}/> Authorized
+                                      </div>
+                                      <div className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-md uppercase border border-slate-200">
+                                         {uni.type}
+                                      </div>
+                                   </div>
 
-                              {/* Overlapping Content Body */}
-                              <div className="px-6 flex flex-col flex-1 relative z-10 -mt-12">
-                                 {/* Logo & Top Badges Row */}
-                                 <div className="flex justify-between items-start gap-3 mb-4">
-                                    <div className="w-20 h-20 sm:w-24 sm:h-24 bg-white shrink-0 rounded-2xl p-2 shadow-lg border border-slate-100 flex items-center justify-center group-hover:-translate-y-1 transition-transform duration-300 relative z-20">
-                                        <img src={uni.logo} alt={uni.name} className="w-full h-full object-contain rounded-xl" />
-                                    </div>
-                                    <div className="flex flex-col items-end gap-1.5 pt-2 mb-2 flex-1 min-w-0">
-                                        <div title={uni.accreditation} className="bg-emerald-50 text-emerald-700 text-[10px] font-black px-2.5 py-1 rounded-md border border-emerald-200 shadow-sm uppercase text-right max-w-full leading-tight line-clamp-2">{uni.accreditation}</div>
-                                        <div title={uni.ranking} className="bg-purple-50 text-purple-700 text-[10px] font-black px-2.5 py-1 rounded-md border border-purple-200 shadow-sm uppercase text-right max-w-full truncate">{uni.ranking}</div>
-                                    </div>
-                                 </div>
+                                   {/* Logo & Headline */}
+                                   <div className="flex items-start gap-3">
+                                      <div className="w-14 h-14 sm:w-16 sm:h-16 bg-white shrink-0 rounded-2xl p-1.5 border border-slate-100 shadow-sm flex items-center justify-center">
+                                          <img src={uni.logo} alt={uni.name} className="w-full h-full object-contain" />
+                                      </div>
+                                      <div className="flex flex-col min-w-0 flex-1">
+                                         <h3 className="text-[17px] font-black text-slate-900 leading-snug mb-1.5 group-hover:text-primary-600 transition-colors line-clamp-2 break-words">
+                                            {uni.name}
+                                         </h3>
+                                         <div className="flex items-center gap-1.5 text-[12px] text-slate-500 font-bold mb-2">
+                                            <MapPin size={12} className="text-slate-400 shrink-0" /> <span className="truncate">{uni.location}</span>
+                                         </div>
+                                         <div className="flex flex-wrap gap-1.5 mt-auto">
+                                            <div title={uni.accreditation} className="bg-slate-50 text-slate-500 text-[8px] font-black px-1.5 py-0.5 rounded border border-slate-200 uppercase truncate max-w-full">{uni.accreditation}</div>
+                                            <div title={uni.ranking} className="bg-slate-50 text-slate-500 text-[8px] font-black px-1.5 py-0.5 rounded border border-slate-200 uppercase truncate max-w-full">{uni.ranking}</div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
 
-                                 {/* Title & Location (No Truncation) */}
-                                 <h3 className="text-[20px] sm:text-[22px] font-black text-slate-900 leading-[1.25] mb-2 group-hover:text-[#0056d2] transition-colors line-clamp-2 min-h-[50px] sm:min-h-[55px]">
-                                    {uni.name}
-                                 </h3>
-                                 <div className="flex items-center gap-1.5 text-[14px] text-slate-500 font-bold mb-6">
-                                    <MapPin size={16} className="text-slate-400 shrink-0" /> <span className="truncate">{uni.location}</span>
-                                 </div>
-
-                                 {/* Premium Data Box Matrix */}
-                                 <div className="grid grid-cols-2 gap-px bg-slate-200 border border-slate-200 rounded-xl overflow-hidden mb-6 shadow-sm">
-                                    <div className="bg-white p-3 sm:p-4 flex flex-col justify-center">
-                                       <span className="text-[9px] sm:text-[10px] text-slate-400 font-black uppercase tracking-widest mb-1.5 flex items-center gap-1"><Banknote size={12}/> Est. Tuition</span>
-                                       <span className="text-[14px] sm:text-[16px] font-black text-slate-900 line-clamp-2 leading-tight">{uni.fees}</span>
+                                 {/* Clean Data Box Matrix */}
+                                 <div className="grid grid-cols-2 gap-px bg-slate-100 border border-slate-100 rounded-xl overflow-hidden mb-5 shrink-0 h-[72px]">
+                                    <div className="bg-slate-50 p-3 flex flex-col justify-start min-w-0">
+                                       <span className="text-[9px] text-slate-500 font-bold uppercase tracking-widest mb-1 flex items-center gap-1 shrink-0"><Banknote size={12} className="text-primary-500"/> Est. Tuition</span>
+                                       <span className="text-[12px] font-black text-slate-900 leading-tight line-clamp-1 break-words" title={uni.fees}>{uni.budget ? `Starting ₹${Number(uni.budget).toLocaleString('en-IN')}` : uni.fees}</span>
                                     </div>
-                                    <div className="bg-white p-3 sm:p-4 flex flex-col justify-center">
-                                       <span className="text-[9px] sm:text-[10px] text-slate-400 font-black uppercase tracking-widest mb-1.5 flex items-center gap-1"><TrendingUp size={12}/> Max Package</span>
-                                       <span className="text-[14px] sm:text-[16px] font-black text-emerald-600 line-clamp-2 leading-tight">{uni.placement.split('|')[1]?.trim() || uni.placement.split('|')[0]?.trim()}</span>
+                                    <div className="bg-slate-50 p-3 flex flex-col justify-start min-w-0">
+                                       <span className="text-[9px] text-slate-500 font-bold uppercase tracking-widest mb-1 flex items-center gap-1 shrink-0"><TrendingUp size={12} className="text-emerald-500"/> Max Package</span>
+                                       <span className="text-[12px] font-black text-emerald-600 leading-tight line-clamp-2 break-words" title={uni.placement}>{uni.placement.split('|')[1]?.trim() || uni.placement.split('|')[0]?.trim()}</span>
                                     </div>
                                  </div>
 
                                  {/* Specs Section Container */}
-                                 <div className="flex-1 flex flex-col">
-                                    <span className="text-[11px] font-black text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-1"><CheckCircle2 size={14}/> Top Program Matches</span>
-                                    <div className="flex flex-wrap gap-2">
+                                 <div className="flex-1 flex flex-col min-h-0">
+                                    <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-1 shrink-0"><CheckCircle2 size={12}/> Top Matches</span>
+                                    <div className="flex flex-col gap-1.5 overflow-hidden">
                                        {(() => {
                                           const matched = uni.matchedSpecs || [];
                                           const others = (uni.displayTags || uni.specializations).filter(s => !matched.includes(s));
                                           const displaySpecs = [...matched, ...others];
-                                          return displaySpecs.slice(0, 4).map((spec, i) => {
+                                          return displaySpecs.slice(0, 3).map((spec, i) => {
                                              const isMatch = matched.includes(spec);
                                              return (
-                                                 <span key={i} className={`px-2.5 py-1.5 rounded-lg text-[11px] font-bold border transition-colors flex items-center gap-1.5 ${isMatch ? 'bg-[#e0edff] text-[#0056d2] border-blue-200 shadow-sm' : 'bg-slate-50 text-slate-600 border-slate-200'}`}>
-                                                     {isMatch && <div className="w-1.5 h-1.5 bg-[#0056d2] rounded-full shrink-0"></div>}
-                                                     {spec}
+                                                 <span key={i} className={`px-2 py-1 rounded-md text-[10px] font-semibold border transition-colors flex items-center gap-1.5 max-w-full truncate ${isMatch ? 'bg-primary-50 text-primary-700 border-primary-100' : 'bg-slate-50 text-slate-500 border-slate-100'}`}>
+                                                     {isMatch && <div className="w-1.5 h-1.5 bg-primary-500 rounded-full shrink-0"></div>}
+                                                     <span className="truncate">{spec}</span>
                                                  </span>
                                              );
                                           });
                                        })()}
+
                                     </div>
                                  </div>
-                              </div>
 
                               {/* Bottom CTAs */}
-                              <div className="p-5 mt-6 border-t border-slate-100 grid grid-cols-[auto_auto_1fr] gap-3 bg-slate-50/80">
-                                  <button title="View Syllabus" onClick={(e) => e.stopPropagation()} className="w-14 h-14 flex items-center justify-center bg-white border border-slate-200 rounded-xl text-[#0056d2] hover:bg-slate-50 hover:border-blue-300 transition-all shadow-sm group/btn">
-                                      <BookOpen size={22} className="group-hover/btn:scale-110 transition-transform" />
+                              <div className="mt-6 pt-5 border-t border-slate-100 grid grid-cols-[auto_auto_1fr] gap-3">
+                                  <button title="View Syllabus" onClick={(e) => e.stopPropagation()} className="w-12 h-12 flex items-center justify-center bg-slate-50 border border-slate-200 rounded-xl text-primary-600 hover:bg-primary-50 hover:border-primary-200 transition-all group/btn">
+                                      <BookOpen size={20} className="group-hover/btn:scale-110 transition-transform" />
                                   </button>
                                   {uni.url && (
-                                     <button title="Official Website" onClick={(e) => { e.stopPropagation(); window.open(uni.url, '_blank'); }} className="w-14 h-14 flex items-center justify-center bg-white border border-slate-200 rounded-xl text-slate-500 hover:text-emerald-600 hover:bg-emerald-50 hover:border-emerald-300 transition-all shadow-sm group/globe">
-                                         <Globe size={22} className="group-hover/globe:scale-110 transition-transform" />
+                                     <button title="Official Website" onClick={(e) => { e.stopPropagation(); window.open(uni.url, '_blank'); }} className="w-12 h-12 flex items-center justify-center bg-slate-50 border border-slate-200 rounded-xl text-slate-500 hover:text-emerald-600 hover:bg-emerald-50 hover:border-emerald-200 transition-all group/globe">
+                                         <Globe size={20} className="group-hover/globe:scale-110 transition-transform" />
                                      </button>
                                   )}
-                                  <button onClick={(e) => e.stopPropagation()} className="h-14 bg-[#ff6b00] hover:bg-[#e65c00] text-white font-black text-[16px] tracking-wide rounded-xl flex items-center justify-center gap-2 shadow-[0_6px_20px_rgba(255,107,0,0.25)] hover:shadow-[0_8px_25px_rgba(255,107,0,0.35)] hover:-translate-y-1 transition-all group/pitch">
-                                      Pitch this Uni <ChevronRight size={20} className="group-hover/pitch:translate-x-1.5 transition-transform" />
+                                  <button onClick={(e) => e.stopPropagation()} className="h-12 bg-primary-600 hover:bg-primary-700 text-white font-bold text-sm rounded-xl flex items-center justify-center gap-2 transition-all group/pitch">
+                                      View Database <ChevronRight size={18} className="group-hover/pitch:translate-x-1 transition-transform" />
                                   </button>
                               </div>
                            </div>
