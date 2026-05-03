@@ -110,14 +110,14 @@ async function run() {
                 {
                     group: "PG", name: "MBA", duration: "24 Months", priceRange: "₹94,000 (Lumpsum) / ₹24,500 (Sem)",
                     specializations: [
-                        { name: "Marketing Management", career: "Brand Specialist, Market Researcher", desc: "Advanced programmatic marketing funnels and comprehensive brand architecture scaling.", brochure: "/brochures/uu-mba.pdf" },
-                        { name: "Financial Management", career: "Financial Analyst, Wealth Manager", desc: "Deep investment banking logic mapping entirely across massive corporate ledgers natively.", brochure: "/brochures/uu-mba.pdf" },
-                        { name: "Human Resource Management", career: "HR Director, Talent Acquisition Lead", desc: "Corporate HR frameworks securely aligned exactly around modern remote workforces.", brochure: "/brochures/uu-mba.pdf" },
-                        { name: "Business Analytics", career: "Data Modeler, Analytics Head", desc: "Predictive statistical matrices mapping raw SQL data sets securely tracking enterprise logic.", brochure: "/brochures/uu-mba.pdf" },
-                        { name: "Information Technology", career: "IT Project Manager, Cloud Ops", desc: "Tech infrastructure logic thoroughly matching cloud architecture optimizations natively.", brochure: "/brochures/uu-mba.pdf" },
-                        { name: "Digital Marketing", career: "Digital Strategy Exec, SEO/PPC Lead", desc: "Natively driven ad logic parsing vast social platforms accurately optimizing ROI limits.", brochure: "/brochures/uu-mba.pdf" },
-                        { name: "International Business", career: "Global Strategy Director, Trade Exec", desc: "Cross border EXIM mechanics flawlessly integrated around global supply logic directly.", brochure: "/brochures/uu-mba.pdf" },
-                        { name: "Logistics and Supply Chain Management", career: "Supply Chain Manager, Operations Head", desc: "Massive inventory matrices dynamically monitored providing absolute operational efficiency.", brochure: "/brochures/uu-mba.pdf" }
+                        { name: "Marketing Management", career: "Brand Specialist, Market Researcher", desc: "Advanced programmatic marketing funnels and comprehensive brand architecture scaling.", brochure: "/brochures/uu-MBA (6).pdf" },
+                        { name: "Financial Management", career: "Financial Analyst, Wealth Manager", desc: "Deep investment banking logic mapping entirely across massive corporate ledgers natively.", brochure: "/brochures/uu-MBA (6).pdf" },
+                        { name: "Human Resource Management", career: "HR Director, Talent Acquisition Lead", desc: "Corporate HR frameworks securely aligned exactly around modern remote workforces.", brochure: "/brochures/uu-MBA (6).pdf" },
+                        { name: "Business Analytics", career: "Data Modeler, Analytics Head", desc: "Predictive statistical matrices mapping raw SQL data sets securely tracking enterprise logic.", brochure: "/brochures/uu-MBA (6).pdf" },
+                        { name: "Information Technology", career: "IT Project Manager, Cloud Ops", desc: "Tech infrastructure logic thoroughly matching cloud architecture optimizations natively.", brochure: "/brochures/uu-MBA (6).pdf" },
+                        { name: "Digital Marketing", career: "Digital Strategy Exec, SEO/PPC Lead", desc: "Natively driven ad logic parsing vast social platforms accurately optimizing ROI limits.", brochure: "/brochures/uu-MBA (6).pdf" },
+                        { name: "International Business", career: "Global Strategy Director, Trade Exec", desc: "Cross border EXIM mechanics flawlessly integrated around global supply logic directly.", brochure: "/brochures/uu-MBA (6).pdf" },
+                        { name: "Logistics and Supply Chain Management", career: "Supply Chain Manager, Operations Head", desc: "Massive inventory matrices dynamically monitored providing absolute operational efficiency.", brochure: "/brochures/uu-MBA (6).pdf" }
                     ].map(s => ({
                         name: s.name, price: "₹94,000", careerPath: s.career, syllabus: s.desc,
                         usps: [
@@ -131,7 +131,7 @@ async function run() {
                 {
                     group: "PG", name: "MCA", duration: "24 Months", priceRange: "₹92,000 (Lumpsum) / ₹24,000 (Sem)",
                     specializations: [
-                        { name: "General", career: "Software Engineer, Full Stack Dev", desc: "Raw algorithmic paradigms actively parsed mapping directly across top-tier enterprise coding environments.", brochure: "/brochures/uu-mca.pdf" }
+                        { name: "General", career: "Software Engineer, Full Stack Dev", desc: "Raw algorithmic paradigms actively parsed mapping directly across top-tier enterprise coding environments.", brochure: "/brochures/uu-MCA (9).pdf" }
                     ].map(s => ({
                         name: s.name, price: "₹92,000", careerPath: s.career, syllabus: s.desc,
                         usps: [
@@ -145,9 +145,9 @@ async function run() {
                 {
                     group: "UG", name: "BBA", duration: "36 Months", priceRange: "₹96,000 (Lumpsum) / ₹17,000 (Sem)",
                     specializations: [
-                        { name: "Marketing Management", career: "Sales Trainee, Brand Exec", desc: "Micro/Macro economics seamlessly scaling directly into core digital marketing setups.", brochure: "/brochures/uu-bba.pdf" },
-                        { name: "Financial Management", career: "Accountant, Finance Trainee", desc: "Ledger logic securely mapping vast fiscal parameters naturally via modern accounting.", brochure: "/brochures/uu-bba.pdf" },
-                        { name: "Human Resource Management", career: "HR Assistant, Recruiter", desc: "Base industrial relations effectively scaled accurately setting pure corporate standards.", brochure: "/brochures/uu-bba.pdf" }
+                        { name: "Marketing Management", career: "Sales Trainee, Brand Exec", desc: "Micro/Macro economics seamlessly scaling directly into core digital marketing setups.", brochure: "/brochures/uu-BBA (7).pdf" },
+                        { name: "Financial Management", career: "Accountant, Finance Trainee", desc: "Ledger logic securely mapping vast fiscal parameters naturally via modern accounting.", brochure: "/brochures/uu-BBA (7).pdf" },
+                        { name: "Human Resource Management", career: "HR Assistant, Recruiter", desc: "Base industrial relations effectively scaled accurately setting pure corporate standards.", brochure: "/brochures/uu-BBA (7).pdf" }
                     ].map(s => ({
                         name: s.name, price: "₹96,000", careerPath: s.career, syllabus: s.desc,
                         usps: [
@@ -161,7 +161,7 @@ async function run() {
                 {
                     group: "UG", name: "BCA", duration: "36 Months", priceRange: "₹96,000 (Lumpsum) / ₹17,000 (Sem)",
                     specializations: [
-                        { name: "General", career: "Junior Developer, Ops DB Trainee", desc: "Algorithm logics perfectly executing standard database architecture safely matching real-world demands.", brochure: "/brochures/uu-bca.pdf" }
+                        { name: "General", career: "Junior Developer, Ops DB Trainee", desc: "Algorithm logics perfectly executing standard database architecture safely matching real-world demands.", brochure: "/brochures/uu-BCA (6).pdf" }
                     ].map(s => ({
                         name: s.name, price: "₹96,000", careerPath: s.career, syllabus: s.desc,
                         usps: [
@@ -175,7 +175,7 @@ async function run() {
                 {
                     group: "UG", name: "BA", duration: "36 Months", priceRange: "₹55,200 (Lumpsum) / ₹10,200 (Sem)",
                     specializations: [
-                        { name: "General", career: "Community Ops, Content Reviewer", desc: "Broad societal architectures natively leveraging history, political structure, and English communication.", brochure: "/brochures/uu-ba.pdf" }
+                        { name: "General", career: "Community Ops, Content Reviewer", desc: "Broad societal architectures natively leveraging history, political structure, and English communication.", brochure: "/brochures/uu-BA (4).pdf" }
                     ].map(s => ({
                         name: s.name, price: "₹55,200", careerPath: s.career, syllabus: s.desc,
                         usps: [
