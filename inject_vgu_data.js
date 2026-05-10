@@ -112,13 +112,18 @@ async function run() {
             </details>
 
             <details style="margin-bottom: 0px; padding: 14px 0; border-bottom: 1px solid #e2e8f0;">
-              <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 14px;">6. Massive Placement Apparatus</summary>
+              <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 14px;">6. Free Coursera Premium Integration</summary>
+              <p style="margin: 10px 0 0 0; font-size: 13px; color: #475569; line-height: 1.6; padding-left: 2px;">VGU students unlock exclusive FREE access to 10,000+ Coursera Premium courses for 6 months, scaling your resume massively alongside your core degree.</p>
+            </details>
+
+            <details style="margin-bottom: 0px; padding: 14px 0; border-bottom: 1px solid #e2e8f0;">
+              <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 14px;">7. Massive Placement Apparatus</summary>
               <p style="margin: 10px 0 0 0; font-size: 13px; color: #475569; line-height: 1.6; padding-left: 2px;">You get put immediately into virtual placement drives strongly backed by a massive network of over 500+ core hiring partners.</p>
             </details>
 
             <p style="margin-top: 16px; font-weight: 500; font-size: 13px; color: #64748b; padding-top: 4px;">Auto Lock lead mapping rigorously set to <strong style="color:#0f172a; background: #f1f5f9; padding: 3px 8px; border-radius: 4px; font-family: monospace;">LSQ = VGU</strong></p>
             </div>`,
-            payment: "<b>Highly Flexible Finance Integration</b><br/>You have full freedom to handle your fees per Semester, Annually, or the Full Course.<br/>Registration requires a simple <b>₹1,000 Application Fee</b>. (A standard ₹1,500 manual exam fee is payable per semester).<br/><br/><b>Official Loan Parameters:</b> Top-tier partners including <b>Fibe, Greyquest, Propelled, and Finz</b> actively offer massive 24-month zero-cost EMIs. They require ZERO advance EMIs to process seamlessly.",
+            payment: "<b>Highly Flexible Finance & Massive Concessions</b><br/>You have full freedom to handle your fees per Semester, Annually, or the Full Course.<br/>Registration requires a simple <b>₹1,000 Application Fee</b>. (A standard ₹1,500 manual exam fee is payable per semester).<br/><br/><b>Special Discounts:</b> VGU directly offers a <b>10% discount</b> on Annual Payments, and a <b>15% absolute concession</b> if you pay the Lump-Sum Total upfront.<br/><br/><b>Official Loan Parameters:</b> Top-tier partners including <b>Fibe, Greyquest, Propelled, and Finz</b> actively offer massive 24-month zero-cost EMIs. They require ZERO advance EMIs to process seamlessly.",
             programs: [
                 {
                     group: "PG", name: "MBA", duration: "24 Months", priceRange: "₹1,50,000",
@@ -130,7 +135,10 @@ async function run() {
                         { name: "Marketing", career: "Marketing Executive VP, Branding Manager", desc: "Deep funnel analytics, programmatic conversions, consumer psychology logic." },
                         { name: "Finance", career: "Financial Auditor, Corporate Treasury Head", desc: "Advanced forensic tracking, global equity management, risk portfolio distribution." },
                         { name: "Agri Business", career: "Agricultural Ops Manager, Rural FinTech Head", desc: "Rural supply pipelines natively optimized via large-scale logistics arrays." },
-                        { name: "Operation Management", career: "Supply Chain Director, Six Sigma Lead", desc: "Total Quality Management, deep logistics loops, warehouse systemic scaling." }
+                        { name: "Operation Management", career: "Supply Chain Director, Six Sigma Lead", desc: "Total Quality Management, deep logistics loops, warehouse systemic scaling." },
+                        { name: "Digital Marketing", career: "SEO Analyst, Digital Marketing Head", desc: "Advanced SEM architectures and programmatic ad pipelines." },
+                        { name: "Digital Finance", career: "FinTech Exec, Digital Underwriter", desc: "Digital ledgers, advanced online crediting and crypto/forex basics." },
+                        { name: "International Finance (ACCA/CMA)", career: "Global Financial Officer, Auditor", desc: "High-end finance mapping with ACCA/CMA integrations. Note: Special Total Fee of ₹2,40,000." }
                     ].map(s => ({
                         name: s.name, price: "₹1,50,000 (Total)", careerPath: s.career, syllabus: s.desc,
                         usps: [
@@ -145,7 +153,10 @@ async function run() {
                     group: "PG", name: "MCA", duration: "24 Months", priceRange: "₹1,50,000",
                     specializations: [
                         { name: "AI", career: "Lead AI Dev, Algorithms VP", desc: "Deep neural networking frameworks perfectly bridging basic inputs into heavy machine automation arrays." },
-                        { name: "Cloud Security & Information Technology", career: "Cloud Ops Lead, Cybersecurity Director", desc: "Advanced cloud scaling, AWS/Azure server mapping strictly integrating heavy Redhat security parameters." }
+                        { name: "Cloud Security & Information Technology", career: "Cloud Ops Lead, Cybersecurity Director", desc: "Advanced cloud scaling, AWS/Azure server mapping strictly integrating heavy Redhat security parameters." },
+                        { name: "Data Science", career: "Data Architect, SQL Tracker", desc: "Advanced ETL pipelines managing multi-terrabyte server cluster systems." },
+                        { name: "Web / App Development", career: "Senior React/Node Dev, App Lead", desc: "End-to-end full stack architecture for modern responsive applications." },
+                        { name: "Blockchain", career: "Ledger Analyst, Crypto Dev", desc: "Ethereum frameworks, smart-contract construction methodologies." }
                     ].map(s => ({
                         name: s.name, price: "₹1,50,000 (Total)", careerPath: s.career, syllabus: s.desc,
                         usps: [
@@ -214,7 +225,8 @@ async function run() {
                 {
                     group: "PG", name: "MA", duration: "24 Months", priceRange: "₹72,000",
                     specializations: [
-                        { name: "English", career: "Publishing Director, Lead Copy Ops", desc: "Deep intensive literary dissection aligning into massive corporate content hierarchies." }
+                        { name: "English", career: "Publishing Director, Lead Copy Ops", desc: "Deep intensive literary dissection aligning into massive corporate content hierarchies." },
+                        { name: "Journalism and Mass Communication", career: "Digital Storyteller, PR Lead", desc: "Media pipelines securely integrated across content creation and massive PR." }
                     ].map(s => ({
                         name: s.name, price: "₹72,000 (Total)", careerPath: s.career, syllabus: s.desc,
                         usps: [

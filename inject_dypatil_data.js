@@ -105,7 +105,7 @@ async function run() {
 
             <p style="margin-top: 16px; font-weight: 500; font-size: 13px; color: #64748b; padding-top: 4px;">Auto Lock lead mapping rigorously set to <strong style="color:#0f172a; background: #f1f5f9; padding: 3px 8px; border-radius: 4px; font-family: monospace;">LSQ = DPU</strong></p>
             </div>`,
-            payment: "<b>Semester & Full Course Fee Formats Evaluated</b><br/>DPU manages a highly streamlined intake format. Registration securely blocks a seat utilizing precisely a <b>₹5,000 Blocking Amount</b> natively.<br/><br/><b>Official Loan Parameters:</b> Propelled and Avanse are fully integrated natively generating excellent No-Cost EMI setups. This ensures massive accessibility explicitly aligning zero-interest splits reliably on both semester and full payments.",
+            payment: "<b>Semester & Full Course Fee Formats Evaluated</b><br/>DPU manages a highly streamlined intake format. Registration securely blocks a seat utilizing precisely a <b>₹5,000 Blocking Amount</b> natively.<br/><br/><b>Special Discounts:</b> DPU offers a <b>₹10,000 Scholarship</b> on MBA and MCA, and a <b>₹5,000 Scholarship</b> on BBA if the full course lump-sum is paid within 15 days of admission.<br/><br/><b>Official Loan Parameters:</b> Propelled and Avanse are fully integrated natively generating excellent No-Cost EMI setups. This ensures massive accessibility explicitly aligning zero-interest splits reliably on both semester and full payments.<br/><br/><b>International Fees:</b> MBA ($3,000), BBA ($2,800 - $3,700), MCA ($2,700).",
             programs: [
                 {
                     group: "PG", name: "MBA", duration: "24 Months", priceRange: "₹1,89,400",
@@ -138,7 +138,11 @@ async function run() {
                 {
                     group: "PG", name: "MCA", duration: "24 Months", priceRange: "₹1,40,000",
                     specializations: [
-                        { name: "General Computer Applications", career: "Systems Engineer, IT Consultant", desc: "Massively scaled database algorithms beautifully bridging raw syntax into global software products." }
+                        { name: "Artificial Intelligence & Machine Learning", career: "AI Leader, Algorithm Dir", desc: "Advanced neural networking and deep learning algorithms scaling into complex corporate structures." },
+                        { name: "Blockchain Technology", career: "Web3 Executive", desc: "Decentralized ledgers and heavy crypto API loops natively scaled." },
+                        { name: "Business Analytics", career: "Data VP, Analytics Strategist", desc: "Big Data mapping inherently predicting global enterprise shifts natively." },
+                        { name: "Digital Marketing", career: "Digital Strategist", desc: "Programmatic scaling spanning complex global marketing grids securely." },
+                        { name: "FinTech", career: "Fintech Leader, Algo Exec", desc: "Crypto/DeFi principles structurally introduced matching real-world APIs." }
                     ].map(s => ({
                         name: s.name, price: "₹1,40,000 (Total Course Fee)", careerPath: s.career, syllabus: s.desc,
                         usps: [

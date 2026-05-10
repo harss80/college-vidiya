@@ -31,7 +31,7 @@ async function run() {
     <tbody>
       <tr style="border-bottom: 1px solid #f1f5f9;">
         <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Registration Fee</td>
-        <td style="padding: 12px 8px; color: #0f172a; font-weight: 600;">₹1,000 <span style="font-size:11px; color:#64748b;">(One-Time)</span></td>
+        <td style="padding: 12px 8px; color: #0f172a; font-weight: 600;">₹600 <span style="font-size:11px; color:#64748b;">(One-Time)</span></td>
       </tr>
       <tr style="border-bottom: 1px solid #f1f5f9;">
         <td style="padding: 12px 8px; color: #334155; font-weight: 500;">Pay Semester-wise</td>
@@ -55,8 +55,8 @@ async function run() {
     <p style="margin: 0 0 6px 0; font-weight: 700; color: #334155;">Financial Breakdown & Loan Partners:</p>
     <ul style="margin: 0; padding-left: 20px; font-size: 12px; line-height: 1.5;">
       <li><b>Lum-Sum Advantage:</b> Paying full fees upfront triggers an immediate <b>${formatMoney(lumSumSavings)}</b> absolute deduction.</li>
-      <li><b>Exam Fee:</b> ₹2,000/sem already included in Sem Fee. Registration (₹1000) is non-refundable.</li>
-      <li><b>Student Grants:</b> Displayed baseline integrates LPU's native 20% grant.</li>
+      <li><b>Exam Fee:</b> ₹2,000/sem already included in Sem Fee. Registration (₹600) is non-refundable.</li>
+      <li><b>Student Grants:</b> Displayed baseline integrates LPU's native 20% grant. Lum-Sum adds a 10% discount.</li>
       <li><b>Official Loan Partners:</b> Exclusively linked with <b>Avanse</b> for 0% No-Cost EMI solely on full payments.</li>
     </ul>
   </div>
@@ -114,7 +114,7 @@ async function run() {
 
             <p style="margin-top: 16px; font-weight: 500; font-size: 13px; color: #64748b; padding-top: 4px;">Auto Lock lead mapping rigorously set to <strong style="color:#0f172a; background: #e2e8f0; padding: 3px 8px; border-radius: 4px; font-family: monospace;">LSQ = LPU</strong></p>
             </div>`,
-            payment: "<b>Fee Formats Evaluated:</b> LPU enforces a strict <b>₹1,000 Registration Fee</b> (Non-refundable) to initiate the seat lock process. Examination fees (₹2,000/sem) are fully bundled into the active semester cost metrics.<br/><br/><b>Financial Partners:</b> Deep API integration with <b>Avanse</b> provides explicit 0% No-Cost EMI setups (exclusively authorized for Lum-Sum / full fee selections natively).",
+            payment: "<b>Fee Formats Evaluated:</b> LPU enforces a strict <b>₹600 Registration Fee</b> (Non-refundable) to initiate the seat lock process. Examination fees (₹2,000/sem) are fully bundled into the active semester cost metrics.<br/><br/><b>Financial Partners:</b> Deep API integration with <b>Avanse</b> provides explicit 0% No-Cost EMI setups (exclusively authorized for Lum-Sum / full fee selections natively).",
             programs: [
                 {
                     group: "PG", name: "MBA (Dual Specialization)", duration: "24 Months", priceRange: "₹1,46,240 (Lum Sum) / ₹1,61,600 (Sem)",
@@ -142,7 +142,7 @@ async function run() {
                     }))
                 },
                 {
-                    group: "PG", name: "MCA", duration: "24 Months", priceRange: "₹1,08,800 (Lum Sum) / ₹1,20,000 (Sem)",
+                    group: "PG", name: "MCA", duration: "24 Months", priceRange: "₹1,17,440 (Lum Sum) / ₹1,29,600 (Sem)",
                     specializations: [
                         { name: "AI & ML", career: "AI Architect, Deep Learning Junior", desc: "Neural logic models natively mapped resolving corporate predictive thresholds." },
                         { name: "Data Science", career: "Data Miner, Corporate DB Lead", desc: "Big Data clustering actively mapped across SQL/NoSQL architectures." },
@@ -150,13 +150,13 @@ async function run() {
                         { name: "AR & VR Game Development", career: "Unity Developer, Immersive Ops", desc: "Complex 3D environment tracking inherently resolving rapid spatial tech limits." },
                         { name: "Full Stack Web Development", career: "Senior React/Node Dev, Tech Lead", desc: "Modern microservices natively scaling MERN/MEAN tech stacks." }
                     ].map(s => ({
-                        name: s.name, price: "₹1,08,800", careerPath: s.career, syllabus: s.desc,
+                        name: s.name, price: "₹1,17,440", careerPath: s.career, syllabus: s.desc,
                         usps: [
                             "Pinnacle Deep Tech program actively spanning exactly " + s.name + ".",
                             "Offers immediate Bridge Courses automatically resolving non-IT background barriers.",
                             "Extensive execution completely reliant on Virtual Lab simulations scaling real world code."
                         ],
-                        duration: "24 Months", eligibility: "Graduation (Mathematics tracked). Built-in bridge paths natively provided for non-IT backgrounds.", paymentDetails: generateTable(108800, 30000, 24), brochure: "/brochures/lpu-MCA.pdf"
+                        duration: "24 Months", eligibility: "Graduation (Mathematics tracked). Built-in bridge paths natively provided for non-IT backgrounds.", paymentDetails: generateTable(117440, 32400, 24), brochure: "/brochures/lpu-MCA.pdf"
                     }))
                 },
                 {
@@ -216,18 +216,18 @@ async function run() {
                     }))
                 },
                 {
-                    group: "PG", name: "MSc", duration: "24 Months", priceRange: "₹59,840 (Lum Sum) / ₹65,600 (Sem)",
+                    group: "PG", name: "MSc", duration: "24 Months", priceRange: "₹74,240 (Lum Sum) / ₹81,600 (Sem)",
                     specializations: [
                         { name: "Mathematics", career: "Quantitative Exec, Algorithm Tracker", desc: "Extensively heavy differential arrays naturally bypassing typical statistical limitations fundamentally.", brochure: "/brochures/lpu-M.Sc Mathematics.pdf" },
                         { name: "Economics", career: "Economic Policy Creator, Predictor", desc: "Socio-political impact tracking actively mapped over raw fiscal logic securely.", brochure: "/brochures/lpu-M.Sc Economics.pdf" }
                     ].map(s => ({
-                        name: s.name, price: "₹59,840", careerPath: s.career, syllabus: s.desc,
+                        name: s.name, price: "₹74,240", careerPath: s.career, syllabus: s.desc,
                         usps: [
                             "Strict science configurations expertly aligning exactly via " + s.name + ".",
                             "Offers immediate virtual placement scales explicitly managed via LPU's backend.",
-                            "Bypass almost all resistance exploiting hyper-low ₹59K comprehensive upfront cost matrices."
+                            "Bypass almost all resistance exploiting cost-effective comprehensive upfront cost matrices."
                         ],
-                        duration: "24 Months", eligibility: "Bachelor's ideally maintaining Mathematics/Economics safely.", paymentDetails: generateTable(59840, 16400, 24), brochure: s.brochure
+                        duration: "24 Months", eligibility: "Bachelor's ideally maintaining Mathematics/Economics safely.", paymentDetails: generateTable(74240, 20400, 24), brochure: s.brochure
                     }))
                 },
                 {

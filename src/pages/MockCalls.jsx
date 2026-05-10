@@ -8,26 +8,68 @@ const expandText = (text) => {
     if (!text) return '';
     let t = text.toLowerCase();
     
-    // Add abbreviations to full names
-    t = t.replace(/\bartificial intelligence\b/g, 'artificial intelligence ai');
-    t = t.replace(/\bmachine learning\b/g, 'machine learning ml');
-    t = t.replace(/\bhuman resource(s)?\b/g, 'human resource hr');
-    t = t.replace(/\binformation technology\b/g, 'information technology it');
-    t = t.replace(/\bsupply chain\b/g, 'supply chain scm');
-    t = t.replace(/\bjournalism\b/g, 'journalism jmc');
-    t = t.replace(/\binternational business\b/g, 'international business ib');
-    t = t.replace(/\bfull stack\b/g, 'full stack fs');
-    
-    // Add full names to abbreviations
-    t = t.replace(/\bai\b/g, 'ai artificial intelligence');
-    t = t.replace(/\bml\b/g, 'ml machine learning');
-    t = t.replace(/\bhr\b/g, 'hr human resource');
-    t = t.replace(/\bit\b/g, 'it information technology');
-    t = t.replace(/\bscm\b/g, 'scm supply chain');
-    t = t.replace(/\bib\b/g, 'ib international business');
-    t = t.replace(/\bfs\b/g, 'fs full stack');
-    
-    return t;
+    const termMap = {
+        'artificial intelligence': ['ai'],
+        'machine learning': ['ml'],
+        'human resource': ['hr'],
+        'human resources': ['hr'],
+        'information technology': ['it'],
+        'supply chain management': ['scm'],
+        'supply chain': ['scm'],
+        'journalism and mass communication': ['jmc'],
+        'journalism': ['jmc'],
+        'international business': ['ib'],
+        'full stack': ['fs'],
+        'master of business administration': ['mba'],
+        'bachelor of business administration': ['bba'],
+        'master of computer applications': ['mca'],
+        'bachelor of computer applications': ['bca'],
+        'bachelor of technology': ['btech', 'b.tech'],
+        'master of technology': ['mtech', 'm.tech'],
+        'bachelor of commerce': ['bcom', 'b.com'],
+        'master of commerce': ['mcom', 'm.com'],
+        'bachelor of arts': ['ba'],
+        'master of arts': ['ma'],
+        'bachelor of science': ['bsc', 'b.sc'],
+        'master of science': ['msc', 'm.sc'],
+        'executive mba': ['emba'],
+        'computer science': ['cs'],
+        'data science': ['ds'],
+        'cyber security': ['cyber', 'cs', 'cybersecurity'],
+        'data analytics': ['da'],
+        'business analytics': ['ba'],
+        'digital marketing': ['dm'],
+        'financial management': ['fm'],
+        'finance': ['fin', 'fm'],
+        'marketing': ['mkt', 'mktg'],
+        'operations management': ['om'],
+        'operations': ['om'],
+        'healthcare management': ['hcm'],
+        'hospital administration': ['ha'],
+        'logistics': ['scm']
+    };
+
+    let appended = '';
+
+    // 1. If the text contains the full term, append the acronyms
+    for (const [full, acronyms] of Object.entries(termMap)) {
+        if (t.includes(full)) {
+            appended += ' ' + acronyms.join(' ');
+        }
+    }
+
+    // 2. If the text contains the acronym (as a distinct word), append the full term
+    for (const [full, acronyms] of Object.entries(termMap)) {
+        for (const acronym of acronyms) {
+            const escapedAcronym = acronym.replace(/\./g, '\\.');
+            const regex = new RegExp(`\\b${escapedAcronym}\\b`);
+            if (regex.test(t) && !t.includes(full)) {
+                appended += ' ' + full;
+            }
+        }
+    }
+
+    return t + appended;
 };
 
 const MockCalls = () => {
@@ -56,10 +98,17 @@ const MockCalls = () => {
       const checkBudget = (priceVal) => {
           if (budgetFilter === 'All') return true;
           if (!priceVal) return false;
+          if (budgetFilter === '< ₹50K') return priceVal < 50000;
+          if (budgetFilter === '₹50K - ₹1L') return priceVal >= 50000 && priceVal <= 100000;
+          if (budgetFilter === '₹1L - ₹1.5L') return priceVal >= 100000 && priceVal <= 150000;
+          if (budgetFilter === '₹1.5L - ₹2L') return priceVal >= 150000 && priceVal <= 200000;
+          if (budgetFilter === '₹2L - ₹3L') return priceVal >= 200000 && priceVal <= 300000;
+          if (budgetFilter === '> ₹3L') return priceVal > 300000;
+          
+          // Fallbacks for existing session storage values
           if (budgetFilter === '< ₹1L') return priceVal < 100000;
           if (budgetFilter === '< ₹1.5L') return priceVal <= 150000;
           if (budgetFilter === '< ₹2L') return priceVal <= 200000;
-          if (budgetFilter === '₹1L - ₹2L') return priceVal >= 100000 && priceVal <= 200000;
           if (budgetFilter === '> ₹2L') return priceVal > 200000;
           return true;
       };
@@ -328,7 +377,7 @@ const MockCalls = () => {
                <div className="flex items-center gap-3 w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 hide-scrollbar">
                   <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest pl-2 shrink-0">Budget</span>
                   <div className="flex bg-slate-50 p-1 rounded-lg border border-slate-200">
-                     {['All', '< ₹1L', '< ₹1.5L', '< ₹2L', '> ₹2L'].map((bdg) => (
+                     {['All', '< ₹50K', '₹50K - ₹1L', '₹1L - ₹1.5L', '₹1.5L - ₹2L', '₹2L - ₹3L', '> ₹3L'].map((bdg) => (
                         <button
                            key={bdg}
                            onClick={() => setBudgetFilter(bdg)}

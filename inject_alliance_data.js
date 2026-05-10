@@ -110,7 +110,7 @@ async function run() {
             
             <p style="margin-top: 16px; font-weight: 500; font-size: 13px; color: #64748b; padding-top: 4px;">Auto Lock lead mapping rigorously set to <strong style="color:#0f172a; background: #bfdbfe; padding: 3px 8px; border-radius: 4px; font-family: monospace;">LSQ = Alliance</strong></p>
             </div>`,
-            payment: "Fees are accurately separated. Registration strictly at INR 5,000 constantly natively safely correctly deployed.",
+            payment: "Fees are accurately separated. Registration strictly at INR 5,000 constantly natively safely correctly deployed. Exam fees are ₹5,000/yr for PG and ₹3,000/yr for UG.<br/><br/><b>International Fees:</b> MBA ($2,600), BBA ($1,470), B.Com ($882).",
             programs: [
                 {
                     group: "PG", name: "MBA (Online)", duration: "24", priceRange: "₹1,60,000",
@@ -149,8 +149,8 @@ async function run() {
                 {
                     group: "UG", name: "B.Com", duration: "36", priceRange: "₹76,000",
                     specializations: [
-                        { name: "Accounting and Taxation", priceVal: 76000, career: "Accountant", desc: "Strategic Cost handling directly strictly structurally natively tracked." },
-                        { name: "Finance Management", priceVal: 76000, career: "Financial Associate", desc: "NCFM and NISM tests cleanly evaluated." },
+                        { name: "Accounting and Taxation", priceVal: 76000, career: "Accountant", desc: "Strategic Cost handling directly strictly structurally natively tracked. Highly aligned with CA and ACCA frameworks." },
+                        { name: "Finance Management", priceVal: 76000, career: "Financial Associate", desc: "NCFM and NISM tests cleanly evaluated. Professional CMA alignment natively mapped." },
                         { name: "Marketing Management", priceVal: 76000, career: "Marketing Assoc", desc: "E-Commerce Strategy explicitly naturally tracked." }
                     ].map(s => ({
                         name: s.name, price: formatMoney(s.priceVal) + " (Base Course Fee)", careerPath: s.career, syllabus: s.desc,

@@ -112,7 +112,7 @@ async function run() {
 
             <p style="margin-top: 16px; font-weight: 500; font-size: 13px; color: #64748b; padding-top: 4px;">Auto Lock lead mapping rigorously set to <strong style="color:#0f172a; background: #f1f5f9; padding: 3px 8px; border-radius: 4px; font-family: monospace;">LSQ = SU</strong></p>
             </div>`,
-            payment: "<b>Massive Scholarship Array & Payment Flexibility</b><br/>You heavily benefit from opting into Shoolini's scholarship structures. Opting out from Pay-After-Placement gives you an instant 20% fee drop. Paying Lum-Sum gives another 10% to 30% saving, while Yearly advance payments unlock 5% to 20% drops directly natively.<br/><br/><b>Official Finance Integration:</b> End-to-end easy monthly EMIs are fully active keeping higher education highly liquid without upfront stress.",
+            payment: "<b>Massive Scholarship Array & Payment Flexibility</b><br/>You heavily benefit from opting into Shoolini's scholarship structures. Opting out from Pay-After-Placement gives you an instant 20% fee drop. Paying Lum-Sum gives another 10% to 30% saving, while Yearly advance payments unlock 5% to 20% drops directly natively. <b>Special Merit:</b> 10% extra scholarship for >90% marks in qualifying exams.<br/><br/><b>Application Fee:</b> ₹500 (Non-refundable).<br/><br/><b>Official Finance Integration:</b> End-to-end easy monthly EMIs are fully active keeping higher education highly liquid without upfront stress.",
             programs: [
                 {
                     group: "PG", name: "MBA (Dual Specialization)", duration: "24 Months", priceRange: "₹1,30,000",
@@ -143,7 +143,7 @@ async function run() {
                     }))
                 },
                 {
-                    group: "UG", name: "BBA", duration: "36 Months", priceRange: "₹58,000",
+                    group: "UG", name: "BBA", duration: "36 Months", priceRange: "₹96,000",
                     specializations: [
                         { name: "Marketing", career: "Marketing Executive Junior", desc: "Standard entry level funnels tracking conversion mechanics explicitly." },
                         { name: "Finance", career: "Finance Assistant, Accounts Executive", desc: "Introductory ledger analysis mapping exactly to taxation loops natively." },
@@ -152,46 +152,46 @@ async function run() {
                         { name: "Computer Science", career: "BBA Tech Lead, Operations Analyst", desc: "Algorithm foundations effectively integrated via business administration mechanics." },
                         { name: "Direct Selling", career: "Regional Sales Sync, Operations Seller", desc: "B2C outreach tactics mapped securely scaling sales matrices." }
                     ].map(s => ({
-                        name: s.name, price: "₹58,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
+                        name: s.name, price: "₹96,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
                         usps: [
                             "Seamlessly unlock options to transfer exactly to international universities globally after year 2.",
                             "Leverage heavy scholarships ranging from 10% up to exactly 30% via Lum-sum processing.",
                             "Add 2 free high-tier certification tracks entirely mapping to your profile natively."
                         ],
-                        duration: "36 Months", eligibility: "10+2 securely mapped from recognized educational board grids.", paymentDetails: generateTable(58000, 36)
+                        duration: "36 Months", eligibility: "10+2 securely mapped from recognized educational board grids.", paymentDetails: generateTable(96000, 36)
                     }))
                 },
                 {
-                    group: "UG", name: "BCA", duration: "36 Months", priceRange: "₹58,000",
+                    group: "UG", name: "BCA", duration: "36 Months", priceRange: "₹96,000",
                     specializations: [
                         { name: "Artificial Intelligence and Machine Learning", career: "AI Models Trainee, Junior Developer", desc: "Neural logic pipelines efficiently matching real-world automation schemas explicitly." },
                         { name: "Cyber Security", career: "Ops Defender, Cyber Setup Admin", desc: "Networking logic parameters securely isolating cloud deployment vulnerabilities natively." },
                         { name: "Data Science", career: "SQL Executive, Data Modeler", desc: "ETL structuring perfectly accessing pure cloud computational capacities heavily." },
                         { name: "Full Stack Development", career: "MERN Stack Dev, Junior Web Developer", desc: "Front-end to back-end logic perfectly mapping complete web server architecture scaling." }
                     ].map(s => ({
-                        name: s.name, price: "₹58,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
+                        name: s.name, price: "₹96,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
                         usps: [
                             "Massive upskilling directly unlocked with exactly zero additional cost requirements.",
                             "Direct integrations featuring hands-on corporate assignments naturally.",
                             "Access incredible placement nodes hitting 250+ partners safely via active profile building."
                         ],
-                        duration: "36 Months", eligibility: "10+2 precisely utilizing baseline passing structures.", paymentDetails: generateTable(58000, 36)
+                        duration: "36 Months", eligibility: "10+2 precisely utilizing baseline passing structures.", paymentDetails: generateTable(96000, 36)
                     }))
                 },
                 {
-                    group: "PG", name: "MCA", duration: "24 Months", priceRange: "₹1,20,000",
+                    group: "PG", name: "MCA", duration: "24 Months", priceRange: "₹1,30,000",
                     specializations: [
                         { name: "Artificial Intelligence and Machine Learning", career: "AI Engineer, Full Deep Learning Dev", desc: "Intense machine analytics completely syncing logic matrices natively." },
                         { name: "Data Science", career: "Data Scientist, Head Architect", desc: "Advanced ETL pipelines managing multi-terrabyte server cluster systems." },
                         { name: "Full Stack Development", career: "Senior React/Node Dev, Tech Lead", desc: "End-to-end cloud scaling architecture mapping MERN and MEAN networks natively." }
                     ].map(s => ({
-                        name: s.name, price: "₹1,20,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
+                        name: s.name, price: "₹1,30,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
                         usps: [
                             "Master class architectures providing exact hands-on capstone programming tracks.",
                             "Unlock premium Pay-After-Placement arrays successfully bypassing upfront stress elements.",
                             "Massive network capabilities directly managed by Ex-Citibank / IIM Calcutta logic structures."
                         ],
-                        duration: "24 Months", eligibility: "Bachelor's naturally focused across IT, Math or Science matrices cleanly.", paymentDetails: generateTable(120000, 24)
+                        duration: "24 Months", eligibility: "Bachelor's naturally focused across IT, Math or Science matrices cleanly.", paymentDetails: generateTable(130000, 24)
                     }))
                 },
                 {
@@ -209,32 +209,32 @@ async function run() {
                     }))
                 },
                 {
-                    group: "PG", name: "MA", duration: "24 Months", priceRange: "₹80,000",
+                    group: "PG", name: "MA", duration: "24 Months", priceRange: "₹60,000 - ₹80,000",
                     specializations: [
                         { name: "English Literature", career: "Publishing Editor, Lead Content Executive", desc: "Advanced literature semantics matching top tier teaching paradigms entirely." },
                         { name: "Journalism & Mass Communication", career: "Digital Storyteller, Media Strategy Lead", desc: "Modern media pipelines securely integrated across content creation and massive PR." }
                     ].map(s => ({
-                        name: s.name, price: "₹80,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
+                        name: s.name, price: s.name.includes("English") ? "₹60,000 (Base Equivalent)" : "₹80,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
                         usps: [
                             "Taught explicitly perfectly aligning precisely via elite country-leading instructional pipelines.",
                             "Perfectly viable effectively integrating UPSC test preparations seamlessly free of cost.",
                             "Provides immediate access successfully scaling virtual job fairs massively matching top partners."
                         ],
-                        duration: "24 Months", eligibility: "Graduation natively passing all standard benchmarks cleanly.", paymentDetails: generateTable(80000, 24)
+                        duration: "24 Months", eligibility: "Graduation natively passing all standard benchmarks cleanly.", paymentDetails: generateTable(s.name.includes("English") ? 60000 : 80000, 24)
                     }))
                 },
                 {
-                    group: "UG", name: "B.Com", duration: "36 Months", priceRange: "₹58,000",
+                    group: "UG", name: "B.Com", duration: "36 Months", priceRange: "₹90,000",
                     specializations: [
                         { name: "Honours - Accounting, Finance & Taxation", career: "Financial Associate, Tax Ledger Handler", desc: "B.Com. (Hons.) focused efficiently across pure accounting paradigms inherently." }
                     ].map(s => ({
-                        name: s.name, price: "₹58,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
+                        name: s.name, price: "₹90,000 (Base Equivalent)", careerPath: s.career, syllabus: s.desc,
                         usps: [
                             "Huge integration naturally unlocking public sector eligibility smoothly.",
                             "Free StudyIQ access explicitly allowing you completely scale government accounting exam parameters.",
                             "Heavy integration securely unlocking 10% to 30% baseline drops utilizing simple single payments."
                         ],
-                        duration: "36 Months", eligibility: "10+2 securely accessed effectively from any specific foundational board natively.", paymentDetails: generateTable(58000, 36)
+                        duration: "36 Months", eligibility: "10+2 securely accessed effectively from any specific foundational board natively.", paymentDetails: generateTable(90000, 36)
                     }))
                 }
             ]

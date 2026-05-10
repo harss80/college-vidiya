@@ -148,7 +148,7 @@ async function run() {
 
             <p style="margin-top: 16px; font-weight: 500; font-size: 13px; color: #64748b; padding-top: 4px;">Auto Lock lead mapping rigorously set to <strong style="color:#0f172a; background: #e0e7ff; padding: 3px 8px; border-radius: 4px; font-family: monospace;">LSQ = Christ</strong></p>
             </div>`,
-            payment: "Christ explicitly mandates the application fee at exactly INR 1,500+GST matching admission flows via document uploads and clear interviews natively. The Admission fee stands strictly at INR 5,000 + examination fee standing at precisely INR 3,000 structurally per year ensuring total tracking alongside Flexible EMI options ranging specifically via GrayQuest logically.",
+            payment: "Christ explicitly mandates the application fee at exactly INR 1,500+GST matching admission flows via document uploads and clear interviews natively. The Admission fee stands strictly at INR 5,000 + examination fee standing at precisely INR 3,000 structurally per year ensuring total tracking alongside Flexible EMI options ranging specifically via GrayQuest logically.<br/><br/><b>International Students:</b> Fees range from $2,500 to $4,500 total, with a $20 application fee and $60 admission process fee.",
             programs: [
                 {
                     group: "UG", name: "B.Com", duration: "36 Months", priceRange: "₹1,60,000",
@@ -176,6 +176,27 @@ async function run() {
                             "Proctored Online Exams smoothly keeping continuous assessment strictly at 30%."
                         ],
                         duration: "36 Months", eligibility: "10+2 perfectly mapped from any recognized board. Tech base strictly advantageous.", paymentDetails: generateTable(175000, 36)
+                    }))
+                },
+                {
+                    group: "UG", name: "BBA", duration: "36 Months", priceRange: "TBD (Launching Soon)",
+                    specializations: [
+                        { name: "General", career: "Management Trainee", desc: "Core business administration principles. Note: Program is launching soon." }
+                    ].map(s => ({
+                        name: s.name, price: "TBD", careerPath: s.career, syllabus: s.desc,
+                        usps: ["Upcoming elite program at Christ University Online.", "Anticipated to follow rigorous 70:30 proctored logic."],
+                        duration: "36 Months", eligibility: "10+2 from recognized board", paymentDetails: "<div style='padding:16px; font-family:Inter; font-size: 14px; background:#f8fafc; border:1px solid #e2e8f0; border-radius: 8px;'>This program is marked as <b>Launching Soon</b>. Exact fee structures will be populated shortly.</div>"
+                    }))
+                },
+                {
+                    group: "UG", name: "BA", duration: "36 Months", priceRange: "TBD (Launching Soon)",
+                    specializations: [
+                        { name: "English", career: "Content Executive, Editorial Intern", desc: "Literature foundation. Note: Program is launching soon." },
+                        { name: "Economics", career: "Economic Researcher, Data Analyst Junior", desc: "Micro/Macro economic principles. Note: Program is launching soon." }
+                    ].map(s => ({
+                        name: s.name, price: "TBD", careerPath: s.career, syllabus: s.desc,
+                        usps: ["Upcoming elite program at Christ University Online.", "Anticipated to follow rigorous 70:30 proctored logic."],
+                        duration: "36 Months", eligibility: "10+2 from recognized board", paymentDetails: "<div style='padding:16px; font-family:Inter; font-size: 14px; background:#f8fafc; border:1px solid #e2e8f0; border-radius: 8px;'>This program is marked as <b>Launching Soon</b>. Exact fee structures will be populated shortly.</div>"
                     }))
                 },
                 {
@@ -220,6 +241,16 @@ async function run() {
                             "Heavy payment liquidity managed officially by explicit Grayquest limits seamlessly."
                         ],
                         duration: "24 Months", eligibility: "Bachelor's ideally maintaining rigorous Mathematics / Stats / Tech logic cleanly.", paymentDetails: generateTable(s.priceVal, 24)
+                    }))
+                },
+                {
+                    group: "PG", name: "M.Com", duration: "24 Months", priceRange: "TBD (Launching Soon)",
+                    specializations: [
+                        { name: "General", career: "Accountant, Finance Manager", desc: "Advanced commerce logics. Note: Program is launching soon." }
+                    ].map(s => ({
+                        name: s.name, price: "TBD", careerPath: s.career, syllabus: s.desc,
+                        usps: ["Upcoming elite program at Christ University Online.", "Anticipated to follow rigorous 70:30 proctored logic."],
+                        duration: "24 Months", eligibility: "B.Com / BBA from recognized university", paymentDetails: "<div style='padding:16px; font-family:Inter; font-size: 14px; background:#f8fafc; border:1px solid #e2e8f0; border-radius: 8px;'>This program is marked as <b>Launching Soon</b>. Exact fee structures will be populated shortly.</div>"
                     }))
                 }
             ]
